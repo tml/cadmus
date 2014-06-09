@@ -1,4 +1,4 @@
-java-tutorial
+Variables
 =============
 A variable is a piece of information or a value.  A variable always has a name, which acts a reference to the piece of information it holds.  It is good practice to have the variable name as something related to the piece of information it holds, and the name must start with a lowercase letter and not contain any spaces.  Variables are split into two main categories: primitive and class.  Primitive types, as the name suggests, are used for simple tasks, usually setting a value and then changing it later on.  Class types can be used for more complicated tasks as you will find out later on.  There are many different sub types of variables.  Here are a number of different primitive types you will use during this course:
 
