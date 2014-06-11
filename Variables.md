@@ -1,6 +1,8 @@
 Variables
 =============
-A variable is a piece of information or a value.  A variable always has a name, which acts a reference to the piece of information it holds.  It is good practice to have the variable name as something related to the piece of information it holds, and the name must start with a lowercase letter and not contain any spaces.  Variables are split into two main categories: primitive and class.  Primitive types, as the name suggests, are used for simple tasks, usually setting a value and then changing it later on.  Class types can be used for more complicated tasks as you will find out later on.  There are many different sub types of variables.  Here are a number of different primitive types you will use during this course:
+A variable is a piece of information or a value.  A variable always has a name, which acts a reference to the piece of information it holds.  It is good practice to have the variable name as something related to the piece of information it holds, and the name must start with a lowercase letter and not contain any spaces.  Variables are split into two main categories: 
+- Primitive types, as the name suggests, are used for simple tasks, usually setting a value and then changing it later on.  
+- Class types can be used for more complicated tasks as you will find out later on.  There are many different sub types of variables.  Here are a number of different primitive types you will use during this course:
 
 int (short for integer, which is just a whole number, e.g. 5)
 double (a number which has a decimal point, e.g. 4.32 or 5.0)
@@ -25,7 +27,7 @@ boolean a = true;
 
 Once a primitive variable's value is set, it is not fixed.  You can still change the value at any time.  To change its value on a new line type the name of the variable then an equals sign and then the new value you would like to set the variable to, and finally a ; to finish the line of code.  For example, if you wanted to change the variable x from above to the value 16 you would write:
 
-```
+```java
 x = 16;
 ```
 
@@ -38,5 +40,6 @@ number--;
 // This is to decrease the variable number by 1
 ```
 
-Ex 2. Write a program in which you initialise an int, double, char, boolean, String to suitable values of you choice, then get the program to print out the value of each variable on a new line.  So if the int is equal to 4, the first line to be printed would be:
+#### Exercise 2 
+Write a program in which you initialise an int, double, char, boolean, String to suitable values of you choice, then get the program to print out the value of each variable on a new line.  So if the int is equal to 4, the first line to be printed would be:
 The value of the int is 4
