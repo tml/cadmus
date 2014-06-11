@@ -1,10 +1,9 @@
-A method is another way of saying a function.  A method performs a task so say if you want to triple a number you may want to have a triple method for example. (Its always best to start the method name with a lower case letter and name it something similar to what it does)
+A method is another way of saying a function.  A method performs a task so say if you want to triple a number you may want to have a triple method for example. (It's always best to start the method name with a lower case letter and name it something similar to what it does)
 
 ```java
-public int triple(int number)
-{
-	int tripleNumber = 3*number ;
-	return tripleNumber ;
+public int triple(int number) {
+	int tripleNumber = 3 * number;
+	return tripleNumber;
 }
 ```
 
