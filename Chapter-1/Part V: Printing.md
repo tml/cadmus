@@ -1,7 +1,7 @@
 Now just like when you talk to your friends your program must be able to communicate with people.  To speak your program will output text to the screen.  Below is an example of code to print some text:
 
 ```java
-System.out.println(“Hello world”);
+System.out.println("Hello world");
 ```
 
 Try printing out Hello world (like above) and if it works try printing out your own custom messages.  For now you do not need to know what System.out is, at the moment all you should be able to do is print a string of text.  Notice that once you type in System.out followed by a full stop you will get many different options popping up, this is simply the interpreter, offering you suggestions for what to type, for now we will only be interested in two of these; print and println.  Print simply prints out whatever you have inserted in speech marks. However if you do println like we have done above then Hello world will be printed and then we will have a new line (like when you hit enter in word), here the ln stands for “line new”.
@@ -9,8 +9,8 @@ Try printing out Hello world (like above) and if it works try printing out your 
 So what would happen with this piece of code:
 
 ```java
-System.out.print(“Hello”);
-System.out.print(“world”);
+System.out.print("Hello ");
+System.out.print("world");
 ```
 
 Hopefully you got it correct this would print out
@@ -20,21 +20,21 @@ Helloworld
 If you notice there is no space between the Hello and world, if we wanted to put a space in between we would print either:
 
 ```java
-System.out.print(“Hello world”);
+System.out.print("Hello world");
 ```
 
 OR
 
 ```java
-System.out.print(“Hello ”);
-System.out.print(“world”);
+System.out.print("Hello ");
+System.out.print("world");
 ```
 
 OR
 
 ```java
-System.out.print(“Hello”);
-System.out.print(“ world”);
+System.out.print("Hello");
+System.out.print(" world");
 ```
 
 The three pieces of code above would all print:
@@ -44,8 +44,8 @@ Hello world
 Now, what about if we wanted to put the world on a new line?  Well we would simply write the following code instead
 
 ```java
-System.out.println(“Hello”);
-System.out.println(“world”);
+System.out.println("Hello");
+System.out.println("world");
 ``` 
  
 Which would print Hello then a new line, and then print world on that new line.
@@ -59,7 +59,7 @@ System.out.println(n);
 You could also print out variables and Strings at the same time, you simply separate them with a + sign as shown below:
 
 ```java
-System.out.println(“The value of n is ” + n);
+System.out.println("The value of n is " + n);
 ```
 
 #### Ex 12
