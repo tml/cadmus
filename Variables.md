@@ -19,7 +19,7 @@ To initialise a variable you must begin the line of code with the type of the va
 int x = 1;
 double y = 4.34;
 char letter = 'a';
-String sentence = “This is an example of a sentence”;
+String sentence = "This is an example of a sentence";
 boolean a = true;
 ```
 
