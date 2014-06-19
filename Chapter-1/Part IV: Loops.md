@@ -69,15 +69,13 @@ public void countTenWithDoLoop(void) {
 
 Notice here we must change 10 to 9, as if we keep it as 10, once n becomes 11 the piece of code will be run and then the program will check to see if the condition is met.
 
-Finally the enhanced for loop.  This for loop is mainly used for going through items of an array (something you will learn about later), come back to the enhanced for loop once you have covered arrays.
-
-So to go through items of an array, all you have to know is what type the items are once you know that you can easily go through the array.  For example, say if we had an array of ints and we wanted to print out every int in the array you would use the following code:
-
 ### Array loop
+
+Finally the array loop.  This is just a more succinct way of loop through an array. It is constructed like a `for` loop, but inside the parentheses, you write: a variable instantiation of type of a given item of the array; a comma; and the name of the array.
 
 ```java
 public void printIntArray(void) {
-	for (int n : nameOfArray) {
+	for(int n : nameOfArray) {
 		System.out.println(n);
 	}
 }
@@ -90,10 +88,9 @@ public void sumFirstFifteenNumbers(void) {
 	int sum = 0;
 	// we must initialise sum outside the loop, otherwise it would keep getting initialised to 0 each time the loop runs
 	for (int n = 0; n <= 20; n++) {
-		sum = sum + n ;
+		sum = sum + n;
 	}
-	System.out.println(sum) ;
-	// this prints out the final sum
+	System.out.println(sum); // this prints out the final sum
 }
 ```
 
