@@ -10,10 +10,8 @@ There a four main loops in Java, the **for loop**, **while loop**, **do loop**, 
 For loops are mostly used for counting up or down in steps, usually in steps of one.  The initial condition is an int which you can initialise to a value of your choice (most of the time we use 0 if counting up to a certain value), then we have a final condition so the value you want to count up or down to.  We also have a function to increase the number of steps , for increasing by one we will use ++ (as described previously), and for decreasing by one we will use --.  So now you know how a for loop works it is time to show you what one looks like.  Below is a for loop which starts at 0, counts up by 1 each step, and prints out the number of each step, until 10 steps have been reached.  (Notice the parameters of the method countTen says void, this is because the method does not require any parameters, and putting void is more clear than simply leaving the parameters blank)
 
 ```java
-public void countTen(void)
-{
-	for (int n=0 ; n<=10 ; n++)
-	{
+public void countTen(void) {
+	for (int n = 0; n <= 10 ; n++) {
 		System.out.println(n) ;
 	}
 }
@@ -40,10 +38,9 @@ Do you see any problems with this loop?  This is an example of an infinite loop,
 public void countTenWithWhileLoop(void)
 {
 	int n=0 ;
-	while (n<=10)
-	{
+	while (n <= 10) {
 		System.out.println(n) ;
-		n++ ;
+		n++;
 	}
 }
 ```
@@ -63,12 +60,10 @@ Now onto the do loop.  This loop is nearly exactly the same as the while loop.  
 ```java
 public void countTenWithDoLoop(void) {
 	int n=0 ;
-	do
-	{
-		System.out.println(n) ;
-		n++ ;
-	}
-	while (n<=9)
+	do {
+		System.out.println(n);
+		n++;
+	} while (n<=9);
 }
 ```
 
@@ -94,7 +89,7 @@ Now that you have covered all of the different types of loops I will give you an
 public void sumFirstFifteenNumbers(void) {
 	int sum = 0;
 	// we must initialise sum outside the loop, otherwise it would keep getting initialised to 0 each time the loop runs
-	for (int n=0 ; n<=20 ; n++) {
+	for (int n = 0; n <= 20; n++) {
 		sum = sum + n ;
 	}
 	System.out.println(sum) ;
@@ -115,10 +110,11 @@ Hint: you can use a loop to check if 57 is divisible by any of the numbers less 
 #### Ex 17
 Write a program to print out a table showing 0-32 Celsius but also showing their Fahrenheit conversions (to one decimal place); such that the first few lines would look like this:
 
-Celsius	Fahrenheit
+| Celsius        | Farenheit     |
+| :-------------: |:-------------:| 
+| 0      | 32.0 | 
+| 1      | 33.8      | 
+| zebra stripes | are neat      |  
 
-0		32.0
-
-1		33.8
 
 Hint: Use a loop and a method celsiusToFahrenheit to convert Celsius to Fahrenheit.
