@@ -19,14 +19,17 @@ Dividing two ints x and y:
 int z = x / y;
 ```
 
-Beware as x and y are ints z is also an int, and if you remember ints are whole numbers so whatever z comes out to be will be rounded down to the nearest integer.  For example, if x=7 y=5, then z=1
+Beware as x and y are ints z is also an int, and if you remember ints are whole numbers so whatever z comes out to be will be rounded down to the nearest integer.  For example, if `x` were 7, `y` were 5, then `z` were 1.
 
-To avoid this problem you can use a double instead, so if p is a double equal to 7.0 and q is a double 5.0, we could do the following
-
+To avoid this problem you can use a double instead, so if p is a double equal to 7.0 and q is a double 5.0, we could do the following:
 ```java
+double p = 7;
+double q = 5;
 double r = p / q;
 //r would be 1.4
 ```
+
+If, however, `p` and `q` are integers, `r` will equal `1.0`, because the `/` operator works irresepective of anything other than `p` and `q`, and their datatypes.
 
 To multiply two ints x and y:
 
@@ -47,7 +50,7 @@ NOTE: Math.abs() can only be used if you write the statement import java.lang.Ma
 To compare two primitive variables which have the same type you can use == as shown below:
 
 ```java
-if (5==5) {
+if (5 == 5) {
 	System.out.println(“The two numbers match”);
 }
 //clearly these two numbers 5 and 5 match
@@ -56,7 +59,7 @@ if (5==5) {
 To get the remainder of an int a when divided by another int b we can use % instead of / when dividing, so a%b, where a = 7, b = 5...
 
 ```java
-int n = 7%5;
+int n = 7 % 5;
 ```
 would result in n being 2.
 
