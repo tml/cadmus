@@ -31,7 +31,7 @@ double r = p / q;
 
 If, however, `p` and `q` are integers, `r` will equal `1.0`, because the `/` operator works irresepective of anything other than `p` and `q`, and their datatypes.
 
-To multiply two ints x and y:
+To multiply two integers x and y:
 
 ```java
 int z = x * y;
@@ -45,7 +45,12 @@ Another function, you may need to use, is the modulus or absolute function; this
 int z = Math.abs(w);
 ```
 
-NOTE: Math.abs() can only be used if you write the statement import java.lang.Math; at the top of your program.
+NOTE: `Math.abs()` can only be used if you write, at the very beginning, the statement:
+```java 
+import java.lang.Math;
+```
+
+
 
 To compare two primitive variables which have the same type you can use == as shown below:
 
@@ -64,8 +69,8 @@ int n = 7 % 5;
 would result in n being 2.
 
 #### Exercise 4
-Physics Question – Write a program to work out what the power(W) of a device is if the voltage is 10V and the current is 6A, and print the result.
-Hint: Power = Current * Voltage
+Physics Question – Write a program to work out what the power in watts of a device is if the voltage is 10V and the current is 6A, and print the result.
+Hint: Power (W) = Current * Voltage
 
 #### Exercise 5
 Physics Question – Turn the last exercise into a method that accepts parameters for current and voltage, then returns power in watts.  Then write a program that uses the power method to calculate the energy transferred in kWh, when the current is 5A, the voltage is 14V over the space of 2 hours and print the result.
