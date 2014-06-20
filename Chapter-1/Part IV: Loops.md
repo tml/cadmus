@@ -31,7 +31,7 @@ Write a function, that when given a number, calculates whether it is a prime num
 Write a function, that when given a number, prints an array of all its factors.
 
 #### Ex 4 (Music)
-Write a function, that prints the song [99 Bottles of Beer](http://99-bottles-of-beer.net/lyrics.html), with a loop.
+Write a function, that prints the lyics of [99 Bottles of Beer](http://99-bottles-of-beer.net/lyrics.html), with a loop.
 Extension: Add a variable to change the number of bottles.
 
 ### While loop
