@@ -33,10 +33,6 @@ You could also print out variables and Strings at the same time, you simply sepa
 System.out.println("The value of n is " + n);
 ```
 
-#### Ex 12
-Write a program to print a continuous (never ending) pattern out.
-Hint: Use an infinite loop (see below for loops).
-
-#### Ex 13
+#### Ex 1
 Write a program to print a simple drawing of a house, once you have done that have some fun and see what else you can draw!
 Hint: Use `*` or `+` or another symbol and the `println` function.
