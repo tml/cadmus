@@ -24,10 +24,16 @@ An integer is a whole number. To define an Integer called `age` do:
 int age = 15;
 ```
 
-You can make an integer from a string, by doing:
+You can convert an integer to a string, by using `Integer.toString()`:
 ```java
 String ageAsString = "13";
 int age = Integer.toString(13);
+```
+
+You can convert a string to an integer, by using `Integer.parseInt()`:
+```java
+String ageAsString = "13";
+int age = Integer.parseInt(ageAsString);
 ```
 
 You can increment and decrement variables:
