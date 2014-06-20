@@ -26,8 +26,8 @@ int age = 15;
 
 You can convert an integer to a string, by using `Integer.toString()`:
 ```java
-String ageAsString = "13";
-int age = Integer.toString(13);
+int age = 13;
+String ageAsString = Integer.toString(age);
 ```
 
 You can convert a string to an integer, by using `Integer.parseInt()`:
