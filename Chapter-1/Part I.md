@@ -51,7 +51,7 @@ Title: An Introduction to Java Programming
 
 
 Description
-In this lesson the students will learn basic programming concepts and make their first Java program.
+               In this lesson the students will learn basic programming concepts and make their first Java program.
 Learning Objectives
 We are aiming to:
 Learn programming concepts, these concepts that you will learn are core concepts that you will have to know to be able to program in any language, not just Java.
