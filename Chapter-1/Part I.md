@@ -1,4 +1,4 @@
-![alt text](https://github.com/BillsJ/cadmus/Images/Main_logo.png "Java logo")
+![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Main_logo.png "Java logo")
 
 
 
