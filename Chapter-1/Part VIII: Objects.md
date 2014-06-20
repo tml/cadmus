@@ -14,8 +14,6 @@ public class Book {
 }
 ```
 
-Don't get scared of the following punctuation ; { } .  All lines of code must be finished using a ; just like sentences are finished off with a full stop, and {} are used to separate chunks of code.
-
 Notice the words public and private, public means that everything in the project can see it and private means that only the current class can see it.
 
 To create a new book (object) you would simply write the code below:
