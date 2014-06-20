@@ -1,5 +1,5 @@
 ![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Main_logo.png "Java logo")
-# Coding Curriculum - Java KS4
+# ... Coding Curriculum - Java KS4
 ## Contents
 ###  Chapter I - Introduction	
 ####  Installing Eclipse	
@@ -51,7 +51,7 @@ Title: An Introduction to Java Programming
 
 
 Description
-               In this lesson the students will learn basic programming concepts and make their first Java program.
+In this lesson the students will learn basic programming concepts and make their first Java program.
 Learning Objectives
 We are aiming to:
 Learn programming concepts, these concepts that you will learn are core concepts that you will have to know to be able to program in any language, not just Java.
