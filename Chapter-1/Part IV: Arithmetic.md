@@ -102,4 +102,4 @@ Write a programs that given four numbers *x<sub>1</sub>*, *y<sub>1</sub>*, *x<su
 
 ![Distance Formula](http://www.moomoomath.com/distance.jpg)
 
-This is very useful in collision dectection is scientific models, and game programming.
+This is very useful in collision dectection is scientific models and game programming.
