@@ -1,8 +1,8 @@
 ![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Main_logo.png "Java logo")
 # Coding Curriculum - Java KS4
-## Contents
-### Chapter I - Introduction	
-#### Installing Eclipse	
+## Contents
+###  Chapter I - Introduction	
+####  Installing Eclipse	
 #### What this course entails	
 #### Basics	
 #### Variables	
@@ -45,7 +45,7 @@
 #### Recap and complex examples	
 #### Further look on Java Swing	
 #### List of other methods	
-#### Java swing exercise's	
+#### Java swing exercises
 
 Title: An Introduction to Java Programming
 
