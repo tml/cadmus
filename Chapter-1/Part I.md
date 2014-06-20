@@ -1,66 +1,51 @@
 ![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Main_logo.png "Java logo")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Coding Curriculum - Java KS4
-Contents
-Chapter I - Introduction	
-Installing Eclipse	
-What this course entails	
-Basics	
-Variables	
-Arithmetic	
-Objects	
-Methods	
-Printing	
-Loops	
-If else statements	
-Strings	
-Chapter II - Methods	
-A general introduction to programming and the java platform	
-What is a method?	
-Q & A	
-Java – accepting user input	
-Accepting user input worksheet	
-Summary	
-Exercises	
-Chapter III - Arrays and Classes	
-Arrays	
-What is an array?	
-How to declare and instantiate an array?	
-Initialise array elements	
-Length and index	
-A complete example for using an array	
-ArrayList	
-Classes	
-What is a class?	
-What is a method?	
-Constructor	
-Drawing Geometric Primitives	
-Chapter IV - Java Swing	
-Java swing	
-Your first window	
-Jpanel	
-Layouts	
-Buttons and action listeners	
-Text fields	
-More complex Programming	
-Recap and complex examples	
-Further look on Java Swing	
-List of other methods	
-Java swing exercise's	
+# Coding Curriculum - Java KS4
+## Contents
+### Chapter I - Introduction	
+#### Installing Eclipse	
+#### What this course entails	
+#### Basics	
+#### Variables	
+#### Arithmetic	
+#### Objects	
+#### Methods	
+#### Printing	
+#### Loops	
+#### If else statements	
+#### Strings	
+### Chapter II - Methods	
+#### A general introduction to programming and the java platform	
+#### What is a method?	
+#### Q & A	
+#### Java – accepting user input	
+#### Accepting user input worksheet	
+#### Summary	
+#### Exercises	
+### Chapter III - Arrays and Classes	
+#### Arrays	
+#### What is an array?	
+#### How to declare and instantiate an array?	
+#### Initialise array elements	
+#### Length and index	
+#### A complete example for using an array	
+#### ArrayList	
+#### Classes	
+#### What is a class?	
+#### What is a method?	
+#### Constructor	
+#### Drawing Geometric Primitives	
+### Chapter IV - Java Swing	
+#### Java swing	
+#### Your first window	
+#### Jpanel	
+#### Layouts	
+#### Buttons and action listeners	
+#### Text fields	
+#### More complex Programming	
+#### Recap and complex examples	
+#### Further look on Java Swing	
+#### List of other methods	
+#### Java swing exercise's	
 
 Title: An Introduction to Java Programming
 
