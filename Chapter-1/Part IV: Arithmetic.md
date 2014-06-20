@@ -68,31 +68,28 @@ int n = 7 % 5;
 ```
 would result in n being 2.
 
-#### Exercise 4
-Physics Question – Write a program to work out what the power in watts of a device is if the voltage is 10V and the current is 6A, and print the result.
+#### Exercise 1 (Physics)
+Write a program to work out what the power in watts of a device is if the voltage is 10V and the current is 6A, and print the result.
 Hint: Power (W) = Current * Voltage
 
-#### Exercise 5
-Physics Question – Turn the last exercise into a method that accepts parameters for current and voltage, then returns power in watts.  Then write a program that uses the power method to calculate the energy transferred in kWh, when the current is 5A, the voltage is 14V over the space of 2 hours and print the result.
+#### Exercise 2 (Physics)
+Turn the last exercise into a method that accepts parameters for current and voltage, then returns power in watts.  Then write a program that uses the power method to calculate the energy transferred in kWh, when the current is 5A, the voltage is 14V over the space of 2 hours and print the result.
 Hint: Energy transferred (kWh) = Power (kW) × Time (h)
 
 
-#### Exercise 6 
-Physics Question – Write a program to work out the kinetic energy of an object of mass 500kg that has a velocity of 12 m/s, and print the result
+#### Exercise 3 (Physics)
+Write a program to work out the kinetic energy of an object of mass 500kg that has a velocity of 12 m/s, and print the result
 Hint: Kinetic Energy = 0.5 * Mass * (Velocity)^2
 
-#### Exercise 7 
-Physics Question – Write a program to answer the following physics question and print the result.  If a car has a mass of 800 kg and moves with a velocity of 25 m/s, what force is needed to stop the car in 50 metres?
+#### Exercise 4 (Physics)
+Write a program to answer the following physics question and print the result.  If a car has a mass of 800 kg and moves with a velocity of 25 m/s, what force is needed to stop the car in 50 metres?
 Hint: You may want to turn the previous exercise into a method so you can easily work out   the cars kinetic energy.  You will also need the equation Energy = Force * Distance.
 
-#### Exercise 8
-Maths Question – Write a program to work out the missing angle of a triangle which has two known angles of 108 degrees and 24 degrees.
+#### Exercise 5 (Maths)
+Write a program to work out the missing angle of a triangle which has two known angles of 108 degrees and 24 degrees.
 Hint: The angles of a triangle must sum up to 180 degrees.
 
-#### Exercise 9 
-Write a program to calculate and print the sum of the digits that make up the five-digit number 54628.
-Hint: Use a loop and %10 division to get the last digit of a number, and make use of dividing an int by 10 (the decimals will be omitted, so you can remove the last digit from a number).
+#### Exercise 6 (Ecology)
+![A quadrat](http://getting-in.com/wp-content/uploads/2012/09/Picture-382-300x223.png)
 
-#### Exercise 10
-Write a program to print the number 2643553 backwards using a loop.
-
+A standard quadrat used in school is 0.25m<sup>2</sup>. A quadrat is used to sample a random area of a field to estimate the abundance/variety/percentage coverage of a species. For a random sampling to be statistically viable, at least 3% of the area must be sampled. Write a program, given the size of an area, (say 2000m<sup>2</sup>) works out the amount of different samplings that must be done.
