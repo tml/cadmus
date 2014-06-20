@@ -98,7 +98,7 @@ int n = 7 % 5;
 would result in n being 2.
 
 #### Ex 7 (Geometry, Physics, Chemistry, Game Programming)
-Write a function that takes in four parameters *x<sub>1</sub>*, *y<sub>1</sub>*, *x<sub>2</sub>*, *y<sub>2</sub>*, that are points on a graph, and calculates the distance between them, using the formula:
+Write a programs that given four numbers *x<sub>1</sub>*, *y<sub>1</sub>*, *x<sub>2</sub>* and *y<sub>2</sub>*, that are points on a graph, and calculates the distance between them, using the formula:
 
 ![Distance Formula](http://www.moomoomath.com/distance.jpg)
 
