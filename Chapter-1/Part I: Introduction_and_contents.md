@@ -103,7 +103,7 @@ Answer all students queries, as before.
 ## Chapter I - Introduction
 ### Installing Eclipse
 
-The students will be using a program called Eclipse to complete their exercises in. Eclipse is an example of an IDE, which stands for “integrated development environment”. In short, an IDE is an application which contains a set of tools used to create programs in whichever language you are using. The main tools which you and your students will be using are: an editor which is used to write and edit code, and the interpreter. I have mentioned the interpreter here, however you do not explicitly use the interpreter, it simply runs without you doing anything. As you type in code, the interpreter will constantly check to see if the syntax of your code is correct and that you have not made any silly mistakes. So you can imagine the interpreter as being an English teacher who is constantly checking to see if your grammar/punctuation (syntax) is correct whilst you write sentences, or in our case, code. As the interpreter is running all the time it means that if you are typing in code and you have not yet finished writing the line, you may encounter errors and your code may be underlined in red. This is nothing to worry about and will only be a problem when you finish writing the line, at which point you need to do some investigation work. Try to see if you have made a silly mistake, and if that endeavour bears no fruit, read the error and try to understand what it is trying to tell you, and then correct the mistake. This process of finding and eliminating errors is known as 'debugging'.
+The students will be using a program called Eclipse to complete their exercises in. Eclipse is an example of an IDE, which stands for “Integrated Development Environment”. In short, an IDE is an application which contains a set of tools used to create programs in whichever language you are using. The main tools which you and your students will be using are: an editor which is used to write and edit code, and an interpreter. I have mentioned the interpreter here, however you do not explicitly use the interpreter, it simply runs without you doing anything. As you type in code, the interpreter will constantly check to see if the syntax of your code is correct and that you have not made any silly mistakes. So you can imagine the interpreter as being an English teacher who is constantly checking to see if your grammar/punctuation (syntax) is correct whilst you write sentences, or in our case, code. As the interpreter is running all the time it means that if you are typing in code and you have not yet finished writing the line, you may encounter errors and your code may be underlined in red. This is nothing to worry about and will only be a problem when you finish writing the line, at which point you need to do some investigation work. Try to see if you have made a silly mistake, and if that endeavour bears no fruit, read the error and try to understand what it is trying to tell you, and then correct the mistake. This process of finding and eliminating errors is known as 'debugging'.
 
 So now we will cover how to install Eclipse:
 
@@ -148,12 +148,17 @@ Now right-click Outreach then click New->Class and you should see the following 
 Where it says name type in Example then click Finish, and so your screen should look like this:
 ![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Eclipse_new_class_final.png "And your new program begins")
 
-At the top of a Java program, usually you can find a comment or two stating the name of the person who wrote the program and a note on what the program does.  To write words and sentences in a program that other people can see when they look at your code but isn't visible to the computer when you run your program, write // at the start of the thing you want to write.  So, I would write //By Jarvis, this is an example program.
-This is to let other people who view my code know that the code was written by me, and likewise you would write your own name.
+Notice the words 'public class' in purple.  A class is a file which contains objects and methods (see descriptions in the respective sections ([Objects](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IV:%20Objects.md#objects) and [Methods](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20V:%20Methods.md#methods))). The word ‘public’ just means that the piece of code can be used in other classes. The other word that we could have written in that space would be 'private', so that only the class that we are currently in can use the piece of code.
 
-Notice the words 'public class' in purple.  A class is a file which contains objects and methods (see descriptions in Basics section).  The word ‘public’ just means that the piece of code can be used in other classes. The other thing which we could have written in that space would be private, so that only the class that we are currently in can use the piece of code.
+At the top of a Java program, usually you can find a comment or two stating the name of the person who wrote the program and a note on what the program does.  To write words and sentences in a program that other people can see when they look at your code, but isn't visible to the computer when you run your program, write // at the start of the sentence you want to write.  So, I would write: 
 
-Now copy and paste this piece of code into the Example class
+```java
+//By Jarvis, this is an example program.
+```
+
+This is to let other people who view my program know that the code was written by me, and likewise you would write your own name and the purpose of your program.
+
+Now copy and paste this piece of code into your class:
 
 ```java
 public static void main(String[] args){
@@ -161,6 +166,6 @@ public static void main(String[] args){
 };
 ```
 
-This is the main method, and every Java program needs a main method.  It is the first bit of code your program looks at when it is run.  If you have more than one main method, your program will get confused and will not know what to do.  (Where should it be starting from? This main method or that one?) So, the point is, you can only have ONE main method per program.  You can run other methods from the main method too.  The main method must always begin with that code and look like the screenshot above, and you cannot change the name of the main method. Bear in mind that by the end of your course, you will have to be able to memorise the piece of code above.
+This is the main method, and every Java program needs a main method.  It is the first bit of code your program looks at when it is run.  If you have more than one main method, your program will get confused and will not know what to do.  (Where should it be starting from? This main method or that one?) So, the point is, you can only have ONE main method per program. You can run other methods from the main method too.  The main method must always begin with that line and look like the screenshot above, and you cannot change the name of the main method. Bear in mind that by the end of your course, you will have to be able to memorise the piece of code above.
 
 ###### [Contents](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#contents)
