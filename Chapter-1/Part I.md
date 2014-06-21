@@ -239,7 +239,7 @@ Now save the file. Once it has finished downloading, open and extract it.
 Now simply double click on the eclipse file and Eclipse will now open. If you have had any problems during installation please consult your School’s IT department or your teacher.
 
 
-What this course entails
+### What this course entails
 
 Hello, and welcome to your new Java class. My name is Jarvis, and I am your new Java teacher. I will be helping you through the first part of your course.  To begin with, I will explain some simple concepts to you.
 
@@ -263,8 +263,10 @@ Notice the words 'public class' in purple.  A class is a file which contains obj
 
 Now copy and paste this piece of code into the Example class
 
+```java
 public static void main(String[] args){
 		
 }
+```
 
 This is the main method, and every Java program needs a main method.  It is the first bit of code your program looks at when it is run.  If you have more than one main method, your program will get confused and will not know what to do.  (Where should it be starting from? This main method or that one?) So, the point is, you can only have ONE main method per program.  You can run other methods from the main method too.  The main method must always begin with that code and look like the screenshot above, and you cannot change the name of the main method. Bear in mind that by the end of your course, you will have to be able to memorise the piece of code above.
