@@ -44,3 +44,5 @@ number--;
 #### Exercise 2 
 Write a program in which you initialise an int, double, char, boolean, String to suitable values of you choice, then get the program to print out the value of each variable on a new line.  So if the int is equal to 4, the first line to be printed would be:
 The value of the int is 4
+
+###### [Contents](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#contents)
