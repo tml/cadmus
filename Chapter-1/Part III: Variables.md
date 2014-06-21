@@ -32,9 +32,9 @@ String sentence = "This is an example of a sentence";
 boolean a = true;
 ```
 
-Beware, as you cannot initialise a variable to a value that is of a different type. Forample you cannot initialise an int to “four”, as “four” is of the type String; you also cannot initialise an int to 4.0, as 4.0 is of the type double; whereas an int can be initialised to 4, as 4 is of the type int. In short, the type of the variable and the value you are setting the value to have to match.
+Beware, as you cannot initialise a variable to a value that is of a different type. For example, you cannot initialise an int to “four”, as “four” is of the type String; you also cannot initialise an int to 4.0, as 4.0 is of the type double; whereas an int can be initialised to 4, as 4 is of the type int. In short, the type of the variable and the value you are setting the value to have to match.
 
-Once a primitive variable's value is set, it is not fixed.  You can still change the value at any time.  To change its value on a new line type the name of the variable then an equals sign and then the new value you would like to set the variable to, and finally a ; to finish the line of code.  For example, if you wanted to change the variable x from above to the value 16 you would write:
+Once a primitive variable's value is set, it is not fixed.  You can still change the value at any time.  To change its value, go onto a new line; type the name of the variable; then an equals sign; then the new value you would like to set the variable to; and finally a ';' to finish the line of code.  For example, if you wanted to change the variable 'x' from above to the value '16' you would write:
 		
 ```java
 x = 16;
@@ -65,7 +65,7 @@ The value of n is 5
 ```
 		
 #### Exercise 2 
-Write a program in which you initialise an int, double, char, boolean, String to suitable values of you choice, then get the program to print out the value of each variable on a new line.  So if the int is equal to 4, the first line to be printed would be:
+Write a program in which you initialise an int, double, char, boolean and a String to suitable values of you choice, then get the program to print out the value of each variable on a new line.  So if the int is equal to 4, the first line to be printed would be:
 
 ```java
 The value of the int is 4
