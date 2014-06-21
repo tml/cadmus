@@ -141,7 +141,7 @@ The green icon which looks like this is used to run your programs. It can be fou
 ![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Eclipse_run_button.png "This appears in the top bar")
 
 Now right-click Outreach then click New->Class and you should see the following pop-up:
-
+![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Eclipse_new_class.png "A new class")
 
 
 Where it says name type in Example then click Finish, and so your screen should look like this:
