@@ -123,7 +123,8 @@ Next, click where it says “[United Kingdom] UK Mirror Service (http)”:
 ![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Eclipse_UK_mirror_service.png "This was made in the UK")
 
 Now save the file. Once it has finished downloading, open and extract it.
-Now simply double click on the eclipse file and Eclipse will now open. If you have had any problems during installation please consult your School’s IT department or your teacher.
+
+Now simply double click on the eclipse file and Eclipse will now open. If you have had any problems during installation, please consult your School’s IT department or your teacher.
 
 
 ### What this course entails
