@@ -53,7 +53,7 @@ char charThree = s.charAt(3);
 
 would result in charThree being set to 'r'.  You may have thought it would be 'o' however you must realise that the first character of a String is actually the 0th character.  See below for the positions of each char in the String s:
 
-d	o	o	r	b	e	l	l 	(character)
+d	o	o	r	 b	e	l	l 	(character)
 
 0 	1	2	3	4	5	6	7 	(position of character)
 
