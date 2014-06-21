@@ -98,11 +98,6 @@ Hint: % efficiency = (useful power)/(total power)
 Physics Question – Write a program to work out what the power(W) of a device is if the voltage is 10V and the current is 6A, and then print the result.
 Hint: Power = Current * Voltage
 		
-#### Exercise 5
-Physics Question – Turn the last exercise into a method that accepts parameters for current and voltage, then returns power in watts.  Then write a program that uses the power method to calculate the energy transferred in kWh, when the current is 5A, the voltage is 14V over the space of 2 hours and print the result.
-Hint: Energy transferred (kWh) = Power (kW) × Time (h)
-		
-		
 #### Exercise 6 
 Physics Question – Write a program to work out the kinetic energy of an object of mass 500kg that has a velocity of 12 m/s, and print the result
 Hint: Kinetic Energy = 0.5 * Mass * (Velocity)^2
