@@ -145,7 +145,7 @@ Now right-click Outreach then click New->Class and you should see the following 
 
 
 Where it says name type in Example then click Finish, and so your screen should look like this:
-
+![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Eclipse_new_class_final.png "And your new program begins")
 
 At the top of a Java program, usually you can find a comment or two stating the name of the person who wrote the program and a note on what the program does.  To write words and sentences in a program that other people can see when they look at your code but isn't visible to the computer when you run your program, write // at the start of the thing you want to write.  So, I would write //By Jarvis, this is an example program.
 This is to let other people who view my code know that the code was written by me, and likewise you would write your own name.
