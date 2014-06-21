@@ -54,3 +54,16 @@ String name = "George";
 System.out.println(name.toUpperCase()); // Returns "GEORGE"
 System.out.println(name.toLowerCase()); // Returns "george"
 ```
+
+### Static methods
+Static methods are methods that belong to a class, as opposed to an instance of a class. For instance the method `Integer.parseInt()` is a static method. If I, however, create an integer like so:
+
+```java
+Integer age = 5;
+```
+
+`age` does not have a method `.parseInt()`. You've met many of these methods already. Indeed the methods, you've created with the `static` keyword, are static methods. If I removed the `static` keyword from them they would not be able to be called by the `main` method. The `main` method is a special sort of static method, it is the **execution point** of the program. There should only be one execution point in a project, and it must have the **method signature**:
+
+```java
+public static void main(String[] args)
+```
