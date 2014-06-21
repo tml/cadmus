@@ -106,6 +106,7 @@ Answer all students queries, as before.
 The students will be using a program called Eclipse to complete their exercises in. Eclipse is an example of an IDE, which stands for “integrated development environment”. In short, an IDE is an application which contains a set of tools used to create programs in whichever language you are using. The main tools which you and your students will be using are: an editor which is used to write and edit code, and the interpreter. I have mentioned the interpreter here, however you do not explicitly use the interpreter, it simply runs without you doing anything. As you type in code, the interpreter will constantly check to see if the syntax of your code is correct and that you have not made any silly mistakes. So you can imagine the interpreter as being an English teacher who is constantly checking to see if your grammar/punctuation (syntax) is correct whilst you write sentences, or in our case, code. As the interpreter is running all the time it means that if you are typing in code and you have not yet finished writing the line, you may encounter errors and your code may be underlined in red. This is nothing to worry about and will only be a problem when you finish writing the line, at which point you need to do some investigation work. Try to see if you have made a silly mistake, and if that endeavour bears no fruit, read the error and try to understand what it is trying to tell you, and then correct the mistake. This process of finding and eliminating errors is known as 'debugging'.
 
 So now we will cover how to install Eclipse:
+
 First, head over to Eclipse's website, which looks like this:
 ![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Eclipse_website_screenshot1.png "Eclipse website front page")
 
@@ -115,72 +116,15 @@ Next click the orange downloads button to take you to:
 Now click eclipse standard, the first one listed, the latest version at the time of writing is version 4.3.2:
 ![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/eclipse_standard.png "Eclipse standard 4.3.2")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Now under download links, you should see your OS (Operating System). Click it:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Eclipse_download_links.png "Know your computer version")
 
 Next, click where it says “[United Kingdom] UK Mirror Service (http)”:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Eclipse_UK_mirror_service.png "This was made in the UK")
 
 Now save the file. Once it has finished downloading, open and extract it.
-Now simply double click on the eclipse file and Eclipse will now open. If you have had any problems during installation please consult your School’s IT department or your teacher.
+
+Now simply double click on the eclipse file and Eclipse will now open. If you have had any problems during installation, please consult your School’s IT department or your teacher.
 
 
 ### What this course entails
