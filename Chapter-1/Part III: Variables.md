@@ -78,3 +78,18 @@ Boolean alive = false;
 ```
 
 However using these instead of primitives has an unnecessary performance cost, and should not be used. There are valid reasons for them, that will come up in Chapter II, but as for now they are a burden. N.B. It is perfectly accceptable to use their static methods i.e. `Integer.parseInt()`, etc, because they do not actually involve instantiating those classes (Part VIII). 
+
+### Selection
+If/else/else if statements work in Java exactly as they do in JavaScript, so this is perfectly valid:
+
+```java
+int x = 5;
+int y = 4;
+if(x == y) {
+  System.out.println("Matches");
+} else {
+  System.out.println("Oh well!");
+}
+```
+
+There is one major gotcha: because `String` isn't a primitive the `==` operator doesn't work.
