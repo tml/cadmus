@@ -19,14 +19,20 @@ To check if two Strings are the same, we must use a method called compareTo whic
 
 If the values of two objects match, a value of 0 will be returned. Otherwise, a positive or negative integer will be returned instead.
 
+```java
 String s1 = “This is a string”;
 String s2 = “This is also  a string”;
+```
 
+```java
 int compareS = s1.compareTo(s2);
 //this will set compareS to a non-zero number as the Strings are not //the same
+```
 
+```java
 String s1 = “This is a string”;
 String s2 = “This is a string”;
+```
 
 int compareS = s1.compareTo(s2);
 //this will set compareS to zero as the Strings are the same
