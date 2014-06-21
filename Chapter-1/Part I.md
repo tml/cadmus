@@ -10,8 +10,8 @@
 #### [Methods](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20V:%20Methods.md#methods)	
 #### [Printing](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VII:%20Printing.md#printing)
 #### [Loops](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IV:%20Loops.md#loops)	
-#### [If else statements](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Chapter%20VIII:%20If%20else%20statements.md#if-else-statements)	
-#### [Strings](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IX:%20Strings.md#strings)	
+#### If else statements	
+#### Strings	
 ### Chapter II - Methods	
 #### A general introduction to programming and the java platform	
 #### What is a method?	
