@@ -11,7 +11,7 @@
 #### [Printing](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VI:%20Printing.md#printing)
 #### [Loops](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VII:%20Loops.md#loops)	
 #### [If else statements](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VIII:%20If%20else%20statements.md#if-else-statements)	
-#### Strings	
+#### [Strings](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IX:%20Strings.md#strings)	
 ### Chapter II - Methods	
 #### A general introduction to programming and the java platform	
 #### What is a method?	
@@ -133,7 +133,9 @@ Hello, and welcome to your new Java class. My name is Jarvis, and I am your new 
 
 In this course you will learn how to program in Java and then Swing.  You can think of programming as a way of making your computer do things – and anything that you program and run on your computer is called a program.  Programs can be seen as a set of instructions that get executed when you run the program. The instructions for programs cannot be written in plain English; they must be written in different languages, one of which is Java.  Anything you write in Java is called code, and lines of code look very similar to sentences.  However there are some key differences, such as that lines of code end in a semi-colon (;) not a full-stop.  The tool that you will use to write Java is called Eclipse.  Eclipse will highlight different bits of your code so that you can see the different bits of code more clearly.  The code you write in Eclipse will tell your program what you want it to do when you run your code.  With that explained, on with the programming!
 1) Open up Eclipse (your teacher should have explained how to do this).
+
 It should look something like the screen shot below:
+![alt text]()
 
 The green icon which looks like this is used to run your programs. It can be found in the top bar and you have to click it to run the current program you are working in. Provided that your program has no errors, your program should run.
 
