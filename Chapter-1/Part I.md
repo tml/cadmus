@@ -109,28 +109,8 @@ So now we will cover how to install Eclipse:
 First, head over to Eclipse's website, which looks like this:
 ![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Eclipse_website_screenshot1.png "Eclipse website front page")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Next click the orange downloads button to take you to:
-
+![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Eclipse_website_screenshot2.png "First page of downloads")
 
 
 
