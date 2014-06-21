@@ -26,12 +26,6 @@ An integer is a whole number. Integers are stored as the data type `int`. To def
 int age = 15;
 ```
 
-You can convert an integer to a string, by using `Integer.toString()`:
-```java
-int age = 13;
-String ageAsString = Integer.toString(age);
-```
-
 You can convert a string to an integer, by using `Integer.parseInt()`:
 ```java
 String ageAsString = "13";
@@ -54,14 +48,13 @@ As with an integer, you can use:
 ```java
 String piAsString = "3.14159";
 double pi = Double.parseDouble(piAsString);
-piAsString = Double.toString(pi);
 ```
 
 #### Booleans
 A boolean is a variable that is either `true` or `false`:
 ```java
-boolean alive = false;
-String aliveAsString = Boolean.toString(alive);
+boolean myBoolean = true;
+String aliveAsString = "true";
 alive = Boolean.parseBoolean(aliveAsString); 
 ```
 
