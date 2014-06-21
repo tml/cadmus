@@ -1,3 +1,5 @@
+Printing
+=================
 Now just like when you talk to your friends your program must be able to communicate with people.  To speak your program will output text to the screen.  Below is an example of code to print some text:
 
 ```java
