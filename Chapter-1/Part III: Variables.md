@@ -60,5 +60,5 @@ A boolean is a variable that is either `true` or `false`:
 ```java
 boolean alive = false;
 String aliveAsString = Boolean.toString(alive);
-alive = Boolean.parseBoolean(aliveAsString);
+alive = Boolean.parseBoolean(aliveAsString); 
 ```
