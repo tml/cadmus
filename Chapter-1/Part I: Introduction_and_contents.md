@@ -9,7 +9,7 @@
 #### [Objects](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IV:%20Objects.md#objects)	
 #### [Methods](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20V:%20Methods.md#methods)	
 #### [Printing](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VI:%20Printing.md#printing)
-#### [Loops](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IV:%20Loops.md#loops)	
+#### [Loops](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VII:%20Loops.md#loops)	
 #### If else statements	
 #### Strings	
 ### Chapter II - Methods	
