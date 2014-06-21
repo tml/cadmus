@@ -59,7 +59,6 @@ piAsString = Double.toString(pi);
 A boolean is a variable that is either `true` or `false`:
 ```java
 boolean alive = false;
-String aliveAsString = "true";
+String aliveAsString = Boolean.toString(alive);
 alive = Boolean.parseBoolean(aliveAsString);
-aliveAsString = Boolean.toString(alive);
 ```
