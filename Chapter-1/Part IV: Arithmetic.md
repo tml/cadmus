@@ -85,7 +85,7 @@ To compare two primitive variables which have the same type you can use == as sh
 
 ```java
 if (5 == 5) {
-	System.out.println(“The two numbers match”);
+	System.out.println("The two numbers match");
 }
 //clearly these two numbers 5 and 5 match
 ```
