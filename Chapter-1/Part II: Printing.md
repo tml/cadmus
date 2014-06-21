@@ -64,6 +64,12 @@ You could also print out variables and Strings at the same time, you simply sepa
 System.out.println("The value of n is " + n);
 ```
 
+#### Ex 1. 
+So your first exercise is to write a program which prints out: 
+```java 
+Hello world
+```
+
 #### Ex 12
 Write a program to print a continuous (never ending) pattern out.
 Hint: Use an infinite loop (see below for loops).
