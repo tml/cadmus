@@ -7,7 +7,7 @@
 #### [Variables](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VI:%20Variables.md#variables)
 #### [Arithmetic](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20II:%20Arithmetic.md#arithmetic)	
 #### [Objects](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20III:%20Objects.md#objects)	
-#### Methods	
+#### [Methods](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20V:%20Methods.md#methods)	
 #### Printing	
 #### [Loops](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IV:%20Loops.md#loops)	
 #### If else statements	
