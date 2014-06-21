@@ -1,7 +1,7 @@
 ![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Main_logo.png "Java logo")
 # Coding Curriculum - Java KS4
 ## Contents
-###  Chapter I - Introduction	
+###  [Chapter I - Introduction](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#chapter-i---introduction-1)	
 ####  [Installing Eclipse](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#installing-eclipse-1)	
 #### [What this course entails](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#what-this-course-entails-1)	
 #### Basics	
