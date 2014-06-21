@@ -1,3 +1,5 @@
+Methods
+========================
 A method is another way of saying a function.  A method performs a task so say if you want to triple a number you may want to have a triple method for example. (It's always best to start the method name with a lower case letter and name it something similar to what it does)
 
 ```java
