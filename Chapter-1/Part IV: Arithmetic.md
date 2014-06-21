@@ -67,29 +67,29 @@ A standard quadrat used in school is 0.25m<sup>2</sup>. A quadrat is used to sam
 
 ### Advanced Arithmatic
 
-Another function, you may need to use, is the modulus or absolute function; this is when you get only the value of a number, ignoring its sign, so the absolute value of 8 is still 8, whereas the absolute value of -27 is 27. You can use the following to get the absolute value of a given int `w`:
+#### Powers
+To get the value of a number to a given power you can use the `Math.pow()` function, that takes two parameters: a number; and a power; To use, however, you must import the `java.lang.Math` package. A package is essentially a collection of functions. To import `java.lang.Math`, write this at the very top of your code:
 
 ```java
-int z = Math.abs(w);
-```
-
-`Math.abs()` can only be used if you write, at the very beginning, the statement:
-```java 
 import java.lang.Math;
 ```
-
-This is because `Math.abs()` belogs to the package, (packages being collections of functions) called `java.lang.Math`. Another function in that package is the `Math.sqrt()` that returns the square root of a number.
-
-
-To compare two primitive variables which have the same type you can use == as shown below:
+Then in your `main` method, you can write:
 
 ```java
-if (5 == 5) {
-	System.out.println("The two numbers match");
-}
-//clearly these two numbers 5 and 5 match
+int number = 2;
+int power = 3;
+System.out.println(Math.pow(number, power));
+// Prints 8
 ```
 
+#### Square Roots
+Another function in that package is the `Math.sqrt()` that returns the square root of a number.
+
+```java
+Sysem.out.println(Math.sqrt(25)); // Prints 5
+```
+
+#### Remainders
 To get the remainder of an int a when divided by another int b we can use % instead of / when dividing, so a%b, where a = 7, b = 5...
 
 ```java
