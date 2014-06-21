@@ -22,29 +22,32 @@ To initialise a variable you must begin the line of code with the type of the va
 
 ```java
 int x = 1;
-		double y = 4.34;
-		char letter = 'a';
-		String sentence = "This is an example of a sentence";
-		boolean a = true;
-		```
+double y = 4.34;
+char letter = 'a';
+String sentence = "This is an example of a sentence";
+boolean a = true;
+```
 		
-		Once a primitive variable's value is set, it is not fixed.  You can still change the value at any time.  To change its value on a new line type the name of the variable then an equals sign and then the new value you would like to set the variable to, and finally a ; to finish the line of code.  For example, if you wanted to change the variable x from above to the value 16 you would write:
+Once a primitive variable's value is set, it is not fixed.  You can still change the value at any time.  To change its value on a new line type the name of the variable then an equals sign and then the new value you would like to set the variable to, and finally a ; to finish the line of code.  For example, if you wanted to change the variable x from above to the value 16 you would write:
 		
-		```java
-		x = 16;
-		```
+```java
+x = 16;
+```
 		
-		If you ever want to increase or decrease a number by 1 you can use the following piece of code, lets say the name of our variable is number.
+If you ever want to increase or decrease a number by 1 you can use the following piece of code, lets say the name of our variable is number.
 		
-		```java
-		number++;
-		// This is to increase the variable number by 1
-		number--;
-		// This is to decrease the variable number by 1
-		```
+```java
+number++;
+// This is to increase the variable number by 1
+number--;
+// This is to decrease the variable number by 1
+```
 		
-		#### Exercise 2 
-		Write a program in which you initialise an int, double, char, boolean, String to suitable values of you choice, then get the program to print out the value of each variable on a new line.  So if the int is equal to 4, the first line to be printed would be:
-		The value of the int is 4
-		
-		###### [Contents](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#contents)
+#### Exercise 2 
+Write a program in which you initialise an int, double, char, boolean, String to suitable values of you choice, then get the program to print out the value of each variable on a new line.  So if the int is equal to 4, the first line to be printed would be:
+
+```java
+The value of the int is 4
+```
+
+###### [Contents](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#contents)
