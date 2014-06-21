@@ -1,3 +1,4 @@
+### Creating and using you own methods
 A method is another way of saying a function.  A method performs a task so say if you want to triple a number you may want to have a triple method for example. (It's always best to start the method name with a lower case letter and name it something similar to what it does). The `main` method is an example of a method that is **void** i.e. it returns nothing. That's why it has the `void` keyword before the method name. Methods should be define in a class. E.g:
 
 ```java
@@ -24,3 +25,32 @@ Write a program which contains a method called triple (and the main method of co
 
 #### Ex 2
 Write a function, that given a name, returns a Hello World-style greeting. For instance if I called it with `George`, it would repond `Hello Geroge!`.
+
+### String methods
+I've told you previously that `String` is a class, not a primitive. Classes can have their own methods attached to them.
+
+### Length
+The `.length()` method returns the length of a String as an `int`. Unlike in a JavaScript String, `.length()` is a method, that must be called with parentheses.
+
+```java
+String name = "George";
+System.out.println(name.length()); // Prints 6
+```
+
+### Trim
+The `.trim()` method that returns a copy of the string without whitespace (spaces at the front or end of a String), e.g:
+
+```java
+String name = "     George";
+System.out.println(name.trim()); 
+// Prints "George" with no spaces
+```
+
+### Upper Case, Lower Case
+There are also the `.toUpperCase()`, and `.toLowerCase()` methods, return an uppercase copy and lowercase copy of the originally string respectively, e.g:
+
+```java
+String name = "George";
+System.out.println(name.toUpperCase()); // Returns "GEORGE"
+System.out.println(name.toLowerCase()); // Returns "george"
+```
