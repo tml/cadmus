@@ -61,18 +61,6 @@ Hello
 world
 ```
 
-You can also print out the values of variables (which we will cover next). When you print out a variable you do not need to add “” or ' ' you simply put the variable name inside the the brackets.  So if you had an int n which is equal to 5, you could print it out using:
-
-```java
-System.out.println(n);
-```
-
-You could also print out variables and Strings at the same time, you simply separate them with a + sign as shown below:
-
-```java
-System.out.println("The value of n is " + n);
-```
-
 #### Ex 1. 
 So your first exercise is to write a program which prints out: 
 ```java 
