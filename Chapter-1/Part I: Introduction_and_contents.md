@@ -70,7 +70,7 @@ In this lesson the students will learn basic programming concepts and make their
 
 
 
-###Previous Experience and Prior Knowledge Required:
+### Previous Experience and Prior Knowledge Required:
 - None for the students
 - An understanding of core Java and Java coding for the teacher(s)
 
