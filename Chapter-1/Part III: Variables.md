@@ -33,7 +33,31 @@ Once a primitive variable's value is set, it is not fixed.  You can still change
 ```java
 x = 16;
 ```
-		
+
+You can also print out the values of variables. When you print out a variable you do not need to add “” or ' ', you simply put the variable name inside the the brackets. So, if you had an int 'n' which is equal to 5, you could print it out using:
+
+```java
+System.out.println(n);
+```
+
+Resulting in an output of:
+
+```java
+5
+```
+
+You could also print out variables and Strings at the same time, you simply separate them with a + sign as shown below:
+
+```java
+System.out.println("The value of n is " + n);
+```
+
+This time the output would be:
+
+```java
+The value of n is 5
+```
+
 If you ever want to increase or decrease a number by 1 you can use the following piece of code, lets say the name of our variable is number.
 		
 ```java
