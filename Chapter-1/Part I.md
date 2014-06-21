@@ -11,7 +11,7 @@
 #### [Printing](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VII:%20Printing.md#printing)
 #### [Loops](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IV:%20Loops.md#loops)	
 #### If else statements	
-#### Strings	
+#### [Strings](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IX:%20Strings.md#strings)	
 ### Chapter II - Methods	
 #### A general introduction to programming and the java platform	
 #### What is a method?	
