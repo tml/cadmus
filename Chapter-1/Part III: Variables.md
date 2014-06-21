@@ -64,7 +64,7 @@ This time the output would be:
 The value of n is 5
 ```
 		
-#### Exercise 2 
+#### Exercise 2. 
 Write a program in which you initialise an int, double, char, boolean and a String to suitable values of you choice, then get the program to print out the value of each variable on a new line.  So if the int is equal to 4, the first line to be printed would be:
 
 ```java
