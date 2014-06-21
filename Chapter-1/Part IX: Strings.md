@@ -1,4 +1,5 @@
 Strings
+==================
 
 You should know by now a String is not a primitive type; it is a class type.  Class types are more complicated, however, they allow you to achieve a great deal.  I will go over how to add Strings together and how to compare two Strings to see if they are the same.
 
