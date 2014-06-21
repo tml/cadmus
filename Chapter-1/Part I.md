@@ -2,7 +2,7 @@
 # Coding Curriculum - Java KS4
 ## Contents
 ###  Chapter I - Introduction	
-####  Installing Eclipse	
+####  [Installing Eclipse](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#installing-eclipse-1)	
 #### What this course entails	
 #### Basics	
 #### Variables	
