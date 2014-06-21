@@ -1,3 +1,5 @@
+Arithmetic
+====================
 In Java it is very easy to add, subtract, divide, multiply.
 
 Adding two ints x and y: (given that they have already been initialised to a value)
