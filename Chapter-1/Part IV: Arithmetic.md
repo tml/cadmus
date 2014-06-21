@@ -37,7 +37,16 @@ int z = x * y;
 ```
 		
 The symbols for addition, subtraction, division and multiplication are `+`, `-`, `/`, `*` respectively.
+
+If you ever want to increase or decrease a number by 1 you can use the following piece of code, lets say the name of our variable is number.
 		
+```java
+number++;
+// This is to increase the variable number by 1
+number--;
+// This is to decrease the variable number by 1
+```
+
 Another function, you may need to use, is the modulus or absolute function; this is when you get only the value of a number, ignoring its sign, so the absolute value of 8 is still 8, whereas the absolute value of -27 is 27. You can use the following to get the absolute value of a given int `w`:
 		
 ```java
