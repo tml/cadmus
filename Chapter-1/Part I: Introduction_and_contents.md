@@ -51,30 +51,28 @@
 |Title: An Introduction to Java Programming|
 | ---------------------------------------- |
 
-|Description|In this lesson the students will learn basic programming concepts and make their first Java program.|
-| --------- | -------------------------------------------------------------------------------------------------- |
+###Description:
+In this lesson the students will learn basic programming concepts and make their first Java program.
 
-Learning Objectives - We are aiming to: 
+### Learning Objectives:
+**We are aiming to:** 
 - Learn programming concepts, these concepts that you will learn are core concepts that you will have to know to be able to program in any language, not just Java.
 - Make your first Java program, preferably with errors (although no one will complain if there are not), so that you get a good feel for ‘debugging’ something that as a programmer you will have to do very often. 
 
-This is because: 
+**This is because:** 
 - These are the basic skills required to program in Java and all other languages. With these concepts mastered it’s possible to learn other programming languages in the future.
 
 
-Success Criteria
-By the end of the lesson, students will be able to:
-Successfully run a Java program without any errors.
-Be able to talk about programming concepts with relative confidence.
+### Success Criteria
+**By the end of the lesson, students will be able to:**
+- Successfully run a Java program without any errors.
+- Be able to talk about programming concepts with relative confidence.
 
 
 
-Previous Experience and Prior Knowledge Required
-None for the students
-An understanding of core Java and Java coding for the teacher(s)
-
-
-
+###Previous Experience and Prior Knowledge Required:
+- None for the students
+- An understanding of core Java and Java coding for the teacher(s)
 
 
 Lesson Plan(s) - feel free to split this plan up into multiple sections 
