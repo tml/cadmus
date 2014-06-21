@@ -10,8 +10,10 @@ String s1 = “This is a string”;
 String s2 = “This is also  a string”;
 ```
 
+```java
 String combinedS = s1 + s2;
 //this is the simplest way of adding two strings together
+```
 
 To check if two Strings are the same, we must use a method called compareTo which is a special method used to compare the values of two objects (A String is actually an object).
 If the values of two objects match, a value of 0 will be returned. Otherwise, a positive or negative integer will be returned instead.
