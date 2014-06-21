@@ -5,8 +5,10 @@ You should know by now a String is not a primitive type; it is a class type.  Cl
 
 Firstly lets say you have two Strings, s1, s2.
 
+```java
 String s1 = “This is a string”;
 String s2 = “This is also  a string”;
+```
 
 String combinedS = s1 + s2;
 //this is the simplest way of adding two strings together
