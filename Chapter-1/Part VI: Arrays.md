@@ -53,7 +53,7 @@ days[6] = "Sunday";
 ```
 
 ### Printing an entire Array
-Sometimes, for the sake of debugging, you will want to print an entire array. In the `Java.util.Arrays` package, that you will have to import, there is a function called `Arrays.toString()`, that takes an Array and outputs a String representation. E.g:
+Sometimes, for the sake of debugging, you will want to print an entire array. In the `java.util.Arrays` package, that you will have to import, there is a function called `Arrays.toString()`, that takes an Array and outputs a String representation. E.g:
 ```java
 String[] primaryColours = {"Red", "Green", "Blue"};
 System.out.println(Arrays.toString(primaryColours));
