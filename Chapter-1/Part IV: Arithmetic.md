@@ -94,27 +94,20 @@ would result in n being 2.
 Physics Question – Write a program in which you work out the percentage efficiency of a light bulb that is supplied with 50J (Joules), and uses 2J to produce light. Have the program print the result.
 Hint: % efficiency = (useful power)/(total power)
 		
-#### Exercise 4
+#### Ex 4.
 Physics Question – Write a program to work out what the power(W) of a device is if the voltage is 10V and the current is 6A, and then print the result.
 Hint: Power = Current * Voltage
 		
-#### Exercise 6 
-Physics Question – Write a program to work out the kinetic energy of an object of mass 500kg that has a velocity of 12 m/s, and print the result
+#### Ex 5.
+Physics Question – Write a program to work out the kinetic energy of an object with a mass 500kg that has a velocity of 12 m/s, and print the result.
 Hint: Kinetic Energy = 0.5 * Mass * (Velocity)^2
 		
-#### Exercise 7 
+#### Ex 6. 
 Physics Question – Write a program to answer the following physics question and print the result.  If a car has a mass of 800 kg and moves with a velocity of 25 m/s, what force is needed to stop the car in 50 metres?
-Hint: You may want to turn the previous exercise into a method so you can easily work out   the cars kinetic energy.  You will also need the equation Energy = Force * Distance.
+Hint: You may want to use the previous exercise so you can work out the cars kinetic energy. You will also need the equation: Energy = Force * Distance (you will need to rearrange this).
 		
-#### Exercise 8
+#### Ex 7.
 Maths Question – Write a program to work out the missing angle of a triangle which has two known angles of 108 degrees and 24 degrees.
 Hint: The angles of a triangle must sum up to 180 degrees.
-		
-#### Exercise 9 
-Write a program to calculate and print the sum of the digits that make up the five-digit number 54628.
-Hint: Use a loop and %10 division to get the last digit of a number, and make use of dividing an int by 10 (the decimals will be omitted, so you can remove the last digit from a number).
-		
-#### Exercise 10
-Write a program to print the number 2643553 backwards using a loop.
 		
 ###### [Contents](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I:%20Introduction_and_contents.md#contents)
