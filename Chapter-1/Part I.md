@@ -115,28 +115,8 @@ Next click the orange downloads button to take you to:
 Now click eclipse standard, the first one listed, the latest version at the time of writing is version 4.3.2:
 ![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/eclipse_standard.png "Eclipse standard 4.3.2")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Now under download links, you should see your OS (Operating System). Click it:
-
+![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Eclipse_download_links.png "Know your computer version")
 
 
 
