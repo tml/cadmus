@@ -38,7 +38,7 @@ System.out.println(name.length()); // Prints 6
 ```
 
 #### Trim
-The `.trim()` method that returns a copy of the string without whitespace (spaces at the front or end of a String), e.g:
+The `.trim()` method that returns a copy of the string without whitespace (spaces at the front or end of a string), e.g:
 
 ```java
 String name = "     George";
@@ -53,6 +53,17 @@ There are also the `.toUpperCase()`, and `.toLowerCase()` methods, return an upp
 String name = "George";
 System.out.println(name.toUpperCase()); // Returns "GEORGE"
 System.out.println(name.toLowerCase()); // Returns "george"
+```
+
+#### Equals
+This takes in another string, and returns true/false depending on whether they are equal. Note `.equals()` is case sensitive. You can use this in if statements:
+
+```java
+String personA = "George";
+String personB = "George";
+if(personA.equals(personB)) {
+	System.out.println("They're the same people");
+}
 ```
 
 ### Static methods
