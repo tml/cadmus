@@ -75,14 +75,23 @@ In this lesson the students will learn basic programming concepts and make their
 - An understanding of core Java and Java coding for the teacher(s)
 
 
-Lesson Plan(s) - feel free to split this plan up into multiple sections 
+|Lesson Plan(s) - feel free to split this plan up into multiple sections |
+| ---------------------------------------------------------------------- |
 
-Activities
-Student Activities
-Teacher Activities
-Lesson Introduction
-You will go over: how to initialise  a variable; how to perform arithmetic operations; what Objects are and how to use them; what Methods are and when it is best to use them; how to Print out text to the console (and what that in itself is), understand why  Loops and If else statements are so important to programmers, and finally go over Strings, which are a very important class type.
-Teachers must set up eclipse and then proceed to help the students with what they are learning - it may be helpful to have previously created model answers for reference.
+### Activities
+- Lesson Introduction
+
+  1. Student Activities
+  
+    * You will go over: how to initialise  a variable; how to perform arithmetic operations; what Objects are and how to use them; what Methods are and when it is best to use them; how to Print out text to the console (and what that in itself is), understand why  Loops and If else statements are so important to programmers, and finally go over Strings, which are a very important class type.
+
+  2. Teacher Activities
+  
+    * Teachers must set up Eclipse and then proceed to help the students with what they are learning - it may be helpful to have previously created model answers for reference.
+
+
+
+
 Main Activities
 There are a total of 20 exercises for students to work through in this section. Students should aim to complete all 20 questions, of which some are more challenging than others. There are many different ways to approach each of the exercises, and students must take this into account when attempting the exercises.
 Help students if they have questions regarding the exercises; if the question is about programming then refer to pages in this book/your own knowledge for further information. However, if the query involves errors in a program, read the error and try to figure out what is going wrong or what the error is trying to tell you. Proceed to analyse the error with the student as should have been explained in the introduction of the lesson(s).
