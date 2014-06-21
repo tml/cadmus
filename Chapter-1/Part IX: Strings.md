@@ -57,13 +57,13 @@ d	o	o	r	b	e	l	l 	(character)
 0 	1	2	3	4	5	6	7 	(position of character)
 
 
-Ex 18. Write a program to compare the two Strings below to see if they are equal, print out the result
+**Ex 18.** Write a program to compare the two Strings below to see if they are equal, print out the result
 “Hello my name is Jarvis”
 “Hello my name is jarvis”
 Hint: Use the compareTo function and if else statements
 
-Ex 19. Now write a similar program but this time check to see whether 5*5 is the same as 125/5
+**Ex 19.** Now write a similar program but this time check to see whether 5*5 is the same as 125/5
 Hint: Remember you must use ints which are primitive types so you must compare using == not the compareTo function
 
-Ex 20. Write a program to print out the String “yltcerroc desrever evah uoy enod llew” in reverse. You should notice something!
+**Ex 20.** Write a program to print out the String “yltcerroc desrever evah uoy enod llew” in reverse. You should notice something!
 Hint: You must use the length method to get the length of the String and you must use a loop, to loop through the string backwards and print out each character using the charAt method
