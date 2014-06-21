@@ -70,4 +70,4 @@ Hint: Remember you must use ints which are primitive types so you must compare u
 Write a program to print out the String “yltcerroc desrever evah uoy enod llew” in reverse. You should notice something!
 Hint: You must use the length method to get the length of the String and you must use a loop, to loop through the string backwards and print out each character using the charAt method
 
-###### [Contents]()
+###### [Contents](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I:%20Introduction_and_contents.md#contents)
