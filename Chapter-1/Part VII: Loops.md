@@ -93,7 +93,14 @@ public void sumFirstFifteenNumbers(void) {
 	// this prints out the final sum
 }
 ```
+
+#### Exercise 9 
+Write a program to calculate and print the sum of the digits that make up the five-digit number 54628.
+Hint: Use a loop and %10 division to get the last digit of a number, and make use of dividing an int by 10 (the decimals will be omitted, so you can remove the last digit from a number).
 		
+#### Exercise 10
+Write a program to print the number 2643553 backwards using a loop.
+
 #### Ex 14
 Use a loop of your choice to print out all the multiples of 9 within the range 0-108.
 		
