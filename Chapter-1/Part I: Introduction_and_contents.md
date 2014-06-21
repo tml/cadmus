@@ -132,12 +132,13 @@ Now simply double click on the eclipse file and Eclipse will now open. If you ha
 Hello, and welcome to your new Java class. My name is Jarvis, and I am your new Java teacher. I will be helping you through the first part of your course.  To begin with, I will explain some simple concepts to you.
 
 In this course you will learn how to program in Java and then Swing.  You can think of programming as a way of making your computer do things – and anything that you program and run on your computer is called a program.  Programs can be seen as a set of instructions that get executed when you run the program. The instructions for programs cannot be written in plain English; they must be written in different languages, one of which is Java.  Anything you write in Java is called code, and lines of code look very similar to sentences.  However there are some key differences, such as that lines of code end in a semi-colon (;) not a full-stop.  The tool that you will use to write Java is called Eclipse.  Eclipse will highlight different bits of your code so that you can see the different bits of code more clearly.  The code you write in Eclipse will tell your program what you want it to do when you run your code.  With that explained, on with the programming!
-1) Open up Eclipse (your teacher should have explained how to do this).
 
+1) Open up Eclipse (your teacher should have explained how to do this).
 It should look something like the screen shot below:
 ![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Opening_eclipse.png "Eclipse interface")
 
 The green icon which looks like this is used to run your programs. It can be found in the top bar and you have to click it to run the current program you are working in. Provided that your program has no errors, your program should run.
+![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/run_button.png "This appears in the top bar")
 
 Now right-click Outreach then click New->Class and you should see the following pop-up:
 
