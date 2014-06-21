@@ -81,9 +81,9 @@ if (5==5) {
 }
 //clearly these two numbers 5 and 5 match
 ```
-This relates specifically to the if else statement topic (which can be found [here]() and will be covered later).
+This relates specifically to the if else statement topic (which can be found [here](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VIII:%20If%20else%20statements.md#if-else-statements) and will be covered later).
 
-To get the remainder of an int a when divided by another int b we can use % instead of / when dividing, so a%b, where a = 7, b = 5...
+To get the remainder of an int called 'a' when divided by another int called 'b', we can use % instead of / when dividing, so a%b, where a = 7, b = 5:
 		
 ```java
 int n = 7%5;
