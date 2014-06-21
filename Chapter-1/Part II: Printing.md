@@ -1,25 +1,25 @@
 Printing
 =================
-Now just like when you talk to your friends your program must be able to communicate with people.  To speak your program will output text to the screen.  Below is an example of code to print some text:
+Now, just like when you talk to your friends, your program must also be able to communicate with people. To "speak" your program will output text to the screen.  Below is an example of the code used to print some text:
 
 ```java
 System.out.println("Hello world");
 ```
 
-Try printing out Hello world (like above) and if it works try printing out your own custom messages.  For now you do not need to know what System.out is, at the moment all you should be able to do is print a string of text.  Notice that once you type in System.out followed by a full stop you will get many different options popping up, this is simply the interpreter, offering you suggestions for what to type, for now we will only be interested in two of these; print and println.  Print simply prints out whatever you have inserted in speech marks. However if you do println like we have done above then Hello world will be printed and then we will have a new line (like when you hit enter in word), here the ln stands for “line new”.
-
-So what would happen with this piece of code:
+Try printing out Hello world (like above) and if it works try printing out your own custom messages. For now you do not need to know what 'System.out' is; at the moment all you need to be able to do is print a string of text. Notice that once you type in 'System.out' followed by a full stop you will get many different options popping up. This is simply the interpreter offering you suggestions for what to type, but for now we will only be interested in two of these: 'print' and 'println'. 'Print' simply outputs whatever you have inserted in the speech marks one after the other. Therefore if you were to type:
 
 ```java
-System.out.print("Hello ");
+System.out.print("Hello");
 System.out.print("world");
 ```
 
-Hopefully you got it correct this would print out
+Then the output would be:
 
+```java
 Helloworld
+```
 
-If you notice there is no space between the Hello and world, if we wanted to put a space in between we would print either:
+If you notice, there is no space between the 'Hello' and the 'world', so if we wanted to put a space in between we would print either:
 
 ```java
 System.out.print("Hello world");
@@ -41,18 +41,27 @@ System.out.print(" world");
 
 The three pieces of code above would all print:
 
+```java
 Hello world
+```
 
-Now, what about if we wanted to put the world on a new line?  Well we would simply write the following code instead
+However, if you use 'println' like we did at the very beginning, then 'Hello' would be printed and then 'world' would be printed on a new line. As proof, 'ln' stands for “line new”.
+
+This is the code that we would write to create that output:
 
 ```java
 System.out.println("Hello");
 System.out.println("world");
 ``` 
  
-Which would print Hello then a new line, and then print world on that new line.
+This would print 'Hello', then a new line, and then print 'world' on that new line:
 
-You can also print out variables, when you print out a variable you do not need to add “” or ' ' you simply put the variable name inside the the brackets.  So if you had an int n which is equal to 5, you could print it out using:
+```java
+Hello
+world
+```
+
+You can also print out the values of variables (which we will cover next). When you print out a variable you do not need to add “” or ' ' you simply put the variable name inside the the brackets.  So if you had an int n which is equal to 5, you could print it out using:
 
 ```java
 System.out.println(n);
