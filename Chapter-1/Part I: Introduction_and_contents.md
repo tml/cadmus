@@ -4,7 +4,7 @@
 ###  [Chapter I - Introduction](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I:%20Introduction_and_contents.md#chapter-i---introduction-1)	
 ####  [Installing Eclipse](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I:%20Introduction_and_contents.md#installing-eclipse-1)	
 #### [What this course entails](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I:%20Introduction_and_contents.md#what-this-course-entails-1)
-#### [Variables](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VI:%20Variables.md#variables)
+#### [Variables](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20II:%20Variables.md#variables)
 #### [Arithmetic](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20II:%20Arithmetic.md#arithmetic)	
 #### [Objects](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20III:%20Objects.md#objects)	
 #### [Methods](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20V:%20Methods.md#methods)	
