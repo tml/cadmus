@@ -264,3 +264,5 @@ public static void main(String[] args){
 ```
 
 This is the main method, and every Java program needs a main method.  It is the first bit of code your program looks at when it is run.  If you have more than one main method, your program will get confused and will not know what to do.  (Where should it be starting from? This main method or that one?) So, the point is, you can only have ONE main method per program.  You can run other methods from the main method too.  The main method must always begin with that code and look like the screenshot above, and you cannot change the name of the main method. Bear in mind that by the end of your course, you will have to be able to memorise the piece of code above.
+
+###### [Contents](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#contents)
