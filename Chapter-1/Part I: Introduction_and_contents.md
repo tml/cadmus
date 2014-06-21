@@ -46,6 +46,8 @@
 #### List of other methods	
 #### Java swing exercises
 
+========================================
+
 |Title: An Introduction to Java Programming|
 | ---------------------------------------- |
 
