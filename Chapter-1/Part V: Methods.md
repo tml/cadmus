@@ -29,7 +29,7 @@ Write a function, that given a name, returns a Hello World-style greeting. For i
 ### String methods
 I've told you previously that `String` is a class, not a primitive. Classes can have their own methods attached to them.
 
-### Length
+#### Length
 The `.length()` method returns the length of a String as an `int`. Unlike in a JavaScript String, `.length()` is a method, that must be called with parentheses.
 
 ```java
@@ -37,7 +37,7 @@ String name = "George";
 System.out.println(name.length()); // Prints 6
 ```
 
-### Trim
+#### Trim
 The `.trim()` method that returns a copy of the string without whitespace (spaces at the front or end of a String), e.g:
 
 ```java
@@ -46,7 +46,7 @@ System.out.println(name.trim());
 // Prints "George" with no spaces
 ```
 
-### Upper Case, Lower Case
+#### Upper Case, Lower Case
 There are also the `.toUpperCase()`, and `.toLowerCase()` methods, return an uppercase copy and lowercase copy of the originally string respectively, e.g:
 
 ```java
