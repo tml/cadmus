@@ -102,8 +102,8 @@ Plenary (review)
 Talk amongst peers about the concepts you have learnt, and ask each other challenging questions. If you get stuck, be sure to ask your teachers.
 Answer all students queries, as before.
 
-Resources Needed:
-Eclipse
+|Resources Needed: Eclipse|
+| ----------------------- |
 
 
 Chapter I - Introduction
