@@ -112,34 +112,8 @@ First, head over to Eclipse's website, which looks like this:
 Next click the orange downloads button to take you to:
 ![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Eclipse_website_screenshot2.png "First page of downloads")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Now click eclipse standard, the first one listed, the latest version at the time of writing is version 4.3.2:
-
+![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/eclipse_standard.png "Eclipse standard 4.3.2")
 
 
 
