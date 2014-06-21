@@ -34,16 +34,22 @@ String s1 = “This is a string”;
 String s2 = “This is a string”;
 ```
 
+```java
 int compareS = s1.compareTo(s2);
 //this will set compareS to zero as the Strings are the same
+```
 
 You can get the length of a String (the number of characters that make up the String, including blank spaces) by using the length method, so lets say we have a String s which is “doorbell”
 
+```java
 int lengthS = s.length();
+```
 
 To get the value of a character at a certain position we can use the charAt method, so if we use the same String s as above, the following
 
+```java
 char charThree = s.charAt(3);
+```
 
 would result in charThree being set to 'r'.  You may have thought it would be 'o' however you must realise that the first character of a String is actually the 0th character.  See below for the positions of each char in the String s:
 
