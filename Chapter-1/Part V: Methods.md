@@ -16,4 +16,4 @@ Methods must be called on objects.  To access public methods of an object from a
 #### Ex 11
 Write a program which contains a method called triple (and the main method of course), which triples a number.  Get the program to triple the number 34 and then print out the result.
 		
-###### [Contents](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#contents)
+###### [Contents](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I:%20Introduction_and_contents.md#contents)
