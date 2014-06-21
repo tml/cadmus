@@ -111,7 +111,7 @@ The students will be using a program called Eclipse to complete their exercises 
 
 So now we will cover how to install Eclipse:
 First, head over to Eclipse's website, which looks like this:
-
+![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/)
 
 
 
