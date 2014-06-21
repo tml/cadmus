@@ -89,15 +89,25 @@ In this lesson the students will learn basic programming concepts and make their
   
     * Teachers must set up Eclipse and then proceed to help the students with what they are learning - it may be helpful to have previously created model answers for reference.
 
+- Main Activities
 
+  1. Student Activities
+  
+    * There are a total of 20 exercises for students to work through in this section. Students should aim to complete all 20 questions, of which some are more challenging than others. There are many different ways to approach each of the exercises, and students must take this into account when attempting the exercises.
 
+  2. Teacher Activities
+  
+    * Help students if they have questions regarding the exercises; if the question is about programming then refer to pages in this book/your own knowledge for further information. However, if the query involves errors in a program, read the error and try to figure out what is going wrong or what the error is trying to tell you. Proceed to analyse the error with the student as should have been explained in the introduction of the lesson(s).
 
-Main Activities
-There are a total of 20 exercises for students to work through in this section. Students should aim to complete all 20 questions, of which some are more challenging than others. There are many different ways to approach each of the exercises, and students must take this into account when attempting the exercises.
-Help students if they have questions regarding the exercises; if the question is about programming then refer to pages in this book/your own knowledge for further information. However, if the query involves errors in a program, read the error and try to figure out what is going wrong or what the error is trying to tell you. Proceed to analyse the error with the student as should have been explained in the introduction of the lesson(s).
-Plenary (review)
-Talk amongst peers about the concepts you have learnt, and ask each other challenging questions. If you get stuck, be sure to ask your teachers.
-Answer all students queries, as before.
+- Plenary (review)
+  
+  1. Student Activities
+  
+    * Talk amongst peers about the concepts you have learnt, and ask each other challenging questions. If you get stuck, be sure to ask your teachers.
+  
+  2. Teacher Activities
+  
+    * Answer all of the students' queries, as before.
 
 |Resources Needed: Eclipse|
 | ----------------------- |
