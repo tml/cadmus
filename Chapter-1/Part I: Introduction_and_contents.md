@@ -138,6 +138,7 @@ It should look something like the screen shot below:
 ![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Opening_eclipse.png "Eclipse interface")
 
 The green icon which looks like this is used to run your programs. It can be found in the top bar and you have to click it to run the current program you are working in. Provided that your program has no errors, your program should run.
+
 ![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Eclipse_run_button.png "This appears in the top bar")
 
 Now right-click Outreach then click New->Class and you should see the following pop-up:
