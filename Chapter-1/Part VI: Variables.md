@@ -5,10 +5,13 @@ A variable is a piece of information or a value.  A variable always has a name, 
 - Primitive types, as the name suggests, are used for simple tasks, usually setting a value and then changing it later on.  
 - Class types can be used for more complicated tasks as you will find out later on.  There are many different sub types of variables.  Here are a number of different primitive types you will use during this course:
 
-int (short for integer, which is just a whole number, e.g. 5)
-double (a number which has a decimal point, e.g. 4.32 or 5.0)
-char (a char is just a letter, e.g. 'a' , note we always use ' ' when referring to chars )
-boolean (a boolean has only two values true or false)
+**int** (short for integer, which is just a whole number, e.g. 5)
+
+**double** (a number which has a decimal point, e.g. 4.32 or 5.0)
+
+**char** (a char is just a letter, e.g. 'a' , note we always use ' ' when referring to chars )
+
+**boolean** (a boolean has only two values true or false)
 
 The following is a class type that you will also use a lot too:
 
