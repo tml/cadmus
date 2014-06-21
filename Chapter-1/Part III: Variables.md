@@ -66,13 +66,15 @@ alive = Boolean.parseBoolean(aliveAsString);
 aliveAsString = Boolean.toString(alive);
 ```
 
-### Addendum: Primitives versus Classes
+### Primitives versus Classes
 You may have picked up on the fact that `String` is capitalised, while `int`, `double` and `boolean` are not. This is because `int`, `double` and `boolean` are all **primitive data types**, while  `String` is a **class data type**. These may not mean anything to you yet, but in essence there are 8 built-in primitives with Java. Primitives cannot be added or removed by the programmer; they are the DNA of the programming language. Primitives represent one scalar value. Classes are far more powerful. They shift the power to the programmer, allowing the programmer to create classes, which are composed from other datatypes. Java comes with a bunch of classes built in, namely `String`.
 
-But what about `Integer`, `Double`, and `Boolean` as in `Integer.parseInt()`, etc. These are indeed classes, that wrap around their respective primitives. So the following would be perfectly valid:
+But what about `Integer`, `Double`, and `Boolean` as in `Integer.parseInt()`, etc? These are indeed classes, that wrap around their respective primitives. So the following would be perfectly valid:
+
 ```java
 Integer age = 13;
 Double pi = 3.14;
 Boolean alive = false;
 ```
+
 However using these instead of primitives has an unnecessary performance cost, and should not be used. There are valid reasons for them, that will come up in Chapter II, but as for now they are a burden. N.B. It is perfectly accceptable to use their static methods i.e. `Integer.parseInt()`, etc, because they do not actually involve instantiating those classes (Part VIII). 
