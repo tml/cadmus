@@ -6,7 +6,7 @@
 #### [What this course entails](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I:%20Introduction_and_contents.md#what-this-course-entails-1)
 #### [Variables](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20II:%20Variables.md#variables)
 #### [Arithmetic](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20III:%20Arithmetic.md#arithmetic)	
-#### [Objects](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20III:%20Objects.md#objects)	
+#### [Objects](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IV:%20Objects.md#objects)	
 #### [Methods](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20V:%20Methods.md#methods)	
 #### [Printing](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VII:%20Printing.md#printing)
 #### [Loops](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IV:%20Loops.md#loops)	
