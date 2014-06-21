@@ -50,4 +50,4 @@ Write a program in which you initialise an int, double, char, boolean, String to
 The value of the int is 4
 ```
 
-###### [Contents](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#contents)
+###### [Contents](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I:%20Introduction_and_contents.md#contents)
