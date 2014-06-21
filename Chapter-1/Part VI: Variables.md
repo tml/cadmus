@@ -15,7 +15,7 @@ A variable is a piece of information or a value.  A variable always has a name, 
 
 The following is a class type that you will also use a lot too:
 
-String (a String is multiple chars, so either a word or sentences, e.g. “hello” or “This is a String” , note we always use “ ” when referring to Strings)
+**String** (a String is multiple chars, so either a word or sentences, e.g. “hello” or “This is a String” , note we always use “ ” when referring to Strings)
 
 You must always initialise variables.  Initialising a variable simply creates the variable and sets it to a value of your choice.  For numbers (ints, doubles), unless you already know which value you want to initially set the variable to, it is often a good idea to initialise them to 0.  Beware you cannot initialise a variable to a value that is of a different type, for example you cannot initialise an int to “four”, as “four” has type String, you also cannot initialise int to 4.0, as 4.0 has type double, whereas an int can be initialised to 4, as 4 is of type int, so the type of the variable and the value you are initialising it to have to match.
 
