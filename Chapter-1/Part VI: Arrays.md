@@ -59,3 +59,11 @@ String[] primaryColours = {"Red", "Green", "Blue"};
 System.out.println(Arrays.toString(primaryColours));
 // Prints: ["Red", "Green", "Blue"]
 ```
+
+### Length of an array
+Unlike strings where there is the `.length()` method, for arrays there is the `.length` property. E.g:
+
+```java
+String[] primaryColours = {"Red", "Green", "Blue"};
+System.out.println("There are " + primaryColours.length + " primary colours.");
+```
