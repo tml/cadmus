@@ -55,7 +55,7 @@ double pi = Double.parseDouble(piAsString);
 piAsString = Double.toString(pi);
 ```
 
-### Boolean
+### Booleans
 A boolean is a variable that is either `true` or `false`:
 ```java
 boolean alive = false;
