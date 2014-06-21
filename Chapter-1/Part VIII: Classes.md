@@ -1,7 +1,5 @@
-In Java you will use things called objects.  You can call the objects whatever you like and can use the objects to mimic real life things around you.  So take for example, a book.  You can describe the object characteristics of the book, for example its author, its title, its year of publication, etc. All these details that are used to define the object are put in what is called a class.  (A class is just a way of describing an object using code).  Below is an example of a book class:
-
 ### Creating Classes
-I've already alluded to classes before, but just so you understand
+I've already alluded to classes before. Ultimately classes are the blueprints for objects. Objects are classes when instantiated. For instance let's say I have the code:
 
 ```java
 public class Book {
@@ -14,21 +12,24 @@ public class Book {
     author = authorName;
     publisher = publisherName;
   }
+  
+  public static void main(String[] args) {
+    Book firstBook = new Book("Horton Hears A Who!","Dr. Seuss","Random House");
+  }
 }
 ```
 
-Notice the words public and private, public means that everything in the project can see it and private means that only the current class can see it.
-
-To create a new book (object) you would simply write the code below:
+The first three statements within the class are variable delclerations. They declare properties or attributes of the class. These are the variables a `Book` is composed of. Note that a class does not necessarily have to be composed of primitives. A class can be composed of other classes such as `String` in the example. The keyword `private` means that you can only access it inside methods of that class, but not statics. For example, this in the `main` method would fail to compile:
 
 ```java
 Book firstBook = new Book("Horton Hears A Who!","Dr. Seuss","Random House");
+System.out.println(firstBook.title);
 ```
 
-where Book is the name of the class and firstBook is the name of the new book you have just created.  You could have called it anything, for example:
+If I, however, make the property `public` then it will. The non-static method called `Book` of class `Book` is the **constructor**. You know it's the constructor because the method has the same name as the class. A constructor is the method called when you do:
 
 ```java
-Book blah = new Book("Horton Hears A Who!", "Dr. Seuss", "Random House");
+new Book("Horton Hears A Who!","Dr. Seuss","Random House");
 ```
 
-Notice that the way in which you create an object is similar to how you create a variable you have the type then the name of the object then the equals sign, the only difference comes after the equals sign.  Now, you have the word new which just tells the interpreter that the object that you are creating is a new object, and then you have what we call a constructor method, as the name suggests the constructor method simply helps to initialise the new object with the supplied characteristics. The characteristics of the object are passed as parameters.
+Notice that the way in which you create an object is similar to how you create a variable you have the type then the name of the object then the equals sign, the only difference comes after the equals sign.  Now, you have the word `new` which just tells the interpreter that the object that you are creating is a new object, and then you have what we call a constructor method. The characteristics of the object are passed as parameters.
