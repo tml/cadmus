@@ -1,6 +1,6 @@
 Methods
 ========================
-A method is another way of saying a function.  A method performs a task so say if you want to triple a number you may want to have a triple method for example. (It's always best to start the method name with a lower case letter and name it something similar to what it does)
+A method is another way name for a function.  A method performs a task, for example, tripling a number. To do this you may want to have a triple method like below:
 		
 ```java
 public int triple(int number) {
@@ -9,7 +9,7 @@ public int triple(int number) {
 }
 ```
 		
-After public you write the type of the thing that you are returning, in this case we are taking in an int and returning an int.  After the return type you have the name of the method, I have called this method triple, inside the brackets after the method name you have the parameters, this is the information that the method is given when the method is called.  So when we call the triple function we supply it with a number, triple then multiplies the number by three and then returns the tripled number.
+After public you write the type of the thing that you are returning, in this case we are taking in an int and returning an int.  After the return type you type the name of the method, which I have called  'triple' (it's always best to start the method name with a lower case letter and name it something similar to what it does). inside the brackets after the method name you have the parameters, which are the pieces of information that the method is given when the method is called.  So, when we call the triple function we supply it with a number, the method then multiplies the number by three and returns the tripled number.
 		
 Methods must be called on objects.  To access public methods of an object from another class just type the name of the object (you must have already created an object like above) followed by a full-stop and you should get a pop up showing you all the available methods to use on that object.
 
