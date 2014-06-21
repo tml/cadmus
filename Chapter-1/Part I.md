@@ -5,7 +5,7 @@
 ####  [Installing Eclipse](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#installing-eclipse-1)	
 #### [What this course entails](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#what-this-course-entails-1)
 #### [Variables](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VI:%20Variables.md#variables)
-#### Arithmetic	
+#### [Arithmetic](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20II:%20Arithmetic.md#arithmetic)	
 #### Objects	
 #### Methods	
 #### Printing	
