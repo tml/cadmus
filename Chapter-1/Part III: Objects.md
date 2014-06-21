@@ -1,3 +1,5 @@
+Objects
+===============================
 In Java you will use things called objects.  You can call the objects whatever you like and can use the objects to mimic real life things around you.  So take for example, a book.  You can describe the object characteristics of the book, for example its author, its title, its year of publication, etc. All these details that are used to define the object are put in what is called a class.  (A class is just a way of describing an object using code).  Below is an example of a book class:
 
 ```java
