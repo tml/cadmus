@@ -3,7 +3,7 @@
 ## Contents
 ###  Chapter I - Introduction	
 ####  [Installing Eclipse](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#installing-eclipse-1)	
-#### What this course entails	
+#### [What this course entails](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#what-this-course-entails-1)	
 #### Basics	
 #### Variables	
 #### Arithmetic	
