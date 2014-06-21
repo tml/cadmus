@@ -89,9 +89,13 @@ To get the remainder of an int called 'a' when divided by another int called 'b'
 int n = 7%5;
 ```
 would result in n being 2.
+
+#### Ex 3. 
+Physics Question – Write a program in which you work out the percentage efficiency of a light bulb that is supplied with 50J (Joules), and uses 2J to produce light. Have the program print the result.
+Hint: % efficiency = (useful power)/(total power)
 		
 #### Exercise 4
-Physics Question – Write a program to work out what the power(W) of a device is if the voltage is 10V and the current is 6A, and print the result.
+Physics Question – Write a program to work out what the power(W) of a device is if the voltage is 10V and the current is 6A, and then print the result.
 Hint: Power = Current * Voltage
 		
 #### Exercise 5
