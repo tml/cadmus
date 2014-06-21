@@ -34,4 +34,4 @@ Book blah = new Book("Horton Hears A Who!", "Dr. Seuss", "Random House");
 
 Notice that the way in which you create an object is similar to how you create a variable you have the type then the name of the object then the equals sign, the only difference comes after the equals sign.  Now, you have the word new which just tells the interpreter that the object that you are creating is a new object, and then you have what we call a constructor method, as the name suggests the constructor method simply helps to initialise the new object with the supplied characteristics. The characteristics of the object are passed as parameters.
 
-###### [Contents](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#contents)
+###### [Contents](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I:%20Introduction_and_contents.md#contents)
