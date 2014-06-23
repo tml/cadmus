@@ -1,0 +1,54 @@
+<!DOCTYPE html><html><head><title>Cadmus</title><link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/><link href="/index.css" rel="stylesheet"/></head><body><main><p>A variable is a piece of information or a value. A variable always has a name, which acts a reference to the piece of information it holds. A variable&#39;s name must not contain any spaces. For instance <code>my_variable</code> is a valid variable name, while <code>my variable</code> is not. It also has a data type, that it is defined as. Once they are defined, they can be assigned. For instance, they can be Integers, Strings, Booleans, etc. </p>
+<h1 id="data-types">Data types</h1>
+<h2 id="strings">Strings</h2>
+<p>A String is a series of characters. To define a String called <code>name</code> do:</p>
+<pre><code class="lang-java">String name;</code></pre>
+<p>Once <code>name</code> is defined, you can assign it:</p>
+<pre><code class="lang-java">name = <span class="hljs-string">"George"</span>;</code></pre>
+<p>If you wnat you can define it and initialise it in a single line:</p>
+<pre><code class="lang-java">String name = <span class="hljs-string">"George"</span>;</code></pre>
+<p>And to print it out:</p>
+<pre><code class="lang-java">System.out.println(name);</code></pre>
+<h2 id="integers">Integers</h2>
+<p>An integer is a whole number. Integers are stored as the data type <code>int</code>. To define an Integer called <code>age</code> do:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span> age = <span class="hljs-number">15</span>;</code></pre>
+<p>You can convert an integer to a string, by using <code>Integer.toString()</code>:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span> age = <span class="hljs-number">13</span>;
+String ageAsString = Integer.toString(age);</code></pre>
+<p>You can convert a string to an integer, by using <code>Integer.parseInt()</code>:</p>
+<pre><code class="lang-java">String ageAsString = <span class="hljs-string">"13"</span>;
+<span class="hljs-keyword">int</span> age = Integer.parseInt(ageAsString);</code></pre>
+<p>You can increment and decrement variables:</p>
+<pre><code class="lang-java">age++; <span class="hljs-comment">// Age now equals 14</span>
+age--; <span class="hljs-comment">// Age is back to 13</span></code></pre>
+<h2 id="real-numbers">Real numbers</h2>
+<p>While an integer is a whole number, a real number has a decimal point in it. To use a real number in Java, use the <code>double</code> data type:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">double</span> pi = <span class="hljs-number">3.14259</span>;</code></pre>
+<p>As with an integer, you can use:</p>
+<pre><code class="lang-java">String piAsString = <span class="hljs-string">"3.14159"</span>;
+<span class="hljs-keyword">double</span> pi = Double.parseDouble(piAsString);
+piAsString = Double.toString(pi);</code></pre>
+<h2 id="booleans">Booleans</h2>
+<p>A boolean is a variable that is either <code>true</code> or <code>false</code>:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">boolean</span> myBoolean = <span class="hljs-keyword">true</span>;
+String aliveAsString = <span class="hljs-string">"true"</span>;
+alive = Boolean.parseBoolean(aliveAsString); 
+aliveAsString = Boolean.toString(alive);</code></pre>
+<h1 id="primitives-versus-classes">Primitives versus Classes</h1>
+<p>You may have picked up on the fact that <code>String</code> is capitalised, while <code>int</code>, <code>double</code> and <code>boolean</code> are not. This is because <code>int</code>, <code>double</code> and <code>boolean</code> are all <strong>primitive data types</strong>, while  <code>String</code> is a <strong>class data type</strong>. These may not mean anything to you yet, but in essence there are 8 built-in primitives with Java. Primitives cannot be added or removed by the programmer; they are the DNA of the programming language. Primitives represent one scalar value. Classes are far more powerful. They shift the power to the programmer, allowing the programmer to create classes, which are composed from other datatypes. Java comes with a bunch of classes built in, namely <code>String</code>.</p>
+<p>But what about <code>Integer</code>, <code>Double</code>, and <code>Boolean</code> as in <code>Integer.parseInt()</code>, etc? These are indeed classes, that wrap around their respective primitives. So the following would be perfectly valid:</p>
+<pre><code class="lang-java">Integer age = <span class="hljs-number">13</span>;
+Double pi = <span class="hljs-number">3.14</span>;
+Boolean alive = <span class="hljs-keyword">false</span>;</code></pre>
+<p>However using these instead of primitives has an unnecessary performance cost, and should not be used. There are valid reasons for them, that will come up in Chapter II, but as for now they are a burden. N.B. It is perfectly accceptable to use their static methods i.e. <code>Integer.parseInt()</code>, etc, because they do not actually involve instantiating those classes (Part VIII). </p>
+<h1 id="selection">Selection</h1>
+<p>If/else/else if statements work in Java exactly as they do in JavaScript, so this is perfectly valid:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span> x = <span class="hljs-number">5</span>;
+<span class="hljs-keyword">int</span> y = <span class="hljs-number">4</span>;
+<span class="hljs-keyword">if</span>(x == y) {
+  System.out.println(<span class="hljs-string">"Matches"</span>);
+} <span class="hljs-keyword">else</span> {
+  System.out.println(<span class="hljs-string">"Oh well!"</span>);
+}</code></pre>
+<p>There is one major gotcha: because <code>String</code> isn&#39;t a primitive the <code>==</code> operator doesn&#39;t work.</p>
+</main></body></html>

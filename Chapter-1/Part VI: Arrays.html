@@ -1,0 +1,40 @@
+<!DOCTYPE html><html><head><title>Cadmus</title><link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/><link href="/index.css" rel="stylesheet"/></head><body><main><h3 id="declaring-arrays">Declaring Arrays</h3>
+<p>An array is a list of variables. Arrays must be of a type. That is to say you cannot ahve an array that contains some Integers, next to some String, next to some Booleans. To declare an array in Java you use:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span>[] myArray;</code></pre>
+<p>Notice the square bracket notation. It tells the compiler that <code>myArray</code> isn&#39;t an Integer, but a list of integers. You must also initialise arrays.</p>
+<p><strong>Way One</strong> </p>
+<pre><code class="lang-java">myArray = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">10</span>];</code></pre>
+<p><strong>Way Two</strong></p>
+<pre><code class="lang-java">myArray = {<span class="hljs-number">10</span>, <span class="hljs-number">523</span>, <span class="hljs-number">34</span>, <span class="hljs-number">63</span>, <span class="hljs-number">32</span>, <span class="hljs-number">64</span>, <span class="hljs-number">992</span>, <span class="hljs-number">353</span>, <span class="hljs-number">5</span>, <span class="hljs-number">0</span>};</code></pre>
+<p>Both ways create arrays of type Integer, that have a size of 10. The second way, however, initialise the array with value. Arrays must have sizes. You cannot fill the array past the size. In the second way, Java assumes the size by the number of values the array is set two.</p>
+<p>Finally, arrays can be declared and initiased together:</p>
+<pre><code class="lang-java">bool[] myArray = <span class="hljs-keyword">new</span> bool[<span class="hljs-number">10</span>];
+String[] girlfriends = {<span class="hljs-string">"Jessica"</span>, <span class="hljs-string">"Abby"</span>, <span class="hljs-string">"Zoey"</span>, <span class="hljs-string">"Daisy"</span>};</code></pre>
+<h3 id="accessing-arrays">Accessing Arrays</h3>
+<p>You access arrays in Java using square bracket notation. For instance:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span>[] myArray = {<span class="hljs-number">5</span>, <span class="hljs-number">6</span>, <span class="hljs-number">7</span>, <span class="hljs-number">8</span>};
+System.out.println(myArray[<span class="hljs-number">0</span>]); <span class="hljs-comment">// Prints 5</span>
+System.out.println(myArray[<span class="hljs-number">1</span>]); <span class="hljs-comment">// Prints 6</span>
+System.out.println(myArray[<span class="hljs-number">2</span>]); <span class="hljs-comment">// Prints 7</span>
+System.out.println(myArray[<span class="hljs-number">3</span>]); <span class="hljs-comment">// Prints 8</span></code></pre>
+<p>Notice how the index <code>0</code> in the square brackets, correspond to the first item, etc. This is because programmers count from 0, because we are <strong>non-conformists</strong>. That is to say we are above the <em>status quo</em> (which is Latin for the way things are).</p>
+<h3 id="settings-arrays">Settings Arrays</h3>
+<p>Arrays can be set in a similar manner:</p>
+<pre><code class="lang-java">String[] days = <span class="hljs-keyword">new</span> String[<span class="hljs-number">10</span>];
+days[<span class="hljs-number">0</span>] = <span class="hljs-string">"Monday"</span>;
+days[<span class="hljs-number">1</span>] = <span class="hljs-string">"Tuesday"</span>;
+days[<span class="hljs-number">2</span>] = <span class="hljs-string">"Wednesday"</span>;
+days[<span class="hljs-number">3</span>] = <span class="hljs-string">"Thursday"</span>;
+days[<span class="hljs-number">4</span>] = <span class="hljs-string">"Friday"</span>;
+days[<span class="hljs-number">5</span>] = <span class="hljs-string">"Saturday"</span>;
+days[<span class="hljs-number">6</span>] = <span class="hljs-string">"Sunday"</span>;</code></pre>
+<h3 id="printing-an-entire-array">Printing an entire Array</h3>
+<p>Sometimes, for the sake of debugging, you will want to print an entire array. In the <code>java.util.Arrays</code> package, that you will have to import, there is a function called <code>Arrays.toString()</code>, that takes an Array and outputs a String representation. E.g:</p>
+<pre><code class="lang-java">String[] primaryColours = {<span class="hljs-string">"Red"</span>, <span class="hljs-string">"Green"</span>, <span class="hljs-string">"Blue"</span>};
+System.out.println(Arrays.toString(primaryColours));
+<span class="hljs-comment">// Prints: ["Red", "Green", "Blue"]</span></code></pre>
+<h3 id="length-of-an-array">Length of an array</h3>
+<p>Unlike strings where there is the <code>.length()</code> method, for arrays there is the <code>.length</code> property. E.g:</p>
+<pre><code class="lang-java">String[] primaryColours = {<span class="hljs-string">"Red"</span>, <span class="hljs-string">"Green"</span>, <span class="hljs-string">"Blue"</span>};
+System.out.println(<span class="hljs-string">"There are "</span> + primaryColours.length + <span class="hljs-string">" primary colours."</span>);</code></pre>
+</main></body></html>

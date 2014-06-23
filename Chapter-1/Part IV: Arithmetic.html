@@ -1,0 +1,56 @@
+<!DOCTYPE html><html><head><title>Cadmus</title><link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/><link href="/index.css" rel="stylesheet"/></head><body><main><h3 id="basic-arithmatic">Basic Arithmatic</h3>
+<p>Adding two ints x and y: (given that they have already been initialised to a value)</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span> z = x + y;</code></pre>
+<p>Subtracting two ints x and y:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span> z = x - y;</code></pre>
+<p>Dividing two ints x and y:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span> z = x / y;</code></pre>
+<p>Beware as x and y are ints z is also an int, and if you remember ints are whole numbers so whatever z comes out to be will be rounded down to the nearest integer.  For example, if <code>x</code> were 7, <code>y</code> were 5, then <code>z</code> were 1.</p>
+<p>To avoid this problem you can use a double instead, so if p is a double equal to 7.0 and q is a double 5.0, we could do the following:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">double</span> p = <span class="hljs-number">7</span>;
+<span class="hljs-keyword">double</span> q = <span class="hljs-number">5</span>;
+<span class="hljs-keyword">double</span> r = p / q;
+<span class="hljs-comment">//r would be 1.4</span></code></pre>
+<p>If, however, <code>p</code> and <code>q</code> are integers, <code>r</code> will equal <code>1.0</code>, because the <code>/</code> operator works irresepective of anything other than <code>p</code> and <code>q</code>, and their datatypes.</p>
+<p>To multiply two integers x and y:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span> z = x * y;</code></pre>
+<p>The symbols for addition, subtraction, division and multiplication are <code>+</code>, <code>-</code>, <code>/</code>, <code>*</code> respectively.</p>
+<h4 id="ex-1-physics-">Ex 1 (Physics)</h4>
+<p>Write a program to work out what the power in watts of a device is if the voltage is 10V and the current is 6A, and print the result.
+Hint: Power (W) = Current * Voltage</p>
+<h4 id="ex-2-physics-">Ex 2 (Physics)</h4>
+<p>Turn the last exercise into a method that accepts parameters for current and voltage, then returns power in watts.  Then write a program that uses the power method to calculate the energy transferred in kWh, when the current is 5A, the voltage is 14V over the space of 2 hours and print the result.
+Hint: Energy transferred (kWh) = Power (kW) × Time (h)</p>
+<h4 id="ex-3-physics-">Ex 3 (Physics)</h4>
+<p>Write a program to work out the kinetic energy of an object of mass 500kg that has a velocity of 12 m/s, and print the result
+Hint: Kinetic Energy = 0.5 <em> Mass </em> (Velocity)^2</p>
+<h4 id="ex-4-physics-">Ex 4 (Physics)</h4>
+<p>Write a program to answer the following physics question and print the result.  If a car has a mass of 800 kg and moves with a velocity of 25 m/s, what force is needed to stop the car in 50 metres?
+Hint: You may want to turn the previous exercise into a method so you can easily work out   the cars kinetic energy.  You will also need the equation Energy = Force * Distance.</p>
+<h4 id="ex-5-maths-">Ex 5 (Maths)</h4>
+<p>Write a program to work out the missing angle of a triangle which has two known angles of 108 degrees and 24 degrees.
+Hint: The angles of a triangle must sum up to 180 degrees.</p>
+<h4 id="ex-6-ecology-">Ex 6 (Ecology)</h4>
+<p><img src="http://getting-in.com/wp-content/uploads/2012/09/Picture-382-300x223.png" alt="A quadrat"></p>
+<p>A standard quadrat used in school is 0.25m<sup>2</sup>. A quadrat is used to sample a random area of a field to estimate the abundance/variety/percentage coverage of a species. For a random sampling to be statistically viable, at least 3% of the area must be sampled. Write a program, given the size of an area, (say 2000m<sup>2</sup>) works out the amount of different samplings that must be done.</p>
+<h3 id="advanced-arithmatic">Advanced Arithmatic</h3>
+<h4 id="powers">Powers</h4>
+<p>To get the value of a number to a given power you can use the <code>Math.pow()</code> function, that takes two parameters: a number; and a power; To use, however, you must import the <code>java.lang.Math</code> package. A package is essentially a collection of functions. To import <code>java.lang.Math</code>, write this at the very top of your code:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">import</span> java.lang.Math;</code></pre>
+<p>Then in your <code>main</code> method, you can write:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span> number = <span class="hljs-number">2</span>;
+<span class="hljs-keyword">int</span> power = <span class="hljs-number">3</span>;
+System.out.println(Math.pow(number, power));
+<span class="hljs-comment">// Prints 8</span></code></pre>
+<h4 id="square-roots">Square Roots</h4>
+<p>Another function in that package is the <code>Math.sqrt()</code> that returns the square root of a number.</p>
+<pre><code class="lang-java">Sysem.out.println(Math.sqrt(<span class="hljs-number">25</span>)); <span class="hljs-comment">// Prints 5</span></code></pre>
+<h4 id="remainders">Remainders</h4>
+<p>To get the remainder of an int a when divided by another int b we can use % instead of / when dividing, so a%b, where a = 7, b = 5...</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span> n = <span class="hljs-number">7</span> % <span class="hljs-number">5</span>;</code></pre>
+<p>would result in n being 2.</p>
+<h4 id="ex-7-geometry-physics-chemistry-game-programming-">Ex 7 (Geometry, Physics, Chemistry, Game Programming)</h4>
+<p>Write a programs that given four numbers <em>x<sub>1</sub></em>, <em>y<sub>1</sub></em>, <em>x<sub>2</sub></em> and <em>y<sub>2</sub></em>, that are points on a graph, and calculates the distance between them, using the formula:</p>
+<p><img src="http://www.moomoomath.com/distance.jpg" alt="Distance Formula"></p>
+<p>This is very useful in collision dectection is scientific models and game programming.</p>
+</main></body></html>
