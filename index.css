@@ -19,14 +19,30 @@ main {
 	}
 }
 
+nav ul {
+	list-style-type:none;
+}
+
+nav ul a {
+	font-family:"Georgia";
+}
+
+h1.title {
+	text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:"Georgia";
+}
+
 .markdown-body {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 13px Helvetica, arial, freesans, clean, sans-serif;
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size:1.2em;
   line-height: 1.4;
   color: #333333;
-  font-size: 15px;
   line-height: 1.7;
   overflow: hidden;
   word-wrap: break-word;
@@ -175,7 +191,6 @@ main {
 .markdown-body code,
 .markdown-body pre {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 12px;
 }
 
 .markdown-body pre {
@@ -360,6 +375,7 @@ main {
   white-space: pre;
   border: none;
   background: transparent;
+  font-size: 1.2em;
 }
 
 .markdown-body .highlight pre,
