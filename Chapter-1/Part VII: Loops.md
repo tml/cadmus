@@ -10,7 +10,7 @@ There a four main loops in Java, the **for loop**, **while loop**, **do loop**, 
 For loops are mostly used for counting up or down in steps, usually in steps of one.  The initial condition is an int which you can initialise to a value of your choice (most of the time we use 0 if counting up to a certain value), then we have a final condition so the value you want to count up or down to.  We also have a function to increase the number of steps , for increasing by one we will use ++ (as described previously), and for decreasing by one we will use --.  So now you know how a for loop works it is time to show you what one looks like.  Below is a for loop which starts at 0, counts up by 1 each step, and prints out the number of each step, until 10 steps have been reached.  (Notice the parameters of the method countTen says void, this is because the method does not require any parameters, and putting void is more clear than simply leaving the parameters blank)
 
 ```java
-public void countTen(void) {
+public void countTen() {
 	for(int n = 0; n <= 10 ; n++) {
 		System.out.println(n) ;
 	}
@@ -37,7 +37,7 @@ Extension: Add a variable to change the number of bottles.
 ### While loop
  
 ```java
-public void countTenWithWhileLoop(void) {
+public void countTenWithWhileLoop() {
 	int n = 0;
 	while (n<=10) {
 		System.out.println(n);
@@ -48,7 +48,7 @@ public void countTenWithWhileLoop(void) {
 Do you see any problems with this loop?  This is an example of an infinite loop, which is a loop that never ends; as n stays the same.  In order for the loop to finish, we need to include a piece of code to change the value of n.  Hopefully you would notice that we could use n++ to do this.  So the correct loop would look like this
 
 ```java
-public void countTenWithWhileLoop(void) {
+public void countTenWithWhileLoop() {
 	int n = 0;
 	while (n <= 10) {
 		System.out.println(n);
@@ -80,7 +80,7 @@ Use your function from Ex 3 plus a while loop, to create a function that returns
 Now onto the do loop.  This loop is nearly exactly the same as the while loop.  However the piece of code within the loop is run before checking to see if the condition is met.  This guarantees that the do loop is always run at least once.  Here is an example of the do loop.
 
 ```java
-public void countTenWithDoLoop(void) {
+public void countTenWithDoLoop() {
 	int n=0 ;
 	do {
 		System.out.println(n);
@@ -99,7 +99,7 @@ Write a program, that uses a do loop to prompt the user for a number, checks whe
 Finally the array loop.  This is just a more succinct way of loop through an array. It is constructed like a `for` loop, but inside the parentheses, you write: a variable instantiation of type of a given item of the array; a comma; and the name of the array.
 
 ```java
-public void printIntArray(void) {
+public void printIntArray() {
 	for(int n : nameOfArray) {
 		System.out.println(n);
 	}
@@ -109,7 +109,7 @@ public void printIntArray(void) {
 Now that you have covered all of the different types of loops I will give you an example of a more complicated loop which will sum the numbers from 0 to 20
 
 ```java
-public void sumFirstFifteenNumbers(void) {
+public void sumFirstFifteenNumbers() {
 	int sum = 0;
 	// we must initialise sum outside the loop, otherwise it would keep getting initialised to 0 each time the loop runs
 	for (int n = 0; n <= 20; n++) {
