@@ -66,15 +66,6 @@ if(personA.equals(personB)) {
 }
 ```
 
-#### CharAt 
-This takes an index, and returns the character of a string at that index, e.g:
-```java
-String food = "hamburger";
-System.out.println(food.charAt(0)); // Prints "h"
-System.out.println(food.charAt(1)); // Prints "a"
-System.out.println(food.charAt(2)); // Prints "m"
-```
-
 ### Static methods
 Static methods are methods that belong to a class, as opposed to an instance of a class. For instance the method `Integer.parseInt()` is a static method. If I, however, create an integer like so:
 

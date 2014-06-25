@@ -41,7 +41,7 @@ Rewrite the code into Java, and instantiate, that is to say create, your favouri
 Change the code to create an array of books, and populate it with your favourite books.
 
 ### More non-static methods
-Imagine beneath the constructor, I added this method:
+Imagine beneath the construcotr, I added this method:
 
 ```java
 public String getTitle() {
