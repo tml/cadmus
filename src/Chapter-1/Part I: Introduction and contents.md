@@ -1,4 +1,4 @@
-![alt text](https://github.com/BillsJ/cadmus/raw/master/Images/Main_logo.png "Java logo")
+![alt text](https://github.com/BillsJ/cadmus/raw/master/src/Images/Main_logo.png "Java logo")
 # Coding Curriculum - Java KS4
 ## Contents
 ###  [Chapter I - Introduction](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I:%20Introduction_and_contents.md#chapter-i---introduction-1)	
