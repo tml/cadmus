@@ -1,4 +1,7 @@
-### Creating Classes
+Classes
+===
+
+## Creating Classes
 I've already alluded to classes before. Ultimately classes are the blueprints for objects. Objects are classes when instantiated. For instance let's say I have the code:
 
 ```java
@@ -40,7 +43,7 @@ Rewrite the code into Java, and instantiate, that is to say create, your favouri
 #### Ex 2
 Change the code to create an array of books, and populate it with your favourite books.
 
-### More non-static methods
+## More non-static methods
 Imagine beneath the construcotr, I added this method:
 
 ```java
@@ -51,5 +54,5 @@ public String getTitle() {
 
 This non-static method will be available on every instance, that is to say object, of `Book`, and returns a `String`. Now we have a way to get the book title. The advantage of this is that the title cannot be changed externally, but can be accessed.
 
-### Ex 3
+#### Ex 3
 Add a method to get the author and publisher of a `Book`.

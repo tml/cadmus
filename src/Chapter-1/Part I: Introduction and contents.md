@@ -3,10 +3,7 @@
 Introduction
 ========================================
 
-|Title: An Introduction to Java Programming|
-| ---------------------------------------- |
-
-###Description:
+### Description:
 In this lesson the students will learn basic programming concepts and make their first Java program.
 
 ### Learning Objectives:

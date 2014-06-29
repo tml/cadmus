@@ -1,3 +1,6 @@
+GUIpplication
+===
+
 Chapter 2 is all about Graphics. To make your first GUI (graphical user interface) application, i.e. GUIpplication, you need to use the package `javax.swing.JFrame`. Here is an example of an empty window:
 
 ```java

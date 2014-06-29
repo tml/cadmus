@@ -1,4 +1,7 @@
-### Basic Arithmatic
+Arithmetic
+===
+
+## Basic Arithmatic
 
 Adding two ints x and y: (given that they have already been initialised to a value)
 
@@ -65,9 +68,9 @@ Hint: The angles of a triangle must sum up to 180 degrees.
 
 A standard quadrat used in school is 0.25m<sup>2</sup>. A quadrat is used to sample a random area of a field to estimate the abundance/variety/percentage coverage of a species. For a random sampling to be statistically viable, at least 3% of the area must be sampled. Write a program, given the size of an area, (say 2000m<sup>2</sup>) works out the amount of different samplings that must be done.
 
-### Advanced Arithmatic
+## Advanced Arithmatic
 
-#### Powers
+### Powers
 To get the value of a number to a given power you can use the `Math.pow()` function, that takes two parameters: a number; and a power; To use, however, you must import the `java.lang.Math` package. A package is essentially a collection of functions. To import `java.lang.Math`, write this at the very top of your code:
 
 ```java
@@ -82,14 +85,14 @@ System.out.println(Math.pow(number, power));
 // Prints 8
 ```
 
-#### Square Roots
+### Square Roots
 Another function in that package is the `Math.sqrt()` that returns the square root of a number.
 
 ```java
 Sysem.out.println(Math.sqrt(25)); // Prints 5
 ```
 
-#### Remainders
+### Remainders
 To get the remainder of an int a when divided by another int b we can use % instead of / when dividing, so a%b, where a = 7, b = 5...
 
 ```java

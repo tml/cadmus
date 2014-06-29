@@ -1,4 +1,7 @@
-### Creating and using you own methods
+Methods
+===
+
+## Creating and using you own methods
 A method is another way of saying a function.  A method performs a task so say if you want to triple a number you may want to have a triple method for example. (It's always best to start the method name with a lower case letter and name it something similar to what it does). The `main` method is an example of a method that is **void** i.e. it returns nothing. That's why it has the `void` keyword before the method name. Methods should be define in a class. E.g:
 
 ```java
@@ -26,7 +29,7 @@ Write a program which contains a method called triple (and the main method of co
 #### Ex 2
 Write a function, that given a name, returns a Hello World-style greeting. For instance if I called it with `George`, it would repond `Hello Geroge!`.
 
-### String methods
+## String methods
 I've told you previously that `String` is a class, not a primitive. Classes can have their own methods attached to them.
 
 #### Length
@@ -66,7 +69,7 @@ if(personA.equals(personB)) {
 }
 ```
 
-### Static methods
+## Static methods
 Static methods are methods that belong to a class, as opposed to an instance of a class. For instance the method `Integer.parseInt()` is a static method. If I, however, create an integer like so:
 
 ```java

@@ -1,4 +1,7 @@
-### Declaring Arrays
+Arrays
+===
+
+## Declaring Arrays
 An array is a list of variables. Arrays must be of a type. That is to say you cannot ahve an array that contains some Integers, next to some String, next to some Booleans. To declare an array in Java you use:
 
 ```java
@@ -7,12 +10,12 @@ int[] myArray;
 
 Notice the square bracket notation. It tells the compiler that `myArray` isn't an Integer, but a list of integers. You must also initialise arrays.
 
-**Way One** 
+#### Way One
 ```java
 myArray = new int[10];
 ```
 
-**Way Two**
+#### Way Two
 ```java
 myArray = {10, 523, 34, 63, 32, 64, 992, 353, 5, 0};
 ```
@@ -25,7 +28,7 @@ bool[] myArray = new bool[10];
 String[] girlfriends = {"Jessica", "Abby", "Zoey", "Daisy"};
 ```
 
-### Accessing Arrays
+## Accessing Arrays
 You access arrays in Java using square bracket notation. For instance:
 
 ```java
@@ -38,7 +41,7 @@ System.out.println(myArray[3]); // Prints 8
 
 Notice how the index `0` in the square brackets, correspond to the first item, etc. This is because programmers count from 0, because we are **non-conformists**. That is to say we are above the *status quo* (which is Latin for the way things are).
 
-### Settings Arrays
+## Settings Arrays
 Arrays can be set in a similar manner:
 
 ```java
@@ -52,7 +55,7 @@ days[5] = "Saturday";
 days[6] = "Sunday";
 ```
 
-### Printing an entire Array
+## Printing an entire Array
 Sometimes, for the sake of debugging, you will want to print an entire array. In the `java.util.Arrays` package, that you will have to import, there is a function called `Arrays.toString()`, that takes an Array and outputs a String representation. E.g:
 ```java
 String[] primaryColours = {"Red", "Green", "Blue"};
@@ -60,7 +63,7 @@ System.out.println(Arrays.toString(primaryColours));
 // Prints: ["Red", "Green", "Blue"]
 ```
 
-### Length of an array
+## Length of an array
 Unlike strings where there is the `.length()` method, for arrays there is the `.length` property. E.g:
 
 ```java
