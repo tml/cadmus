@@ -1,51 +1,6 @@
 ![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Main_logo.png "Java logo")
-# Coding Curriculum - Java KS4
-## Contents
-###  [Chapter I - Introduction](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I:%20Introduction_and_contents.md#chapter-i---introduction-1)	
-####  [Installing Eclipse](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I:%20Introduction_and_contents.md#installing-eclipse-1)	
-#### [What this course entails](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I:%20Introduction_and_contents.md#what-this-course-entails-1)
-#### [Variables](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20II:%20Variables.md#variables)
-#### [Arithmetic](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20III:%20Arithmetic.md#arithmetic)	
-#### [Objects](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IV:%20Objects.md#objects)	
-#### [Methods](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20V:%20Methods.md#methods)	
-#### [Printing](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VI:%20Printing.md#printing)
-#### [Loops](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VII:%20Loops.md#loops)	
-#### [If else statements](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VIII:%20If%20else%20statements.md#if-else-statements)	
-#### [Strings](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IX:%20Strings.md#strings)	
-### Chapter II - Methods	
-#### A general introduction to programming and the java platform	
-#### What is a method?	
-#### Q & A	
-#### Java – accepting user input	
-#### Accepting user input worksheet	
-#### Summary	
-#### Exercises	
-### Chapter III - Arrays and Classes	
-#### Arrays	
-#### What is an array?	
-#### How to declare and instantiate an array?	
-#### Initialise array elements	
-#### Length and index	
-#### A complete example for using an array	
-#### ArrayList	
-#### Classes	
-#### What is a class?	
-#### What is a method?	
-#### Constructor	
-#### Drawing Geometric Primitives	
-### Chapter IV - Java Swing	
-#### Java swing	
-#### Your first window	
-#### Jpanel	
-#### Layouts	
-#### Buttons and action listeners	
-#### Text fields	
-#### More complex Programming	
-#### Recap and complex examples	
-#### Further look on Java Swing	
-#### List of other methods	
-#### Java swing exercises
 
+Introduction
 ========================================
 
 |Title: An Introduction to Java Programming|
@@ -157,11 +112,10 @@ The green icon which looks like this is used to run your programs. It can be fou
 Now right-click Outreach then click New->Class and you should see the following pop-up:
 ![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_new_class.png "A new class")
 
-
 Where it says name type in Example then click Finish, and so your screen should look like this:
 ![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_new_class_final.png "And your new program begins")
 
-Notice the words 'public class' in purple.  A class is a file which contains objects and methods (see descriptions in the respective sections ([Objects](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IV:%20Objects.md#objects) and [Methods](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20V:%20Methods.md#methods))). The word ‘public’ just means that the piece of code can be used in other classes. The other word that we could have written in that space would be 'private', so that only the class that we are currently in can use the piece of code.
+Notice the words `public class` in purple.  A class is a file which contains objects and methods (see descriptions in the respective sections ([Objects](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IV:%20Objects.md#objects) and [Methods](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20V:%20Methods.md#methods))). The word ‘public’ just means that the piece of code can be used in other classes. The other word that we could have written in that space would be 'private', so that only the class that we are currently in can use the piece of code.
 
 At the top of a Java program, usually you can find a comment or two stating the name of the person who wrote the program and a note on what the program does.  To write words and sentences in a program that other people can see when they look at your code, but isn't visible to the computer when you run your program, write // at the start of the sentence you want to write.  So, I would write: 
 
