@@ -1,4 +1,5 @@
-<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h3 id="basic-arithmatic">Basic Arithmatic</h3>
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="arithmetic">Arithmetic</h1>
+<h2 id="basic-arithmatic">Basic Arithmatic</h2>
 <p>Adding two ints x and y: (given that they have already been initialised to a value)</p>
 <pre><code class="lang-java"><span class="hljs-keyword">int</span> z = x + y;</code></pre>
 <p>Subtracting two ints x and y:</p>
@@ -33,8 +34,8 @@ Hint: The angles of a triangle must sum up to 180 degrees.</p>
 <h4 id="ex-6-ecology-">Ex 6 (Ecology)</h4>
 <p><img src="http://getting-in.com/wp-content/uploads/2012/09/Picture-382-300x223.png" alt="A quadrat"></p>
 <p>A standard quadrat used in school is 0.25m<sup>2</sup>. A quadrat is used to sample a random area of a field to estimate the abundance/variety/percentage coverage of a species. For a random sampling to be statistically viable, at least 3% of the area must be sampled. Write a program, given the size of an area, (say 2000m<sup>2</sup>) works out the amount of different samplings that must be done.</p>
-<h3 id="advanced-arithmatic">Advanced Arithmatic</h3>
-<h4 id="powers">Powers</h4>
+<h2 id="advanced-arithmatic">Advanced Arithmatic</h2>
+<h3 id="powers">Powers</h3>
 <p>To get the value of a number to a given power you can use the <code>Math.pow()</code> function, that takes two parameters: a number; and a power; To use, however, you must import the <code>java.lang.Math</code> package. A package is essentially a collection of functions. To import <code>java.lang.Math</code>, write this at the very top of your code:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">import</span> java.lang.Math;</code></pre>
 <p>Then in your <code>main</code> method, you can write:</p>
@@ -42,10 +43,10 @@ Hint: The angles of a triangle must sum up to 180 degrees.</p>
 <span class="hljs-keyword">int</span> power = <span class="hljs-number">3</span>;
 System.out.println(Math.pow(number, power));
 <span class="hljs-comment">// Prints 8</span></code></pre>
-<h4 id="square-roots">Square Roots</h4>
+<h3 id="square-roots">Square Roots</h3>
 <p>Another function in that package is the <code>Math.sqrt()</code> that returns the square root of a number.</p>
 <pre><code class="lang-java">Sysem.out.println(Math.sqrt(<span class="hljs-number">25</span>)); <span class="hljs-comment">// Prints 5</span></code></pre>
-<h4 id="remainders">Remainders</h4>
+<h3 id="remainders">Remainders</h3>
 <p>To get the remainder of an int a when divided by another int b we can use % instead of / when dividing, so a%b, where a = 7, b = 5...</p>
 <pre><code class="lang-java"><span class="hljs-keyword">int</span> n = <span class="hljs-number">7</span> % <span class="hljs-number">5</span>;</code></pre>
 <p>would result in n being 2.</p>

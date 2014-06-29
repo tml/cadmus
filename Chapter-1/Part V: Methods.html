@@ -1,4 +1,5 @@
-<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h3 id="creating-and-using-you-own-methods">Creating and using you own methods</h3>
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="methods">Methods</h1>
+<h2 id="creating-and-using-you-own-methods">Creating and using you own methods</h2>
 <p>A method is another way of saying a function.  A method performs a task so say if you want to triple a number you may want to have a triple method for example. (It&#39;s always best to start the method name with a lower case letter and name it something similar to what it does). The <code>main</code> method is an example of a method that is <strong>void</strong> i.e. it returns nothing. That&#39;s why it has the <code>void</code> keyword before the method name. Methods should be define in a class. E.g:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> <span class="hljs-title">triple</span>(<span class="hljs-keyword">int</span> number) {
     <span class="hljs-keyword">int</span> tripleNumber = <span class="hljs-number">3</span> * number;
@@ -14,7 +15,7 @@
 <p>Write a program which contains a method called triple (and the main method of course), which triples a number.  Get the program to triple the number 34 and then print out the result.</p>
 <h4 id="ex-2">Ex 2</h4>
 <p>Write a function, that given a name, returns a Hello World-style greeting. For instance if I called it with <code>George</code>, it would repond <code>Hello Geroge!</code>.</p>
-<h3 id="string-methods">String methods</h3>
+<h2 id="string-methods">String methods</h2>
 <p>I&#39;ve told you previously that <code>String</code> is a class, not a primitive. Classes can have their own methods attached to them.</p>
 <h4 id="length">Length</h4>
 <p>The <code>.length()</code> method returns the length of a String as an <code>int</code>. Unlike in a JavaScript String, <code>.length()</code> is a method, that must be called with parentheses.</p>
@@ -37,7 +38,7 @@ String personB = <span class="hljs-string">"George"</span>;
 <span class="hljs-keyword">if</span>(personA.equals(personB)) {
     System.out.println(<span class="hljs-string">"They're the same people"</span>);
 }</code></pre>
-<h3 id="static-methods">Static methods</h3>
+<h2 id="static-methods">Static methods</h2>
 <p>Static methods are methods that belong to a class, as opposed to an instance of a class. For instance the method <code>Integer.parseInt()</code> is a static method. If I, however, create an integer like so:</p>
 <pre><code class="lang-java">Integer age = <span class="hljs-number">5</span>;</code></pre>
 <p><code>age</code> does not have a method <code>.parseInt()</code>. You&#39;ve met many of these methods already. Indeed the methods, you&#39;ve created with the <code>static</code> keyword, are static methods. If I removed the <code>static</code> keyword from them they would not be able to be called by the <code>main</code> method. The <code>main</code> method is a special sort of static method, it is the <strong>execution point</strong> of the program. An execution point must have the <strong>method signature</strong> of:</p>

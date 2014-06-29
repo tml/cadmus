@@ -1,4 +1,5 @@
-<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h3 id="creating-classes">Creating Classes</h3>
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="classes">Classes</h1>
+<h2 id="creating-classes">Creating Classes</h2>
 <p>I&#39;ve already alluded to classes before. Ultimately classes are the blueprints for objects. Objects are classes when instantiated. For instance let&#39;s say I have the code:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Book</span> {</span>
   <span class="hljs-keyword">private</span> String title;
@@ -25,12 +26,12 @@ System.out.println(firstBook.title);</code></pre>
 <p>Rewrite the code into Java, and instantiate, that is to say create, your favourite book.</p>
 <h4 id="ex-2">Ex 2</h4>
 <p>Change the code to create an array of books, and populate it with your favourite books.</p>
-<h3 id="more-non-static-methods">More non-static methods</h3>
+<h2 id="more-non-static-methods">More non-static methods</h2>
 <p>Imagine beneath the construcotr, I added this method:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">public</span> String <span class="hljs-title">getTitle</span>() {
   <span class="hljs-keyword">return</span> title;
 }</code></pre>
 <p>This non-static method will be available on every instance, that is to say object, of <code>Book</code>, and returns a <code>String</code>. Now we have a way to get the book title. The advantage of this is that the title cannot be changed externally, but can be accessed.</p>
-<h3 id="ex-3">Ex 3</h3>
+<h4 id="ex-3">Ex 3</h4>
 <p>Add a method to get the author and publisher of a <code>Book</code>.</p>
 </main></body></html>

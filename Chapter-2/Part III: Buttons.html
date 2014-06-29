@@ -1,0 +1,48 @@
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="buttons">Buttons</h1>
+<p>In our next application, the buttons application, we have receive user input i.e. button presses. We will use the <code>JButton</code> class. The imports required for this application will be:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">import</span> java.awt.FlowLayout;
+<span class="hljs-keyword">import</span> java.awt.event.ActionEvent;
+<span class="hljs-keyword">import</span> java.awt.event.ActionListener;
+<span class="hljs-keyword">import</span> javax.swing.JFrame;
+<span class="hljs-keyword">import</span> javax.swing.JButton;
+<span class="hljs-keyword">import</span> javax.swing.JLabel;</code></pre>
+<p>Here is the code, copy it:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Buttons</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">JFrame</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">ActionListener</span> {</span>
+
+    JButton btn1 = <span class="hljs-keyword">new</span> JButton(<span class="hljs-string">"Button 1"</span>);
+    JButton btn2 = <span class="hljs-keyword">new</span> JButton(<span class="hljs-string">"Button 2"</span>);
+    JLabel label = <span class="hljs-keyword">new</span> JLabel(<span class="hljs-string">"No buttons have been clicked"</span>, JLabel.CENTER);
+
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(String[] args) {
+       <span class="hljs-keyword">new</span> Buttons();
+    }
+
+    <span class="hljs-keyword">public</span> <span class="hljs-title">Buttons</span>() {
+        btn1.addActionListener(<span class="hljs-keyword">this</span>);
+        btn2.addActionListener(<span class="hljs-keyword">this</span>);
+
+        add(btn1);
+        add(btn2);
+        add(label);
+
+        setLayout(<span class="hljs-keyword">new</span> FlowLayout());
+        setSize(<span class="hljs-number">300</span>, <span class="hljs-number">100</span>);
+        setTitle(<span class="hljs-string">"Buttons"</span>);
+        setVisible(<span class="hljs-keyword">true</span>);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+    }
+
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">actionPerformed</span>(ActionEvent e) {
+        <span class="hljs-keyword">if</span>(e.getSource() == btn1) {
+            label.setText(<span class="hljs-string">"btn1 was clicked"</span>);
+        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(e.getSource() == btn2) {
+            label.setText(<span class="hljs-string">"btn2 was clicked"</span>);
+        }
+    }
+
+}</code></pre>
+<p>Notice the <code>implements ActionListener</code>. Don&#39;t worry about that now. Just think of it as a different kind of <code>extends</code>. Rather than inheriting all the methods of the class in front of it, <code>implements</code> mean the class will contain the methods mandated by the thing in front of it. In this case it is the <code>actionPerformed()</code> method, which you do not call. By setting the ActionListener of <code>btn1</code> and <code>btn2</code> to <code>this</code> i.e. the current instance of <code>Buttons</code>, you are saying whenever <code>btn1</code> or <code>btn2</code> are clicked, you won&#39;t them to pass on the event to the current instance of <code>Buttons</code>. The <code>e</code> variable stores information about the event. <code>getSource()</code> will return the button the was pressed.</p>
+<p>Finally, the <code>setText()</code> method on the label, allows you to dynamically change the text.</p>
+<h4 id="ex-1">Ex 1</h4>
+<p>Create a graphical program to convert celsius temperatures to farenheit.</p>
+</main></body></html>
