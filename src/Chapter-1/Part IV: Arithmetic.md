@@ -1,13 +1,8 @@
 Arithmetic
-<<<<<<< HEAD
 ===
 
-## Basic Arithmatic
-=======
-=====================
+## Basic Arithmetic
 
-### Basic Arithmetic
->>>>>>> 4c1470d81fd62c898e8ef2202c555b9572c2fa76
 
 Adding two ints x and y: (given that they have already been initialised to a value)
 
@@ -75,16 +70,10 @@ Hint: The angles of a triangle must sum up to 180 degrees.
 A standard quadrat used in school has an area of 0.25m<sup>2</sup>. A quadrat is used to sample a random area of a field to estimate the abundance/variety/percentage coverage of a species. For a random sampling to be statistically viable, at least 3% of the area must be sampled. Write a program, given the size of an area, (say 2000m<sup>2</sup>) works out the amount of different samplings that must be done.
 
 <<<<<<< HEAD
-## Advanced Arithmatic
+## Advanced Arithmetic
 
 ### Powers
-To get the value of a number to a given power you can use the `Math.pow()` function, that takes two parameters: a number; and a power; To use, however, you must import the `java.lang.Math` package. A package is essentially a collection of functions. To import `java.lang.Math`, write this at the very top of your code:
-=======
-### Advanced Arithmetic
-
-#### Powers
-To get the value of a number to a given power you can use the `Math.pow()` function, which takes two parameters: a number and a power. To use this, however, you must import the `java.lang.Math` package. A package is essentially a collection of functions. To import `java.lang.Math`, write this at the very top of your code:
->>>>>>> 4c1470d81fd62c898e8ef2202c555b9572c2fa76
+To get the value of a number to a given power you can use the `Math.pow()` function, which takes two parameters: a number and a power. To use this however, you must import the `java.lang.Math` package. A package is essentially a collection of functions. To import `java.lang.Math`, write this at the very top of your code:
 
 ```java
 import java.lang.Math;
