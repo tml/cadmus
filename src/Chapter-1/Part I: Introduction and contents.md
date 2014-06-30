@@ -1,8 +1,4 @@
 ![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Main_logo.png "Java logo")
-
-Installation
-=======
-
 # Coding Curriculum - Java KS4
 ## Contents
 ###  [Chapter I - Introduction](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20I:%20Introduction%20and%20contents.md#chapter-i---introduction-1)	
