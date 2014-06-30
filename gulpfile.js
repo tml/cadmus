@@ -26,7 +26,11 @@ gulp.task("convert", ["clean"], function() {
 	return gulp.src("./src/**/*.md")
 		.pipe(marked({
 			highlight: function(code, lang) {
-				return highlight.highlight(lang, code).value;
+				if(lang) {
+					return highlight.highlight(lang, code).value;
+				} else {
+					return code;
+				}
 			}
 		}))
 		.pipe(rename({
