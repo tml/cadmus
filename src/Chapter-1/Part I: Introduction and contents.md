@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-Installation
-=======
 ![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Main_logo.png "Java logo")
 # Coding Curriculum - Java KS4
 ## Contents
@@ -49,8 +46,6 @@ Installation
 #### List of other methods	
 #### Java swing exercises
 
->>>>>>> 4c1470d81fd62c898e8ef2202c555b9572c2fa76
-========================================
 
 ## Description:
 In this lesson the students will learn basic programming concepts and make their first Java program.
@@ -175,8 +170,6 @@ public static void main(String[] args) {
 ```
 
 This is the main method, and every Java program needs a main method.  It is the first bit of code your program looks at when it is run.  If you have more than one main method, your program will get confused and will not know what to do.  (Where should it be starting from? This main method or that one?) So, the point is, you can only have ONE main method per program. You can run other methods from the main method too.  The main method must always begin with that line and look like the screenshot above, and you cannot change the name of the main method. Bear in mind that by the end of your course, you will have to be able to memorise the piece of code above.
-<<<<<<< HEAD
-=======
 
 ###### [Contents](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20I:%20Introduction%20and%20contents.md#contents)
->>>>>>> 4c1470d81fd62c898e8ef2202c555b9572c2fa76
+
