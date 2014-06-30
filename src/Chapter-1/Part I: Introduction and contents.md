@@ -3,7 +3,7 @@
 ## Contents
 ###  [Chapter I - Introduction](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20I:%20Introduction%20and%20contents.md#chapter-i---introduction-1)	
 ####  [Installing Eclipse](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20I:%20Introduction%20and%20contents.md#installing-eclipse-1)	
-#### [What this course entails](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I:%20Introduction_and_contents.md#what-this-course-entails-1)
+#### [What this course entails](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20I:%20Introduction%20and%20contents.md#what-this-course-entails-1)
 #### [Printing](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20II:%20Printing.md#printing)
 #### [Variables](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20II:%20Variables.md#variables)
 #### [Arithmetic](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20III:%20Arithmetic.md#arithmetic)	
@@ -181,4 +181,4 @@ public static void main(String[] args){
 
 This is the main method, and every Java program needs a main method.  It is the first bit of code your program looks at when it is run.  If you have more than one main method, your program will get confused and will not know what to do.  (Where should it be starting from? This main method or that one?) So, the point is, you can only have ONE main method per program. You can run other methods from the main method too.  The main method must always begin with that line and look like the screenshot above, and you cannot change the name of the main method. Bear in mind that by the end of your course, you will have to be able to memorise the piece of code above.
 
-###### [Contents](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I.md#contents)
+###### [Contents](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20I:%20Introduction%20and%20contents.md#contents)
