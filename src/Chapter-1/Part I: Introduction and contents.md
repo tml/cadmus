@@ -1,4 +1,55 @@
+<<<<<<< HEAD
 Installation
+=======
+![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Main_logo.png "Java logo")
+# Coding Curriculum - Java KS4
+## Contents
+###  [Chapter I - Introduction](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20I:%20Introduction%20and%20contents.md#chapter-i---introduction-1)	
+####  [Installing Eclipse](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20I:%20Introduction%20and%20contents.md#installing-eclipse-1)	
+#### [What this course entails](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20I:%20Introduction%20and%20contents.md#what-this-course-entails-1)
+#### [Printing](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20II:%20Printing.md#printing)
+#### [Variables](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20III:%20Variables.md#)
+#### [Arithmetic](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20IV:%20Arithmetic.md#arithmetic)	
+#### [Objects](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IV:%20Objects.md#objects)	
+#### [Methods](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20V:%20Methods.md#methods)	
+#### [Loops](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VII:%20Loops.md#loops)	
+#### [If else statements](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VIII:%20If%20else%20statements.md#if-else-statements)	
+#### [Strings](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IX:%20Strings.md#strings)	
+### Chapter II - Methods	
+#### A general introduction to programming and the java platform	
+#### What is a method?	
+#### Q & A	
+#### Java – accepting user input	
+#### Accepting user input worksheet	
+#### Summary	
+#### Exercises	
+### Chapter III - Arrays and Classes	
+#### Arrays	
+#### What is an array?	
+#### How to declare and instantiate an array?	
+#### Initialise array elements	
+#### Length and index	
+#### A complete example for using an array	
+#### ArrayList	
+#### Classes	
+#### What is a class?	
+#### What is a method?	
+#### Constructor	
+#### Drawing Geometric Primitives	
+### Chapter IV - Java Swing	
+#### Java swing	
+#### Your first window	
+#### Jpanel	
+#### Layouts	
+#### Buttons and action listeners	
+#### Text fields	
+#### More complex Programming	
+#### Recap and complex examples	
+#### Further look on Java Swing	
+#### List of other methods	
+#### Java swing exercises
+
+>>>>>>> 4c1470d81fd62c898e8ef2202c555b9572c2fa76
 ========================================
 
 ## Description:
@@ -124,3 +175,8 @@ public static void main(String[] args) {
 ```
 
 This is the main method, and every Java program needs a main method.  It is the first bit of code your program looks at when it is run.  If you have more than one main method, your program will get confused and will not know what to do.  (Where should it be starting from? This main method or that one?) So, the point is, you can only have ONE main method per program. You can run other methods from the main method too.  The main method must always begin with that line and look like the screenshot above, and you cannot change the name of the main method. Bear in mind that by the end of your course, you will have to be able to memorise the piece of code above.
+<<<<<<< HEAD
+=======
+
+###### [Contents](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20I:%20Introduction%20and%20contents.md#contents)
+>>>>>>> 4c1470d81fd62c898e8ef2202c555b9572c2fa76
