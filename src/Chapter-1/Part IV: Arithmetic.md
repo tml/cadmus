@@ -105,6 +105,6 @@ would result in n being 2.
 #### Ex 7 (Geometry, Physics, Chemistry, Game Programming)
 Write a programs that given four numbers *x<sub>1</sub>*, *y<sub>1</sub>*, *x<sub>2</sub>* and *y<sub>2</sub>*, that are points on a graph, and calculates the distance between them, using the formula:
 
-![alt text](https://github.com/BillsJ/cadmus/raw/master/src/Images/equations_for_points_on_a_graph.png "Distance formula")
+![alt text](https://github.com/BillsJ/cadmus/raw/master/src/Images/calculations_for_points_on_a_graph.png "Distance formula")
 
 This is very useful in collision dectection, in scientific models and game programming.
