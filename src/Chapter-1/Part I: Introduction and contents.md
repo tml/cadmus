@@ -1,7 +1,8 @@
-<<<<<<< HEAD
+![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Main_logo.png "Java logo")
+
 Installation
 =======
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Main_logo.png "Java logo")
+
 # Coding Curriculum - Java KS4
 ## Contents
 ###  [Chapter I - Introduction](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20I:%20Introduction%20and%20contents.md#chapter-i---introduction-1)	
@@ -49,8 +50,6 @@ Installation
 #### List of other methods	
 #### Java swing exercises
 
->>>>>>> 4c1470d81fd62c898e8ef2202c555b9572c2fa76
-========================================
 
 ## Description:
 In this lesson the students will learn basic programming concepts and make their first Java program.
