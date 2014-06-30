@@ -43,6 +43,4 @@
 }</code></pre>
 <p>Notice the <code>implements ActionListener</code>. Don&#39;t worry about that now. Just think of it as a different kind of <code>extends</code>. Rather than inheriting all the methods of the class in front of it, <code>implements</code> mean the class will contain the methods mandated by the thing in front of it. In this case it is the <code>actionPerformed()</code> method, which you do not call. By setting the ActionListener of <code>btn1</code> and <code>btn2</code> to <code>this</code> i.e. the current instance of <code>Buttons</code>, you are saying whenever <code>btn1</code> or <code>btn2</code> are clicked, you won&#39;t them to pass on the event to the current instance of <code>Buttons</code>. The <code>e</code> variable stores information about the event. <code>getSource()</code> will return the button the was pressed.</p>
 <p>Finally, the <code>setText()</code> method on the label, allows you to dynamically change the text.</p>
-<h4 id="ex-1">Ex 1</h4>
-<p>Create a graphical program to convert celsius temperatures to farenheit.</p>
 </main></body></html>

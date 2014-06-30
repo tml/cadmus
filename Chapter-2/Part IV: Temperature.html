@@ -1,0 +1,27 @@
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="temperature">Temperature</h1>
+<p>For this part, the imports will be identical to the last part&#39;s except for the addition of <code>import javax.swing.JTextField;</code>. Also in this part I&#39;ll give you the first few lines of <strong>the class</strong>, and then I&#39;ll give the rest as pseudocode, you&#39;ll see what I mean:</p>
+<pre><code class="lang-java">JTextField input = <span class="hljs-keyword">new</span> JTextField(<span class="hljs-number">15</span>);
+JButton btn = <span class="hljs-keyword">new</span> JButton(<span class="hljs-string">"Celsius to Farenheit"</span>);
+JLabel label = <span class="hljs-keyword">new</span> JLabel(<span class="hljs-string">"No value converted"</span>, JLabel.CENTER);</code></pre>
+<p>Pseudocode for the <code>main</code> method:</p>
+<pre><code>Instantiate, that is to say create, a new instance of the class.</code></pre>
+<p>Pseudocode for the constructor:</p>
+<pre><code>Add input, btn and label to the window.
+Set btn&#39;s action listener to this.
+Set layout to a new FlowLayout.
+Set size to (400, 85).
+Set title.
+Set default close operation to EXIT_ON_CLOSE.</code></pre>
+<p>Pseudocode for <code>actionPerformed(ActionEvent e)</code>:</p>
+<pre><code>Set celsiusValue to the value of input AS AN INTEGER.
+Set farenheitValue to ((celsiusValue * 9) / 5) + 32.
+Set the text of label to farenheitValue.</code></pre>
+<h4 id="help">Help</h4>
+<ul>
+<li>To get the value of <code>input</code>, use the <code>getText()</code> method.</li>
+<li>You must remember to use <code>Integer.parseInt()</code> and <code>Integer.toString()</code> appropriately</li>
+<li>To do a degree symbol in Java use <code>\u00b0</code> - I know it is weird</li>
+</ul>
+<h4 id="extension">Extension</h4>
+<p>Modify the code to convert Farenheit to Celsius. You will have to add another button, and use <code>.getSource()</code> in <code>actionPerformed</code> to check which button was pressed.</p>
+</main></body></html>
