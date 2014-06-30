@@ -6,7 +6,7 @@
 #### [What this course entails](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20I:%20Introduction%20and%20contents.md#what-this-course-entails-1)
 #### [Printing](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20II:%20Printing.md#printing)
 #### [Variables](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20III:%20Variables.md#)
-#### [Arithmetic](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20III:%20Arithmetic.md#arithmetic)	
+#### [Arithmetic](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20IV:%20Arithmetic.md#arithmetic)	
 #### [Objects](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20IV:%20Objects.md#objects)	
 #### [Methods](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20V:%20Methods.md#methods)	
 #### [Loops](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20VII:%20Loops.md#loops)	
