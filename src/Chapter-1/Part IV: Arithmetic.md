@@ -69,7 +69,6 @@ Hint: The angles of a triangle must sum up to 180 degrees.
 
 A standard quadrat used in school has an area of 0.25m<sup>2</sup>. A quadrat is used to sample a random area of a field to estimate the abundance/variety/percentage coverage of a species. For a random sampling to be statistically viable, at least 3% of the area must be sampled. Write a program, given the size of an area, (say 2000m<sup>2</sup>) works out the amount of different samplings that must be done.
 
-<<<<<<< HEAD
 ## Advanced Arithmetic
 
 ### Powers
