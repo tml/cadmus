@@ -1,8 +1,8 @@
 ![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Main_logo.png "Java logo")
 # Coding Curriculum - Java KS4
 ## Contents
-###  [Chapter I - Introduction](https://github.com/BillsJ/cadmus/blob/master/src/Chapter-1/Part%20I:%20Introduction%20and%20contents.md#chapter-i---introduction-1)	
-####  [Installing Eclipse](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I:%20Introduction_and_contents.md#installing-eclipse-1)	
+###  [Chapter I - Introduction](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20I:%20Introduction%20and%20contents.md#chapter-i---introduction-1)	
+####  [Installing Eclipse](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20I:%20Introduction%20and%20contents.md#installing-eclipse-1)	
 #### [What this course entails](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20I:%20Introduction_and_contents.md#what-this-course-entails-1)
 #### [Printing](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20II:%20Printing.md#printing)
 #### [Variables](https://github.com/BillsJ/cadmus/blob/master/Chapter-1/Part%20II:%20Variables.md#variables)
