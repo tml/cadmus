@@ -2,7 +2,7 @@ Classes
 ===
 
 ## Creating Classes
-I've already alluded to classes before. Ultimately classes are the blueprints for objects. Objects are classes when instantiated. For instance let's say I have the code:
+I've already alluded to classes before. Ultimately, classes are the blueprints for objects. Objects are classes when instantiated. For instance let's say I have the code:
 
 ```java
 public class Book {
@@ -22,7 +22,7 @@ public class Book {
 }
 ```
 
-The first three statements within the class are variable delclerations. They declare properties or attributes of the class. These are the variables a `Book` is composed of. Note that a class does not necessarily have to be composed of primitives. A class can be composed of other classes such as `String` in the example. The keyword `private` means that you can only access it inside methods of that class, but not statics. For example, this in the `main` method would fail to compile:
+The first three statements within the class are variable declerations. They declare properties or attributes of the class. These are the variables that a `Book` is composed of. Note that a class does not necessarily have to be composed of primitives. A class can be composed of other classes such as `String` in the example. The keyword `private` means that you can only access it inside methods of that class, but not statics. For example, this in the `main` method would fail to compile:
 
 ```java
 Book firstBook = new Book("Horton Hears A Who!","Dr. Seuss","Random House");
@@ -35,7 +35,7 @@ If I, however, make the property `public` then it will. The non-static method ca
 new Book("Horton Hears A Who!","Dr. Seuss","Random House");
 ```
 
-Notice that the way in which you create an object is similar to how you create a variable you have the type then the name of the object then the equals sign, the only difference comes after the equals sign.  Now, you have the word `new` which just tells the interpreter that the object that you are creating is a new object, and then you have what we call a constructor method. The characteristics of the object are passed as parameters.
+Notice that the way in which you create an object is similar to how you create a variable, you have the type then the name of the object then the equals sign; the only difference comes after the equals sign.  Now, you have the word `new` which just tells the interpreter that the object that you are creating is a new object, and then you have what we call a constructor method. The characteristics of the object are passed as parameters.
 
 #### Ex 1 
 Rewrite the code into Java, and instantiate, that is to say create, your favourite book.

@@ -2,7 +2,7 @@ Methods
 ===
 
 ## Creating and using you own methods
-A method is another way of saying a function.  A method performs a task so say if you want to triple a number you may want to have a triple method for example. (It's always best to start the method name with a lower case letter and name it something similar to what it does). The `main` method is an example of a method that is **void** i.e. it returns nothing. That's why it has the `void` keyword before the method name. Methods should be define in a class. E.g:
+A method is another word for a function. A method performs a task, so if you want to triple a number, you may want to have a triple method. (It's always best to start the method name with a lower case letter and name it something similar to what it does). The `main` method is an example of a method that is **void** i.e. it returns nothing. That's why it has the `void` keyword before the method name. Methods should be define in a class. E.g:
 
 ```java
 public static int triple(int number) {
@@ -11,7 +11,7 @@ public static int triple(int number) {
 }
 ```
 
-After `public static` you write the type of the thing that you are returning, in this case we are taking in an int and returning an int. If of course it returns nothing, use the `void` keyword.  After the return type you have the name of the method, I have called this method triple, inside the brackets after the method name you have the parameters, this is the information that the method is given when the method is called.  So when we call the triple function we supply it with a number, triple then multiplies the number by three and then returns the tripled number.
+After `public static` you write the type of the thing that you are returning; in this case we are taking in an int and returning an int. If of course it returns nothing, use the `void` keyword.  After the return type you have the name of the method. I have called this method triple. Inside the brackets after the method name you have the parameters, which are the pieces of information that the method is given when the method is called.  So when we call the triple function we supply it with a number, which is then multiplied by three and then the method returns the tripled number.
 
 To call the method from the `main` method, do:
 
@@ -21,13 +21,13 @@ public static void main(String[] args) {
 }
 ```
 
-Note `Math.abs()`, and `Math.sqrt()` are examples of methods in the `Math` package. Inside the `Math` package, there is also trigonometric functions such as `Math.sin()`, `Math.cos()`, and `Math.tan()`.
+Note: `Math.abs()`, and `Math.sqrt()` are examples of methods in the `Math` package. Inside the `Math` package, there are also trigonometric functions such as `Math.sin()`, `Math.cos()`, and `Math.tan()`.
 
 #### Ex 1
 Write a program which contains a method called triple (and the main method of course), which triples a number.  Get the program to triple the number 34 and then print out the result.
 
 #### Ex 2
-Write a function, that given a name, returns a Hello World-style greeting. For instance if I called it with `George`, it would repond `Hello Geroge!`.
+Write a method, that given a name, returns a Hello World-style greeting. For instance if I called it with `George`, it would respond with: `Hello George!`.
 
 ## String methods
 I've told you previously that `String` is a class, not a primitive. Classes can have their own methods attached to them.
@@ -59,24 +59,24 @@ System.out.println(name.toLowerCase()); // Returns "george"
 ```
 
 #### Equals
-This takes in another string, and returns true/false depending on whether they are equal. Note `.equals()` is case sensitive. You can use this in if statements:
+This takes in another string, and returns true/false depending on whether they are equal. Note `.equals()` is case sensitive. You can use this in if-statements:
 
 ```java
 String personA = "George";
 String personB = "George";
 if(personA.equals(personB)) {
-	System.out.println("They're the same people");
+	System.out.println("They're the same person!");
 }
 ```
 
 ## Static methods
-Static methods are methods that belong to a class, as opposed to an instance of a class. For instance the method `Integer.parseInt()` is a static method. If I, however, create an integer like so:
+Static methods are methods that belong to a class, as opposed to an instance of a class. For instance, the method `Integer.parseInt()` is a static method. If I, however, create an integer like so:
 
 ```java
 Integer age = 5;
 ```
 
-`age` does not have a method `.parseInt()`. You've met many of these methods already. Indeed the methods, you've created with the `static` keyword, are static methods. If I removed the `static` keyword from them they would not be able to be called by the `main` method. The `main` method is a special sort of static method, it is the **execution point** of the program. An execution point must have the **method signature** of:
+`age` does not have the method `.parseInt()`. You've met many of these methods already. Indeed the methods, you've created with the `static` keyword, are static methods. If I removed the `static` keyword from them they would not be able to be called by the `main` method. The `main` method is a special sort of static method, it is the **execution point** of the program. An execution point must have the **method signature** of:
 
 ```java
 public static void main(String[] args)
