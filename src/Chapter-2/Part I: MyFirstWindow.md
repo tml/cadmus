@@ -21,7 +21,7 @@ Here, the class `GUIpplication` extends, thanks to the `extends` keyword, all of
 
 The code above should output this when run:
 
-![alt text](https://github.com/BillsJ/cadmus/raw/master/src/Images/my_first_window.png "An empty window")
+![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/my_first_window.png "An empty window")
 
 ### Ex 1
 Copy & run the code. Play around with `setSize`, `setTitle`, and `setVisible`.
