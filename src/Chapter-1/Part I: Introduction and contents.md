@@ -63,23 +63,23 @@ So now we will cover how to install Eclipse:
 
 First, head over to Eclipse's website, which looks like this:
 
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_website_screenshot1.png "Eclipse website front page")
+![Eclipse website front page](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_website_screenshot1.png)
 
 Next click the orange downloads button to take you to:
 
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_website_screenshot2.png "First page of downloads")
+![First page of downloads](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_website_screenshot2.png)
 
 Now click eclipse standard, the first one listed, the latest version at the time of writing is version 4.3.2:
 
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/eclipse_standard.png "Eclipse standard 4.3.2")
+![Eclipse standard 4.3.2](https://github.com/HashanP/cadmus/raw/master/src/Images/eclipse_standard.png)
 
 Now under download links, you should see your OS (Operating System). Click it:
 
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_download_links.png "Know your computer version")
+![Know your computer version](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_download_links.png)
 
 Next, click where it says “[United Kingdom] UK Mirror Service (http)”:
 
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_UK_mirror_service.png "This was made in the UK")
+![This was made in the UK](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_UK_mirror_service.png)
 
 Now save the file. Once it has finished downloading, open and extract it.
 
@@ -93,17 +93,17 @@ In this course you will learn how to program in Java and then Swing.  You can th
 
 1) Open up Eclipse (your teacher should have explained how to do this).
 It should look something like the screen shot below:
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Opening_eclipse.png "Eclipse interface")
+![Eclipse interface](https://github.com/HashanP/cadmus/raw/master/src/Images/Opening_eclipse.png)
 
 The green icon which looks like this is used to run your programs. It can be found in the top bar and you have to click it to run the current program you are working in. Provided that your program has no errors, your program should run.
 
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_run_button.png "This appears in the top bar")
+![This appears in the top bar](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_run_button.png)
 
 Now right-click Outreach then click New->Class and you should see the following pop-up:
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_new_class.png "A new class")
+![A new class](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_new_class.png)
 
 Where it says name type in Example then click Finish, and so your screen should look like this:
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_new_class_final.png "And your new program begins")
+![And your new program begins](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_new_class_final.png)
 
 Notice the words `public class` in purple.  A class is a file which contains objects and methods (see descriptions in the respective sections (Methods and Classes). The word ‘public’ just means that the piece of code can be used in other classes. The other word that we could have written in that space would be 'private', so that only the class that we are currently in can use the piece of code.
 
@@ -124,6 +124,3 @@ public static void main(String[] args) {
 ```
 
 This is the main method, and every Java program needs a main method.  It is the first bit of code your program looks at when it is run.  If you have more than one main method, your program will get confused and will not know what to do.  (Where should it be starting from? This main method or that one?) So, the point is, you can only have ONE main method per program. You can run other methods from the main method too.  The main method must always begin with that line and look like the screenshot above, and you cannot change the name of the main method. Bear in mind that by the end of your course, you will have to be able to memorise the piece of code above.
-
-###### [Contents](https://github.com/HashanP/cadmus/blob/master/src/Chapter-1/Part%20I:%20Introduction%20and%20contents.md#contents)
-
