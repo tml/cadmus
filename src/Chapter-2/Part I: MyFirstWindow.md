@@ -6,11 +6,11 @@ Chapter 2 is all about Graphics. To make your first GUI (graphical user interfac
 ```java
 public class MyFirstWindow extends JFrame {
   public static void main(String[] args) {
-    new GUIpplication();
+    new MyFirstWindow();
   } 
-  public GUIpplication() {
+  public MyFirstWindow() {
     setSize(300, 300);
-    setTitle("GUIpplication");
+    setTitle("My first window");
     setVisible(true);
     setDefaultCloseOperation(EXIT_ON_CLOSE);
   }
