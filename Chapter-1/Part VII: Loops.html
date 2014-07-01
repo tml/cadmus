@@ -1,15 +1,14 @@
 <!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="loops">Loops</h1>
-<p>Loops are very important to programmers as they allow us to do complicated, long winded calculations in a short amount of time.</p>
+<p>Loops are very important to programmers as they allow us to do complicated, long-winded calculations in a short amount of time.</p>
 <p>There a four main loops in Java, the <strong>for loop</strong>, <strong>while loop</strong>, <strong>do loop</strong>, and <strong>array loop</strong>.  With each loop you have an initial condition, a final condition, and a set of instructions.  The set of instructions will continue to run until the final condition is met.</p>
 <h2 id="for-loop">For loop</h2>
-<p>For loops are mostly used for counting up or down in steps, usually in steps of one.  The initial condition is an int which you can initialise to a value of your choice (most of the time we use 0 if counting up to a certain value), then we have a final condition so the value you want to count up or down to.  We also have a function to increase the number of steps , for increasing by one we will use ++ (as described previously), and for decreasing by one we will use --.  So now you know how a for loop works it is time to show you what one looks like.  Below is a for loop which starts at 0, counts up by 1 each step, and prints out the number of each step, until 10 steps have been reached.  (Notice the parameters of the method countTen says void, this is because the method does not require any parameters, and putting void is more clear than simply leaving the parameters blank)</p>
+<p>For loops are mostly used for counting up or down in steps, usually in steps of one.  The initial condition is an int which you can initialise to a value of your choice (most of the time we use 0 if counting up to a certain value), and the final condition is the value you want to count up or down to.  We also have a function to increase the number of steps, for increasing by one we will use ++ (as described previously), and for decreasing by one we will use --.  So now you know how a for loop works it is time to show you what one looks like.  Below is a for loop which starts at 0, counts up by 1 each step, and prints out the number of each step, until 10 steps have been reached.  (Notice the parameters of the method countTen says <code>void</code>, this is because the method does not require any parameters, and putting void is clearer than simply leaving the parameters blank).</p>
 <pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">countTen</span>(<span class="hljs-keyword">void</span>) {
     <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> n = <span class="hljs-number">0</span>; n &lt;= <span class="hljs-number">10</span> ; n++) {
         System.out.println(n) ;
     }
 }</code></pre>
-<p>So in the brackets of the for loop we initialise a variable called n to 0, and we use n++ to increase n by 1 each step, and we continue to do this for when n is less than or equal to 10.  So as the loop is first run the program checks to see whether the value of n meets the final condition (n&lt;=10), since 0 is less than 10, n meets the condition, the piece of code within the {} is run once, and then n is increased by one, then the program checks to see whether the new value of n meets the final condition, since 1 is still less than 10 the code inside of the {} of the for loop is run once again, and this process continues until n is no longer less than or equal to 10, so this will happen when n is 11.  Once this occurs the for loop finishes and the code inside of the loop is no longer run.  Once you understand how a for loop works, the rest of the loops are fairly easy to pick up!</p>
-<p>So onto the while loop.  The while loop has only one condition and if the condition is met then the code is run, otherwise the loop finishes.  Below is an example of a while loop. (With while loops, variables must be initialised before the loop starts)</p>
+<p>So in the brackets of the for loop we initialise a variable called n to 0, and we use n++ to increase n by 1 each step, and we continue to do this for when n is less than or equal to 10.  So, firstly the lopp will run the program to check to see whether the value of n meets the final condition (n&lt;=10), and since 0 is less than 10, n meets the condition, which means that the piece of code within the {} is run once, and then n is increased by one, then the program checks to see whether the new value of n meets the final condition, and since 1 is still less than 10 the code inside of the {} of the for loop is run once again, and this process continues until n is no longer less than or equal to 10, so this will happen when n is 11 (and breathe).  Once this occurs the for loop finishes and the code inside of the loop is no longer run.  Once you understand how a for loop works, the rest of the loops are fairly easy to pick up!</p>
 <h4 id="ex-1-maths-">Ex 1 (Maths)</h4>
 <p>Use a loop of your choice to print out all the multiples of 9 within the range 0-108.</p>
 <h4 id="ex-2-maths-">Ex 2 (Maths)</h4>
@@ -17,9 +16,10 @@
 <h4 id="ex-3-maths-">Ex 3 (Maths)</h4>
 <p>Write a function, that when given a number, prints an array of all its factors.</p>
 <h4 id="ex-4-music-">Ex 4 (Music)</h4>
-<p>Write a function, that prints the lyics of <a href="http://99-bottles-of-beer.net/lyrics.html">99 Bottles of Beer</a>, with a loop.
+<p>Write a function, that prints the lyrics of <a href="http://99-bottles-of-beer.net/lyrics.html">99 Bottles of Beer</a>, with a loop.
 Extension: Add a variable to change the number of bottles.</p>
 <h2 id="while-loop">While loop</h2>
+<p>So, onto the while loop.  The while loop has only one condition and if the condition is met then the code is run, otherwise the loop finishes.  Below is an example of a while loop. (With while loops, variables must be initialised before the loop starts).</p>
 <pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">countTenWithWhileLoop</span>(<span class="hljs-keyword">void</span>) {
     <span class="hljs-keyword">int</span> n = <span class="hljs-number">0</span>;
     <span class="hljs-keyword">while</span> (n&lt;=<span class="hljs-number">10</span>) {
@@ -53,7 +53,7 @@ Extension: Add a variable to change the number of bottles.</p>
         n++;
     } <span class="hljs-keyword">while</span> (n&lt;=<span class="hljs-number">9</span>);
 }</code></pre>
-<p>Notice here we must change 10 to 9, as if we keep it as 10, once n becomes 11 the piece of code will be run and then the program will check to see if the condition is met.</p>
+<p>Notice here that we must change 10 to 9, as if we keep it as 10, once n becomes 11 the piece of code will be run and then the program will check to see if the condition is met.</p>
 <h4 id="ex-7-computer-science-">Ex 7 (Computer Science)</h4>
 <p>Write a program, that uses a do loop to prompt the user for a number, checks whether it&#39;s a number, and repeats until it is actually a number.</p>
 <h2 id="array-loop">Array loop</h2>
