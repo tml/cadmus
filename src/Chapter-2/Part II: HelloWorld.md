@@ -33,5 +33,9 @@ public class HelloWorld extends JFrame {
 
 Notice the constructor for the `JLabel`, it takes in two parameters, both of which are optional. The first is its text, the second is its alignment. We, then, use the `add()` method to add it to the window. Also notice how the `setLayout()` method is used to set the **layout manager** to a new instance of a `FlowLayout`. 
 
+This should be outputted:
+
+![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Hello_World.png "Now the box has text!")
+
 #### Ex 1
 Play around with it. Try adding another `JLabel` with a different greeting. You may have to change the second parameter, the height parameter, of `setSize()` to fit it in. You will have to add another call to the `add()` method.
