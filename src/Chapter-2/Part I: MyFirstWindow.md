@@ -21,4 +21,3 @@ Here, the class `GUIpplication` extends, thanks to the `extends` keyword, all of
 
 ### Ex 1
 Copy & run the code. Play around with `setSize`, `setTitle`, and `setVisible`.
-
