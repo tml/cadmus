@@ -23,7 +23,7 @@ public class HelloWorld extends JFrame {
         add(label);
 
         setLayout(new FlowLayout());
-	    setSize(300, 50);
+	    setSize(300, 70);
 	    setTitle("Hello World");
 	    setVisible(true);
 	    setDefaultCloseOperation(EXIT_ON_CLOSE);
