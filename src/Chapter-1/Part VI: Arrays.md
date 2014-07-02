@@ -2,7 +2,7 @@ Arrays
 ===
 
 ## Declaring Arrays
-An array is a list of variables. Arrays must be of a type. That is to say you cannot have an array that contains some Integers, next to some Strings, next to some Booleans. To declare an array in Java you use:
+An array is a list of variables. Arrays must be of a type. That is to say you cannot have an array that contains some integers, next to some Strings, next to some booleans. To declare an array in Java you use:
 
 ```java
 int[] myArray;
@@ -20,7 +20,7 @@ myArray = new int[10];
 myArray = {10, 523, 34, 63, 32, 64, 992, 353, 5, 0};
 ```
 
-Both ways create arrays of type Integer, that have a size of 10. The second way, however, initialises the array with values. Arrays must have sizes. You cannot fill the array past said sizes. In the second way, Java assumes the size by the number of values the array is set to.
+Both ways create arrays of type Integer, that have a size of 10. The second way, however, initialises the array with values. Arrays must have sizes. You cannot fill the array past said sizes. In the second way, Java assumes the size to be the number of values the array is set to.
 
 Finally, arrays can be declared and initialised together:
 ```java
@@ -39,7 +39,7 @@ System.out.println(myArray[2]); // Prints 7
 System.out.println(myArray[3]); // Prints 8
 ```
 
-Notice how the index `0` in the square brackets, corresponds to the first item; how the index `1` corresponds to the second item etc. This is because programmers count from 0, because we are **non-conformists**. That is to say we are against the *status quo* (which is Latin for 'the way things are').
+Notice how the index `0` in the square brackets corresponds to the first item; how the index `1` corresponds to the second item etc. This is because programmers count from 0, because we are **non-conformists**. That is to say we are against the *status quo* (which is Latin for 'the way things are').
 
 ## Settings Arrays
 Arrays can be set in a similar manner:
@@ -56,7 +56,7 @@ days[6] = "Sunday";
 ```
 
 ## Printing an entire Array
-Sometimes, for the sake of debugging, you will want to print an entire array. In the `java.util.Arrays` package, that you will have to import, there is a function called `Arrays.toString()`, that takes an Array and outputs a String representation. E.g.:
+Sometimes, for the sake of debugging, you will want to print an entire array. In the `java.util.Arrays` package, that you will have to import, there is a function called `Arrays.toString()`, that takes an Array and outputs a String representation. For example:
 ```java
 String[] primaryColours = {"Red", "Green", "Blue"};
 System.out.println(Arrays.toString(primaryColours));
