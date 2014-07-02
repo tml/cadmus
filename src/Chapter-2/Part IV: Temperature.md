@@ -21,6 +21,7 @@ Set btn's action listener to this.
 Set layout to a new FlowLayout.
 Set size to (400, 85).
 Set title.
+Set it to be visible.
 Set default close operation to EXIT_ON_CLOSE.
 ```
 
