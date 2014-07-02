@@ -4,7 +4,7 @@ Arithmetic
 ## Basic Arithmetic
 
 
-Adding two ints x and y: (given that they have already been initialised to a value)
+Adding two ints x and y (given that they have already been initialised to a value):
 
 ```java
 int z = x + y;
@@ -22,7 +22,7 @@ Dividing two ints x and y:
 int z = x / y;
 ```
 
-Beware, as x and y are ints z is also an int, and if you remember, ints are whole numbers, so whatever z comes out to be will be rounded down to the nearest integer (i.e. whole number). For example, if `x` was 7, and `y` was 5, then `z` would be `1` when `x` is divide by `y`.
+Beware, as x and y are ints z is also an int, and if you remember, ints are whole numbers, so whatever z comes out to be will be rounded down to the nearest integer (i.e. whole number). For example, if `x` was 7, and `y` was 5, then `z` would be `1` when `x` is divided by `y`.
 
 To avoid this problem you can use a double instead, so if `p` is a double equal to `7.0` and `q` is a double `5.0`, we could do the following:
 
@@ -41,7 +41,7 @@ To multiply two integers x and y:
 int z = x * y;
 ```
 
-The symbols for addition, subtraction, division and multiplication are `+`, `-`, `/`, `*` respectively.
+The symbols for addition, subtraction, multiplication and division are `+`, `-`, `*` and `/` respectively.
 
 #### Ex 1 (Physics)
 Write a program to work out what the power in watts of a device is if the voltage is 10V and the current is 6A, and print the result.
@@ -76,7 +76,7 @@ To get the value of a number to a given power you can use the `Math.pow()` funct
 
 ```java
 import java.lang.Math;
-// alternatively you could write the Math.pow() function and an error will appear that will write this for you
+// alternatively you could write the Math.pow() function and an error will appear that will provide you with an option to import java.lang.Math().
 ```
 Then in your `main` method, you can write:
 
@@ -95,12 +95,12 @@ Sysem.out.println(Math.sqrt(25)); // Prints 5
 ```
 
 ### Remainders
-To get the remainder of an int a when divided by another int b we can use % instead of / when dividing, so a%b, where a = 7, b = 5...
+To get the remainder of an int a when divided by another int b we can use `%` instead of `/` when dividing, so a%b, where a = 7 and b = 5...
 
 ```java
 int n = 7 % 5;
 ```
-would result in n being 2.
+...would result in n being 2.
 
 #### Ex 7 (Geometry, Physics, Chemistry, Game Programming)
 Write a programs that given four numbers *x<sub>1</sub>*, *y<sub>1</sub>*, *x<sub>2</sub>* and *y<sub>2</sub>*, that are points on a graph, and calculates the distance between them, using the formula:
