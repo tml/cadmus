@@ -2,19 +2,19 @@
 
 
 ## Description:
-In this lesson the students will learn basic programming concepts and make their first Java program.
+In this chapter the students will learn basic programming concepts and make their first Java program.
 
 ## Learning Objectives:
 **We are aiming to:** 
-- Learn programming concepts, these concepts that you will learn are core concepts that you will have to know to be able to program in any language, not just Java.
-- Make your first Java program, preferably with errors (although no one will complain if there are not), so that you get a good feel for ‘debugging’ - something that as a programmer you will have to do very often. 
+- Learn programming concepts; these concepts that you will learn are core concepts that you will have to know to be able to program in any language, not just Java.
+- Make your first Java program, preferably with errors (although no one will complain if there are not any), so that you get a good feel for ‘debugging’ - something that as a programmer you will have to do very often. 
 
 **This is because:** 
 - These are the basic skills required to program in Java and all other languages. With these concepts mastered it’s possible to learn other programming languages in the future.
 
 
 ## Success Criteria
-**By the end of the lesson, students will be able to:**
+**By the end of the chapter, students will be able to:**
 - Successfully run a Java program without any errors.
 - Be able to talk about programming concepts with relative confidence.
 
@@ -23,35 +23,35 @@ In this lesson the students will learn basic programming concepts and make their
 - An understanding of core Java and Java coding for the teacher(s).
 
 ## Lesson Plan
-Feel free to split this plan up into multiple sections.
+Feel free to split this plan up into multiple sections or not to use it at all.
 
 - Lesson Introduction
 
-  1. Student Activities
+  1. Student Activities:
   
-    * You will go over: how to initialise  a variable; how to perform arithmetic operations; what Objects are and how to use them; what Methods are and when it is best to use them; how to Print out text to the console (and what that in itself is), understand why  Loops and If else statements are so important to programmers, and finally go over Strings, which are a very important class type.
+    * You will go over: how to print out text to the console (and what that in itself is); how to initialise  a variable; how to perform arithmetic operations; what Objects are and how to use them; what Methods are and when it is best to use them; understand why  Loops and If else statements are so important to programmers, and finally go over Strings, which are a very important class type.
 
-  2. Teacher Activities
+  2. Teacher Activities:
   
     * Teachers must set up Eclipse and then proceed to help the students with what they are learning - it may be helpful to have previously created model answers for reference.
 
 - Main Activities
 
-  1. Student Activities
+  1. Student Activities:
   
     * There are a total of 20 exercises for students to work through in this section. Students should aim to complete all 20 questions, of which some are more challenging than others. There are many different ways to approach each of the exercises, and students must take this into account when attempting the exercises.
 
-  2. Teacher Activities
+  2. Teacher Activities:
   
     * Help students if they have questions regarding the exercises; if the question is about programming then refer to pages in this book/your own knowledge for further information. However, if the query involves errors in a program, read the error and try to figure out what is going wrong or what the error is trying to tell you. Proceed to analyse the error with the student as should have been explained in the introduction of the lesson(s).
 
 - Plenary (review)
   
-  1. Student Activities
+  1. Student Activities:
   
     * Talk amongst peers about the concepts you have learnt, and ask each other challenging questions. If you get stuck, be sure to ask your teachers.
   
-  2. Teacher Activities
+  2. Teacher Activities:
   
     * Answer all of the students' queries, as before.
 
