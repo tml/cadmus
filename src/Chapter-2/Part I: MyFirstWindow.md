@@ -10,7 +10,7 @@ public class MyFirstWindow extends JFrame {
   } 
   public MyFirstWindow() {
     setSize(300, 300);
-    setTitle("My first window");
+    setTitle("MyFirstWindow");
     setVisible(true);
     setDefaultCloseOperation(EXIT_ON_CLOSE);
   }
