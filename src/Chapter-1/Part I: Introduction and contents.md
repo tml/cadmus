@@ -29,7 +29,7 @@ Feel free to split this plan up into multiple sections or not to use it at all.
 
   1. Student Activities:
   
-    * You will go over: how to print out text to the console (and what that in itself is); how to initialise  a variable; how to perform arithmetic operations; what Methods are and when it is best to use them; understand why  Loops and If else statements are so important to programmers; and finally what class types are, such as what Objects are and how to use them and what Strings are (the latter will most likely be covered in the previous parts).
+    * You will go over: how to print out text to the console (and what that in itself is); how to initialise  a variable (and the different types of variable); what selection is (if-else statements); how to perform arithmetic operations; what Methods are and when it is best to use them; understand why  Loops and If else statements are so important to programmers; and finally what class types are, such as what Objects are and how to use them and what Strings are (the latter will most likely be covered in the previous parts).
 
   2. Teacher Activities:
   
