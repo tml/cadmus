@@ -29,7 +29,7 @@ Feel free to split this plan up into multiple sections or not to use it at all.
 
   1. Student Activities:
   
-    * You will go over: how to print out text to the console (and what that in itself is); how to initialise  a variable; how to perform arithmetic operations; what Objects are and how to use them; what Methods are and when it is best to use them; understand why  Loops and If else statements are so important to programmers, and finally go over Strings, which are a very important class type.
+    * You will go over: how to print out text to the console (and what that in itself is); how to initialise  a variable; how to perform arithmetic operations; what Methods are and when it is best to use them; understand why  Loops and If else statements are so important to programmers; and finally what class types are, such as what Objects are and how to use them and what Strings are (the latter will most likely be covered in the previous parts).
 
   2. Teacher Activities:
   
@@ -39,7 +39,7 @@ Feel free to split this plan up into multiple sections or not to use it at all.
 
   1. Student Activities:
   
-    * There are a total of 20 exercises for students to work through in this section. Students should aim to complete all 20 questions, of which some are more challenging than others. There are many different ways to approach each of the exercises, and students must take this into account when attempting the exercises.
+    * There are a total of 20 exercises for students to work through in this section. Students should aim to complete all 20 questions, some of which are more challenging than others. There are many different ways to approach each of the exercises, and students must take this into account when attempting the exercises.
 
   2. Teacher Activities:
   
@@ -49,7 +49,7 @@ Feel free to split this plan up into multiple sections or not to use it at all.
   
   1. Student Activities:
   
-    * Talk amongst peers about the concepts you have learnt, and ask each other challenging questions. If you get stuck, be sure to ask your teachers.
+    * Talk amongst peers about the concepts you have learnt, and ask each other challenging questions. If you get stuck, be sure to ask your teacher(s).
   
   2. Teacher Activities:
   
@@ -57,7 +57,7 @@ Feel free to split this plan up into multiple sections or not to use it at all.
 
 ## Installing Eclipse
 
-The students will be using a program called Eclipse to complete their exercises in. Eclipse is an example of an IDE, which stands for “Integrated Development Environment”. In short, an IDE is an application which contains a set of tools used to create programs in whichever language you are using. The main tools which you and your students will be using are: an editor which is used to write and edit code, and an interpreter. I have mentioned the interpreter here, however you do not explicitly use the interpreter, it simply runs without you doing anything. As you type in code, the interpreter will constantly check to see if the syntax of your code is correct and that you have not made any silly mistakes. So you can imagine the interpreter as being an English teacher who is constantly checking to see if your grammar/punctuation (syntax) is correct whilst you write sentences, or in our case, code. As the interpreter is running all the time it means that if you are typing in code and you have not yet finished writing the line, you may encounter errors and your code may be underlined in red. This is nothing to worry about and will only be a problem when you finish writing the line, at which point you need to do some investigation work. Try to see if you have made a silly mistake, and if that endeavour bears no fruit, read the error and try to understand what it is trying to tell you, and then correct the mistake. This process of finding and eliminating errors is known as 'debugging'.
+The students will be using a program called Eclipse to complete their exercises in. Eclipse is an example of an IDE, which stands for “Integrated Development Environment”. In short, an IDE is an application which contains a set of tools used to create programs in whichever language you are using. The main tools which you and your students will be using are an editor, which is used to write and edit code, and an interpreter. I have mentioned the interpreter here, however you do not explicitly use the interpreter, it simply runs without you doing anything. As you type in code, the interpreter will constantly check to see if the syntax of your code is correct and that you have not made any silly mistakes. So you can imagine the interpreter as being an English teacher who is constantly checking to see if your grammar/punctuation (syntax) is correct whilst you write sentences, or in our case, code. As the interpreter is running all the time it means that if you are typing in code and you have not yet finished writing the line, you may encounter errors and your code may be underlined in red. This is nothing to worry about and will only be a problem when you finish writing the line, at which point you need to do some investigation work. Try to see if you have made a silly mistake, and if that endeavour bears no fruit, read the error and try to understand what it is trying to tell you, and then correct the mistake. This process of finding and eliminating errors is known as 'debugging'.
 
 So now we will cover how to install Eclipse:
 
@@ -89,7 +89,7 @@ Now simply double click on the eclipse file and Eclipse will now open. If you ha
 
 Hello, and welcome to your new Java class. My name is Jarvis, and I am your new Java teacher. I will be helping you through the first part of your course.  To begin with, I will explain some simple concepts to you.
 
-In this course you will learn how to program in Java and then Swing.  You can think of programming as a way of making your computer do things – and anything that you program and run on your computer is called a program.  Programs can be seen as a set of instructions that get executed when you run the program. The instructions for programs cannot be written in plain English; they must be written in different languages, one of which is Java.  Anything you write in Java is called code, and lines of code look very similar to sentences.  However there are some key differences, such as that lines of code end in a semi-colon (;) not a full-stop.  The tool that you will use to write Java is called Eclipse.  Eclipse will highlight different bits of your code so that you can see the different bits of code more clearly.  The code you write in Eclipse will tell your program what you want it to do when you run your code.  With that explained, on with the programming!
+In this course you will learn how to program in Java and then Swing.  You can think of programming as a way of making your computer do things – and anything that you create and run on your computer is called a program.  Programs can be seen as a set of instructions that get executed when you run the program. The instructions for programs cannot be written in plain English; they must be written in different languages, one of which is Java.  Anything you write in Java is called code, and lines of code look very similar to sentences.  However there are some key differences, such as that lines of code end in a semi-colon (;) not a full-stop.  The tool that you will use to write Java is called Eclipse.  Eclipse will highlight different bits of your code so that you can see the different bits of code more clearly.  The code you write in Eclipse will tell your program what you want it to do when you run your code.  With that explained, on with the programming!
 
 1) Open up Eclipse (your teacher should have explained how to do this).
 It should look something like the screen shot below:
