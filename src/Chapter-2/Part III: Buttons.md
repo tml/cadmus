@@ -1,6 +1,6 @@
 Buttons
 ===
-In our next application, the buttons application, we have receive user input i.e. button presses. We will use the `JButton` class. The imports required for this application will be:
+In our next application, the buttons application, we have to be able to receive user input i.e. button presses. We will use the `JButton` class. The imports required for this application will be:
 
 ```java
 import java.awt.FlowLayout;
@@ -49,6 +49,13 @@ public class Buttons extends JFrame implements ActionListener {
 }
 ```
 
-Notice the `implements ActionListener`. Don't worry about that now. Just think of it as a different kind of `extends`. Rather than inheriting all the methods of the class in front of it, `implements` mean the class will contain the methods mandated by the thing in front of it. In this case it is the `actionPerformed()` method, which you do not call. By setting the ActionListener of `btn1` and `btn2` to `this` i.e. the current instance of `Buttons`, you are saying whenever `btn1` or `btn2` are clicked, you won't them to pass on the event to the current instance of `Buttons`. The `e` variable stores information about the event. `getSource()` will return the button the was pressed.
+Notice the `implements ActionListener`. Don't worry about that now. Just think of it as a different kind of `extends`. Rather than inheriting all the methods of the class in front of it, `implements` mean the class will contain the methods mandated by the thing in front of it. In this case it is the `actionPerformed()` method, which you do not call. By setting the ActionListener of `btn1` and `btn2` to `this` i.e. the current instance of `Buttons`, you are saying whenever `btn1` or `btn2` are clicked, you won't them to pass on the event to the current instance of `Buttons`. The `e` variable stores information about the event. `getSource()` will return the button that was pressed.
 
-Finally, the `setText()` method on the label, allows you to dynamically change the text.
+Finally, the `setText()` method on the label allows you to dynamically change the text.
+
+These are what should be outputted at the start; when the first button is clicked; and when the second button is clicked:
+
+![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Buttons_none_clicked.png "The box when none of the buttons are clisked")
+![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/btn1_clicked.png "What happens when button 1 is clicked")
+![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/btn2_clicked.png "What happens when button 2 is clicked")
+
