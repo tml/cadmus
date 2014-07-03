@@ -39,7 +39,7 @@ System.out.println(myArray[2]); // Prints 7
 System.out.println(myArray[3]); // Prints 8
 ```
 
-Notice how the index `0` in the square brackets corresponds to the first item; how the index `1` corresponds to the second item etc. This is because programmers count from 0, because we are **non-conformists**. That is to say we are against the *status quo* (which is Latin for 'the way things are').
+Notice how the index `0` in the square brackets corresponds to the first item; how the index `1` corresponds to the second item etc. This is because programmers count from 0, because we are **non-conformists**. That is to say we are against the *status quo* (which is Latin for 'the way things are' - yes I am a show-off).
 
 ## Settings Arrays
 Arrays can be set in a similar manner:
