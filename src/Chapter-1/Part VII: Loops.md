@@ -11,8 +11,8 @@ For loops are mostly used for counting up or down in steps, usually in steps of 
 
 ```java
 public void countTen(void) {
-	for(int n = 0; n <= 10 ; n++) {
-		System.out.println(n) ;
+	for(int n = 0; n <= 10; n++) {
+		System.out.println(n);
 	}
 }
 ```
