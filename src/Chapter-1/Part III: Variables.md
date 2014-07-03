@@ -7,7 +7,7 @@ A variable is a piece of information or a value that can be changed. A variable 
 ## Data types
 
 ### Strings
-A String is a series of characters. To define a String called `name` do:
+A string is a series of characters. To define a string called `name` do:
 ```java
 String name;
 ```
@@ -57,7 +57,7 @@ While an integer is a whole number, a real number has a decimal point in it. To 
 double pi = 3.14159265359;
 ```
 
-As with an integer, you can convert it into a String and a double, using the following:
+As with an integer, you can convert it into a string and a double, using the following:
 ```java
 String piAsString = "3.14159265359";
 double pi = Double.parseDouble(piAsString);
@@ -65,7 +65,7 @@ piAsString = Double.toString(pi);
 ```
 
 ### Booleans
-A boolean is a variable that has two possible values - `true` or `false`. As before, you can convert between booleans and Strings:
+A boolean is a variable that has two possible values - `true` or `false`. As before, you can convert between booleans and strings:
 
 ```java
 boolean myBoolean = true;
