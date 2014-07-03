@@ -42,11 +42,8 @@ String ageAsString = "13";
 int age = Integer.parseInt(ageAsString);
 ```
 
-<<<<<<< HEAD
-You can also increment and decrement variables:
-=======
-You can increment and decrement variables by one, by using unary operators, that is to say operators that take one value:
->>>>>>> 53268e3c2d18891c19a2973305d2b6a249eb440e
+You can also increment and decrement variables by one, by using unary operators, that is to say operators that take one value:
+
 ```java
 age++; // Age now equals 14
 age--; // Age is back to 13
