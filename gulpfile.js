@@ -84,6 +84,5 @@ gulp.task("styles", function() {
 });
 
 gulp.task("default", ["styles", "convert", "copy"], function() {
-
 	gulp.start("server");
 });
