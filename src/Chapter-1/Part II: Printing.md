@@ -31,7 +31,7 @@ System.out.println(n);
 // which would output: 5
 ```
 
-You could also print out variables and Strings at the same time, you simply separate them with a `+` sign as shown below:
+You could also print out variables and strings at the same time, you simply separate them with a `+` sign as shown below:
 
 ```java
 System.out.println("The value of n is " + n);
