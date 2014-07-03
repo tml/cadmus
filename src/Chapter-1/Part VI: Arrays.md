@@ -2,7 +2,7 @@ Arrays
 ===
 
 ## Declaring Arrays
-An array is a list of variables. Arrays must be of a type. That is to say you cannot have an array that contains some integers, next to some Strings, next to some booleans. To declare an array in Java you use:
+An array is a list of variables. Arrays must be of a type. That is to say you cannot have an array that contains some integers, next to some strings, next to some booleans. To declare an array in Java you use:
 
 ```java
 int[] myArray;
