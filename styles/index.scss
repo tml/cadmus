@@ -2,6 +2,55 @@ $font-family: "Helvetica", "Ariel", "freesans", "clean", "sans-serif";
 $heading-font-family: "Georgia";
 $code-font-family: "Consolas", "Liberation Mono", "Menlo", "Courier", "monospace";
 
+main {
+	width:960px;
+	left:50%;
+	margin-left:-480px;
+	position:relative;
+	text-align:justify;
+	padding:20px;
+	font-size:18px;
+}
+
+.special {
+	padding:15px;
+	background-color:darkseagreen;
+	font-family:"Helvetica";
+}
+
+.special a {
+	color:black !important;
+	font-weight:bold;
+	font-style:italic;
+}
+
+@media(min-width:1100px) {
+	main {
+		width:1100px;
+		left:50%;
+		margin-left:-550px;
+		position:relative;
+		text-align:justify;
+		}
+}
+
+nav ul {
+	list-style-type:none;
+}
+
+nav ul a {
+	font-family:"Georgia";
+}
+
+.title {
+	text-align:center;
+}
+
+h4.title {
+	font-weight:normal;
+}
+
+
 /**
    @function Returns the last item of a list
 */
@@ -22,9 +71,60 @@ pre, code {
 	font-family:$code-font-family;
 }
 
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size:1.2em;
+  line-height: 1.4;
+  color: #333333;
+  line-height: 1.7;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
 .markdown-body table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
 }
 
 .markdown-body td,

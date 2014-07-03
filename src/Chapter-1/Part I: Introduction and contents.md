@@ -6,8 +6,13 @@ In this chapter the students will learn basic programming concepts and make thei
 
 ## Learning Objectives:
 **We are aiming to:** 
+<<<<<<< HEAD
 - Learn programming concepts; these concepts that you will learn are core concepts that you will have to know to be able to program in any language, not just Java.
 - Make your first Java program, preferably with errors (although no one will complain if there are not any), so that you get a good feel for ‘debugging’ - something that as a programmer you will have to do very often. 
+=======
+- Learn programming concepts, these concepts that you will learn are core concepts that you will have to know to be able to program in any language, not just Java.
+- Make your first Java program, preferably with errors (although no one will complain if there are not), so that you get a good feel for debugging - something that as a programmer you will have to do very often. 
+>>>>>>> 093b9202981068c725a52e7aaa02896430bd3c7e
 
 **This is because:** 
 - These are the basic skills required to program in Java and all other languages. With these concepts mastered it’s possible to learn other programming languages in the future.
@@ -57,7 +62,11 @@ Feel free to split this plan up into multiple sections or not to use it at all.
 
 ## Installing Eclipse
 
+<<<<<<< HEAD
 The students will be using a program called Eclipse to complete their exercises in. Eclipse is an example of an IDE, which stands for “Integrated Development Environment”. In short, an IDE is an application which contains a set of tools used to create programs in whichever language you are using. The main tools which you and your students will be using are an editor, which is used to write and edit code, and an interpreter. I have mentioned the interpreter here, however you do not explicitly use the interpreter, it simply runs without you doing anything. As you type in code, the interpreter will constantly check to see if the syntax of your code is correct and that you have not made any silly mistakes. So you can imagine the interpreter as being an English teacher who is constantly checking to see if your grammar/punctuation (syntax) is correct whilst you write sentences, or in our case, code. As the interpreter is running all the time it means that if you are typing in code and you have not yet finished writing the line, you may encounter errors and your code may be underlined in red. This is nothing to worry about and will only be a problem when you finish writing the line, at which point you need to do some investigation work. Try to see if you have made a silly mistake, and if that endeavour bears no fruit, read the error and try to understand what it is trying to tell you, and then correct the mistake. This process of finding and eliminating errors is known as 'debugging'.
+=======
+The students will be using a program called Eclipse to complete their exercises in. Eclipse is an example of an IDE, which stands for **Integrated Development Environment**. In short, an IDE is an application which contains a set of tools used to create programs in whichever language you are using. The main tools which you and your students will be using are: an editor which is used to write and edit code, and an interpreter. I have mentioned the interpreter here, however you do not explicitly use the interpreter, it simply runs without you doing anything. As you type in code, the interpreter will constantly check to see if the syntax of your code is correct and that you have not made any silly mistakes. So you can imagine the interpreter as being an English teacher who is constantly checking to see if your grammar/punctuation (syntax) is correct whilst you write sentences, or in our case, code. As the interpreter is running all the time it means that if you are typing in code and you have not yet finished writing the line, you may encounter errors and your code may be underlined in red. This is nothing to worry about and will only be a problem when you finish writing the line, at which point you need to do some investigation work. Try to see if you have made a silly mistake, and if that endeavour bears no fruit, read the error and try to understand what it is trying to tell you, and then correct the mistake. This process of finding and eliminating errors is known as **debugging**.
+>>>>>>> 093b9202981068c725a52e7aaa02896430bd3c7e
 
 So now we will cover how to install Eclipse:
 
@@ -107,7 +116,7 @@ Where it says name type in Example then click Finish, and so your screen should 
 
 Notice the words `public class` in purple.  A class is a file which contains objects and methods (see descriptions in the respective sections (Methods and Classes). The word ‘public’ just means that the piece of code can be used in other classes. The other word that we could have written in that space would be 'private', so that only the class that we are currently in can use the piece of code.
 
-At the top of a Java program, usually you can find a comment or two stating the name of the person who wrote the program and a note on what the program does.  To write words and sentences in a program that other people can see when they look at your code, but isn't visible to the computer when you run your program, write // at the start of the sentence you want to write.  So, I would write 
+At the top of a Java program, usually you can find a comment or two stating the name of the person who wrote the program and a note on what the program does.  To write words and sentences in a program that other people can see when they look at your code, but isn't visible to the computer when you run your program, write // at the start of the sentence you want to write.  So, I would write:
 
 ```java
 //By Jarvis, this is an example program.
@@ -120,7 +129,7 @@ Now copy and paste this piece of code into your class:
 ```java
 public static void main(String[] args) {
 		
-};
+}
 ```
 
 This is the main method, and every Java program needs a main method.  It is the first bit of code your program looks at when it is run.  If you have more than one main method, your program will get confused and will not know what to do.  (Where should it be starting from? This main method or that one?) So, the point is, you can only have ONE main method per program. You can run other methods from the main method too.  The main method must always begin with that line and look like the screenshot above, and you cannot change the name of the main method. Bear in mind that by the end of your course, you will have to be able to memorise the piece of code above.
