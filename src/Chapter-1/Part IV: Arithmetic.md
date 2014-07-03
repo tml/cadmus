@@ -76,7 +76,8 @@ To get the value of a number to a given power you can use the `Math.pow()` funct
 
 ```java
 import java.lang.Math;
-// alternatively you could write the Math.pow() function and an error will appear that will provide you with an option to import java.lang.Math().
+//Alternatively you could write the Math.pow() function in Java without importing java.lang.Math.
+//An error will appear that will provide you with an option to import java.lang.Math() without you typing anything.
 ```
 Then in your `main` method, you can write:
 
