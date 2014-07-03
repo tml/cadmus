@@ -33,7 +33,7 @@ Write a method, that given a name, returns a Hello World-style greeting. For ins
 I've told you previously that `String` is a class, not a primitive. Classes can have their own methods attached to them.
 
 #### Length
-The `.length()` method returns the length of a String as an `int`. Unlike in a JavaScript String, `.length()` is a method, that must be called with parentheses.
+The `.length()` method returns the length of a string as an `int`. Unlike in a JavaScript string, `.length()` is a method, that must be called with parentheses.
 
 ```java
 String name = "George";
