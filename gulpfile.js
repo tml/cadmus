@@ -10,6 +10,7 @@ var ssg = require("gulp-ssg");
 var fs = require("fs");
 var highlight = require("highlight.js");
 var pages = require("gulp-gh-pages");
+var sass = require("gulp-sass");
 
 dust.onLoad = function(name, cb) {
 	fs.readFile(name, function(err, contents) {
@@ -73,6 +74,16 @@ gulp.task("server", function() {
 	});
 });
 
-gulp.task("default", ["convert", "copy"], function() {
+gulp.task("styles", function() {
+	return gulp.src("./styles/**/*")
+		.pipe(sass())
+		.pipe(rename({
+			extname:".css"
+		}))
+		.pipe(gulp.dest("./.dist/styles"));
+});
+
+gulp.task("default", ["styles", "convert", "copy"], function() {
+
 	gulp.start("server");
 });

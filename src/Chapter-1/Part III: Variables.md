@@ -42,21 +42,27 @@ String ageAsString = "13";
 int age = Integer.parseInt(ageAsString);
 ```
 
+<<<<<<< HEAD
 You can also increment and decrement variables:
+=======
+You can increment and decrement variables by one, by using unary operators, that is to say operators that take one value:
+>>>>>>> 53268e3c2d18891c19a2973305d2b6a249eb440e
 ```java
 age++; // Age now equals 14
 age--; // Age is back to 13
 ```
+Binary operators like `+`, `-`, `/` and `*` take two values. 
+
 
 ### Real numbers
 While an integer is a whole number, a real number has a decimal point in it. To use a real number in Java, use the `double` data type:
 ```java
-double pi = 3.14159265;
+double pi = 3.14159265359;
 ```
 
 As with an integer, you can convert it into a String and a double, using the following:
 ```java
-String piAsString = "3.14159265";
+String piAsString = "3.14159265359";
 double pi = Double.parseDouble(piAsString);
 piAsString = Double.toString(pi);
 ```
