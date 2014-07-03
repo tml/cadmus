@@ -50,7 +50,7 @@ System.out.println(name.trim());
 ```
 
 #### Upper Case, Lower Case
-There are also the `.toUpperCase()`, and `.toLowerCase()` methods, return an uppercase copy and lowercase copy of the original String respectively, e.g:
+There are also the `.toUpperCase()`, and `.toLowerCase()` methods, return an uppercase copy and lowercase copy of the original string respectively, e.g:
 
 ```java
 String name = "George";
