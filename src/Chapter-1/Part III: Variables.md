@@ -30,13 +30,13 @@ An integer is a whole number. Integers are stored as the data type `int`. To def
 int age = 15;
 ```
 
-You can convert an integer to a String, by using `Integer.toString()`:
+You can convert an integer to a string, by using `Integer.toString()`:
 ```java
 int age = 13;
 String ageAsString = Integer.toString(age);
 ```
 
-You can convert a String to an integer by using `Integer.parseInt()`:
+You can convert a string to an integer by using `Integer.parseInt()`:
 ```java
 String ageAsString = "13";
 int age = Integer.parseInt(ageAsString);
