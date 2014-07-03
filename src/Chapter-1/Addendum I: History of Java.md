@@ -2,7 +2,7 @@ Java derives the majority of its core concepts and syntax from the programming l
 ```c
 int age = 5;
 char initial = "H";
-boolean alive = false;
+bool alive = false;
 double y = 3.3;
 ```
 
