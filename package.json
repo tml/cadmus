@@ -1,6 +1,6 @@
 {
   "name": "cadmus",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Primer in Java",
   "main": "gulpfile.js",
   "scripts": {
@@ -22,7 +22,6 @@
   },
   "devDependencies": {
     "gulp-rename": "~1.2.0",
-    "gulp-marked": "~0.2.0",
     "gulp": "~3.8.1",
     "gulp-connect": "~2.0.5",
     "gulp-clean": "~0.3.0",
@@ -33,7 +32,9 @@
     "gulp-ssg": "~0.4.5",
     "highlight.js": "~8.0.0",
     "gulp-gh-pages": "~0.3.2",
-    "gulp-sass": "~0.7.2"
+    "gulp-sass": "~0.7.2",
+    "marked": "~0.3.2",
+    "gulp-markdown": "~0.1.2"
   },
   "dependencies": {
     "dustjs-linkedin": "~2.4.0"
