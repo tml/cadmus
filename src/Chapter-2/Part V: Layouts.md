@@ -11,8 +11,11 @@ Flow Layout, which is the only layout manager you have seen before, is the simpl
 mywindow.setLayout(new FlowLayout());
 mywindow.add(component1);
 mywindow.add(component2);
+mywindow.add(component3);
 ```
-This displays elements of a frame so that `component1` (which has already been initialised) comes before `component2` (which has also been initialised).
+This displays elements of a frame so that `component1` (which has already been initialised) comes before `component2` (which has also been initialised). It should therefore look something like this:
+
+![alt text](https://github.com/BillsJ/cadmus/raw/master/src/Images/flow_layout.png "The flow layout")
 
 ## The Border Layout
 
