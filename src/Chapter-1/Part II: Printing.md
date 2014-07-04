@@ -15,7 +15,7 @@ System.out.print("Hello ");
 System.out.print("world");
 ```
 
-Now, what if we wanted to put the "world" on a new line?  Well we would simply write the following code instead:
+Now, what if we were to put the "world" on a new line?  Well we would simply write the following code instead:
 
 ```java
 System.out.println("Hello");
