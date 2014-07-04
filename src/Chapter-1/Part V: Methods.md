@@ -1,8 +1,8 @@
 Methods
 ===
 
-## Creating and using you own methods
-A method is another word for a function. A method performs a task, so if you want to triple a number, you may want to have a triple method. (It's always best to start the method name with a lower case letter and name it something similar to what it does). The `main` method is an example of a method that is **void** i.e. it returns nothing. That's why it has the `void` keyword before the method name. Methods should be define in a class. E.g:
+## Creating and using your own methods
+A method is another word for a function. A method performs a task, so if you want to triple a number, you may want to have a triple method. The `main` method is an example of a method that is **void** i.e. it returns nothing. That's why it has the `void` keyword before the method name. Methods should be defined in a class, e.g:
 
 ```java
 public static int triple(int number) {
@@ -11,7 +11,7 @@ public static int triple(int number) {
 }
 ```
 
-After `public static` you write the type of the thing that you are returning; in this case we are taking in an int and returning an int. If of course it returns nothing, use the `void` keyword.  After the return type you have the name of the method. I have called this method triple. Inside the brackets after the method name you have the parameters, which are the pieces of information that the method is given when the method is called.  So when we call the triple function we supply it with a number, which is then multiplied by three and then the method returns the tripled number.
+After `public static` you write the type of the thing that you are returning; in this case we are taking in an int and returning an int. If of course it returns nothing, use the `void` keyword.  After the return type you have the name of the method. I have called this method triple. It's always best to start the method name with a lower case letter and name it something similar to what it does. Inside the brackets after the method name you have the parameters, which are the pieces of information that the method is given when it is called.  So, when we call the triple function we supply it with a number, which is then multiplied by three and the tripled number is returned.
 
 To call the method from the `main` method, do:
 
@@ -21,7 +21,7 @@ public static void main(String[] args) {
 }
 ```
 
-Note: `Math.abs()`, and `Math.sqrt()` are examples of methods in the `Math` package. Inside the `Math` package, there are also trigonometric functions such as `Math.sin()`, `Math.cos()`, and `Math.tan()`.
+Note: `Math.abs()`, and `Math.sqrt()` (which you met in the last part) are examples of methods in the `Math` package. Inside the `Math` package, there are also trigonometric functions such as `Math.sin()`, `Math.cos()`, and `Math.tan()`.
 
 #### Ex 1
 Write a program which contains a method called triple (and the main method of course), which triples a number.  Get the program to triple the number 34 and then print out the result.
@@ -33,7 +33,7 @@ Write a method, that given a name, returns a Hello World-style greeting. For ins
 I've told you previously that `String` is a class, not a primitive. Classes can have their own methods attached to them.
 
 #### Length
-The `.length()` method returns the length of a String as an `int`. Unlike in a JavaScript String, `.length()` is a method, that must be called with parentheses.
+The `.length()` method returns the length of a string as an `int`. Unlike in a JavaScript string, `.length()` is a method, that must be called with parentheses.
 
 ```java
 String name = "George";
@@ -50,7 +50,7 @@ System.out.println(name.trim());
 ```
 
 #### Upper Case, Lower Case
-There are also the `.toUpperCase()`, and `.toLowerCase()` methods, return an uppercase copy and lowercase copy of the originally string respectively, e.g:
+There are also the `.toUpperCase()`, and `.toLowerCase()` methods, return an uppercase copy and lowercase copy of the original string respectively, e.g:
 
 ```java
 String name = "George";
@@ -79,5 +79,7 @@ Integer age = 5;
 `age` does not have the method `.parseInt()`. You've met many of these methods already. Indeed the methods, you've created with the `static` keyword, are static methods. If I removed the `static` keyword from them they would not be able to be called by the `main` method. The `main` method is a special sort of static method, it is the **execution point** of the program. An execution point must have the **method signature** of:
 
 ```java
-public static void main(String[] args)
+public static void main(String[] args) {
+
+}
 ```

@@ -1,7 +1,7 @@
 HelloWorld
 ===
 
-In the last part, we created an empty window; now, we want to add some text to it. We will create a class that extends the JFrame from HelloWorld just like last time, but this time our class will have a property called `label` that will be an instance of the class `JLabel`. We will also use an instance of the `FlowLayout` class to organise the elements on screen. The following imports will be needed:
+In the last part, we created an empty window; now we want to add some text to it. We will create a class that extends the JFrame from HelloWorld just like last time, but this time our class will have a property called `label` that will be an instance of the class `JLabel`. We will also use an instance of the `FlowLayout` class to organise the elements on screen. The following imports will be needed:
 
 ```java
 import java.awt.FlowLayout;
@@ -31,7 +31,7 @@ public class HelloWorld extends JFrame {
 }
 ```
 
-Notice the constructor for the `JLabel`, it takes in two parameters, both of which are optional. The first is its text, the second is its alignment. We, then, use the `add()` method to add it to the window. Also notice how the `setLayout()` method is used to set the **layout manager** to a new instance of a `FlowLayout`. 
+Notice the constructor for the `JLabel`: it takes in two parameters, both of which are optional. The first is its text, the second is its alignment. We then use the `add()` method to add it to the window. Also notice how the `setLayout()` method is used to set the **layout manager** to a new instance of a `FlowLayout`. 
 
 This should be outputted:
 

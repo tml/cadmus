@@ -1,7 +1,7 @@
 Temperature
 ===
 
-For this part, the imports will be identical to the last part's except for the addition of `import javax.swing.JTextField;`. Also in this part I'll give you the first few lines of **the class**, and then I'll give the rest as pseudocode, you'll see what I mean:
+For this part, the imports will be identical to the last part's, except for the addition of `import javax.swing.JTextField;`. Also in this part I'll give you the first few lines of **the class**, and then I'll give the rest as pseudocode, which is just normal text that you have to translate into Java yourself:
 
 ```java
 JTextField input = new JTextField(15);
@@ -34,8 +34,8 @@ Set the text of label to farenheitValue.
 
 #### Help
 - To get the value of `input`, use the `getText()` method.
-- You must remember to use `Integer.parseInt()` and `Integer.toString()` appropriately
-- To do a degree symbol in Java use `\u00b0` - I know it is weird
+- You must remember to use `Integer.parseInt()` and `Integer.toString()` appropriately.
+- To do a degree symbol in Java use `\u00b0` - I know it is weird.
 
 #### Extension
 Modify the code to convert Farenheit to Celsius. You will have to add another button, and use `.getSource()` in `actionPerformed` to check which button was pressed.
