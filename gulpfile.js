@@ -1,16 +1,21 @@
 var gulp = require("gulp");
-var marked = require("gulp-marked");
+var marked = require("gulp-markdown");
 var rename = require("gulp-rename");
 var connect = require("gulp-connect");
 var clean = require("gulp-clean");
 var dust = require("dustjs-linkedin");
 dust.helper = require("dustjs-helpers");
 var es = require("event-stream");
-var ssg = require("gulp-ssg");
 var fs = require("fs");
 var highlight = require("highlight.js");
 var pages = require("gulp-gh-pages");
 var sass = require("gulp-sass");
+var mard = require("marked");
+var renderer = new mard.Renderer();
+
+renderer.image = function(href, title, text) {
+	return "<img src=\"" + href + "\" alt=\"" + text + "\" title=\"" + (title || text) + "\"/>";
+};
 
 dust.onLoad = function(name, cb) {
 	fs.readFile(name, function(err, contents) {
@@ -32,7 +37,8 @@ gulp.task("convert", ["clean"], function() {
 				} else {
 					return code;
 				}
-			}
+			},
+			renderer:renderer
 		}))
 		.pipe(rename({
 			extname:".html"

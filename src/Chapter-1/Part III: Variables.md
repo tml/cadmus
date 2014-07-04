@@ -1,8 +1,7 @@
 Variables
 ===
 
-A variable is a piece of information or a value that can be changed. A variable always has a name, which acts a reference to the piece of information it holds. A variable's name must not contain any spaces. For instance `my_variable` is a valid variable name, whereas `my variable` is not. A variable must also have a data type, that it is defined as. Once a variable is defined, it can be assigned a value. For instance, these values can be of the data types Integers, Strings, Booleans, etc. 
-
+A variable is a piece of information or a value that can be changed. A variable always has a name, which acts a reference to the piece of information it holds. A variable's name must not contain any spaces. For instance `my_variable` is a valid variable name, whereas `my variable` is not. A variable must also have a data type, that it is defined as. Once a variable is defined, it can be assigned a value. Data types include integers, strings, booleans, etc.
 
 ## Data types
 
