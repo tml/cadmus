@@ -1,8 +1,9 @@
 <!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="helloworld">HelloWorld</h1>
-<p>In the last part, we created an empty window; now, we want to add some text to it. We will create a class that extends the JFrame from HelloWorld just like last time, but this time our class will have a property called <code>label</code> that will be an instance of the class <code>JLabel</code>. We will also use an instance of the <code>FlowLayout</code> class to organise the elements on screen. The following imports will be needed:</p>
+<p>In the last part, we created an empty window; now we want to add some text to it. We will create a class that extends the JFrame from HelloWorld just like last time, but this time our class will have a property called <code>label</code> that will be an instance of the class <code>JLabel</code>. We will also use an instance of the <code>FlowLayout</code> class to organise the elements on screen. The following imports will be needed:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">import</span> java.awt.FlowLayout;
 <span class="hljs-keyword">import</span> javax.swing.JFrame;
-<span class="hljs-keyword">import</span> javax.swing.JLabel;</code></pre>
+<span class="hljs-keyword">import</span> javax.swing.JLabel;
+</code></pre>
 <p>Here is the code, copy it and we&#39;ll discuss it later:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HelloWorld</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">JFrame</span> {</span>
     JLabel label = <span class="hljs-keyword">new</span> JLabel(<span class="hljs-string">"Hello World"</span>, JLabel.CENTER);
@@ -20,10 +21,11 @@
         setVisible(<span class="hljs-keyword">true</span>);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
-}</code></pre>
-<p>Notice the constructor for the <code>JLabel</code>, it takes in two parameters, both of which are optional. The first is its text, the second is its alignment. We, then, use the <code>add()</code> method to add it to the window. Also notice how the <code>setLayout()</code> method is used to set the <strong>layout manager</strong> to a new instance of a <code>FlowLayout</code>. </p>
+}
+</code></pre>
+<p>Notice the constructor for the <code>JLabel</code>: it takes in two parameters, both of which are optional. The first is its text, the second is its alignment. We then use the <code>add()</code> method to add it to the window. Also notice how the <code>setLayout()</code> method is used to set the <strong>layout manager</strong> to a new instance of a <code>FlowLayout</code>. </p>
 <p>This should be outputted:</p>
-<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/Hello_World.png" alt="alt text" title="Now the box has text!"></p>
+<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/Hello_World.png" alt="alt text" title="Now the box has text!"/></p>
 <h4 id="ex-1">Ex 1</h4>
 <p>Play around with it. Try adding another <code>JLabel</code> with a different greeting. You may have to change the second parameter, the height parameter, of <code>setSize()</code> to fit it in. You will have to add another call to the <code>add()</code> method.</p>
 </main></body></html>

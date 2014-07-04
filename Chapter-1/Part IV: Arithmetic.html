@@ -1,21 +1,26 @@
 <!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="arithmetic">Arithmetic</h1>
 <h2 id="basic-arithmetic">Basic Arithmetic</h2>
-<p>Adding two ints x and y: (given that they have already been initialised to a value)</p>
-<pre><code class="lang-java"><span class="hljs-keyword">int</span> z = x + y;</code></pre>
+<p>Adding two ints x and y (given that they have already been initialised to a value):</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span> z = x + y;
+</code></pre>
 <p>Subtracting two ints x and y:</p>
-<pre><code class="lang-java"><span class="hljs-keyword">int</span> z = x - y;</code></pre>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span> z = x - y;
+</code></pre>
 <p>Dividing two ints x and y:</p>
-<pre><code class="lang-java"><span class="hljs-keyword">int</span> z = x / y;</code></pre>
-<p>Beware, as x and y are ints z is also an int, and if you remember, ints are whole numbers, so whatever z comes out to be will be rounded down to the nearest integer (i.e. whole number). For example, if <code>x</code> was 7, and <code>y</code> was 5, then <code>z</code> would be <code>1</code> when <code>x</code> is divide by <code>y</code>.</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span> z = x / y;
+</code></pre>
+<p>Beware, as x and y are ints z is also an int, and if you remember, ints are whole numbers, so whatever z comes out to be will be rounded down to the nearest integer (i.e. whole number). For example, if <code>x</code> was 7, and <code>y</code> was 5, then <code>z</code> would be <code>1</code> when <code>x</code> is divided by <code>y</code>.</p>
 <p>To avoid this problem you can use a double instead, so if <code>p</code> is a double equal to <code>7.0</code> and <code>q</code> is a double <code>5.0</code>, we could do the following:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">double</span> p = <span class="hljs-number">7</span>;
 <span class="hljs-keyword">double</span> q = <span class="hljs-number">5</span>;
 <span class="hljs-keyword">double</span> r = p / q;
-<span class="hljs-comment">//r would be 1.4</span></code></pre>
+<span class="hljs-comment">//r would be 1.4</span>
+</code></pre>
 <p>If, however, <code>p</code> and <code>q</code> are integers, <code>r</code> will equal <code>1.0</code>, because the <code>/</code> operator works irresepective of anything other than <code>p</code> and <code>q</code>, and their datatypes.</p>
 <p>To multiply two integers x and y:</p>
-<pre><code class="lang-java"><span class="hljs-keyword">int</span> z = x * y;</code></pre>
-<p>The symbols for addition, subtraction, division and multiplication are <code>+</code>, <code>-</code>, <code>/</code>, <code>*</code> respectively.</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span> z = x * y;
+</code></pre>
+<p>The symbols for addition, subtraction, multiplication and division are <code>+</code>, <code>-</code>, <code>*</code> and <code>/</code> respectively.</p>
 <h4 id="ex-1-physics-">Ex 1 (Physics)</h4>
 <p>Write a program to work out what the power in watts of a device is if the voltage is 10V and the current is 6A, and print the result.
 Hint: Power (W) = Current * Voltage</p>
@@ -32,27 +37,32 @@ Hint: You may want to turn the previous exercise into a method so you can easily
 <p>Write a program to work out the missing angle of a triangle which has two known angles of 108 degrees and 24 degrees.
 Hint: The angles of a triangle must sum up to 180 degrees.</p>
 <h4 id="ex-6-ecology-">Ex 6 (Ecology)</h4>
-<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/Quadrants.png" alt="alt text" title="A quadrat"></p>
+<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/Quadrants.png" alt="alt text" title="A quadrat"/></p>
 <p>A standard quadrat used in school has an area of 0.25m<sup>2</sup>. A quadrat is used to sample a random area of a field to estimate the abundance/variety/percentage coverage of a species. For a random sampling to be statistically viable, at least 3% of the area must be sampled. Write a program, given the size of an area, (say 2000m<sup>2</sup>) works out the amount of different samplings that must be done.</p>
 <h2 id="advanced-arithmetic">Advanced Arithmetic</h2>
 <h3 id="powers">Powers</h3>
 <p>To get the value of a number to a given power you can use the <code>Math.pow()</code> function, which takes two parameters: a number and a power. To use this however, you must import the <code>java.lang.Math</code> package. A package is essentially a collection of functions. To import <code>java.lang.Math</code>, write this at the very top of your code:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">import</span> java.lang.Math;
-<span class="hljs-comment">// alternatively you could write the Math.pow() function and an error will appear that will write this for you</span></code></pre>
+<span class="hljs-comment">//Alternatively you could write the Math.pow() function in Java without importing java.lang.Math.</span>
+<span class="hljs-comment">//An error will appear that will provide you with an option to import java.lang.Math() without you typing anything.</span>
+</code></pre>
 <p>Then in your <code>main</code> method, you can write:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">int</span> number = <span class="hljs-number">2</span>;
 <span class="hljs-keyword">int</span> power = <span class="hljs-number">3</span>;
 System.out.println(Math.pow(number, power));
-<span class="hljs-comment">// Prints 8</span></code></pre>
+<span class="hljs-comment">// Prints 8</span>
+</code></pre>
 <h3 id="square-roots">Square Roots</h3>
 <p>Another function in that package is the <code>Math.sqrt()</code> that returns the square root of a number.</p>
-<pre><code class="lang-java">Sysem.out.println(Math.sqrt(<span class="hljs-number">25</span>)); <span class="hljs-comment">// Prints 5</span></code></pre>
+<pre><code class="lang-java">Sysem.out.println(Math.sqrt(<span class="hljs-number">25</span>)); <span class="hljs-comment">// Prints 5</span>
+</code></pre>
 <h3 id="remainders">Remainders</h3>
-<p>To get the remainder of an int a when divided by another int b we can use % instead of / when dividing, so a%b, where a = 7, b = 5...</p>
-<pre><code class="lang-java"><span class="hljs-keyword">int</span> n = <span class="hljs-number">7</span> % <span class="hljs-number">5</span>;</code></pre>
-<p>would result in n being 2.</p>
+<p>To get the remainder of an int a when divided by another int b we can use <code>%</code> instead of <code>/</code> when dividing, so a%b, where a = 7 and b = 5...</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span> n = <span class="hljs-number">7</span> % <span class="hljs-number">5</span>;
+<span class="hljs-comment">// would result in n being 2.</span>
+</code></pre>
 <h4 id="ex-7-geometry-physics-chemistry-game-programming-">Ex 7 (Geometry, Physics, Chemistry, Game Programming)</h4>
 <p>Write a programs that given four numbers <em>x<sub>1</sub></em>, <em>y<sub>1</sub></em>, <em>x<sub>2</sub></em> and <em>y<sub>2</sub></em>, that are points on a graph, and calculates the distance between them, using the formula:</p>
-<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/calculations_for_points_on_a_graph.png" alt="alt text" title="Distance formula"></p>
+<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/calculations_for_points_on_a_graph.png" alt="alt text" title="Distance formula"/></p>
 <p>This is very useful in collision dectection, in scientific models and game programming.</p>
 </main></body></html>

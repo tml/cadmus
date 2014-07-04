@@ -1,0 +1,26 @@
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="layouts">Layouts</h1>
+<p>Basically, a <strong>layout manager</strong> is a way of presenting and displaying the elements of either a frame or a panel. In other words: layouts allow you to tell the computer where you want to display your different objects and in what order. As we have seen previously, you  apply the layouts to a frame. In Java, there exists three different types of layouts: the grid layout, the flow layout and the border layout.</p>
+<h2 id="the-flow-layout">The Flow Layout</h2>
+<p>The Flow Layout, which is the only layout manager you have seen before, is the simplest layout you can choose because it arranges the components one after another, going from left to right, in the order in which you add them.</p>
+<pre><code class="lang-java">mywindow.setLayout(<span class="hljs-keyword">new</span> FlowLayout());
+mywindow.add(component1);
+mywindow.add(component2);
+</code></pre>
+<p>This displays elements of a frame so that <code>component1</code> (which has already been initialised) comes before <code>component2</code> (which has also been initialised).</p>
+<h2 id="the-border-layout">The Border Layout</h2>
+<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/border_layout.png" alt="alt text" title="The border layout"/></p>
+<p>A border layout allows you to place your elements into five different regions as shown above.</p>
+<pre><code class="lang-java">setLayout(<span class="hljs-keyword">new</span> BorderLayout());
+add(component1, BorderLayout.NORTH);
+add(component2, BorderLayout.SOUTH);
+add(component3, BorderLayout.EAST);
+add(component4, BorderLayout.WEST);
+add(component5, BorderLayout.CENTER);
+</code></pre>
+<h2 id="the-grid-layout">The Grid Layout</h2>
+<p>A Grid Layout arranges the components into a two dimensional grid with a number of rows and columns.</p>
+<pre><code class="lang-java">setLayout(<span class="hljs-keyword">new</span> GridLayout(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>));
+</code></pre>
+<p>This creates a layout with two rows and three columns as seen below:</p>
+<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/grid_layout.png" alt="The grid layout" title="The grid layout"/></p>
+</main></body></html>

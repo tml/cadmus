@@ -1,16 +1,18 @@
 <!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="methods">Methods</h1>
-<h2 id="creating-and-using-you-own-methods">Creating and using you own methods</h2>
-<p>A method is another word for a function. A method performs a task, so if you want to triple a number, you may want to have a triple method. (It&#39;s always best to start the method name with a lower case letter and name it something similar to what it does). The <code>main</code> method is an example of a method that is <strong>void</strong> i.e. it returns nothing. That&#39;s why it has the <code>void</code> keyword before the method name. Methods should be define in a class. E.g:</p>
+<h2 id="creating-and-using-your-own-methods">Creating and using your own methods</h2>
+<p>A method is another word for a function. A method performs a task, so if you want to triple a number, you may want to have a triple method. The <code>main</code> method is an example of a method that is <strong>void</strong> i.e. it returns nothing. That&#39;s why it has the <code>void</code> keyword before the method name. Methods should be defined in a class, e.g:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> <span class="hljs-title">triple</span>(<span class="hljs-keyword">int</span> number) {
     <span class="hljs-keyword">int</span> tripleNumber = <span class="hljs-number">3</span> * number;
     <span class="hljs-keyword">return</span> tripleNumber;
-}</code></pre>
-<p>After <code>public static</code> you write the type of the thing that you are returning; in this case we are taking in an int and returning an int. If of course it returns nothing, use the <code>void</code> keyword.  After the return type you have the name of the method. I have called this method triple. Inside the brackets after the method name you have the parameters, which are the pieces of information that the method is given when the method is called.  So when we call the triple function we supply it with a number, which is then multiplied by three and then the method returns the tripled number.</p>
+}
+</code></pre>
+<p>After <code>public static</code> you write the type of the thing that you are returning; in this case we are taking in an int and returning an int. If of course it returns nothing, use the <code>void</code> keyword.  After the return type you have the name of the method. I have called this method triple. It&#39;s always best to start the method name with a lower case letter and name it something similar to what it does. Inside the brackets after the method name you have the parameters, which are the pieces of information that the method is given when it is called.  So, when we call the triple function we supply it with a number, which is then multiplied by three and the tripled number is returned.</p>
 <p>To call the method from the <code>main</code> method, do:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(String[] args) {
     System.out.println(triple(<span class="hljs-number">3</span>));
-}</code></pre>
-<p>Note: <code>Math.abs()</code>, and <code>Math.sqrt()</code> are examples of methods in the <code>Math</code> package. Inside the <code>Math</code> package, there are also trigonometric functions such as <code>Math.sin()</code>, <code>Math.cos()</code>, and <code>Math.tan()</code>.</p>
+}
+</code></pre>
+<p>Note: <code>Math.abs()</code>, and <code>Math.sqrt()</code> (which you met in the last part) are examples of methods in the <code>Math</code> package. Inside the <code>Math</code> package, there are also trigonometric functions such as <code>Math.sin()</code>, <code>Math.cos()</code>, and <code>Math.tan()</code>.</p>
 <h4 id="ex-1">Ex 1</h4>
 <p>Write a program which contains a method called triple (and the main method of course), which triples a number.  Get the program to triple the number 34 and then print out the result.</p>
 <h4 id="ex-2">Ex 2</h4>
@@ -18,29 +20,37 @@
 <h2 id="string-methods">String methods</h2>
 <p>I&#39;ve told you previously that <code>String</code> is a class, not a primitive. Classes can have their own methods attached to them.</p>
 <h4 id="length">Length</h4>
-<p>The <code>.length()</code> method returns the length of a String as an <code>int</code>. Unlike in a JavaScript String, <code>.length()</code> is a method, that must be called with parentheses.</p>
+<p>The <code>.length()</code> method returns the length of a string as an <code>int</code>. Unlike in a JavaScript string, <code>.length()</code> is a method, that must be called with parentheses.</p>
 <pre><code class="lang-java">String name = <span class="hljs-string">"George"</span>;
-System.out.println(name.length()); <span class="hljs-comment">// Prints 6</span></code></pre>
+System.out.println(name.length()); <span class="hljs-comment">// Prints 6</span>
+</code></pre>
 <h4 id="trim">Trim</h4>
 <p>The <code>.trim()</code> method that returns a copy of the string without whitespace (spaces at the front or end of a string), e.g:</p>
 <pre><code class="lang-java">String name = <span class="hljs-string">"     George"</span>;
 System.out.println(name.trim()); 
-<span class="hljs-comment">// Prints "George" with no spaces</span></code></pre>
+<span class="hljs-comment">// Prints "George" with no spaces</span>
+</code></pre>
 <h4 id="upper-case-lower-case">Upper Case, Lower Case</h4>
-<p>There are also the <code>.toUpperCase()</code>, and <code>.toLowerCase()</code> methods, return an uppercase copy and lowercase copy of the originally string respectively, e.g:</p>
+<p>There are also the <code>.toUpperCase()</code>, and <code>.toLowerCase()</code> methods, return an uppercase copy and lowercase copy of the original string respectively, e.g:</p>
 <pre><code class="lang-java">String name = <span class="hljs-string">"George"</span>;
 System.out.println(name.toUpperCase()); <span class="hljs-comment">// Returns "GEORGE"</span>
-System.out.println(name.toLowerCase()); <span class="hljs-comment">// Returns "george"</span></code></pre>
+System.out.println(name.toLowerCase()); <span class="hljs-comment">// Returns "george"</span>
+</code></pre>
 <h4 id="equals">Equals</h4>
 <p>This takes in another string, and returns true/false depending on whether they are equal. Note <code>.equals()</code> is case sensitive. You can use this in if-statements:</p>
 <pre><code class="lang-java">String personA = <span class="hljs-string">"George"</span>;
 String personB = <span class="hljs-string">"George"</span>;
 <span class="hljs-keyword">if</span>(personA.equals(personB)) {
     System.out.println(<span class="hljs-string">"They're the same person!"</span>);
-}</code></pre>
+}
+</code></pre>
 <h2 id="static-methods">Static methods</h2>
 <p>Static methods are methods that belong to a class, as opposed to an instance of a class. For instance, the method <code>Integer.parseInt()</code> is a static method. If I, however, create an integer like so:</p>
-<pre><code class="lang-java">Integer age = <span class="hljs-number">5</span>;</code></pre>
+<pre><code class="lang-java">Integer age = <span class="hljs-number">5</span>;
+</code></pre>
 <p><code>age</code> does not have the method <code>.parseInt()</code>. You&#39;ve met many of these methods already. Indeed the methods, you&#39;ve created with the <code>static</code> keyword, are static methods. If I removed the <code>static</code> keyword from them they would not be able to be called by the <code>main</code> method. The <code>main</code> method is a special sort of static method, it is the <strong>execution point</strong> of the program. An execution point must have the <strong>method signature</strong> of:</p>
-<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(String[] args)</code></pre>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(String[] args) {
+
+}
+</code></pre>
 </main></body></html>
