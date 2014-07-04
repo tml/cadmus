@@ -1,4 +1,4 @@
-The History of Java
+History of Java
 ===
 
 Java derives the majority of its core concepts and syntax from the programming language C, from which many other programming languages, such as JavaScript, C++ and Objective C, also derive. For example, the following code is perfectly valid in both C, C++ and of course Java:
