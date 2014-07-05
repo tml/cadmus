@@ -43,7 +43,7 @@ This displays elements of a frame so that `component1` (which has already been i
 ![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/flow_layout.png "The flow layout")
 
 ###Ex 1
-Create a frame using three buttons that are oriented using the flow layout. Use the syntax above. It should tharefore look like this:
+Create a frame using three buttons that are oriented using the flow layout. Use the syntax above. It should therefore look like this:
 
 ![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/the_flow_layout.png "The flow layout in Java")
 
