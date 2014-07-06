@@ -79,7 +79,7 @@ setLayout(new GridLayout(2,3));
 ```
 This creates a layout with two rows and three columns as seen below:
 
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/grid_layout.png "The grid layout")
+![The grid layout](https://github.com/HashanP/cadmus/raw/master/src/Images/grid_layout.png)
 
 ###Ex 3
 
