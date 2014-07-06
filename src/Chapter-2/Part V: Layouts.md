@@ -65,7 +65,6 @@ add(component5, BorderLayout.CENTER);
 ```
 
 ###Ex 2
-
 Create a frame with five buttons that are oriented using the border layout. You will have to do this yourself. For reference however, the end product should look like this:
 
 ![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/the_border_layout.png "The border layout in Java")
@@ -82,7 +81,6 @@ This creates a layout with two rows and three columns as seen below:
 ![The grid layout](https://github.com/HashanP/cadmus/raw/master/src/Images/grid_layout.png)
 
 ###Ex 3
-
 Create a frame with six buttons that are oriented using the grid layout. You will once again have to do this yourself. This is what the end product should look like:
 
 ![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/the_grid_layout.png "The grid layout in Java")
