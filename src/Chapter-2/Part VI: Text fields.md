@@ -1,7 +1,7 @@
 Text Fields
 ===
 
-In Java there are are 3 main types of text field - the normal textfield, the password field and the drop-down menu. What these are and how they work will be explained in this chapter. As an introduction, if there is any doubt as to what a text field is, a text field is a box that lets the user inpuit a small amount of text. As a passing statement, these textfields interact with the layouts introduced in that last part just as buttons do.
+In Java there are are 3 main types of text field - the normal textfield, the password field and the drop-down menu. What these are and how they work will be explained in this chapter. As an introduction, if there is any doubt as to what a text field is, a text field is a box that lets the user input a small amount of text. As a passing statement, these textfields interact with the layouts introduced in that last part just as buttons do.
 
 ## The Normal Text Field
 What a normal text field is was just explained, it is a way for the user to input text. To create these you will have to copy out the following:
