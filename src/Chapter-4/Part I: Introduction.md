@@ -9,4 +9,45 @@
 - To introduce the 'bare bones' of any Java program (consisting of a main function within a class)
 - To briefly cover some basic programming constructs (i.e. if statements and general idea of looping)
 
-## A general introduction to programming and the java platform 
+## The basic make-up of any Java program
+
+To put it simply, the basic make-up of any java program consists of two things:
+
+-	A class
+-	A main method inside of a class
+
+Both of which are usually written inside an IDE / code editor software. (See later pages on ‘Eclipse’ for a run through of how to set up the software and start writing your very first program).
+
+Here is an example of some actual code:
+
+```java
+public class FirstProject {
+   
+    public static void main(String[] args) {
+        
+        System.out.println("Hello World");
+        
+    }
+    
+}
+```
+
+All of the code belongs to the class FirstProject, and within it exists the main method. Note that while one program can have many classes, it can only have one main method: any more and your program will not know how to run.
+
+#### Ex 1
+
+After creating a new class, copy and paste this inside the curly braces on your screen. 
+	
+```java
+public static void main(String[] args) {
+        
+        System.out.println("Hello World");
+        
+}
+```
+
+If you already see a main method, copy and paste only this line inside the main method.
+
+        System.out.println("Hello World");
+
+Now try changing the words inside of the quote marks. What happens?
