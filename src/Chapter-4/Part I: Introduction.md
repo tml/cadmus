@@ -51,3 +51,7 @@ If you already see a main method, copy and paste only this line inside the main 
         System.out.println("Hello World");
 
 Now try changing the words inside of the quote marks. What happens?
+
+## What is a method?
+
+Put simply, a method - also known as a function or procedure in other languages - is a block of code that carries out a task. You can think of them as helpers which all come together in order to help you build your program.
