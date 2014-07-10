@@ -30,7 +30,7 @@ public class TexFields extends JFrame{
 ```
 This displays a normal text field that text can be inputted into. 
 
-###Ex 1
+### Ex 1
 Copy the code above and run it. Try to input some text. If you wish, put an integer into line 5 to dictate the size of the text field. It should look like the following:
 
 ![A normal text field](https://github.com/HashanP/cadmus/raw/master/src/Images/normal_text_field.png)
@@ -38,7 +38,7 @@ Copy the code above and run it. Try to input some text. If you wish, put an inte
 ## The Password Field
 Whenever you have to enter a password into a website, what you type in is obscured by black dots. This is a result of the password field. To create this you will have to use the above syntax, but will have to import and use `JPasswordField`.
 
-###Ex 2
+### Ex 2
 Create a password field and see what happens when you try to type something in. Your finished product should look something like this:
 
 ![A password field](https://github.com/HashanP/cadmus/raw/master/src/Images/password_field.png)
@@ -51,7 +51,7 @@ JComboBox Doctor_Who = new JComboBox(monsters);
 //where 'monsters' is the name of a String array.
 ```
 
-###Ex 3
+### Ex 3
 Create a drop-down menu with 5 different options. It does not have to be about Doctor Who and/or monsters. Your end result should look something like this (bear in mind that I've used aliens from Doctor Who):
 
 ![A drop-down Menu](https://github.com/HashanP/cadmus/raw/master/src/Images/drop-down_menu.png)

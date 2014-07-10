@@ -2,8 +2,6 @@ Arithmetic
 ===
 
 ## Basic Arithmetic
-
-
 Adding two ints x and y (given that they have already been initialised to a value):
 
 ```java
