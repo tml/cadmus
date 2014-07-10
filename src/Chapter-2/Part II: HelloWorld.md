@@ -35,7 +35,7 @@ Notice the constructor for the `JLabel`: it takes in two parameters, both of whi
 
 This should be outputted:
 
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/Hello_World.png "Now the box has text!")
+![Now the box has text!](https://github.com/HashanP/cadmus/raw/master/src/Images/Hello_World.png)
 
 #### Ex 1
 Play around with it. Try adding another `JLabel` with a different greeting. You may have to change the second parameter, the height parameter, of `setSize()` to fit it in. You will have to add another call to the `add()` method.
