@@ -5,9 +5,9 @@ Here's an example of a method:
 
 ```java
 public void convertToF(int celcius) {
-		int fahrenheit = celcius * 9/5 + 32;
-		System.out.println(“ C:” + celcius + “ F: ” + fahrenheit);
-	}
+	int fahrenheit = celcius * 9/5 + 32;
+	System.out.println(“C:” + celcius + “ F: ” + fahrenheit);
+}
 ```
 	
 Don’t worry if you don’t quite understand what’s going on in the code above for now. What you are looking at, however, is a basic method which converts a temperature you specify in degrees Celcius to its equivalent in Fahrenheit.  
@@ -28,8 +28,8 @@ When we refer to a method body we basically mean everything within the curly bra
 
 ```java
 public void convertToF(int celsius) {
-		int fahrenheit = celsius * 9/5 + 32;
-		System.out.println(“ C:” + celcius + “ F: ” + fahrenheit);
+	int fahrenheit = celsius * 9/5 + 32;
+	System.out.println(“ C:” + celcius + “ F: ” + fahrenheit);
 }
 ```
 
