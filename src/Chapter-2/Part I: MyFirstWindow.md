@@ -21,7 +21,7 @@ Here, the class `MyFirstWindow` extends, thanks to the `extends` keyword, all of
 
 The code above should output this when run:
 
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/my_first_window.png "An empty window")
+![An empty window](https://github.com/HashanP/cadmus/raw/master/src/Images/my_first_window.png)
 
 ### Ex 1
 Copy & run the code. Play around with `setSize`, `setTitle`, and `setVisible`.
