@@ -1,26 +1,64 @@
-<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="layouts">Layouts</h1>
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><article><h1 id="layouts">Layouts</h1>
 <p>Basically, a <strong>layout manager</strong> is a way of presenting and displaying the elements of either a frame or a panel. In other words: layouts allow you to tell the computer where you want to display your different objects and in what order. As we have seen previously, you  apply the layouts to a frame. In Java, there exists three different types of layouts: the grid layout, the flow layout and the border layout.</p>
 <h2 id="the-flow-layout">The Flow Layout</h2>
-<p>The Flow Layout, which is the only layout manager you have seen before, is the simplest layout you can choose because it arranges the components one after another, going from left to right, in the order in which you add them.</p>
-<pre><code class="lang-java">mywindow.setLayout(<span class="hljs-keyword">new</span> FlowLayout());
-mywindow.add(component1);
-mywindow.add(component2);
+<p>Flow Layout, which is the only layout manager you have seen before, is the simplest layout you can choose because it arranges the components one after another, going from left to right, in the order in which you add them.</p>
+<pre><code class="lang-java"><span class="hljs-keyword">import</span> java.awt.FlowLayout;
+<span class="hljs-comment">//you will have to do this for the other layouts using their respective imports</span>
+
+<span class="hljs-keyword">import</span> javax.swing.JButton;
+<span class="hljs-keyword">import</span> javax.swing.JFrame;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">FloLayout</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">JFrame</span>{</span>
+    JButton btn1 = <span class="hljs-keyword">new</span> JButton(<span class="hljs-string">"Component 1"</span>);
+    JButton btn2 = <span class="hljs-keyword">new</span> JButton(<span class="hljs-string">"Component 2"</span>);
+    JButton btn3 = <span class="hljs-keyword">new</span> JButton(<span class="hljs-string">"Component 3"</span>);
+
+    <span class="hljs-keyword">public</span> <span class="hljs-title">FloLayout</span>() {
+        setLayout(<span class="hljs-keyword">new</span> FlowLayout());
+        add(btn1);
+        add(btn2);
+        add(btn3);
+
+        setTitle(<span class="hljs-string">"The Flow Layout"</span>);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        pack();
+        <span class="hljs-comment">//makes sure that the window is as big as the space taken up by the buttons </span>
+        setVisible(<span class="hljs-keyword">true</span>);
+    }
+
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(String[] args) {
+        <span class="hljs-keyword">new</span> FloLayout();
+    }
+}
 </code></pre>
-<p>This displays elements of a frame so that <code>component1</code> (which has already been initialised) comes before <code>component2</code> (which has also been initialised).</p>
+<p>This displays elements of a frame so that <code>component1</code> (which has already been initialised) comes before <code>component2</code> (which has also been initialised). It should therefore look something like this:</p>
+<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/flow_layout.png" alt="alt text" title="The flow layout"/></p>
+<h3 id="ex-1">Ex 1</h3>
+<p>Create a frame using three buttons that are oriented using the flow layout. Use the syntax above. It should therefore look like this:</p>
+<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/the_flow_layout.png" alt="alt text" title="The flow layout in Java"/></p>
 <h2 id="the-border-layout">The Border Layout</h2>
 <p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/border_layout.png" alt="alt text" title="The border layout"/></p>
-<p>A border layout allows you to place your elements into five different regions as shown above.</p>
-<pre><code class="lang-java">setLayout(<span class="hljs-keyword">new</span> BorderLayout());
+<p>A border layout allows you to place your elements into five different regions as shown above. You can use relatively the same code as you did for the flow layout, but bear in mind that you must give the component the name NORTH, SOUTH etc.  </p>
+<pre><code class="lang-java"><span class="hljs-comment">//this is what the buttons should look like, respective of their positions</span>
+JButton component1 = <span class="hljs-keyword">new</span> JButton(<span class="hljs-string">"NORTH"</span>);
+
+setLayout(<span class="hljs-keyword">new</span> BorderLayout());
 add(component1, BorderLayout.NORTH);
 add(component2, BorderLayout.SOUTH);
 add(component3, BorderLayout.EAST);
 add(component4, BorderLayout.WEST);
 add(component5, BorderLayout.CENTER);
 </code></pre>
+<h3 id="ex-2">Ex 2</h3>
+<p>Create a frame with five buttons that are oriented using the border layout. You will have to do this yourself. For reference however, the end product should look like this:</p>
+<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/the_border_layout.png" alt="alt text" title="The border layout in Java"/></p>
 <h2 id="the-grid-layout">The Grid Layout</h2>
 <p>A Grid Layout arranges the components into a two dimensional grid with a number of rows and columns.</p>
 <pre><code class="lang-java">setLayout(<span class="hljs-keyword">new</span> GridLayout(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>));
 </code></pre>
 <p>This creates a layout with two rows and three columns as seen below:</p>
 <p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/grid_layout.png" alt="The grid layout" title="The grid layout"/></p>
-</main></body></html>
+<h3 id="ex-3">Ex 3</h3>
+<p>Create a frame with six buttons that are oriented using the grid layout. You will once again have to do this yourself. This is what the end product should look like:</p>
+<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/the_grid_layout.png" alt="alt text" title="The grid layout in Java"/></p>
+</article></main></body></html>

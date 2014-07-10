@@ -1,0 +1,43 @@
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><article><h1 id="text-fields">Text Fields</h1>
+<p>In Java there are are 3 main types of text field - the normal textfield, the password field and the drop-down menu. What these are and how they work will be explained in this chapter. As an introduction, if there is any doubt as to what a text field is, a text field is a box that lets the user input a small amount of text. As a passing statement, these textfields interact with the layouts introduced in that last part just as buttons do.</p>
+<h2 id="the-normal-text-field">The Normal Text Field</h2>
+<p>What a normal text field is was just explained, it is a way for the user to input text. To create these you will have to copy out the following:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">import</span> javax.swing.JFrame;
+<span class="hljs-keyword">import</span> javax.swing.JTextField;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TexFields</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">JFrame</span>{</span>
+    JTextField normal = <span class="hljs-keyword">new</span> JTextField();
+    <span class="hljs-comment">// The empty brackets can be filled with an integer to dictate the preffered size of the text field.</span>
+
+    <span class="hljs-keyword">public</span> <span class="hljs-title">TexFields</span>() {
+        add(normal);
+
+        setTitle(<span class="hljs-string">"Normal Text Box"</span>);
+        setVisible(<span class="hljs-keyword">true</span>);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        pack();
+    }
+
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(String[] args) {
+        <span class="hljs-keyword">new</span> TexFields();
+    }
+}
+</code></pre>
+<p>This displays a normal text field that text can be inputted into. </p>
+<h3 id="ex-1">Ex 1</h3>
+<p>Copy the code above and run it. Try to input some text. If you wish, put an integer into line 5 to dictate the size of the text field. It should look like the following:</p>
+<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/normal_text_field.png" alt="A normal text field" title="A normal text field"/></p>
+<h2 id="the-password-field">The Password Field</h2>
+<p>Whenever you have to enter a password into a website, what you type in is obscured by black dots. This is a result of the password field. To create this you will have to use the above syntax, but will have to import and use <code>JPasswordField</code>.</p>
+<h3 id="ex-2">Ex 2</h3>
+<p>Create a password field and see what happens when you try to type something in. Your finished product should look something like this:</p>
+<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/password_field.png" alt="A password field" title="A password field"/></p>
+<h2 id="the-drop-down-menu">The Drop-down Menu</h2>
+<p>A drop-down menu is a text field that lets you choose from a preset list of options that, quite literally, drop down when you click a button. To do this you will have to import and use <code>JComboBox</code>. To use this you will have to declare an array which includes all of the options. You can see how to declare an array in Chapter 1 Part VI. You will then have to put the name of the array in the parameters that the <code>JComboBox</code> has. In other words: </p>
+<pre><code class="lang-java">JComboBox Doctor_Who = <span class="hljs-keyword">new</span> JComboBox(monsters);
+<span class="hljs-comment">//where 'monsters' is the name of a String array.</span>
+</code></pre>
+<h3 id="ex-3">Ex 3</h3>
+<p>Create a drop-down menu with 5 different options. It does not have to be about Doctor Who and/or monsters. Your end result should look something like this (bear in mind that I&#39;ve used aliens from Doctor Who):</p>
+<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/drop-down_menu.png" alt="A drop-down Menu" title="A drop-down Menu"/></p>
+</article></main></body></html>
