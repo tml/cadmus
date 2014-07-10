@@ -40,16 +40,16 @@ public class FloLayout extends JFrame{
 ```
 This displays elements of a frame so that `component1` (which has already been initialised) comes before `component2` (which has also been initialised). It should therefore look something like this:
 
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/flow_layout.png "The flow layout")
+![The flow layout](https://github.com/HashanP/cadmus/raw/master/src/Images/flow_layout.png)
 
 ###Ex 1
 Create a frame using three buttons that are oriented using the flow layout. Use the syntax above. It should therefore look like this:
 
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/the_flow_layout.png "The flow layout in Java")
+![The flow layout in Java](https://github.com/HashanP/cadmus/raw/master/src/Images/the_flow_layout.png)
 
 ## The Border Layout
 
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/border_layout.png "The border layout")
+![The border layout](https://github.com/HashanP/cadmus/raw/master/src/Images/border_layout.png)
 
 A border layout allows you to place your elements into five different regions as shown above. You can use relatively the same code as you did for the flow layout, but bear in mind that you must give the component the name NORTH, SOUTH etc.  
 ```java
@@ -67,7 +67,7 @@ add(component5, BorderLayout.CENTER);
 ###Ex 2
 Create a frame with five buttons that are oriented using the border layout. You will have to do this yourself. For reference however, the end product should look like this:
 
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/the_border_layout.png "The border layout in Java")
+![The border layout in Java](https://github.com/HashanP/cadmus/raw/master/src/Images/the_border_layout.png)
 
 ##The Grid Layout
 
@@ -83,4 +83,4 @@ This creates a layout with two rows and three columns as seen below:
 ###Ex 3
 Create a frame with six buttons that are oriented using the grid layout. You will once again have to do this yourself. This is what the end product should look like:
 
-![alt text](https://github.com/HashanP/cadmus/raw/master/src/Images/the_grid_layout.png "The grid layout in Java")
+![The grid layout in Java](https://github.com/HashanP/cadmus/raw/master/src/Images/the_grid_layout.png)
