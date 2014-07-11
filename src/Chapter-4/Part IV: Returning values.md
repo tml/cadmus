@@ -67,3 +67,6 @@ Write a method which converts and returns a given angle in degrees to radians.
 
 (Hint: Research what radians are and how to convert to them. Also, think carefully: do we want to be using variables of type `int` or type `double`?)
 
+#### Ex 4
+
+Write another method which calculates the hypotenuse of a right-angled triangle.
