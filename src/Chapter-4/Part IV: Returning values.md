@@ -1,3 +1,6 @@
+Returning values
+===
+
 So far, every method you have defined has had the return type of `void` - in essence, the methods return *nothing*. However in many cases you may want the method to return a value in the form of an `int`, `double`, `String`, `boolean` or any other data type.
 
 Here's an example:
@@ -5,7 +8,7 @@ Here's an example:
 ```java
 public int divideBy4(int num){
 	num = num/4;
-return num;
+	return num;
 }
 ```
 
@@ -26,7 +29,7 @@ iii)	In front of this, create a variable of the same type the method returns and
 int division = newExample.divideBy4(5);
 ```
 
-Example:
+#### Example:
 ```java
 public int addTwoNumbers(int a, int b){
 	return a + b;          
