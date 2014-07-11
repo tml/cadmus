@@ -1,24 +1,20 @@
 In order to accept user input, one must first:
 
-1.	Write above the line where the class begins: 
-
+i)	Write above the line where the class begins: 
 ```java
 import java.util.Scanner;
 ```
-
 This line must be included above your class i.e. “Public class...” in order for you to be able to create a `Scanner` object to accept user input.
 
-2.	Have some statement such as `System.out.println(“Enter number:”);` in order to prompt the user to enter a number. Otherwise they won’t know!
+ii)	Have some statement such as `System.out.println(“Enter number:”);` in order to prompt the user to enter a number. Otherwise they won’t know!
 
-3.	Create a new `Scanner` object by following this rule: 
-
+iii)	Create a new `Scanner` object by following this rule: 
 ```java
 Scanner myScanner = new Scanner(System.in); 
 ```
-
 Note: ‘myScanner’ is just a random name chosen for this example; any valid name will do.
 
-4.	Store user input inside a variable. Let’s take a string for example. In this case, we would first, declare a new String:
+iv)	Store user input inside a variable. Let’s take a string for example. In this case, we would first, declare a new String:
 ```java
 String myString = null;
 ```
@@ -26,7 +22,7 @@ and secondly, store information inside the variable using:
 ```java
 myString = myScanner.nextLine();
 ```
-By letting `myString equal the `Scanner` object dot `nextLine`, we’re telling the scanner input object to give us the entire line that was just typed in by the user and assign/store it in `userInput`.
+By letting `myString` equal the `Scanner` object dot `nextLine`, we’re telling the scanner input object to give us the entire line that was just typed in by the user and assign/store it in `userInput`.
 
 When placing the dot after `myScanner`, you should notice Eclipse provides you a bunch of options other than `nextLine()`. Depending on what kind of input you’d like to accept you can choose `nextInt()` to accept an `int` input or `nextDouble()` to accept a `double` input type.
 
@@ -48,5 +44,5 @@ Things to think about:
 -	Given we are trying to calculate the angle in a right-angled triangle, what sort of ‘cases’ do you have to account for?
 
 HINTS: 
--You will probably need to import the maths API into your program in order to use Sin/Tan/Cos. That is, `import java.lang.Math`; Also, for methods you can use refer to: http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html 
--The sin/tan/cos methods in Java give back a result in radians. What method (that you have previously made) would you have to utilise? 
+- You will probably need to import the maths API into your program in order to use Sin/Tan/Cos. That is, `import java.lang.Math`; Also, for methods you can use refer to: http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html 
+- The sin/tan/cos methods in Java give back a result in radians. What method (that you have previously made) would you have to utilise? 
