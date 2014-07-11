@@ -1,10 +1,13 @@
+Accepting user input
+===
+
 In order to accept user input, one must first:
 
 i)	Write above the line where the class begins: 
 ```java
 import java.util.Scanner;
 ```
-This line must be included above your class i.e. “Public class...” in order for you to be able to create a `Scanner` object to accept user input.
+This line must be included above your class i.e. `Public class...` in order for you to be able to create a `Scanner` object to accept user input.
 
 ii)	Have some statement such as `System.out.println(“Enter number:”);` in order to prompt the user to enter a number. Otherwise they won’t know!
 
@@ -12,7 +15,7 @@ iii)	Create a new `Scanner` object by following this rule:
 ```java
 Scanner myScanner = new Scanner(System.in); 
 ```
-Note: ‘myScanner’ is just a random name chosen for this example; any valid name will do.
+Note: `myScanner` is just a random name chosen for this example; any valid name will do.
 
 iv)	Store user input inside a variable. Let’s take a string for example. In this case, we would first, declare a new String:
 ```java
