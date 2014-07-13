@@ -127,7 +127,7 @@ public static void main(String[] args) {
 
 Thsi will create three JOptionPanes; the first two will store the variables and the last will act on those variables. This particular piece of code outputs the following:
 
-![Three JOptionPanes](https://github.com/BillsJ/cadmus/raw/master/src/Images/JOptionPanes.png)
+![Three JOptionPanes](https://github.com/HashanP/cadmus/raw/master/src/Images/JOptionPanes.png)
 
 ###Ex 5
 Change the `INFORMATION_MESSAGE` to `ERROR_MESSAGE`, `PLAIN_MESSAGE`, `QUESTION_MESSAGE` and/or `WARNING_MESSAGE`.
