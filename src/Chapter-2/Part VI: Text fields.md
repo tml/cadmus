@@ -89,7 +89,7 @@ See what happens with other text fields, or try to manipulate the user's input.
 
 ##Using a JOptionPane
 
-JOptionPanes are another option for accepting the user's input. These do not only work for manipulation however, they also could be used as a replacement for the JTextField itself.  They0 actually look better. They also require very little code and can process inputs easily. To use a JOptionPane, you will first have to import it, using the import:
+JOptionPanes are another option for accepting the user's input. These do not only work for manipulation however, they also could be used as a replacement for the JTextField itself.  They actually look better. They also require very little code and can process inputs easily. To use a JOptionPane, you will first have to import it, using the import:
 
 ```java
 import javax.swing.JOptionPane;
