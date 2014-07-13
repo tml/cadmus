@@ -60,17 +60,10 @@ Create a drop-down menu with 5 different options. It does not have to be about D
 
 ![A drop-down Menu](https://github.com/HashanP/cadmus/raw/master/src/Images/drop-down_menu.png)
 
-<<<<<<< HEAD
 ##**Accepting user input**
-It's all very well having a text field on your screen, but it has no purpose if you cannot use what the user has inputted. Therefore for your text field to be fully working, you need to be able to accept and use these inputs. there are two main ways to do this, one using the above formats of text field; and one which uses a whole new format i.e. The `JOptionPane`. I will explain both of these in detail shortly.
+It's all very well having a text field on your screen, but it has no purpose if you cannot use what the user has inputted. Therefore for your text field to be fully working, you need to be able to accept and use these inputs. There are two main ways to do this, one using the above formats of text field; and one which uses a whole new format i.e. The `JOptionPane`. I will explain both of these in detail shortly.
 
 ##Using JTextFields
-=======
-## Accepting user input
-It's all very well having a text field on your screen, but it has no purpose if you cannot use what the user has inputted. Therefore for your text field to be fully working, you need to be able to accept and use these inputs. there are two main ways to do this, one using the above formats of text field; and one which uses a whole new format i.e. The `JOptionPane`. I will explain both of these in detail shortly.
-
-## Using JTextFields
->>>>>>> 8202bcbff2eaeab686f7e38de74d3cfa1f544cf0
 It can be very easy to store a user's input and manipulate it. For example you can display the user's input on the screen. To do this, all you really need to do is set a variable to be the input, and then set a label to be that variable. In other words, you can use the following code inside the actionPerformed method:
 ```java
 public void actionPerformed(ActionEvent evt) {
@@ -90,31 +83,17 @@ See what happens with other text fields, or try to manipulate the user's input.
 
 <<<<<<< HEAD
 ##Using a JOptionPane
-JOptionPanes are another option for accepting the user's input. These do not only work for manipulation however, they also could be used as a replacement for the JTextField itself.  They actually look better. They also require very little code and can process inputs easily. To use a JOptionPane, you will first have to import it, using the import:
+JOptionPanes are another option for accepting the user's input. These do not only work for manipulation however, they also can be used as a replacement for the JTextField itself.  They actually look better. They also require very little code and can process inputs easily. To use a JOptionPane, you will first have to import it, using the import:
 ```java
 import javax.swing.JOptionPane;
 ```
 These panes use a different syntax to a normal text field, and only require one line of code. To create a JOptionPane you simply need to declare a variable, for example `width`, and then type this in:
-=======
-## Using a JOptionPane
-JOptionPanes are another option for accepting the user's input. These do not only work for manipulation however, they also could be used as a replacement for the JTextField itself.  They actually look better. They also require very little code and can process inputs easily. To use a JOptionPane, you will first have to import it:
-
-```java
-import javax.swing.JOptionPane;
-```
-These panes use a different syntax to a normal text field, and only require one line for code. To create a JOptionPane you simply need to declare a variable e.g. `width` and then type this in:
-
->>>>>>> 8202bcbff2eaeab686f7e38de74d3cfa1f544cf0
 ```java
 width = JOptionPane.showInputDialog("Width", "Enter the width");
 //the first parameter is the title and the second is the background text. 
 ```
 <<<<<<< HEAD
-This will create a pane, you don't have to add it, and it stores the input as soon as the OK button is pressed. For that matter, it comes pre-styled and with its own buttons. Whereas you would have to set a title; set the frame to be visible; set a DefaultCloseOperation etc with a JTextField, you don't have to do any of that with JOptionPanes. You can therefore use these easily. Since they can be used to manipulate inputs, they could be compared to methods. For example, you could use a method to work out the area of a rectangle based on two inputs in Eclipse. This however looks bad, and the user needs to have a GUI to work with. So, a JOptionPane could be used as a method that looks good and does not require access to the base code. To work out the area of a rectangle based on the inputs the user gives using a JoptionPane can be done with this code:
-=======
 This will create a pane, you don't have to add it, and it stores the input as soon as the OK button is pressed. For that matter, it comes pre-styled and with its own buttons. Whereas you would have to set a title; set the frame to be visible; set a DefaultCloseOperation etc with a JTextField, you don't have to do any of that with JOptionPanes. You can therefore use these easily. Since they can be used to manipulate inputs, they could be compared to methods. For example, you could use a method to work out the area of a rectangle based on two inputs in Eclipse. This, however, looks bad, and the user needs to have a GUI to work with. So, a JOptionPane could be used as a method that looks good and does not require access to the base code. To work out the area of a rectangle based on the inputs the user gives using a JoptionPane can be done with this code:
-
->>>>>>> 8202bcbff2eaeab686f7e38de74d3cfa1f544cf0
 ```java
 public static void main(String[] args) {
 	String width = JOptionPane.showInputDialog("Rectangle Width", "Enter the width of your rectangle");
