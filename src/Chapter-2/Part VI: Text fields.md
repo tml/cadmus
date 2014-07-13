@@ -86,7 +86,7 @@ JOptionPanes are another option for accepting the user's input. These do not onl
 ```java
 import javax.swing.JOptionPane;
 ```
-These panes use a different syntax to a normal text field, and only require one line of code. To create a JOptionPane you simply need to declare a variable e.g. `width` and then type this in:
+These panes use a different syntax to a normal text field, and only require one line of code. To create a JOptionPane you simply need to declare a variable, for example `width`, and then type this in:
 ```java
 width = JOptionPane.showInputDialog("Width", "Enter the width");
 //the first parameter is the title and the second is the background text. 
