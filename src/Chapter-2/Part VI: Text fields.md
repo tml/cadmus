@@ -92,6 +92,39 @@ JOptionPanes are not only used for validation, and can in fact be used as a subs
 ```java
 import javax.swing.JOptionPane;
 ```
-These panes use a different syntax to a normal text field, and only require one line fo code. To create a JOptionPane you simply need to declare a variable e.g. `width`  this in:
+These panes use a different syntax to a normal text field, and only require one line fo code. To create a JOptionPane you simply need to declare a variable e.g. `width` and then type this in:
 
 ```java
+width = JOptionPane.showInputDialog("Width", "Enter the width");
+//the first parameter is the title and the second is the background text. 
+```
+This will create a pane, you don't have to add it and it stores the input as soon as the OK button is pressed. For that matter, it comes pre-styles and with its own buttons. Whereas you would have to set a title; set the frame to be visible; set a DefaultCloseOperation etc with a JTextField, you don't have to do any of that with JOptionPanes. To work out the area of a rectangle based on the inputs the suer gives can therefore be done with this code:
+
+```java
+public static void main(String[] args) {
+		
+		String width;
+		width = JOptionPane.showInputDialog("Rectangle Width", "Enter the width of your rectangle");
+		//sets a variable to be the width
+		
+		String height;
+		height = JOptionPane.showInputDialog("Rectangle Height", "Enter the height of your rectangle");
+		//sets a variable to be the heiht
+		
+		int area = Integer.parseInt(width)*Integer.parseInt(height);
+		//converts the strings into ints and works out the area
+		
+		String answer = "The area is "+area;
+		//sets a variable to be what the JOptionPane will output
+		
+		JOptionPane.showMessageDialog(null, answer, "The Area", JOptionPane.INFORMATION_MESSAGE);
+		//sets what the JOptionPane will output - null is needed; answer is the variable; "The Area" is the title and the final part is the image shown (see example)
+		
+		ystem.exit(0);
+		//Closes the Pane on exit.
+	}
+```
+
+Thsi will create three JOptionPanes; the first two will storethe variables and the last will act on those variables. This particular piece of code outputs the following:
+
+![]
