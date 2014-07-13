@@ -79,7 +79,7 @@ public void actionPerformed(ActionEvent evt) {
 ```
 Add this to a button, text field and a label, and you can create something like the following:
 
-![Displaying user input](https://github.com/BillsJ/cadmus/raw/master/src/Images/displaying_user_input.png)
+![Displaying user input](https://github.com/HashanP/cadmus/raw/master/src/Images/displaying_user_input.png)
 
 ###Ex 4
 Convert your code to work with a password field - What is outputted?
@@ -87,5 +87,11 @@ See what happens with other text fields, or try to manipulate the user's input.
 
 ##Using a JOptionPane
 
+JOptionPanes are not only used for validation, and can in fact be used as a substitute for the normal text field. It actually looks better. However they require very little validation and can process inputs easily. To use a JOptionPane, you will first have to import it, using the import:
 
+```java
+import javax.swing.JOptionPane;
+```
+These panes use a different syntax to a normal text field, and only require one line fo code. To create a JOptionPane you simply need to declare a variable e.g. `width`  this in:
 
+```java
