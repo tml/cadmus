@@ -114,7 +114,7 @@ public static void main(String[] args) {
 		int area = Integer.parseInt(width)*Integer.parseInt(height);
 		//converts the strings into ints and works out the area
 		
-		String answer = "The area is "+area;
+		String answer = "The area is "+area+"cm²";
 		//sets a variable to be what the JOptionPane will output
 		
 		JOptionPane.showMessageDialog(null, answer, "The Area", JOptionPane.INFORMATION_MESSAGE);
@@ -136,4 +136,4 @@ Change the `INFORMATION_MESSAGE` to `ERROR_MESSAGE`, `PLAIN_MESSAGE`, `QUESTION_
 Write a program using JOptionPanes to outputs a person's full name. Have the user input enter their first name, their middle name and their family name. If they don't have a middle name, leave that pane empty.
 
 ###Ex 7
-Write a program usnig JOptionPanes to work out the area and circumference of a circle with the radius being inputted. HINT: the area of a circle is πr2 (pi is 3.14) and the circumference is 2πr.
+Write a program usnig JOptionPanes to work out the area and circumference of a circle with the radius being inputted. HINT: the area of a circle is πr² (pi is 3.14) and the circumference is 2πr.
