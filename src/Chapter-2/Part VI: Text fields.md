@@ -127,4 +127,13 @@ public static void main(String[] args) {
 
 Thsi will create three JOptionPanes; the first two will store the variables and the last will act on those variables. This particular piece of code outputs the following:
 
-![]
+![Three JOptionPanes](https://github.com/BillsJ/cadmus/raw/master/src/Images/JOptionPanes.png)
+
+###Ex 5
+Change the `INFORMATION_MESSAGE` to `ERROR_MESSAGE`, `PLAIN_MESSAGE`, `QUESTION_MESSAGE` and/or `WARNING_MESSAGE`.
+
+###Ex 6
+Write a program using JOptionPanes to outputs a person's full name. Have the user input enter their first name, their middle name and their family name. If they don't have a middle name, leave that pane empty.
+
+###Ex 7
+Write a program usnig JOptionPanes to work out the area and circumference of a circle with the radius being inputted. HINT: the area of a circle is πr2 (pi is 3.14) and the circumference is 2πr.
