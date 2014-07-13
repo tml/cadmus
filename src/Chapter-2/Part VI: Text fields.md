@@ -101,27 +101,26 @@ This will create a pane, you don't have to add it, and it stores the input as so
 
 ```java
 public static void main(String[] args) {
+	String width;
+	width = JOptionPane.showInputDialog("Rectangle Width", "Enter the width of your rectangle");
+	//sets a variable to be the width
 		
-		String width;
-		width = JOptionPane.showInputDialog("Rectangle Width", "Enter the width of your rectangle");
-		//sets a variable to be the width
+	String height; 
+	height = JOptionPane.showInputDialog("Rectangle Height", "Enter the height of your rectangle");
+	//sets a variable to be the heiht
 		
-		String height; 
-		height = JOptionPane.showInputDialog("Rectangle Height", "Enter the height of your rectangle");
-		//sets a variable to be the heiht
+	int area = Integer.parseInt(width) * Integer.parseInt(height);
+	//converts the strings into ints and works out the area
 		
-		int area = Integer.parseInt(width) * Integer.parseInt(height);
-		//converts the strings into ints and works out the area
+	String answer = "The area is " + area + "cm²";
+	//sets a variable to be what the JOptionPane will output
 		
-		String answer = "The area is " + area + "cm²";
-		//sets a variable to be what the JOptionPane will output
+	JOptionPane.showMessageDialog(null, answer, "The Area", JOptionPane.INFORMATION_MESSAGE);
+	//sets what the JOptionPane will output - null is needed; answer is the variable; "The Area" is the title and the final part is the image shown (see example)
 		
-		JOptionPane.showMessageDialog(null, answer, "The Area", JOptionPane.INFORMATION_MESSAGE);
-		//sets what the JOptionPane will output - null is needed; answer is the variable; "The Area" is the title and the final part is the image shown (see example)
-		
-		System.exit(0);
-		//Closes the Pane on exit.
-	}
+	System.exit(0);
+	//Closes the Pane on exit.
+}
 ```
 
 This will create three JOptionPanes; the first two will store the variables and the last will act on those variables. This particular piece of code outputs the following:
