@@ -31,11 +31,11 @@ public class TexFields extends JFrame{
 This displays a normal text field that text can be inputted into. Inside the brackets on Line 5 you can enter a few things. If you enter a string, you will create the background text that you first get when you run the program. If you were to enter an integer, this would dictate the size of the text field. You can enter both of course, and you would do so using the following code:
 
 ```java
-JTextField normal = new JTextField("Enter something!!", 15);
+JTextField normal = new JTextField("Your word here", 15);
 ```
 This would output the following:
 
-![A text field with its size and underlay designated](https://github.com/BillsJ/cadmus/raw/master/src/Images/better_text_field.png)
+![A text field with its size and underlay designated](https://github.com/HashanP/cadmus/raw/master/src/Images/better_text_field.png)
 
 ### Ex 1
 Copy the code above and run it. Try to input some text. If you wish, put an integer into line 5 to dictate the size of the text field. It should look like the following:
@@ -68,6 +68,24 @@ Create a drop-down menu with 5 different options. It does not have to be about D
 It's all very well having a text field on your screen, but it has no purpose if you cannot use what the user has inputted. Therefore for your text field to be fully working, you need to be able to accept and use these inputs. there are two main ways to do this, one using the above formats of text field; and one which uses a whole new format i.e. The `JOptionPane`. I will explain both of these in detail shortly.
 
 ##Using JTextFields
+
+It can be very easy to display the user's input on the screen. To do this, all you really need to do is set a variable to be the input, and then set a label to be that variable. In other words, you can use the following code inside the actionPerformed method:
+
+```java
+public void actionPerformed(ActionEvent evt) {
+	    String text = normal.getText();
+	    label.setText(text);
+	}
+```
+Add this to a button, text field and a label, and you can create something like the following:
+
+![Displaying user input](https://github.com/BillsJ/cadmus/raw/master/src/Images/displaying_user_input.png)
+
+###Ex 4
+Convert your code to work with a password field - What is outputted?
+See what happens with other text fields, or try to manipulate the user's input.
+
+##Using a JOptionPane
 
 
 
