@@ -120,11 +120,11 @@ public static void main(String[] args) {
 		JOptionPane.showMessageDialog(null, answer, "The Area", JOptionPane.INFORMATION_MESSAGE);
 		//sets what the JOptionPane will output - null is needed; answer is the variable; "The Area" is the title and the final part is the image shown (see example)
 		
-		ystem.exit(0);
+		System.exit(0);
 		//Closes the Pane on exit.
 	}
 ```
 
-Thsi will create three JOptionPanes; the first two will storethe variables and the last will act on those variables. This particular piece of code outputs the following:
+Thsi will create three JOptionPanes; the first two will store the variables and the last will act on those variables. This particular piece of code outputs the following:
 
 ![]
