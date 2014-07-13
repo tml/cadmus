@@ -69,7 +69,7 @@ It's all very well having a text field on your screen, but it has no purpose if 
 
 ##Using JTextFields
 
-It can be very easy to display the user's input on the screen. To do this, all you really need to do is set a variable to be the input, and then set a label to be that variable. In other words, you can use the following code inside the actionPerformed method:
+It can be very easy to store a user's input and manipulate it. For example you can display the user's input on the screen. To do this, all you really need to do is set a variable to be the input, and then set a label to be that variable. In other words, you can use the following code inside the actionPerformed method:
 
 ```java
 public void actionPerformed(ActionEvent evt) {
@@ -81,13 +81,15 @@ Add this to a button, text field and a label, and you can create something like 
 
 ![Displaying user input](https://github.com/HashanP/cadmus/raw/master/src/Images/displaying_user_input.png)
 
+This simply displays the user's input, but since `normal.getText()` stores the user's input, you could just as easily validate or manipulate the input.
+
 ###Ex 4
 Convert your code to work with a password field - What is outputted?
 See what happens with other text fields, or try to manipulate the user's input.
 
 ##Using a JOptionPane
 
-JOptionPanes are not only used for manipulation, and can in fact be used as substitutes for the normal text field, as accepting the user's input is very easy. It also actually looks better. They require very little code and can process inputs easily. To use a JOptionPane, you will first have to import it, using the import:
+JOptionPanes are another option for accepting the user's input. These do not only work for manipulation however, they also could be used as a replacement for the JTextField itself.  They0 actually look better. They also require very little code and can process inputs easily. To use a JOptionPane, you will first have to import it, using the import:
 
 ```java
 import javax.swing.JOptionPane;
@@ -98,7 +100,7 @@ These panes use a different syntax to a normal text field, and only require one 
 width = JOptionPane.showInputDialog("Width", "Enter the width");
 //the first parameter is the title and the second is the background text. 
 ```
-This will create a pane, you don't have to add it, and it stores the input as soon as the OK button is pressed. For that matter, it comes pre-styled and with its own buttons. Whereas you would have to set a title; set the frame to be visible; set a DefaultCloseOperation etc with a JTextField, you don't have to do any of that with JOptionPanes. You can therefore use these easily, and they can be used to carry out a method. For example, you could use a method to work out the area of a rectangle based on two inputs in Eclipse. This however looks bad, and you need to have a GUI to work with. So, a JoptionPane could be used. To work out the area of a rectangle based on the inputs the user gives can be done with this code:
+This will create a pane, you don't have to add it, and it stores the input as soon as the OK button is pressed. For that matter, it comes pre-styled and with its own buttons. Whereas you would have to set a title; set the frame to be visible; set a DefaultCloseOperation etc with a JTextField, you don't have to do any of that with JOptionPanes. You can therefore use these easily. Since they can be used to manipulate inputs, they could be compared to methods. For example, you could use a method to work out the area of a rectangle based on two inputs in Eclipse. This however looks bad, and the user needs to have a GUI to work with. So, a JOptionPane could be used as a method that looks good and does not require access to the base code. To work out the area of a rectangle based on the inputs the user gives using a JoptionPane can be done with this code:
 
 ```java
 public static void main(String[] args) {
@@ -136,4 +138,4 @@ Change the `INFORMATION_MESSAGE` to `ERROR_MESSAGE`, `PLAIN_MESSAGE`, `QUESTION_
 Write a program using JOptionPanes to outputs a person's full name. Have the user input enter their first name, their middle name and their family name. If they don't have a middle name, leave that pane empty.
 
 ###Ex 7
-Write a program usnig JOptionPanes to work out the area and circumference of a circle with the radius being inputted. HINT: the area of a circle is πr² (pi is 3.14) and the circumference is 2πr.
+Write a program using JOptionPanes to work out the area and circumference of a circle with the radius having been inputted. HINT: the area of a circle is πr² (pi is 3.14) and the circumference is 2πr.
