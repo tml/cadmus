@@ -87,7 +87,7 @@ See what happens with other text fields, or try to manipulate the user's input.
 
 ##Using a JOptionPane
 
-JOptionPanes are not only used for validation, and can in fact be used as a substitute for the normal text field. It actually looks better. However they require very little validation and can process inputs easily. To use a JOptionPane, you will first have to import it, using the import:
+JOptionPanes are not only used for manipulation, and can in fact be used as substitutes for the normal text field, as accepting the user's input is very easy. It also actually looks better. They require very little code and can process inputs easily. To use a JOptionPane, you will first have to import it, using the import:
 
 ```java
 import javax.swing.JOptionPane;
@@ -98,7 +98,7 @@ These panes use a different syntax to a normal text field, and only require one 
 width = JOptionPane.showInputDialog("Width", "Enter the width");
 //the first parameter is the title and the second is the background text. 
 ```
-This will create a pane, you don't have to add it and it stores the input as soon as the OK button is pressed. For that matter, it comes pre-styles and with its own buttons. Whereas you would have to set a title; set the frame to be visible; set a DefaultCloseOperation etc with a JTextField, you don't have to do any of that with JOptionPanes. To work out the area of a rectangle based on the inputs the suer gives can therefore be done with this code:
+This will create a pane, you don't have to add it, and it stores the input as soon as the OK button is pressed. For that matter, it comes pre-styled and with its own buttons. Whereas you would have to set a title; set the frame to be visible; set a DefaultCloseOperation etc with a JTextField, you don't have to do any of that with JOptionPanes. You can therefore use these easily, and they can be used to carry out a method. For example, you could use a method to work out the area of a rectangle based on two inputs in Eclipse. This however looks bad, and you need to have a GUI to work with. So, a JoptionPane could be used. To work out the area of a rectangle based on the inputs the user gives can be done with this code:
 
 ```java
 public static void main(String[] args) {
@@ -125,7 +125,7 @@ public static void main(String[] args) {
 	}
 ```
 
-Thsi will create three JOptionPanes; the first two will store the variables and the last will act on those variables. This particular piece of code outputs the following:
+This will create three JOptionPanes; the first two will store the variables and the last will act on those variables. This particular piece of code outputs the following:
 
 ![Three JOptionPanes](https://github.com/HashanP/cadmus/raw/master/src/Images/JOptionPanes.png)
 
