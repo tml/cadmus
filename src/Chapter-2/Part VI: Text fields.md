@@ -28,7 +28,14 @@ public class TexFields extends JFrame{
 	}
 }
 ```
-This displays a normal text field that text can be inputted into. 
+This displays a normal text field that text can be inputted into. Inside the brackets on Line 5 you can enter a few things. If you enter a string, you will create the background text that you first get when you run the program. If you were to enter an integer, this would dictate the size of the text field. You can enter both of course, and you would do so using the following code:
+
+```java
+JTextField normal = new JTextField("Enter something!!", 15);
+```
+This would output the following:
+
+![A text field with its size and underlay designated](https://github.com/BillsJ/cadmus/raw/master/src/Images/better_text_field.png)
 
 ### Ex 1
 Copy the code above and run it. Try to input some text. If you wish, put an integer into line 5 to dictate the size of the text field. It should look like the following:
@@ -55,4 +62,12 @@ JComboBox Doctor_Who = new JComboBox(monsters);
 Create a drop-down menu with 5 different options. It does not have to be about Doctor Who and/or monsters. Your end result should look something like this (bear in mind that I've used aliens from Doctor Who):
 
 ![A drop-down Menu](https://github.com/HashanP/cadmus/raw/master/src/Images/drop-down_menu.png)
+
+##**Accepting user input**
+
+It's all very well having a text field on your screen, but it has no purpose if you cannot use what the user has inputted. Therefore for your text field to be fully working, you need to be able to accept and use these inputs. there are two main ways to do this, one using the above formats of text field; and one which uses a whole new format i.e. The `JOptionPane`. I will explain both of these in detail shortly.
+
+##Using JTextFields
+
+
 
