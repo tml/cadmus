@@ -13,7 +13,7 @@ We have also seen **interfaces**. Interfaces are what happens with the `implemen
 ```java
 interface Bicycle {
 
-    //  wheel revolutions per minute
+    // wheel revolutions per minute
     void changeCadence(int newValue);
 
     void changeGear(int newValue);
