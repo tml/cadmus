@@ -14,13 +14,13 @@ We have also seen **interfaces**. Interfaces are what happens with the `implemen
 public interface Bicycle {
 
     // wheel revolutions per minute
-    void changeCadence(int newValue);
+    public void changeCadence(int newValue);
 
-    void changeGear(int newValue);
+    public void changeGear(int newValue);
 
-    void speedUp(int increment);
+    public void speedUp(int increment);
 
-    void applyBrakes(int decrement);
+    public void applyBrakes(int decrement);
 }
 ```
 When you say a class implements an interface, it is saying it will implement the method definitions. Here's the code for an `ActionListener`:
