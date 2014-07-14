@@ -8,7 +8,7 @@ An array is a list of variables. Arrays must be of a type. That is to say you ca
 int[] myArray;
 ```
 
-Notice the square bracket notation. It tells the compiler that `myArray` isn't an Integer, but a list of integers. You must also initialise arrays.
+Notice the square bracket notation. It tells the compiler that `myArray` isn't an integer, but a list of integers. You must also initialise arrays.
 
 #### Way One
 ```java
