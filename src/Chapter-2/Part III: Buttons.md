@@ -55,7 +55,9 @@ Finally, the `setText()` method on the label allows you to dynamically change th
 
 These are what should be outputted at the start; when the first button is clicked; and when the second button is clicked:
 
-![The box when none of the buttons are clicked](https://github.com/HashanP/cadmus/raw/master/src/Images/Buttons_none_clicked.png)
-![What happens when button 1 is clicked](https://github.com/HashanP/cadmus/raw/master/src/Images/btn1_clicked.png)
-![What happens when button 2 is clicked](https://github.com/HashanP/cadmus/raw/master/src/Images/btn2_clicked.png)
+![The box when none of the buttons are clicked](../Images/Buttons_none_clicked.png)
+
+![What happens when button 1 is clicked](../Images/btn1_clicked.png)
+
+![What happens when button 2 is clicked](../Images/btn2_clicked.png)
 
