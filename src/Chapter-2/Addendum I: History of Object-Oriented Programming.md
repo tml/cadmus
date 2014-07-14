@@ -11,7 +11,7 @@ We have already seen something called  **inheritance**. Inheritance is what happ
 ## Interfaces
 We have also seen **interfaces**. Interfaces are what happens with the `implements` keyword, and the `ActionListener` interface. A class implements an interface. An interface is a list of method definitions, which no method bodies. For example:
 ```java
-interface Bicycle {
+public interface Bicycle {
 
     // wheel revolutions per minute
     void changeCadence(int newValue);
