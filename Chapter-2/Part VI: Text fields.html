@@ -1,6 +1,6 @@
-<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><article><h1 id="text-fields">Text Fields</h1>
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="text-fields">Text Fields</h1>
 <p>In Java there are are 3 main types of text field - the normal textfield, the password field and the drop-down menu. What these are and how they work will be explained in this chapter. As an introduction, if there is any doubt as to what a text field is, a text field is a box that lets the user input a small amount of text. As a passing statement, these textfields interact with the layouts introduced in that last part just as buttons do.</p>
-<h2 id="the-normal-text-field">The Normal Text Field</h2>
+<h2 id="jtextfields">JTextFields</h2>
 <p>What a normal text field is was just explained, it is a way for the user to input text. To create these you will have to copy out the following:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">import</span> javax.swing.JFrame;
 <span class="hljs-keyword">import</span> javax.swing.JTextField;
@@ -23,11 +23,15 @@
     }
 }
 </code></pre>
-<p>This displays a normal text field that text can be inputted into. </p>
+<p>This displays a normal text field that text can be inputted into. Inside the brackets on Line 5 you can enter a few things. If you enter a string, you will create the background text that you first get when you run the program. If you were to enter an integer, this would dictate the size of the text field. You can enter both of course, and you would do so using the following code:</p>
+<pre><code class="lang-java">JTextField normal = <span class="hljs-keyword">new</span> JTextField(<span class="hljs-string">"Your word here"</span>, <span class="hljs-number">15</span>);
+</code></pre>
+<p>This would output the following:</p>
+<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/better_text_field.png" alt="A text field with its size and underlay designated" title="A text field with its size and underlay designated"/></p>
 <h3 id="ex-1">Ex 1</h3>
 <p>Copy the code above and run it. Try to input some text. If you wish, put an integer into line 5 to dictate the size of the text field. It should look like the following:</p>
 <p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/normal_text_field.png" alt="A normal text field" title="A normal text field"/></p>
-<h2 id="the-password-field">The Password Field</h2>
+<h2 id="jpasswordfie">JPasswordFie</h2>
 <p>Whenever you have to enter a password into a website, what you type in is obscured by black dots. This is a result of the password field. To create this you will have to use the above syntax, but will have to import and use <code>JPasswordField</code>.</p>
 <h3 id="ex-2">Ex 2</h3>
 <p>Create a password field and see what happens when you try to type something in. Your finished product should look something like this:</p>
@@ -40,4 +44,57 @@
 <h3 id="ex-3">Ex 3</h3>
 <p>Create a drop-down menu with 5 different options. It does not have to be about Doctor Who and/or monsters. Your end result should look something like this (bear in mind that I&#39;ve used aliens from Doctor Who):</p>
 <p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/drop-down_menu.png" alt="A drop-down Menu" title="A drop-down Menu"/></p>
-</article></main></body></html>
+<h2 id="accepting-user-input">Accepting user input</h2>
+<p>It&#39;s all very well having a text field on your screen, but it has no purpose if you cannot use what the user has inputted. Therefore for your text field to be fully working, you need to be able to accept and use these inputs. there are two main ways to do this, one using the above formats of text field; and one which uses a whole new format i.e. The <code>JOptionPane</code>. I will explain both of these in detail shortly.</p>
+<h2 id="using-jtextfields">Using JTextFields</h2>
+<p>It can be very easy to store a user&#39;s input and manipulate it. For example you can display the user&#39;s input on the screen. To do this, all you really need to do is set a variable to be the input, and then set a label to be that variable. In other words, you can use the following code inside the actionPerformed method:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">actionPerformed</span>(ActionEvent evt) {
+        String text = normal.getText();
+        label.setText(text);
+    }
+</code></pre>
+<p>Add this to a button, text field and a label, and you can create something like the following:</p>
+<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/displaying_user_input.png" alt="Displaying user input" title="Displaying user input"/></p>
+<p>This simply displays the user&#39;s input, but since <code>normal.getText()</code> stores the user&#39;s input, you could just as easily validate or manipulate the input.</p>
+<h3 id="ex-4">Ex 4</h3>
+<p>Convert your code to work with a password field - What is outputted?
+See what happens with other text fields, or try to manipulate the user&#39;s input.</p>
+<h2 id="using-a-joptionpane">Using a JOptionPane</h2>
+<p>JOptionPanes are another option for accepting the user&#39;s input. These do not only work for manipulation however, they also could be used as a replacement for the JTextField itself.  They actually look better. They also require very little code and can process inputs easily. To use a JOptionPane, you will first have to import it:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">import</span> javax.swing.JOptionPane;
+</code></pre>
+<p>These panes use a different syntax to a normal text field, and only require one line for code. To create a JOptionPane you simply need to declare a variable e.g. <code>width</code> and then type this in:</p>
+<pre><code class="lang-java">width = JOptionPane.showInputDialog(<span class="hljs-string">"Width"</span>, <span class="hljs-string">"Enter the width"</span>);
+<span class="hljs-comment">//the first parameter is the title and the second is the background text.</span>
+</code></pre>
+<p>This will create a pane, you don&#39;t have to add it, and it stores the input as soon as the OK button is pressed. For that matter, it comes pre-styled and with its own buttons. Whereas you would have to set a title; set the frame to be visible; set a DefaultCloseOperation etc with a JTextField, you don&#39;t have to do any of that with JOptionPanes. You can therefore use these easily. Since they can be used to manipulate inputs, they could be compared to methods. For example, you could use a method to work out the area of a rectangle based on two inputs in Eclipse. This, however, looks bad, and the user needs to have a GUI to work with. So, a JOptionPane could be used as a method that looks good and does not require access to the base code. To work out the area of a rectangle based on the inputs the user gives using a JoptionPane can be done with this code:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(String[] args) {
+    String width = JOptionPane.showInputDialog(<span class="hljs-string">"Rectangle Width"</span>, <span class="hljs-string">"Enter the width of your rectangle"</span>);
+    <span class="hljs-comment">//sets a variable to be the width</span>
+
+    String height = JOptionPane.showInputDialog(<span class="hljs-string">"Rectangle Height"</span>, <span class="hljs-string">"Enter the height of your rectangle"</span>);
+    <span class="hljs-comment">//sets a variable to be the heiht</span>
+
+    <span class="hljs-keyword">int</span> area = Integer.parseInt(width) * Integer.parseInt(height);
+    <span class="hljs-comment">//converts the strings into ints and works out the area</span>
+
+    String answer = <span class="hljs-string">"The area is "</span> + area + <span class="hljs-string">"cm²"</span>;
+    <span class="hljs-comment">//sets a variable to be what the JOptionPane will output</span>
+
+    JOptionPane.showMessageDialog(<span class="hljs-keyword">null</span>, answer, <span class="hljs-string">"The Area"</span>, JOptionPane.INFORMATION_MESSAGE);
+    <span class="hljs-comment">// sets what the JOptionPane will output </span>
+    <span class="hljs-comment">// null is needed</span>
+    <span class="hljs-comment">// answer is the variable; "The Area" is the title and the final part is the image shown (see example)</span>
+
+    System.exit(<span class="hljs-number">0</span>); <span class="hljs-comment">//Closes the Pane on exit.</span>
+}
+</code></pre>
+<p>This will create three JOptionPanes; the first two will store the variables and the last will act on those variables. This particular piece of code outputs the following:</p>
+<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/JOptionPanes.png" alt="Three JOptionPanes" title="Three JOptionPanes"/></p>
+<h3 id="ex-5">Ex 5</h3>
+<p>Look what happens when you change <code>INFORMATION_MESSAGE</code> to <code>ERROR_MESSAGE</code>, <code>PLAIN_MESSAGE</code>, <code>QUESTION_MESSAGE</code> and/or <code>WARNING_MESSAGE</code>.</p>
+<h3 id="ex-6">Ex 6</h3>
+<p>Write a program using JOptionPanes to outputs a person&#39;s full name. Have the user input enter their first name, their middle name and their family name. If they don&#39;t have a middle name, leave that pane empty.</p>
+<h3 id="ex-7">Ex 7</h3>
+<p>Write a program using JOptionPanes to work out the area and circumference of a circle with the radius having been inputted. HINT: the area of a circle is πr² (π is 3.14) and the circumference is 2πr.</p>
+</main></body></html>

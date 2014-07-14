@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><article><h1 id="buttons">Buttons</h1>
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="buttons">Buttons</h1>
 <p>In our next application, the buttons application, we have to be able to receive user input i.e. button presses. We will use the <code>JButton</code> class. The imports required for this application will be:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">import</span> java.awt.FlowLayout;
 <span class="hljs-keyword">import</span> java.awt.event.ActionEvent;
@@ -46,7 +46,7 @@
 <p>Notice the <code>implements ActionListener</code>. Don&#39;t worry about that now. Just think of it as a different kind of <code>extends</code>. Rather than inheriting all the methods of the class in front of it, <code>implements</code> means that the class will contain the methods mandated by the thing in front of it. In this case it is the <code>actionPerformed()</code> method, which you do not call. By setting the ActionListener of <code>btn1</code> and <code>btn2</code> to <code>this</code> i.e. the current instance of <code>Buttons</code>, you are saying whenever <code>btn1</code> or <code>btn2</code> are clicked, you want them to pass on the event to the current instance of <code>Buttons</code>. The <code>e</code> variable stores information about the event. <code>getSource()</code> will return the button that was pressed.</p>
 <p>Finally, the <code>setText()</code> method on the label allows you to dynamically change the text.</p>
 <p>These are what should be outputted at the start; when the first button is clicked; and when the second button is clicked:</p>
-<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/Buttons_none_clicked.png" alt="alt text" title="The box when none of the buttons are clisked"/>
-<img src="https://github.com/HashanP/cadmus/raw/master/src/Images/btn1_clicked.png" alt="alt text" title="What happens when button 1 is clicked"/>
-<img src="https://github.com/HashanP/cadmus/raw/master/src/Images/btn2_clicked.png" alt="alt text" title="What happens when button 2 is clicked"/></p>
-</article></main></body></html>
+<p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/Buttons_none_clicked.png" alt="The box when none of the buttons are clicked" title="The box when none of the buttons are clicked"/>
+<img src="https://github.com/HashanP/cadmus/raw/master/src/Images/btn1_clicked.png" alt="What happens when button 1 is clicked" title="What happens when button 1 is clicked"/>
+<img src="https://github.com/HashanP/cadmus/raw/master/src/Images/btn2_clicked.png" alt="What happens when button 2 is clicked" title="What happens when button 2 is clicked"/></p>
+</main></body></html>

@@ -1,5 +1,5 @@
-<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><article><h1 id="history-of-object-orientated-programming">History of Object-Orientated Programming</h1>
-<p>Java&#39;s concept of classes and objects is nothing new. The original idea came from the need for computers to simulate real-world models. The first language to employ classes and objects was, in fact, called <em>Simula</em>. It was the first ever <strong>object-orientated language</strong> and included advanced features such as inheritance and virtual methods. It went on to influence <em>Smalltalk</em>, a language invented at Xerox PARC, which was also where the GUI was invented. Another language influence by Simula was the <em>Eiffel</em> programming language. Object-orientated programming boomed when object-orientated languages based on the <em>C</em> programming language were introduced. The supersets were <em>C++</em> by Bjarne Stroustrup and <em>Objective C</em> by Apple. </p>
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="history-of-object-oriented-programming">History of Object-Oriented Programming</h1>
+<p>Java&#39;s concept of classes and objects is nothing new. The original idea came from the need for computers to simulate real-world models. The first language to employ classes and objects was, in fact, called <em>Simula</em>. It was the first ever <strong>object-oriented language</strong> and included advanced features such as inheritance and virtual methods. It went on to influence <em>Smalltalk</em>, a language invented at Xerox PARC, which was also where the GUI was invented. Another language influence by Simula was the <em>Eiffel</em> programming language. Object-oriented programming boomed when object-oriented languages based on the <em>C</em> programming language were introduced. The supersets were <em>C++</em> by Bjarne Stroustrup and <em>Objective C</em> by Apple. </p>
 <h2 id="java">Java</h2>
 <p>Java was introduced far later, but had two advantages. Unlike other langauges, Java didn&#39;t have to be compiled seperately for Windows, Mac &amp; Linux. Instead a programmer could convert Java to Java bytecode, which could be run on any computer with the Java virtual machine. This advantage was so strong, that later languages such as <em>Scala</em> were built to compile straight down to Java bytecode. The second advantage was that you didn&#39;t have to delete variables once they had been used. In C, C++ and Objective C, you would have to manually erase a variable from memory once it had been used. If you hadn&#39;t erased all variables before the program ended, a <strong>memory leak</strong> would occur.</p>
 <h2 id="inheritance">Inheritance</h2>
@@ -8,7 +8,7 @@
 <p>We have also seen <strong>interfaces</strong>. Interfaces are what happens with the <code>implements</code> keyword, and the <code>ActionListener</code> interface. A class implements an interface. An interface is a list of method definitions, which no method bodies. For example:</p>
 <pre><code class="lang-java">interface Bicycle {
 
-    <span class="hljs-comment">//  wheel revolutions per minute</span>
+    <span class="hljs-comment">// wheel revolutions per minute</span>
     <span class="hljs-keyword">void</span> changeCadence(<span class="hljs-keyword">int</span> newValue);
 
     <span class="hljs-keyword">void</span> changeGear(<span class="hljs-keyword">int</span> newValue);
@@ -29,4 +29,4 @@
 }
 </code></pre>
 <p>When you implement this interface, you must write out an <code>actionPerformed</code> method.</p>
-</article></main></body></html>
+</main></body></html>
