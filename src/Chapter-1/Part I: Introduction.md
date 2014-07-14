@@ -62,47 +62,46 @@ So now we will cover how to install Eclipse:
 
 First, head over to Eclipse's website, which looks like this:
 
-![Eclipse website front page](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_website_screenshot1.png)
+![A screenshot of the Eclipse website front page](../Images/Eclipse_website_screenshot1.png)
 
 Next click the orange downloads button to take you to:
 
-![First page of downloads](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_website_screenshot2.png)
+![A screenshot of the first page of downloads](../Images/Eclipse_website_screenshot2.png)
 
-Now click eclipse standard, the first one listed, the latest version at the time of writing is version 4.4:
+Now click "eclipse standard", the first one listed, the latest version at the time of writing is version 4.4:
 
-![Eclipse standard 4.4](https://github.com/HashanP/cadmus/raw/master/src/Images/eclipse_standard.png)
+![Eclipse standard 4.4](../Images/eclipse_standard.png)
 
 Now under download links, you should see your OS (Operating System). Click it:
 
-![Know your computer version](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_download_links.png)
+![Know your computer version](../Images/Eclipse_download_links.png)
 
 Next, click where it says "[United Kingdom] UK Mirror Service (http)":
 
-![This was made in the UK](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_UK_mirror_service.png)
+![This was made in the UK](../Images/Eclipse_UK_mirror_service.png)
 
 Now save the file. Once it has finished downloading, open and extract it.
 
 Now simply double click on the eclipse file and Eclipse will now open. If you have had any problems during installation, please consult your School’s IT department or your teacher.
 
 ## What this course entails
-
 Hello, and welcome to your new Java class. My name is Jarvis, and I am your new Java teacher. I will be helping you through the first part of your course.  To begin with, I will explain some simple concepts to you.
 
 In this course you will learn how to program in Java and then Swing.  You can think of programming as a way of making your computer do things – and anything that you create and run on your computer is called a program.  Programs can be seen as a set of instructions that get executed when you run the program. The instructions for programs cannot be written in plain English; they must be written in different languages, one of which is Java.  Anything you write in Java is called code, and lines of code look very similar to sentences.  However there are some key differences, such as that lines of code end in a semi-colon (;) not a full-stop.  The tool that you will use to write Java is called Eclipse.  Eclipse will highlight different bits of your code so that you can see the different bits of code more clearly.  The code you write in Eclipse will tell your program what you want it to do when you run your code.  With that explained, on with the programming!
 
 1) Open up Eclipse (your teacher should have explained how to do this).
 It should look something like the screen shot below:
-![Eclipse interface](https://github.com/HashanP/cadmus/raw/master/src/Images/Opening_eclipse.png)
+![Eclipse interface](../Images/Opening_eclipse.png)
 
 The green icon which looks like this is used to run your programs. It can be found in the top bar and you have to click it to run the current program you are working in. Provided that your program has no errors, your program should run.
 
-![This appears in the top bar](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_run_button.png)
+![This appears in the top bar](../Images/Eclipse_run_button.png)
 
 Now right-click Outreach then click New->Class and you should see the following pop-up:
-![A new class](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_new_class.png)
+![A new class](../Images/Eclipse_new_class.png)
 
 Where it says name type in Example then click Finish, and so your screen should look like this:
-![And your new program begins](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_new_class_final.png)
+![And your new program begins](../Images/Eclipse_new_class_final.png)
 
 Notice the words `public class` in purple.  A class is a file which contains objects and methods (see descriptions in the respective sections (Methods and Classes). The word ‘public’ just means that the piece of code can be used in other classes. The other word that we could have written in that space would be 'private', so that only the class that we are currently in can use the piece of code.
 
@@ -122,4 +121,4 @@ public static void main(String[] args) {
 }
 ```
 
-This is the main method, and every Java program needs a main method.  It is the first bit of code your program looks at when it is run.  If you have more than one main method, your program will get confused and will not know what to do.  (Where should it be starting from? This main method or that one?) So, the point is, you can only have ONE main method per program. You can run other methods from the main method too.  The main method must always begin with that line and look like the screenshot above, and you cannot change the name of the main method. Bear in mind that by the end of your course, you will have to be able to memorise the piece of code above.
+This is the main method, and every Java program needs a main method.  It is the first bit of code your program looks at when it is run.  If you have more than one main method, your program will get confused and will not know what to do.  (Where should it be starting from? This main method or that one?) So, the point is, you can only have ONE main method per program. You can run other methods from the main method too.  The main method must always begin with that line and look like the screenshot above, and you cannot change the name of the main method. Bear in mind that by the end of your course, you will have been able to memorise the piece of code above.
