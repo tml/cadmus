@@ -77,7 +77,7 @@ Now under download links, you should see your OS (Operating System). Click it:
 
 ![Know your computer version](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_download_links.png)
 
-Next, click where it says “[United Kingdom] UK Mirror Service (http)”:
+Next, click where it says "[United Kingdom] UK Mirror Service (http)":
 
 ![This was made in the UK](https://github.com/HashanP/cadmus/raw/master/src/Images/Eclipse_UK_mirror_service.png)
 
