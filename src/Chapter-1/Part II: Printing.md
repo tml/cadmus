@@ -6,7 +6,7 @@ To output text to the console, use the `System.out.println`; this is equivalent 
 System.out.println("Hello world");
 ```
 
-Try printing out "Hello world" (like above) and if it works, try printing out your own custom messages. Remember to put it in the `main` method. Notice that once you type in System.out followed by a full stop you will get many different options popping up, this is simply the interpreter offering you suggestions for what to type, but for now we will only be interested in two of these; `print` and `println`.  'Print' simply prints out whatever you have inserted in speech marks. However if you use 'println' like we have done above, then Hello world will be printed and then a new line will be made (like when you hit enter in word); here the ln stands for “line new”.
+Try printing out "Hello world" (like above) and if it works, try printing out your own custom messages. Remember to put it in the `main` method. Notice that once you type in System.out followed by a full stop you will get many different options popping up, this is simply the interpreter offering you suggestions for what to type, but for now we will only be interested in two of these; `print` and `println`.  'Print' simply prints out whatever you have inserted in speech marks. However if you use 'println' like we have done above, then Hello world will be printed and then a new line will be made (like when you hit enter in word); here the ln stands for "line new".
 
 Try the following, which will output exactly the same, but in more lines of code:
 
@@ -24,7 +24,7 @@ System.out.println("world");
  
 Which would print "Hello" then a new line, and then print "world" on that new line.
 
-You can also print out variables (which you will encounter next). When you print out a variable you do not need to add “” or ' ', you simply put the variable name inside the the brackets.  So if you had an int called `n` which is equal to 5, you could print it out using:
+You can also print out variables (which you will encounter next). When you print out a variable you do not need to add `" "` or `' '`, you simply put the variable name inside the the brackets.  So if you had an int called `n` which is equal to 5, you could print it out using:
 
 ```java
 System.out.println(n);
