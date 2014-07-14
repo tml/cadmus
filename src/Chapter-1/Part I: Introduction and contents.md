@@ -107,10 +107,10 @@ Where it says name type in Example then click Finish, and so your screen should 
 
 Notice the words `public class` in purple.  A class is a file which contains objects and methods (see descriptions in the respective sections (Methods and Classes). The word ‘public’ just means that the piece of code can be used in other classes. The other word that we could have written in that space would be 'private', so that only the class that we are currently in can use the piece of code.
 
-At the top of a Java program, usually you can find a comment or two stating the name of the person who wrote the program and a note on what the program does.  To write words and sentences in a program that other people can see when they look at your code, but isn't visible to the computer when you run your program, write // at the start of the sentence you want to write.  So, I would write:
+At the top of a Java program, usually you can find a comment or two stating the name of the person who wrote the program and a note on what the program does.  To write words and sentences in a program that other people can see when they look at your code, but isn't visible to the computer when you run your program, write `//` at the start of the sentence you want to write.  So, I would write:
 
 ```java
-//By Jarvis, this is an example program.
+// By Jarvis, this is an example program.
 ```
 
 This is to let other people who view my program know that the code was written by me, and likewise you would write your own name and the purpose of your program.
