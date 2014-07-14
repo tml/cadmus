@@ -6,16 +6,16 @@
 <p>We have already seen something called  <strong>inheritance</strong>. Inheritance is what happens with the <code>extends</code> keyword. Inheritance lets one class inherit all the methods of the other. That means that all methods and properties of the <strong>super class</strong> (the class being extended) will be accessible on the <strong>sub class</strong>.</p>
 <h2 id="interfaces">Interfaces</h2>
 <p>We have also seen <strong>interfaces</strong>. Interfaces are what happens with the <code>implements</code> keyword, and the <code>ActionListener</code> interface. A class implements an interface. An interface is a list of method definitions, which no method bodies. For example:</p>
-<pre><code class="lang-java">interface Bicycle {
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">Bicycle</span> {</span>
 
     <span class="hljs-comment">// wheel revolutions per minute</span>
-    <span class="hljs-keyword">void</span> changeCadence(<span class="hljs-keyword">int</span> newValue);
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">changeCadence</span>(<span class="hljs-keyword">int</span> newValue);
 
-    <span class="hljs-keyword">void</span> changeGear(<span class="hljs-keyword">int</span> newValue);
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">changeGear</span>(<span class="hljs-keyword">int</span> newValue);
 
-    <span class="hljs-keyword">void</span> speedUp(<span class="hljs-keyword">int</span> increment);
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">speedUp</span>(<span class="hljs-keyword">int</span> increment);
 
-    <span class="hljs-keyword">void</span> applyBrakes(<span class="hljs-keyword">int</span> decrement);
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">applyBrakes</span>(<span class="hljs-keyword">int</span> decrement);
 }
 </code></pre>
 <p>When you say a class implements an interface, it is saying it will implement the method definitions. Here&#39;s the code for an <code>ActionListener</code>:</p>
