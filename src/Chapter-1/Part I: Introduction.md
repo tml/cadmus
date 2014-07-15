@@ -9,7 +9,7 @@ In this chapter the students will learn basic programming concepts and make thei
 - Make your first Java program, preferably with errors (although no one will complain if there are not any), so that you get a good feel for debugging - something that as a programmer you will have to do very often. 
 
 **This is because:** 
-- These are the basic skills required to program in Java and all other languages. With these concepts mastered it’s possible to learn other programming languages in the future.
+- These are the basic skills required to program in Java and all other languages. With these concepts mastered it's possible to learn other programming languages in the future.
 
 
 ## Success Criteria
@@ -82,16 +82,21 @@ Next, click where it says "[United Kingdom] UK Mirror Service (http)":
 
 Now save the file. Once it has finished downloading, open and extract it.
 
-Now simply double click on the eclipse file and Eclipse will now open. If you have had any problems during installation, please consult your School’s IT department or your teacher.
+Now simply double click on the eclipse file and Eclipse will now open. If you have had any problems during installation, please consult your School's IT department or your teacher.
 
 ## What this course entails
 Hello, and welcome to your new Java class. My name is Jarvis, and I am your new Java teacher. I will be helping you through the first part of your course.  To begin with, I will explain some simple concepts to you.
 
-In this course you will learn how to program in Java and then Swing.  You can think of programming as a way of making your computer do things – and anything that you create and run on your computer is called a program.  Programs can be seen as a set of instructions that get executed when you run the program. The instructions for programs cannot be written in plain English; they must be written in different languages, one of which is Java.  Anything you write in Java is called code, and lines of code look very similar to sentences.  However there are some key differences, such as that lines of code end in a semi-colon (;) not a full-stop.  The tool that you will use to write Java is called Eclipse.  Eclipse will highlight different bits of your code so that you can see the different bits of code more clearly.  The code you write in Eclipse will tell your program what you want it to do when you run your code.  With that explained, on with the programming!
+In this course you will learn how to program in Java and then Swing.  You can think of programming as a way of making your computer do things - and anything that you create and run on your computer is called a program.  Programs can be seen as a set of instructions that get executed when you run the program. The instructions for programs cannot be written in plain English; they must be written in different languages, one of which is Java.  Anything you write in Java is called code, and lines of code look very similar to sentences.  However there are some key differences, such as that lines of code end in a semi-colon (;) not a full-stop.  The tool that you will use to write Java is called Eclipse.  Eclipse will highlight different bits of your code so that you can see the different bits of code more clearly.  The code you write in Eclipse will tell your program what you want it to do when you run your code.  With that explained, on with the programming!
 
 1) Open up Eclipse (your teacher should have explained how to do this).
 It should look something like the screen shot below:
+<<<<<<< HEAD:src/Chapter-1/Part I: Introduction.md
 ![Eclipse interface](../Images/Opening_eclipse.png)
+=======
+
+![Eclipse interface](https://github.com/HashanP/cadmus/raw/master/src/Images/Opening_eclipse.png)
+>>>>>>> af74096e5cdb917141d83ab3eb1ca3a22f165301:src/Chapter-1/Part I: Introduction and contents.md
 
 The green icon which looks like this is used to run your programs. It can be found in the top bar and you have to click it to run the current program you are working in. Provided that your program has no errors, your program should run.
 
@@ -103,7 +108,7 @@ Now right-click Outreach then click New->Class and you should see the following 
 Where it says name type in Example then click Finish, and so your screen should look like this:
 ![And your new program begins](../Images/Eclipse_new_class_final.png)
 
-Notice the words `public class` in purple.  A class is a file which contains objects and methods (see descriptions in the respective sections (Methods and Classes). The word ‘public’ just means that the piece of code can be used in other classes. The other word that we could have written in that space would be 'private', so that only the class that we are currently in can use the piece of code.
+Notice the words `public class` in purple.  A class is a file which contains objects and methods (see descriptions in the respective sections (Methods and Classes). The word 'public' just means that the piece of code can be used in other classes. The other word that we could have written in that space would be 'private', so that only the class that we are currently in can use the piece of code.
 
 At the top of a Java program, usually you can find a comment or two stating the name of the person who wrote the program and a note on what the program does.  To write words and sentences in a program that other people can see when they look at your code, but isn't visible to the computer when you run your program, write `//` at the start of the sentence you want to write.  So, I would write:
 
