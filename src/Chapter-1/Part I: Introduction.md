@@ -91,12 +91,8 @@ In this course you will learn how to program in Java and then Swing.  You can th
 
 1) Open up Eclipse (your teacher should have explained how to do this).
 It should look something like the screen shot below:
-<<<<<<< HEAD:src/Chapter-1/Part I: Introduction.md
-![Eclipse interface](../Images/Opening_eclipse.png)
-=======
 
-![Eclipse interface](https://github.com/HashanP/cadmus/raw/master/src/Images/Opening_eclipse.png)
->>>>>>> af74096e5cdb917141d83ab3eb1ca3a22f165301:src/Chapter-1/Part I: Introduction and contents.md
+![Eclipse interface](../Images/Opening_eclipse.png)
 
 The green icon which looks like this is used to run your programs. It can be found in the top bar and you have to click it to run the current program you are working in. Provided that your program has no errors, your program should run.
 
