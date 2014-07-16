@@ -81,7 +81,6 @@ This simply displays the user's input, but since `normal.getText()` stores the u
 Convert your code to work with a password field - What is outputted?
 See what happens with other text fields, or try to manipulate the user's input.
 
-<<<<<<< HEAD
 ##Using a JOptionPane
 JOptionPanes are another option for accepting the user's input. These do not only work for manipulation however, they also can be used as a replacement for the JTextField itself.  They actually look better. They also require very little code and can process inputs easily. To use a JOptionPane, you will first have to import it, using the import:
 ```java
@@ -92,7 +91,6 @@ These panes use a different syntax to a normal text field, and only require one 
 width = JOptionPane.showInputDialog("Width", "Enter the width");
 //the first parameter is the title and the second is the background text. 
 ```
-<<<<<<< HEAD
 This will create a pane, you don't have to add it, and it stores the input as soon as the OK button is pressed. For that matter, it comes pre-styled and with its own buttons. Whereas you would have to set a title; set the frame to be visible; set a DefaultCloseOperation etc with a JTextField, you don't have to do any of that with JOptionPanes. You can therefore use these easily. Since they can be used to manipulate inputs, they could be compared to methods. For example, you could use a method to work out the area of a rectangle based on two inputs in Eclipse. This, however, looks bad, and the user needs to have a GUI to work with. So, a JOptionPane could be used as a method that looks good and does not require access to the base code. To work out the area of a rectangle based on the inputs the user gives using a JoptionPane can be done with this code:
 ```java
 public static void main(String[] args) {
