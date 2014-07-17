@@ -13,3 +13,6 @@ Create the following window without using panels:
 Create the same window but this time use panels
 ### Ex 3. 
 Create the following window:
+
+Tools: You are surely going to have to use the following method:
+setBorder(BorderFactory.createEmptyBorder(integer, integer, integer, integer)). You apply it to any Jpanel or Jframe and it creates an inner empty border with the parameters (top, left, bottom, right).
