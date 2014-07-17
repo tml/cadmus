@@ -82,7 +82,7 @@ Next, click where it says "[United Kingdom] UK Mirror Service (http)":
 
 Now save the file. Once it has finished downloading, open and extract it.
 
-Now simply double click on the eclipse file and Eclipse will now open. If you have had any problems during installation, please consult your School’s IT department or your teacher.
+Now simply double click on the eclipse file and Eclipse will now open. If you have had any problems during installation, please consult your School's IT department or your teacher.
 
 ## What this course entails
 Hello, and welcome to your new Java class. My name is Jarvis, and I am your new Java teacher. I will be helping you through the first part of your course.  To begin with, I will explain some simple concepts to you.
