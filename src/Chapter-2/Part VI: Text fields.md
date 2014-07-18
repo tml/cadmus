@@ -3,7 +3,7 @@ Text Fields
 
 In Java there are are 3 main types of text field - the normal textfield, the password field and the drop-down menu. What these are and how they work will be explained in this chapter. As an introduction, if there is any doubt as to what a text field is, a text field is a box that lets the user input a small amount of text. As a passing statement, these textfields interact with the layouts introduced in that last part just as buttons do.
 
-##JTextFields
+## JTextFields
 What a normal text field is was just explained, it is a way for the user to input text. To create these you will have to copy out the following:
 ```java
 import javax.swing.JFrame;
@@ -40,7 +40,7 @@ Copy the code above and run it. Try to input some text. If you wish, put an inte
 
 ![A normal text field](../Images/normal_text_field.png)
 
-##JPasswordFields
+## JPasswordFields
 Whenever you have to enter a password into a website, what you type in is obscured by black dots. This is a result of the password field. To create this you will have to use the above syntax, but will have to import and use `JPasswordField`.
 
 ### Ex 2
@@ -48,7 +48,7 @@ Create a password field and see what happens when you try to type something in. 
 
 ![A password field](../Images/password_field.png)
 
-##The Drop-down Menu
+## The Drop-down Menu
 A drop-down menu is a text field that lets you choose from a preset list of options that, quite literally, drop down when you click a button. To do this you will have to import and use `JComboBox`. To use this you will have to declare an array which includes all of the options. You can see how to declare an array in Chapter 1 Part VI. You will then have to put the name of the array in the parameters that the `JComboBox` has. In other words: 
 ```java
 JComboBox Doctor_Who = new JComboBox(monsters);
@@ -60,10 +60,10 @@ Create a drop-down menu with 5 different options. It does not have to be about D
 
 ![A drop-down Menu](../Images/drop-down_menu.png)
 
-##**Accepting user input**
+## **Accepting user input**
 It's all very well having a text field on your screen, but it has no purpose if you cannot use what the user has inputted. Therefore for your text field to be fully working, you need to be able to accept and use these inputs. There are two main ways to do this, one using the above formats of text field; and one which uses a whole new format i.e. The `JOptionPane`. I will explain both of these in detail shortly.
 
-##Using JTextFields
+## Using JTextFields
 It can be very easy to store a user's input and manipulate it. For example you can display the user's input on the screen. To do this, all you really need to do is set a variable to be the input, and then set a label to be that variable. In other words, you can use the following code inside the actionPerformed method:
 ```java
 public void actionPerformed(ActionEvent evt) {
@@ -81,7 +81,7 @@ This simply displays the user's input, but since `normal.getText()` stores the u
 Convert your code to work with a password field - What is outputted?
 See what happens with other text fields, or try to manipulate the user's input.
 
-##Using a JOptionPane
+## Using a JOptionPane
 JOptionPanes are another option for accepting the user's input. These do not only work for manipulation however, they also can be used as a replacement for the JTextField itself.  They actually look better. They also require very little code and can process inputs easily. To use a JOptionPane, you will first have to import it, using the import:
 ```java
 import javax.swing.JOptionPane;
