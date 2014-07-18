@@ -41,7 +41,10 @@ frame.getContentPane().setBackground(Color.YELLOW);
 ```
 This particular piece of code would putput the following:
 
-![Coloured window](https://github.com/BillsJ/cadmus/raw/master/src/Images/coloured_first_window.png)
+![Coloured window](https://github.com/HashanP/cadmus/raw/master/src/Images/coloured_first_window.png)
 
 ### Ex 1
 Copy & run the code. Play around with `setSize`, `setTitle`, and `setVisible`.
+
+### Ex 2
+Take your window and change the colour of its background.
