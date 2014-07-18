@@ -41,7 +41,7 @@ frame.getContentPane().setBackground(Color.YELLOW);
 ```
 This particular piece of code would putput the following:
 
-![Coloured window](https://github.com/HashanP/cadmus/raw/master/src/Images/coloured_first_window.png)
+![Coloured window](../Images/coloured_first_window.png)
 
 ### Ex 1
 Copy & run the code. Play around with `setSize`, `setTitle`, and `setVisible`.
