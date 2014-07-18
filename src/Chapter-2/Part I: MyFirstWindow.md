@@ -23,5 +23,25 @@ The code above should output this when run:
 
 ![An empty window](../Images/my_first_window.png)
 
+## Colouring these Windows
+
+These windows are not limited to a dull, boring grey, in fact these windows can be set to pretty much any colour under the Sun. To do this you will have to import `Color`, using the import:
+```java
+import java.awt.Color;
+```
+To use this import you will have to use the following syntax:
+```java
+getContentPane().setBackground(Color.YELLOW);
+//this will create a yellow window, however you can replace this with other colours.
+```
+If you couple this with `extends JFrame` in the class, you will create a yellow window. Bear in mind however that if you do not use `extends JFrame` and instead declare a JFrame inside the method, you will have to do this:
+```java
+frame.getContentPane().setBackground(Color.YELLOW);
+//where 'frame' is the name of the JFrame.
+```
+This particular piece of code would putput the following:
+
+![Coloured window](https://github.com/BillsJ/cadmus/raw/master/src/Images/coloured_first_window.png)
+
 ### Ex 1
 Copy & run the code. Play around with `setSize`, `setTitle`, and `setVisible`.
