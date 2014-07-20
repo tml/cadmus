@@ -40,6 +40,15 @@ Copy the code above and run it. Try to input some text. If you wish, put an inte
 
 ![A normal text field](../Images/normal_text_field.png)
 
+You can also make these text fields uneditable. Therefore you could, theoretically, have the user input something and then lock the text field to prevent anything else being inputted. You can stop the text fields accepting text using the following code:
+```java
+normal.setEditable(false);
+\\where 'normal' is the identifier of the text field
+```
+The following would be outputted if this is combined with the other pieces of code:
+
+![An uneditable text field](../Images/uneditable_text_field.png)
+
 ## JPasswordFields
 Whenever you have to enter a password into a website, what you type in is obscured by black dots. This is a result of the password field. To create this you will have to use the above syntax, but will have to import and use `JPasswordField`.
 
