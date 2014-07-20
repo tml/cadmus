@@ -79,3 +79,23 @@ And yes, you have permission to scream 'CUUUUUUUUTTTTEEEEE' in a very high-pitch
 Make a JButton yourself. Have it change a label from "No buttons pressed" to "The button has been pressed" using the ActionListener. If, you want a challenge, add more than one button or make them contain pictures.
 
 N.B. not all pictures require a tag of 'cute'.
+
+## JRadioButtons
+
+A radio button is a button that you often see on multiple choice quizzes, the ones that are circular and fill in when you click them. To create these you have to use `JRadioButtons`, which work exactly the same as normal buttons. To create one you would have to do this:
+```java
+JRadioButton btn1 = new JRadioButton("One");
+//where "One" is the label of the button.
+```
+Adding this to the JFrame will create a radio button. These buttons also interact with ActionListener. However, what use would a radio button be if you could click more than one at the same time? Anything that requires only one option being selected would be broken. To fix this you have to add the buttons ot a `ButtonGroup`. This makes sure that only one option works at a time. The following code would be used:
+```java
+ButtonGroup buttons = new ButtonGroup();
+```
+to create the buttongroup, and then:
+```java
+buttons.add(btn1);
+```
+in the constructor to add the button to the button group.Therefore the following could be outputted:
+
+![Radio buttons](../Images/radio.png)
+
