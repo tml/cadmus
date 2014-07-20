@@ -44,6 +44,10 @@ The following would be outputted if this is combined with the other pieces of co
 
 ![An uneditable text field](../Images/uneditable_text_field.png)
 
+Finally, you can colour your text fields. I'm not going to give an example of this because the code is identical to how you would colour a JFrame, only you don't have to include the `getContentPane()`. If yuo were to colour your text filed orange, then it would look like this:
+
+![A coloured text field](../Images/orange_text_field.png)
+
 ### Ex 1
 Create your own text field and run it. Try to input some text. If you wish, put an integer into line 5 to dictate the size of the text field. You could also make the text field uneditable, if you so desire.
 
