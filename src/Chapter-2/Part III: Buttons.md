@@ -95,7 +95,9 @@ to create the buttongroup, and then:
 ```java
 buttons.add(btn1);
 ```
-in the constructor to add the button to the button group.Therefore the following could be outputted:
+in the constructor to add the button to the button group.Therefore the following would be outputted:
 
 ![Radio buttons](../Images/radio.png)
 
+### Ex 2
+Make 3 radio buttons with different names of subjects (History, Computing maths etc.) and have a JLabel ask which is the user's favourite. Also have the JLabel respond to that with an appropriate message.
