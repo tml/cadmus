@@ -61,3 +61,21 @@ These are what should be outputted at the start; when the first button is clicke
 
 ![What happens when button 2 is clicked](../Images/btn2_clicked.png)
 
+## Adding Images
+
+These buttons are all well and good, but to be honest, they don't look very good. For that reason, it's time to find out how to add images to buttons. You do this in much the same way that you add images to labels, using ImageIcons. So, to do this you would include the following code:
+```java
+ImageIcon image = new ImageIcon("cute cat picture.jpg");
+
+button = new JButton(image);
+```
+Doing this will set the button to have an image on it instead of text. Add a panel and a text field (you will learn about these later), and you can get something like this:
+
+![CUTE KITTEN BUTTON!!!!!!](../Images/image_buttons.png)
+
+And yes, you have permission to scream 'CUUUUUUUUTTTTEEEEE' in a very high-pitched voice. 
+
+### Ex 1 
+Make a JButton yourself. Have it change a label from "No buttons pressed" to "The button has been pressed" using the ActionListener. If, you want a challenge, add more than one button or make them contain pictures.
+
+N.B. not all pictures require a tag of 'cute'.
