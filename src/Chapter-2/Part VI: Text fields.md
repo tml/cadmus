@@ -80,6 +80,7 @@ It can be very easy to store a user's input and manipulate it. For example you c
 public void actionPerformed(ActionEvent evt) {
 	    String text = normal.getText();
 	    label.setText(text);
+	    //where label is the name of a JLabel
 	}
 ```
 Add this to a button, text field and a label, and you can create something like the following:
