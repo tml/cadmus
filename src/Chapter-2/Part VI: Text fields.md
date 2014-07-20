@@ -43,7 +43,7 @@ Copy the code above and run it. Try to input some text. If you wish, put an inte
 You can also make these text fields uneditable. Therefore you could, theoretically, have the user input something and then lock the text field to prevent anything else being inputted. You can stop the text fields accepting text using the following code:
 ```java
 normal.setEditable(false);
-\\where 'normal' is the identifier of the text field
+//where 'normal' is the identifier of the text field
 ```
 The following would be outputted if this is combined with the other pieces of code:
 
