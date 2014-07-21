@@ -1,5 +1,6 @@
 Buttons
 ===
+
 In our next application, the buttons application, we have to be able to receive user input i.e. button presses. We will use the `JButton` class. The imports required for this application will be:
 
 ```java
@@ -62,7 +63,6 @@ These are what should be outputted at the start; when the first button is clicke
 ![What happens when button 2 is clicked](../Images/btn2_clicked.png)
 
 ## Adding Images
-
 These buttons are all well and good, but to be honest, they don't look very good. For that reason, it's time to find out how to add images to buttons. You do this in much the same way that you add images to labels, using ImageIcons. So, to do this you would include the following code:
 ```java
 ImageIcon image = new ImageIcon("cute cat picture.jpg");
@@ -81,7 +81,6 @@ Make a JButton yourself. Have it change a label from "No buttons pressed" to "Th
 N.B. not all pictures require a tag of 'cute'.
 
 ## JRadioButtons
-
 A radio button is a button that you often see on multiple choice quizzes, the ones that are circular and fill in when you click them. To create these you have to use `JRadioButtons`, which work exactly the same as normal buttons. To create one you would have to do this:
 ```java
 JRadioButton btn1 = new JRadioButton("One");
@@ -95,7 +94,21 @@ to create the buttongroup, and then:
 ```java
 buttons.add(btn1);
 ```
-in the constructor to add the button to the button group.Therefore the following could be outputted:
+in the constructor to add the button to the button group.Therefore the following would be outputted:
 
 ![Radio buttons](../Images/radio.png)
 
+### Ex 2
+Make 3 radio buttons with different names of subjects (History, Computing, Maths etc.) and have a JLabel ask which is the user's favourite. Also have the JLabel respond to that with an appropriate message.
+
+## JCheckBoxes
+Check boxes are exactly the same a radio buttons, only look slightly different. These, instead of becoming a filled circle upon  being clicked, become a ticked box. To use these you will require a ButtonGroup, as before, and to import JCheckBoxes. These also interact with ActionListeners. The code for these is pretty intuitive, but I'll display it anyway:
+```java
+JCheckBox one = new JCheckBox("Noodles");
+```
+Using these you can create things like the following:
+
+![Some check boxes](../Images/check_boxes.png)
+
+## Ex 3
+Create 3 check boxes with custom names, and use ActionListener to display an appropriate message depending on which box hads been checked.
