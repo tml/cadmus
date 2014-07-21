@@ -101,7 +101,7 @@ in the constructor to add the button to the button group.Therefore the following
 ### Ex 2
 Make 3 radio buttons with different names of subjects (History, Computing, Maths etc.) and have a JLabel ask which is the user's favourite. Also have the JLabel respond to that with an appropriate message.
 
-## Check Boxes
+## JCheckBoxes
 Check boxes are exactly the same a radio buttons, only look slightly different. These, instead of becoming a filled circle upon  being clicked, become a ticked box. To use these you will require a ButtonGroup, as before, and to import JCheckBoxes. These also interact with ActionListeners. The code for these is pretty intuitive, but I'll display it anyway:
 ```java
 JCheckBox one = new JCheckBox("Noodles");
