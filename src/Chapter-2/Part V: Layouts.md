@@ -4,9 +4,7 @@ Layouts
 Basically, a **layout manager** is a way of presenting and displaying the elements of either a frame or a panel. In other words: layouts allow you to tell the computer where you want to display your different objects and in what order. As we have seen previously, you  apply the layouts to a frame. In Java, there exists three different types of layouts: the grid layout, the flow layout and the border layout.
 
 ## The Flow Layout
-
 Flow Layout, which is the only layout manager you have seen before, is the simplest layout you can choose because it arranges the components one after another, going from left to right, in the order in which you add them.
-
 ```java
 import java.awt.FlowLayout;
 //you will have to do this for the other layouts using their respective imports
@@ -70,9 +68,7 @@ Create a frame with five buttons that are oriented using the border layout. You 
 ![The border layout in Java](../Images/the_border_layout.png)
 
 ##The Grid Layout
-
 A Grid Layout arranges the components into a two dimensional grid with a number of rows and columns.
-
 ```java
 setLayout(new GridLayout(2,3));
 ```
