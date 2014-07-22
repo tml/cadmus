@@ -24,7 +24,6 @@ The code above should output this when run:
 ![An empty window](../Images/my_first_window.png)
 
 ## Colouring these Windows
-
 These windows are not limited to a dull, boring grey, in fact these windows can be set to pretty much any colour under the Sun. To do this you will have to import `Color`, using the import:
 ```java
 import java.awt.Color;
