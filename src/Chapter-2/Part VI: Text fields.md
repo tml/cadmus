@@ -3,7 +3,7 @@ Text Fields
 
 In Java there are are 3 main types of text field - the normal textfield, the password field and the drop-down menu. What these are and how they work will be explained in this chapter. As an introduction, if there is any doubt as to what a text field is, a text field is a box that lets the user input a small amount of text. As a passing statement, these textfields interact with the layouts introduced in that last part just as buttons do.
 
-## JTextFields
+## JTextField
 What a normal text field is was just explained, it is a way for the user to input text. To create these you will have to copy out the following:
 
 ```java
@@ -42,7 +42,7 @@ Copy the code above and run it. Try to input some text. If you wish, put an inte
 
 ![A normal text field](../Images/normal_text_field.png)
 
-## JPasswordFie
+## JPasswordField
 Whenever you have to enter a password into a website, what you type in is obscured by black dots. This is a result of the password field. To create this you will have to use the above syntax, but will have to import and use `JPasswordField`.
 
 ### Ex 2
@@ -50,8 +50,8 @@ Create a password field and see what happens when you try to type something in. 
 
 ![A password field](../Images/password_field.png)
 
-## The Drop-down Menu
-A drop-down menu is a text field that lets you choose from a preset list of options that, quite literally, drop down when you click a button. To do this you will have to import and use `JComboBox`. To use this you will have to declare an array which includes all of the options. You can see how to declare an array in Chapter 1 Part VI. You will then have to put the name of the array in the parameters that the `JComboBox` has. In other words: 
+## JComboBox
+A JComboBox, otherwise known as a drop-down menu, is a text field that lets you choose from a preset list of options that, quite literally, drop down when you click a button. To do this you will have to import and use `JComboBox`. To use this you will have to declare an array which includes all of the options. You can see how to declare an array in Chapter 1 Part VI. You will then have to put the name of the array in the parameters that the `JComboBox` has. In other words: 
 
 ```java
 JComboBox Doctor_Who = new JComboBox(monsters);
@@ -63,10 +63,10 @@ Create a drop-down menu with 5 different options. It does not have to be about D
 
 ![A drop-down Menu](../Images/drop-down_menu.png)
 
-## Accepting user input
+## Using user input
 It's all very well having a text field on your screen, but it has no purpose if you cannot use what the user has inputted. Therefore for your text field to be fully working, you need to be able to accept and use these inputs. there are two main ways to do this, one using the above formats of text field; and one which uses a whole new format i.e. The `JOptionPane`. I will explain both of these in detail shortly.
 
-## Using JTextFields
+## Using a JTextField
 It can be very easy to store a user's input and manipulate it. For example you can display the user's input on the screen. To do this, all you really need to do is set a variable to be the input, and then set a label to be that variable. In other words, you can use the following code inside the actionPerformed method:
 
 ```java
@@ -135,7 +135,7 @@ Write a program using JOptionPanes to outputs a person's full name. Have the use
 ### Ex 7
 Write a program using JOptionPanes to work out the area and circumference of a circle with the radius having been inputted. HINT: the area of a circle is πr² (π is 3.14) and the circumference is 2πr.
 
-## JTextAreas
+## JTextArea
 A textfield is all well and good, but there is a limited amount of space that you can write in. Therefore writing a paragraph is impossible. For that reason, there exists `JTextAreas`. These are simply huge textfields. To use these you therefore declare and instantiate the area as before:
 ```java
 JTextArea area = new JTextArea();
@@ -152,21 +152,17 @@ This will create a functioning JTextArea (if you combine it with other things of
 ### Ex 8
 Create your own text are and write something extended into it.
 
-## Scrollable JTextAreas
-These text areas are better than text fields, but one major problem is that they have no borders. IN other words you can continue writing off of the page and not be able to access it. To fix this you can use scroll bars. To do this you need to import the following:
+## Scrollable JTextArea
+These text areas are better than text fields, but one major problem is that they have no borders. IN other words you can continue writing off of the page and not be able to access it. To fix this you can use scroll bars. To do this you need to import `javax.swing.JScrollPane`. These scroll panes are very useful, as now your text areas can be infinite in size. To use these you will have to declare a new one first, and then do this inside the method:
 ```java
-import javax.swing.JScrollPane;
-```
-These scroll panes are very useful, as now your text areas can be infinite in size. To use these you will have to declare a new one first, and then do this inside the method:
-```java
- scroller = new JScrollPane(text);
- //where 'scroller' is the name of the JScrollPane and 'text' is the name of the JTextArea
- scroller.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
- //sets the vertical scroll bar to always be showing, regardless whether or not it is in use
- scroller.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
- //sets the horizontal bar in the same way as the vertical bar 
- add(scroller);
- //adds the scroller and therefore the text area too
+scroller = new JScrollPane(text);
+//where 'scroller' is the name of the JScrollPane and 'text' is the name of the JTextArea
+scroller.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+//sets the vertical scroll bar to always be showing, regardless whether or not it is in use
+scroller.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+//sets the horizontal bar in the same way as the vertical bar 
+add(scroller);
+//adds the scroller and therefore the text area too
 ```
 This outputs this if combined with the code for the JTextArea:
 
