@@ -134,3 +134,43 @@ Write a program using JOptionPanes to outputs a person's full name. Have the use
 
 ### Ex 7
 Write a program using JOptionPanes to work out the area and circumference of a circle with the radius having been inputted. HINT: the area of a circle is πr² (π is 3.14) and the circumference is 2πr.
+
+## JTextAreas
+A textfield is all well and good, but there is a limited amount of space that you can write in. Therefore writing a paragraph is impossible. For that reason, there exists `JTextAreas`. These are simply huge textfields. To use these you therefore declare and instantiate the area as before:
+```java
+JTextArea area = new JTextArea();
+```
+And then, in the method, you have to use this:
+```java
+setPreferredSize(new Dimension(300, 300));
+//This is preferrable to setSize because it sets the text area to be that size upon runnning.
+```
+This will create a functioning JTextArea (if you combine it with other things of course), like the one below:
+
+![A text area](../Images/non-scroll_text_area.png)
+
+### Ex 8
+Create your own text are and write something extended into it.
+
+## Scrollable JTextAreas
+These text areas are better than text fields, but one major problem is that they have no borders. IN other words you can continue writing off of the page and not be able to access it. To fix this you can use scroll bars. To do this you need to import the following:
+```java
+import javax.swing.JScrollPane;
+```
+These scroll panes are very useful, as now your text areas can be infinite in size. To use these you will have to declare a new one first, and then do this inside the method:
+```java
+ scroller = new JScrollPane(text);
+ //where 'scroller' is the name of the JScrollPane and 'text' is the name of the JTextArea
+ scroller.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+ //sets the vertical scroll bar to always be showing, regardless whether or not it is in use
+ scroller.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+ //sets the horizontal bar in the same way as the vertical bar 
+ add(scroller);
+ //adds the scroller and therefore the text area too
+```
+This outputs this if combined with the code for the JTextArea:
+
+![Scrollable text areas](../Images/scroll_text_area.png)
+
+### Ex 9 
+Create another text area, only this time include scroll bars.
