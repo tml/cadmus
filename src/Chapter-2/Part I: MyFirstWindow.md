@@ -24,4 +24,7 @@ The code above should output this when run:
 ![An empty window](../Images/my_first_window.png)
 
 ### Ex 1
-Copy & run the code. Play around with `setSize`, `setTitle`, and `setVisible`.
+Copy & run the code. Play around with `setSize()`, `setTitle()`, and `setVisible()`.
+
+### Ex 2
+Research the `setResizable()` method and create another window called `MySecondWindow` which cannot be resized.
