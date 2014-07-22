@@ -17,7 +17,7 @@ public class MyFirstWindow extends JFrame {
 }
 ```
 
-Here, the class `MyFirstWindow` extends, thanks to the `extends` keyword, all of properties and methods of the `JFrame`. That means an object of a `MyFirstWindow` is also, in essense, and object of `JFrame`. The difference is in the custom methods of `MyFirstWindow` such as the constructor, where the title, size, and visibility are set. You may say that `setTitle`, `setSize`, and `setVisible` do not exist, but they are extended `JFrame` methods. `setDefaultCloseOperation(EXIT_ON_CLOSE)`, meanwhile just ensures that the Java app doesn't lay running hidden in the background.
+Here, the class `MyFirstWindow` inherits, thanks to the `extends` keyword, all of properties and methods of the `JFrame`. That means an object of a `MyFirstWindow` is also, in essense, and object of `JFrame`. The difference is in the custom methods of `MyFirstWindow` such as the constructor, where the title, size, and visibility are set. You may say that `setTitle`, `setSize`, and `setVisible` do not exist, but they are extended `JFrame` methods. `setDefaultCloseOperation(EXIT_ON_CLOSE)`, meanwhile just ensures that the Java app doesn't lay running hidden in the background.
 
 The code above should output this when run:
 
@@ -43,7 +43,14 @@ This particular piece of code would putput the following:
 ![Coloured window](../Images/coloured_first_window.png)
 
 ### Ex 1
+<<<<<<< HEAD
 Copy & run the code. Play around with `setSize`, `setTitle`, and `setVisible`.
 
 ### Ex 2
 Take your window and change the colour of its background.
+=======
+Copy & run the code. Play around with `setSize()`, `setTitle()`, and `setVisible()`.
+
+### Ex 2
+Research the `setResizable()` method and create another window called `MySecondWindow` which cannot be resized.
+>>>>>>> 6276994fa782e33233197353a93726da2f808fc6
