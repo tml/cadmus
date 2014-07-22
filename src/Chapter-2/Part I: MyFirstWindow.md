@@ -43,14 +43,8 @@ This particular piece of code would putput the following:
 ![Coloured window](../Images/coloured_first_window.png)
 
 ### Ex 1
-<<<<<<< HEAD
-Copy & run the code. Play around with `setSize`, `setTitle`, and `setVisible`.
-
-### Ex 2
-Take your window and change the colour of its background.
-=======
-Copy & run the code. Play around with `setSize()`, `setTitle()`, and `setVisible()`.
+Copy & run the code. Play around with `setSize`, `setTitle`, `setVisible` and `setBackground()`.
 
 ### Ex 2
 Research the `setResizable()` method and create another window called `MySecondWindow` which cannot be resized.
->>>>>>> 6276994fa782e33233197353a93726da2f808fc6
+HINT: You don't actually need to research it, it either can or cannot be resized.
