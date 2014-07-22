@@ -1,7 +1,7 @@
 Exercises
 ===
 
-When programming in java swing, here are a few things you want to be careful:
+When programming in java Swing, here are a few things you want to be careful:
 - Do not forget to set your window visible.
 - Check that you have correctly added each component to their correct element.
 - Be careful that you correctly declare your layouts and that nothing oversteps.
