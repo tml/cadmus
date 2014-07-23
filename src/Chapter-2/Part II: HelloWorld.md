@@ -40,7 +40,7 @@ This should be outputted:
 #### Ex 1
 Play around with it. Try adding another `JLabel` with a different greeting. You may have to change the second parameter, the height parameter, of `setSize()` to fit it in. You will have to add another call to the `add()` method.
 
-### Adding Pictures to JLabels
+## Adding Pictures to JLabels
 It may not say it outright, but this part is desgined to show you how to create something and add it to a JFrame, in particular, JLabels. But these JLabels are far more useful than just displaying a line of text. They can be changed on the push of a button, can be attached to almost anything and can display images, which is what this is about.
 
 To set a JLabel (or a button, but you'll see that later) to contain an image, first you have to import the image into Eclipse. To do this, find an image and save it to your computer. Then, in Eclipse, click **File** in the top bar, and then click **Import**. This should give you the following screen:
