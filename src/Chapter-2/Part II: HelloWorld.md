@@ -40,37 +40,35 @@ This should be outputted:
 #### Ex 1
 Play around with it. Try adding another `JLabel` with a different greeting. You may have to change the second parameter, the height parameter, of `setSize()` to fit it in. You will have to add another call to the `add()` method.
 
-## Adding Pictures to JLabels
-It may not say it outright, but this part is desgined to show you how to create somnething and add it to a JFrame, in particular, JLabels. But these JLabels are far more useful than just displaying a line of text. They can be changed on the push of a button, can be attached to almost anything and can display images, which is what this is about.
+### Adding Pictures to JLabels
+It may not say it outright, but this part is desgined to show you how to create something and add it to a JFrame, in particular, JLabels. But these JLabels are far more useful than just displaying a line of text. They can be changed on the push of a button, can be attached to almost anything and can display images, which is what this is about.
 
-To set a JLabel (or a button, but you'll see that later) to contain an image, first you have to get an image. To do this, find an image and save it to your computer. Then, in Eclipse, click File in the top bar, and then Import. This should give you the following screen:
+To set a JLabel (or a button, but you'll see that later) to contain an image, first you have to import the image into Eclipse. To do this, find an image and save it to your computer. Then, in Eclipse, click **File** in the top bar, and then click **Import**. This should give you the following screen:
 
 ![Importing images](../Images/imports.png)
 
-Then choose your file source, which will most likely be General->File System. This will then give you this:
+Then choose your file source, which will most likely be `General`->`File System`. This will then give you this:
 
 ![Choosing your image](../Images/imports2.png)
 
-I have already filled this in. I have taken my pictures from the Sample Pictures folder, which I got when I clicked the Browse button (bordered in black) and followed the path Libraries->Pictures->Public Pictures->Sample Pictures. However you could store your images anywhere and find them. I then chose the folder to import them to using the Browse button (bordered in blue) and chose the folder 'JavaKS4', which is simply one of my folders.
+I have already filled this in. I have taken my pictures from the Sample Pictures folder, which I got when I clicked the Browse button (bordered in black) and followed the path Libraries->Pictures->Public Pictures->Sample Pictures. However you could store your images anywhere and find them. I then chose the folder to import them to using the **Browse** button (bordered in blue) and chose the folder JavaKS4, which is simply one of my folders.
 
-That will import your images nad make them easy to access. Now, back to the point. To create an image you use code similar to this:
+That will import your images and make them easy to access. Now, back to the point. To create an image you use code similar to this:
+
 ```java
-import javax.swing.*;
-//imports all of Swing.
+import javax.swing.*; // imports all of Swing.
 
-public class imagesExample extends JFrame{
+public class ImagesExample extends JFrame {
 	ImageIcon image;
 	JLabel label;
 	//declares an ImageIcon(which the image is defined as) and a JLabel.
 	
 	public imagesExample() {
-		image = new ImageIcon("Tulips.jpg");
-		label = new JLabel(image);
-		//sets the ImageIcon to be Tulips.jpg, which is an image I imported, and a JLabel to be the image.
+		image = new ImageIcon("Tulips.jpg"); // sets the ImageIcon to be Tulips.jpg
+		label = new JLabel(image); // set the JLabel to be the image.
 		
 		add(label);
-		//adds the image to the screen.
-		
+
 		setSize(1024, 800);
 		setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -78,7 +76,7 @@ public class imagesExample extends JFrame{
 	}
 	
 	public static void main(String[] args) {
-		new imagesExample();
+		new ImagesExample();
 	}
 }
 ```
