@@ -1,6 +1,6 @@
 <!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="text-fields">Text Fields</h1>
 <p>In Java there are are 3 main types of text field - the normal textfield, the password field and the drop-down menu. What these are and how they work will be explained in this chapter. As an introduction, if there is any doubt as to what a text field is, a text field is a box that lets the user input a small amount of text. As a passing statement, these textfields interact with the layouts introduced in that last part just as buttons do.</p>
-<h2 id="jtextfields">JTextFields</h2>
+<h2 id="jtextfield">JTextField</h2>
 <p>What a normal text field is was just explained, it is a way for the user to input text. To create these you will have to copy out the following:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">import</span> javax.swing.JFrame;
 <span class="hljs-keyword">import</span> javax.swing.JTextField;
@@ -28,29 +28,37 @@
 </code></pre>
 <p>This would output the following:</p>
 <p><img src="../Images/better_text_field.png" alt="A text field with its size and underlay designated" title="A text field with its size and underlay designated"/></p>
+<p>You can also make these text fields uneditable. Therefore you could, theoretically, have the user input something and then lock the text field to prevent anything else being inputted. You can stop the text fields accepting text using the following code:</p>
+<pre><code class="lang-java">normal.setEditable(<span class="hljs-keyword">false</span>);
+<span class="hljs-comment">//where 'normal' is the identifier of the text field</span>
+</code></pre>
+<p>The following would be outputted if this is combined with the other pieces of code:</p>
+<p><img src="../Images/uneditable_text_field.png" alt="An uneditable text field" title="An uneditable text field"/></p>
+<p>Finally, you can colour your text fields. I&#39;m not going to give an example of this because the code is identical to how you would colour a JFrame, only you don&#39;t have to include the <code>getContentPane()</code>. If yuo were to colour your text filed orange, then it would look like this:</p>
+<p><img src="../Images/orange_text_field.png" alt="A coloured text field" title="A coloured text field"/></p>
 <h3 id="ex-1">Ex 1</h3>
-<p>Copy the code above and run it. Try to input some text. If you wish, put an integer into line 5 to dictate the size of the text field. It should look like the following:</p>
-<p><img src="../Images/normal_text_field.png" alt="A normal text field" title="A normal text field"/></p>
-<h2 id="jpasswordfie">JPasswordFie</h2>
+<p>Create your own text field and run it. Try to input some text. If you wish, put an integer into line 5 to dictate the size of the text field. You could also make the text field uneditable, if you so desire.</p>
+<h2 id="jpasswordfield">JPasswordField</h2>
 <p>Whenever you have to enter a password into a website, what you type in is obscured by black dots. This is a result of the password field. To create this you will have to use the above syntax, but will have to import and use <code>JPasswordField</code>.</p>
 <h3 id="ex-2">Ex 2</h3>
 <p>Create a password field and see what happens when you try to type something in. Your finished product should look something like this:</p>
 <p><img src="../Images/password_field.png" alt="A password field" title="A password field"/></p>
-<h2 id="the-drop-down-menu">The Drop-down Menu</h2>
-<p>A drop-down menu is a text field that lets you choose from a preset list of options that, quite literally, drop down when you click a button. To do this you will have to import and use <code>JComboBox</code>. To use this you will have to declare an array which includes all of the options. You can see how to declare an array in Chapter 1 Part VI. You will then have to put the name of the array in the parameters that the <code>JComboBox</code> has. In other words: </p>
+<h2 id="jcombobox">JComboBox</h2>
+<p>A JComboBox, otherwise known as a drop-down menu, is a text field that lets you choose from a preset list of options that, quite literally, drop down when you click a button. To do this you will have to import and use <code>JComboBox</code>. To use this you will have to declare an array which includes all of the options. You can see how to declare an array in Chapter 1 Part VI. You will then have to put the name of the array in the parameters that the <code>JComboBox</code> has. In other words: </p>
 <pre><code class="lang-java">JComboBox Doctor_Who = <span class="hljs-keyword">new</span> JComboBox(monsters);
 <span class="hljs-comment">//where 'monsters' is the name of a String array.</span>
 </code></pre>
 <h3 id="ex-3">Ex 3</h3>
 <p>Create a drop-down menu with 5 different options. It does not have to be about Doctor Who and/or monsters. Your end result should look something like this (bear in mind that I&#39;ve used aliens from Doctor Who):</p>
 <p><img src="../Images/drop-down_menu.png" alt="A drop-down Menu" title="A drop-down Menu"/></p>
-<h2 id="accepting-user-input">Accepting user input</h2>
-<p>It&#39;s all very well having a text field on your screen, but it has no purpose if you cannot use what the user has inputted. Therefore for your text field to be fully working, you need to be able to accept and use these inputs. there are two main ways to do this, one using the above formats of text field; and one which uses a whole new format i.e. The <code>JOptionPane</code>. I will explain both of these in detail shortly.</p>
-<h2 id="using-jtextfields">Using JTextFields</h2>
+<h2 id="accepting-and-using-user-input">Accepting and using user input</h2>
+<p>It&#39;s all very well having a text field on your screen, but it has no purpose if you cannot use what the user has inputted. Therefore for your text field to be fully working, you need to be able to accept and use these inputs. There are two main ways to do this, one using the above formats of text field; and one which uses a whole new format i.e. The <code>JOptionPane</code>. I will explain both of these in detail shortly.</p>
+<h2 id="using-a-jtextfield">Using a JTextField</h2>
 <p>It can be very easy to store a user&#39;s input and manipulate it. For example you can display the user&#39;s input on the screen. To do this, all you really need to do is set a variable to be the input, and then set a label to be that variable. In other words, you can use the following code inside the actionPerformed method:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">actionPerformed</span>(ActionEvent evt) {
         String text = normal.getText();
         label.setText(text);
+        <span class="hljs-comment">//where label is the name of a JLabel</span>
     }
 </code></pre>
 <p>Add this to a button, text field and a label, and you can create something like the following:</p>
@@ -60,10 +68,7 @@
 <p>Convert your code to work with a password field - What is outputted?
 See what happens with other text fields, or try to manipulate the user&#39;s input.</p>
 <h2 id="using-a-joptionpane">Using a JOptionPane</h2>
-<p>JOptionPanes are another option for accepting the user&#39;s input. These do not only work for manipulation however, they also could be used as a replacement for the JTextField itself.  They actually look better. They also require very little code and can process inputs easily. To use a JOptionPane, you will first have to import it:</p>
-<pre><code class="lang-java"><span class="hljs-keyword">import</span> javax.swing.JOptionPane;
-</code></pre>
-<p>These panes use a different syntax to a normal text field, and only require one line for code. To create a JOptionPane you simply need to declare a variable e.g. <code>width</code> and then type this in:</p>
+<p>JOptionPanes are another option for accepting the user&#39;s input. They are essentially pre-built JFrames with JTextFields that are designed to look good and be opened in another window. To use a JOptionPane, you will first have to import <code>javax.swing.JOptionPane</code>. These panes use a different syntax to a normal text field, and only require one line for code. To create a JOptionPane you simply need to declare a variable e.g. <code>width</code> and then type this in:</p>
 <pre><code class="lang-java">width = JOptionPane.showInputDialog(<span class="hljs-string">"Width"</span>, <span class="hljs-string">"Enter the width"</span>);
 <span class="hljs-comment">//the first parameter is the title and the second is the background text.</span>
 </code></pre>
@@ -97,4 +102,31 @@ See what happens with other text fields, or try to manipulate the user&#39;s inp
 <p>Write a program using JOptionPanes to outputs a person&#39;s full name. Have the user input enter their first name, their middle name and their family name. If they don&#39;t have a middle name, leave that pane empty.</p>
 <h3 id="ex-7">Ex 7</h3>
 <p>Write a program using JOptionPanes to work out the area and circumference of a circle with the radius having been inputted. HINT: the area of a circle is πr² (π is 3.14) and the circumference is 2πr.</p>
+<h2 id="jtextarea">JTextArea</h2>
+<p>A textfield is all well and good, but there is a limited amount of space that you can write in. Therefore writing a paragraph is impossible. For that reason, there exists <code>JTextAreas</code>. These are simply huge textfields. To use these you therefore declare and instantiate the area as before:</p>
+<pre><code class="lang-java">JTextArea area = <span class="hljs-keyword">new</span> JTextArea();
+</code></pre>
+<p>And then, in the method, you have to use this:</p>
+<pre><code class="lang-java">setPreferredSize(<span class="hljs-keyword">new</span> Dimension(<span class="hljs-number">300</span>, <span class="hljs-number">300</span>));
+<span class="hljs-comment">//This is preferrable to setSize because it sets the text area to be that size upon runnning.</span>
+</code></pre>
+<p>This will create a functioning JTextArea (if you combine it with other things of course), like the one below:</p>
+<p><img src="../Images/non-scroll_text_area.png" alt="A text area" title="A text area"/></p>
+<h3 id="ex-8">Ex 8</h3>
+<p>Create your own text are and write something extended into it.</p>
+<h2 id="scrollable-jtextarea">Scrollable JTextArea</h2>
+<p>These text areas are better than text fields, but one major problem is that they have no borders. IN other words you can continue writing off of the page and not be able to access it. To fix this you can use scroll bars. To do this you need to import <code>javax.swing.JScrollPane</code>. These scroll panes are very useful, as now your text areas can be infinite in size. To use these you will have to declare a new one first, and then do this inside the method:</p>
+<pre><code class="lang-java">scroller = <span class="hljs-keyword">new</span> JScrollPane(text);
+<span class="hljs-comment">//where 'scroller' is the name of the JScrollPane and 'text' is the name of the JTextArea</span>
+scroller.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+<span class="hljs-comment">//sets the vertical scroll bar to always be showing, regardless whether or not it is in use</span>
+scroller.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+<span class="hljs-comment">//sets the horizontal bar in the same way as the vertical bar </span>
+add(scroller);
+<span class="hljs-comment">//adds the scroller and therefore the text area too</span>
+</code></pre>
+<p>This outputs this if combined with the code for the JTextArea:</p>
+<p><img src="../Images/scroll_text_area.png" alt="A scrollable text area" title="A scrollable text area"/></p>
+<h3 id="ex-9">Ex 9</h3>
+<p>Create another text area, only this time include scroll bars.</p>
 </main></body></html>

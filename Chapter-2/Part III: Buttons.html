@@ -49,4 +49,39 @@
 <p><img src="../Images/Buttons_none_clicked.png" alt="The box when none of the buttons are clicked" title="The box when none of the buttons are clicked"/></p>
 <p><img src="../Images/btn1_clicked.png" alt="What happens when button 1 is clicked" title="What happens when button 1 is clicked"/></p>
 <p><img src="../Images/btn2_clicked.png" alt="What happens when button 2 is clicked" title="What happens when button 2 is clicked"/></p>
+<h2 id="adding-images">Adding Images</h2>
+<p>These buttons are all well and good, but to be honest, they don&#39;t look very good. For that reason, it&#39;s time to find out how to add images to buttons. You do this in much the same way that you add images to labels, using ImageIcons. So, to do this you would include the following code:</p>
+<pre><code class="lang-java">ImageIcon image = <span class="hljs-keyword">new</span> ImageIcon(<span class="hljs-string">"cute cat picture.jpg"</span>);
+
+button = <span class="hljs-keyword">new</span> JButton(image);
+</code></pre>
+<p>Doing this will set the button to have an image on it instead of text. Add a panel and a text field (you will learn about these later), and you can get something like this:</p>
+<p><img src="../Images/image_buttons.png" alt="CUTE KITTEN BUTTON!!!!!!" title="CUTE KITTEN BUTTON!!!!!!"/></p>
+<p>And yes, you have permission to scream &#39;CUUUUUUUUTTTTEEEEE&#39; in a very high-pitched voice. </p>
+<h3 id="ex-1">Ex 1</h3>
+<p>Make a JButton yourself. Have it change a label from &quot;No buttons pressed&quot; to &quot;The button has been pressed&quot; using the ActionListener. If, you want a challenge, add more than one button or make them contain pictures.</p>
+<p>N.B. not all pictures require a tag of &#39;cute&#39;.</p>
+<h2 id="jradiobuttons">JRadioButtons</h2>
+<p>A radio button is a button that you often see on multiple choice quizzes, the ones that are circular and fill in when you click them. To create these you have to use <code>JRadioButtons</code>, which work exactly the same as normal buttons. To create one you would have to do this:</p>
+<pre><code class="lang-java">JRadioButton btn1 = <span class="hljs-keyword">new</span> JRadioButton(<span class="hljs-string">"One"</span>);
+<span class="hljs-comment">//where "One" is the label of the button.</span>
+</code></pre>
+<p>Adding this to the JFrame will create a radio button. These buttons also interact with ActionListener. However, what use would a radio button be if you could click more than one at the same time? Anything that requires only one option being selected would be broken. To fix this you have to add the buttons ot a <code>ButtonGroup</code>. This makes sure that only one option works at a time. The following code would be used:</p>
+<pre><code class="lang-java">ButtonGroup buttons = <span class="hljs-keyword">new</span> ButtonGroup();
+</code></pre>
+<p>to create the buttongroup, and then:</p>
+<pre><code class="lang-java">buttons.add(btn1);
+</code></pre>
+<p>in the constructor to add the button to the button group.Therefore the following would be outputted:</p>
+<p><img src="../Images/radio.png" alt="Radio buttons" title="Radio buttons"/></p>
+<h3 id="ex-2">Ex 2</h3>
+<p>Make 3 radio buttons with different names of subjects (History, Computing, Maths etc.) and have a JLabel ask which is the user&#39;s favourite. Also have the JLabel respond to that with an appropriate message.</p>
+<h2 id="jcheckboxes">JCheckBoxes</h2>
+<p>Check boxes are exactly the same a radio buttons, only look slightly different. These, instead of becoming a filled circle upon  being clicked, become a ticked box. To use these you will require a ButtonGroup, as before, and to import JCheckBoxes. These also interact with ActionListeners. The code for these is pretty intuitive, but I&#39;ll display it anyway:</p>
+<pre><code class="lang-java">JCheckBox one = <span class="hljs-keyword">new</span> JCheckBox(<span class="hljs-string">"Noodles"</span>);
+</code></pre>
+<p>Using these you can create things like the following:</p>
+<p><img src="../Images/check_boxes.png" alt="Some check boxes" title="Some check boxes"/></p>
+<h3 id="ex-3">Ex 3</h3>
+<p>Create 3 check boxes with custom names, and use ActionListener to display an appropriate message depending on which box hads been checked.</p>
 </main></body></html>

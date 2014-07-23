@@ -12,9 +12,26 @@
   }
 }
 </code></pre>
-<p>Here, the class <code>MyFirstWindow</code> extends, thanks to the <code>extends</code> keyword, all of properties and methods of the <code>JFrame</code>. That means an object of a <code>MyFirstWindow</code> is also, in essense, and object of <code>JFrame</code>. The difference is in the custom methods of <code>MyFirstWindow</code> such as the constructor, where the title, size, and visibility are set. You may say that <code>setTitle</code>, <code>setSize</code>, and <code>setVisible</code> do not exist, but they are extended <code>JFrame</code> methods. <code>setDefaultCloseOperation(EXIT_ON_CLOSE)</code>, meanwhile just ensures that the Java app doesn&#39;t lay running hidden in the background.</p>
+<p>Here, the class <code>MyFirstWindow</code> inherits, thanks to the <code>extends</code> keyword, all of properties and methods of the <code>JFrame</code>. That means an object of a <code>MyFirstWindow</code> is also, in essense, and object of <code>JFrame</code>. The difference is in the custom methods of <code>MyFirstWindow</code> such as the constructor, where the title, size, and visibility are set. You may say that <code>setTitle</code>, <code>setSize</code>, and <code>setVisible</code> do not exist, but they are extended <code>JFrame</code> methods. <code>setDefaultCloseOperation(EXIT_ON_CLOSE)</code>, meanwhile just ensures that the Java app doesn&#39;t lay running hidden in the background.</p>
 <p>The code above should output this when run:</p>
 <p><img src="../Images/my_first_window.png" alt="An empty window" title="An empty window"/></p>
+<h2 id="colouring-these-windows">Colouring these Windows</h2>
+<p>These windows are not limited to a dull, boring grey, in fact these windows can be set to pretty much any colour under the Sun. To do this you will have to import <code>Color</code>, using the import:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">import</span> java.awt.Color;
+</code></pre>
+<p>To use this import you will have to use the following syntax:</p>
+<pre><code class="lang-java">getContentPane().setBackground(Color.YELLOW);
+<span class="hljs-comment">//this will create a yellow window, however you can replace this with other colours.</span>
+</code></pre>
+<p>If you couple this with <code>extends JFrame</code> in the class, you will create a yellow window. Bear in mind however that if you do not use <code>extends JFrame</code> and instead declare a JFrame inside the method, you will have to do this:</p>
+<pre><code class="lang-java">frame.getContentPane().setBackground(Color.YELLOW);
+<span class="hljs-comment">//where 'frame' is the name of the JFrame.</span>
+</code></pre>
+<p>This particular piece of code would putput the following:</p>
+<p><img src="../Images/coloured_first_window.png" alt="Coloured window" title="Coloured window"/></p>
 <h3 id="ex-1">Ex 1</h3>
-<p>Copy &amp; run the code. Play around with <code>setSize</code>, <code>setTitle</code>, and <code>setVisible</code>.</p>
+<p>Copy &amp; run the code. Play around with <code>setSize</code>, <code>setTitle</code>, <code>setVisible</code> and <code>setBackground()</code>.</p>
+<h3 id="ex-2">Ex 2</h3>
+<p>Research the <code>setResizable()</code> method and create another window called <code>MySecondWindow</code> which cannot be resized.
+HINT: You don&#39;t actually need to research it, it either can or cannot be resized.</p>
 </main></body></html>
