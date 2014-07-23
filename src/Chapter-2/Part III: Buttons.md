@@ -110,5 +110,5 @@ Using these you can create things like the following:
 
 ![Some check boxes](../Images/check_boxes.png)
 
-## Ex 3
+### Ex 3
 Create 3 check boxes with custom names, and use ActionListener to display an appropriate message depending on which box hads been checked.
