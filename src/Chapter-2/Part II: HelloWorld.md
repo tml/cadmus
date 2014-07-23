@@ -47,7 +47,7 @@ To set a JLabel (or a button, but you'll see that later) to contain an image, fi
 
 ![Importing images](../Images/imports.png)
 
-Then choose your file source, which will most likely be `General`->`File System`. This will then give you this:
+Then choose your file source, which will most likely be General->File System. This will then give you this:
 
 ![Choosing your image](../Images/imports2.png)
 
