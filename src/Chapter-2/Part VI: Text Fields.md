@@ -62,7 +62,7 @@ Create a password field and see what happens when you try to type something in. 
 ## JComboBox
 A JComboBox, otherwise known as a drop-down menu, is a text field that lets you choose from a preset list of options that, quite literally, drop down when you click a button. To do this you will have to import and use `JComboBox`. To use this you will have to declare an array which includes all of the options. You can see how to declare an array in Chapter 1 Part VI. You will then have to put the name of the array in the parameters that the `JComboBox` has. In other words: 
 ```java
-JComboBox Doctor_Who = new JComboBox(monsters);
+JComboBox DoctorWho = new JComboBox(monsters);
 //where 'monsters' is the name of a String array.
 ```
 ### Ex 3
