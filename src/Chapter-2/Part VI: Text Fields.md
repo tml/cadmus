@@ -152,18 +152,7 @@ This will create a functioning JTextArea (if you combine it with other things of
 Create your own text are and write something extended into it.
 
 ## Scrollable JTextArea
-These text areas are better than text fields, but one major problem is that they have no borders. IN other words you can continue writing off of the page and not be able to access it. To fix this you can use scroll bars. To do this you need to import `javax.swing.JScrollPane`. These scroll panes are very useful, as now your text areas can be infinite in size. To use these you will have to declare a new one first, and then do this inside the method:
-```java
-scroller = new JScrollPane(text);
-//where 'scroller' is the name of the JScrollPane and 'text' is the name of the JTextArea
-scroller.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
-//sets the vertical scroll bar to always be showing, regardless whether or not it is in use
-scroller.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
-//sets the horizontal bar in the same way as the vertical bar 
-add(scroller);
-//adds the scroller and therefore the text area too
-```
-This outputs this if combined with the code for the JTextArea:
+These text areas are better than text fields, but one major problem is that they have no borders. In other words you can continue writing off of the page and not be able to access it. To fix this you can use scroll bars. You may remember these from making images with scroll bars, and it works exactly the same. You simply set the JScrollPane to be the name of the JTextArea and then add the JScrollPane. Using this you can create the following:
 
 ![A scrollable text area](../Images/scroll_text_area.png)
 
