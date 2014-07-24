@@ -11,8 +11,10 @@ When programming in Java Swing, here are a few things you want to be careful:
 
 ### Ex 1
 Create the following window without using panels:
+
 ### Ex 2 
-Create the same window but this time use panels
+Create the same window but this time use panels:
+
 ### Ex 3
 Create the following window:
 
