@@ -37,7 +37,7 @@ This should be outputted:
 
 ![Now the box has text!](https://github.com/HashanP/cadmus/raw/master/src/Images/Hello_World.png)
 
-#### Ex 1
+### Ex 1
 Play around with it. Try adding another `JLabel` with a different greeting. You may have to change the second parameter, the height parameter, of `setSize()` to fit it in. You will have to add another call to the `add()` method.
 
 ## Adding Pictures to JLabels
@@ -53,11 +53,9 @@ Then choose your file source, which will most likely be General->File System. Th
 
 I have already filled this in. I have taken my pictures from the Sample Pictures folder, which I got when I clicked the Browse button (bordered in black) and followed the path Libraries->Pictures->Public Pictures->Sample Pictures. However you could store your images anywhere and find them. I then chose the folder to import them to using the **Browse** button (bordered in blue) and chose the folder JavaKS4, which is simply one of my folders.
 
-That will import your images and make them easy to access. Now, back to the point. To create an image you use code similar to this:
+That will import your images and make them easy to access. Now, back to the point. To create an image you will need to import `javax.swing.ImageIcon` and use code similar to this:
 
 ```java
-import javax.swing.*; // imports all of Swing.
-
 public class ImagesExample extends JFrame {
 	ImageIcon image;
 	JLabel label;
@@ -83,3 +81,42 @@ public class ImagesExample extends JFrame {
 This should output the following, only it would be the size of the screen:
 
 ![Tulips image](../Images/Tulips.png)
+
+### Ex 2
+Try it yourself. Also research the `getIconWidth()` and `getIconHeight()` of `ImageIcon` and try them out too.
+
+## Scrollable Images
+I just mentioned that the image will be the size of the screen, but what if the image is larger? In that case you would lose some of the image. For this reason it would be useful to have scroll bars so you could see all of the image. To do this you need to import `javax.swing.JScrollPane`. These scroll panes are very useful, as now your images can be infinite in size. To use these you will have to declare a new scroll pane first:
+
+```java
+JScrollPane scroller = new JScrollPane();
+```
+
+Then adding this to the constructor:
+
+```java
+scroller = new JScrollPane(label);
+//where 'scroller' is the name of the JScrollPane and 'image' is the name of the JLabel with an image on it
+
+scroller.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+//sets the vertical scroll bar to always be showing, regardless whether or not it is in use
+
+scroller.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+//sets the horizontal bar in the same way as the vertical bar 
+
+add(scroller);
+//adds the scroller and therefore the image too
+```
+
+You have just added the image to the scroll pane and added the scroll pane to the JFrame. This means that now, however big the image is, you can now see it. You can also, if you so wish, shorten the first three lines to: 
+
+```java
+scroller.setViewportView(image);
+```
+
+However this gives a lot less control over the scroll bars, for example without it you can set the bars to be on the image as needed, all the time or not at all. You can therefore create an image like this:
+
+![A scrollable image](../Images/scroll-images.png)
+
+### Ex 3
+Import more images and put the on JLabels. If the image is very big, add scroll bars to it. Also, explore the different scroll bar policies i.e. `VERTICAL_SCROLLBAR_ALWAYS`, `VERTICAL_SCROLLBAR_AS_NEEDED` and `VERTICAL_SCROLLBAR_NEVER`.
