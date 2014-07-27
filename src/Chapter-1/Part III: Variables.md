@@ -7,35 +7,45 @@ A variable is a piece of information or a value that can be changed. A variable 
 
 ### Strings
 A string is a series of characters. To define a string called `name` do:
+
 ```java
 String name;
 ```
+
 Once `name` is defined, you can assign it to a value:
+
 ```java
 name = "George";
 ```
+
 If you want, you can define it and initialise it in a single line:
+
 ```java
 String name = "George";
 ```
+
 And to print it out:
+
 ```java
 System.out.println(name);
 ```
 
 ### Integers
 An integer is a whole number. Integers are stored as the data type `int`. To define an Integer with variable identifier `age` do:
+
 ```java
 int age = 15;
 ```
 
 You can convert an integer to a string, by using `Integer.toString()`:
+
 ```java
 int age = 13;
 String ageAsString = Integer.toString(age);
 ```
 
 You can convert a string to an integer by using `Integer.parseInt()`:
+
 ```java
 String ageAsString = "13";
 int age = Integer.parseInt(ageAsString);
@@ -47,16 +57,18 @@ You can also increment and decrement variables by one, by using unary operators,
 age++; // Age now equals 14
 age--; // Age is back to 13
 ```
-Binary operators like `+`, `-`, `/` and `*` take two values. 
 
+Binary operators like `+`, `-`, `/` and `*` take two values. 
 
 ### Real numbers
 While an integer is a whole number, a real number has a decimal point in it. To use a real number in Java, use the `double` data type:
+
 ```java
 double pi = 3.14159265359;
 ```
 
 As with an integer, you can convert it into a string and a double, using the following:
+
 ```java
 String piAsString = "3.14159265359";
 double pi = Double.parseDouble(piAsString);
@@ -72,7 +84,6 @@ String aliveAsString = "true";
 alive = Boolean.parseBoolean(aliveAsString); 
 aliveAsString = Boolean.toString(alive);
 ```
-
 
 # Primitives versus Classes
 You may have picked up on the fact that `String` is capitalised, while `int`, `double` and `boolean` are not. This is because `int`, `double` and `boolean` are all **primitive data types**, while  `String` is a **class data type**. These may not mean anything to you yet, but in essence there are 8 built-in primitives within Java. Primitives cannot be added or removed by the programmer; they are the DNA of the programming language. Primitives represent one scalar value. Classes are far more powerful than primitives. They shift the power to the programmer, allowing the programmer to create classes, which are composed from other datatypes. Java comes with a bunch of classes built in, namely `String`.
