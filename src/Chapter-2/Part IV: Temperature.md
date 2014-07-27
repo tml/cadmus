@@ -10,11 +10,13 @@ JLabel label = new JLabel("No value converted", JLabel.CENTER);
 ```
 
 Pseudocode for the `main` method:
+
 ```
 Instantiate, that is to say create, a new instance of the class.
 ```
 
 Pseudocode for the constructor:
+
 ```
 Add input, btn and label to the window.
 Set btn's action listener to this.
@@ -26,6 +28,7 @@ Set default close operation to EXIT_ON_CLOSE.
 ```
 
 Pseudocode for `actionPerformed(ActionEvent e)`:
+
 ```
 Set celsiusValue to the value of input AS AN INTEGER.
 Set farenheitValue to ((celsiusValue * 9) / 5) + 32.
