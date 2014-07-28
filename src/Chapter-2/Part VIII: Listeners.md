@@ -1,20 +1,22 @@
 Listeners
 ===
 
-As an introduction, a Listener is something that listens for a certain action and then executes some code if that action takes place. You have met one before, the ActionListener, but there are many others.
+As an introduction, an **event listener** is something that listens for a certain action and then executes some code if that action takes place. You have met one before, the ActionListener, but there are many others.
 
 ## ActionListener
 If you think back to when you discovered buttons, in that tutorial you had to write this into the class: `implements ActionListener`. Then you created another method that went along the lines of:
 
 ```java
 public void actionPerformed(ActionEvent e) {
-
+    // code
 }
 ```
 
-In this method you then coded what should happen when you press the button. This is the ActionListener and, quite literally, listens for an action taking place. This action is dictated by what you add to the ActionListener e.g. buttons. You add the buttons to the ActionListener by using the following code:
+In this method you then coded what should happen when you press the button. Components can pass events on to action listeners by using:
 
 ```java
-btn.addActionListener(this);
-//where 'btn' is the name of a button
+component.addActionListener(this); 
+// where 'component' could be the identifier of a button or any other componen
 ```
+
+The method `.addActionListener()` accepts any object that implements the interface `ActionListener`. Because it implements the interface `ActionListener` the event-emitting component knows the object will implement the method `actionPerformed(ActionEvent e)`.
