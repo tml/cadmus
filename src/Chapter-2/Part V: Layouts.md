@@ -5,6 +5,7 @@ Basically, a **layout manager** is a way of presenting and displaying the elemen
 
 ## The Flow Layout
 Flow Layout, which is the only layout manager you have seen before, is the simplest layout you can choose because it arranges the components one after another, going from left to right, in the order in which you add them.
+
 ```java
 import java.awt.FlowLayout;
 //you will have to do this for the other layouts using their respective imports
@@ -36,6 +37,7 @@ public class FloLayout extends JFrame{
 }
 
 ```
+
 This displays elements of a frame so that `component1` (which has already been initialised) comes before `component2` (which has also been initialised). It should therefore look something like this:
 
 ![The flow layout](../Images/flow_layout.png)
@@ -50,6 +52,7 @@ Create a frame using three buttons that are oriented using the flow layout. Use 
 ![The border layout](../Images/border_layout.png)
 
 A border layout allows you to place your elements into five different regions as shown above. You can use relatively the same code as you did for the flow layout, but bear in mind that you must give the component the name NORTH, SOUTH etc.  
+
 ```java
 //this is what the buttons should look like, respective of their positions
 JButton component1 = new JButton("NORTH");
@@ -69,9 +72,11 @@ Create a frame with five buttons that are oriented using the border layout. You 
 
 ##The Grid Layout
 A Grid Layout arranges the components into a two dimensional grid with a number of rows and columns.
+
 ```java
 setLayout(new GridLayout(2,3));
 ```
+
 This creates a layout with two rows and three columns as seen below:
 
 ![The grid layout](../Images/grid_layout.png)

@@ -11,11 +11,13 @@ int[] myArray;
 Notice the square bracket notation. It tells the compiler that `myArray` isn't an integer, but a list of integers. You must also initialise arrays.
 
 #### Way One
+
 ```java
 myArray = new int[10];
 ```
 
 #### Way Two
+
 ```java
 myArray = {10, 523, 34, 63, 32, 64, 992, 353, 5, 0};
 ```
@@ -23,6 +25,7 @@ myArray = {10, 523, 34, 63, 32, 64, 992, 353, 5, 0};
 Both ways create arrays of type Integer, that have a size of 10. The second way, however, initialises the array with values. Arrays must have sizes. You cannot fill the array past said sizes. In the second way, Java assumes the size to be the number of values the array is set to.
 
 Finally, arrays can be declared and initialised together:
+
 ```java
 bool[] myArray = new bool[10];
 String[] girlfriends = {"Jessica", "Abby", "Zoey", "Daisy"};
@@ -57,6 +60,7 @@ days[6] = "Sunday";
 
 ## Printing an entire Array
 Sometimes, for the sake of debugging, you will want to print an entire array. In the `java.util.Arrays` package, that you will have to import, there is a function called `Arrays.toString()`, that takes an Array and outputs a string representation. For example:
+
 ```java
 String[] primaryColours = {"Red", "Green", "Blue"};
 System.out.println(Arrays.toString(primaryColours));

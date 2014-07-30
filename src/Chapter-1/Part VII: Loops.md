@@ -32,6 +32,9 @@ Write a function, that when given a number, prints an array of all its factors.
 Write a function, that prints the lyrics of [99 Bottles of Beer](http://99-bottles-of-beer.net/lyrics.html), with a loop.
 Extension: Add a variable to change the number of bottles.
 
+#### Ex 5 (Morphology)
+Write a function, that when given a word, returns the syllable count. To do this count the number of vowel including `y`, excluding two or more vowels that are in a row (dipthongs).
+
 ## While loops
 
 So, onto the while loop.  The while loop has only one condition and if the condition is met then the code is run, otherwise the loop finishes.  Below is an example of a while loop. (With while loops, variables must be initialised before the loop starts).
