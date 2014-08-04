@@ -33,7 +33,7 @@ Write a function, that prints the lyrics of [99 Bottles of Beer](http://99-bottl
 Extension: Add a variable to change the number of bottles.
 
 #### Ex 5 (Morphology)
-Write a function, that when given a word, returns the syllable count. To do this count the number of vowel including `y`, excluding two or more vowels that are in a row (dipthongs).
+Write a function that, when given a word, returns the syllable count. To do this count the number of vowels including `y`, excluding two or more vowels that are in a row (dipthongs).
 
 ## While loops
 
