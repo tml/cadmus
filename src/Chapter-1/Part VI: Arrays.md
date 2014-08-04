@@ -10,13 +10,13 @@ int[] myArray;
 
 Notice the square bracket notation. It tells the compiler that `myArray` isn't an integer, but a list of integers. You must also initialise arrays.
 
-#### When you don't know what you want inside
+### When you don't know what you want inside
 
 ```java
 myArray = new int[10];
 ```
 
-#### When you do know what you want inside
+### When you do know what you want inside
 
 ```java
 myArray = {10, 523, 34, 63, 32, 64, 992, 353, 5, 0};
@@ -30,6 +30,9 @@ Finally, arrays can be declared and initialised together:
 bool[] myArray = new bool[10];
 String[] girlfriends = {"Jessica", "Abby", "Zoey", "Daisy"};
 ```
+
+### Ex 1
+Create an array containing consisting of all your (imaginery) boyfriends/girlfriends.
 
 ## Accessing Arrays
 You access arrays in Java using square bracket notation. For instance:
