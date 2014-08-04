@@ -20,6 +20,8 @@ Create the same window but this time use panels.
 ### Ex 3
 Create the following window:
 
+![Exercise 3](../Images/ex_3.png)
+
 **Tools:** 
 You are going to have to use the following method:
 setBorder(BorderFactory.createEmptyBorder(integer, integer, integer, integer)). You apply it to any JPanel or JFrame and it creates an inner empty border with the parameters (top, left, bottom, right).
