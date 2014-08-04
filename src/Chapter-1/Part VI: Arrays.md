@@ -10,13 +10,13 @@ int[] myArray;
 
 Notice the square bracket notation. It tells the compiler that `myArray` isn't an integer, but a list of integers. You must also initialise arrays.
 
-#### Way One
+#### Way One: When you don't know what you want inside
 
 ```java
 myArray = new int[10];
 ```
 
-#### Way Two
+#### Way Two: When you do know what you want inside
 
 ```java
 myArray = {10, 523, 34, 63, 32, 64, 992, 353, 5, 0};
