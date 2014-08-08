@@ -32,12 +32,14 @@ int division = newExample.divideBy4(5);
 ```
 
 #### Example:
+
 ```java
 public int addTwoNumbers(int a, int b){
 	return a + b;          
 }
 ```
 Calling this method in main:
+
 ```java
 public static void main(String[] args){
   ClassName objectName = new ClassName();
@@ -46,6 +48,7 @@ public static void main(String[] args){
 }
 ```
 Calling this method in another method:
+
 ```java
 public void aMethod(){
   int result = addTwoNumbers(5,1);
