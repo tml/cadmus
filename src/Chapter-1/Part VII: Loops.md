@@ -42,7 +42,7 @@ So, onto the while loop.  The while loop has only one condition and if the condi
 ```java
 public void countTenWithWhileLoop() {
 	int n = 0;
-	while (n<=10) {
+	while (n <= 10) {
 		System.out.println(n);
 	}
 }
