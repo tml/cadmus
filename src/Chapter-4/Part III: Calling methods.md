@@ -23,7 +23,7 @@ ii) Call the method on the object: ```java anObject.pizzazzYo(10);```
 
 You can also call one method inside another method like so:
 ```java
-public void iAmAMethod(){
+public void iAmAMethod() {
   iAmAnotherMethod();
 }
 ```
