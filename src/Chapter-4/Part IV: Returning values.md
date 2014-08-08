@@ -16,15 +16,15 @@ In the example above, note that the return type has changed from `void` to `int`
 
 Given that your methods now return a value other than void, you have to store the value returned in a new variable of the same type, else you can’t use it. For instance, to call a method and use the value returned from it in the main method, you would have to:
 
-i)	First, create an object:
+1. First, create an object:
 ```java
 Task newExample = new Task();
 ```
-ii)	Call the method on the object:
+2. Call the method on the object:
 ```java
 newExample.divideBy4(5);
 ```
-iii)	In front of this, create a variable of the same type the method returns and assign the method called on the object to it:
+3. In front of this, create a variable of the same type the method returns and assign the method called on the object to it:
 ```java
 int division = newExample.divideBy4(5);
 ```
