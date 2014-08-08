@@ -56,7 +56,7 @@ public void aMethod() {
 }
 ```
 
-#### Ex 1
+### Ex 1
 Write a method which calculates and returns the curved surface area of a cylinder. 
 
 (Hint: You will need to import the maths API in order to use pi: `import java.lang.Math`; in order to use pi you will have to call it with `Math.PI`)
@@ -64,10 +64,10 @@ Write a method which calculates and returns the curved surface area of a cylinde
 #### Ex 2
 Write an accompanying method which calculates and returns the volume of a cylinder.
 
-#### Ex 3
+### Ex 3
 Write a method which converts and returns a given angle in degrees to radians. 
 
 (Hint: Research what radians are and how to convert to them. Also, think carefully: do we want to be using variables of type `int` or type `double`?)
 
-#### Ex 4
+### Ex 4
 Write another method which calculates the hypotenuse of a right-angled triangle.
