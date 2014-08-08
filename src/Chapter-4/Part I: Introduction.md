@@ -1,3 +1,6 @@
+Introduction
+===
+
 ## Aims:
 - To provide a general introduction to the concept of what a program is, and the programming mindset
 - Through examples, highlight the ideas that: 
