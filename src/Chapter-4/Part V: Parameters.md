@@ -11,7 +11,7 @@ int myVariable = 10;
 ```
 So what you’ve done here is:
 
-1. Declared the variable to be of type ‘int’ because we want it to hold the value 10.
+1. Declared the variable to be of type `int` because we want it to hold the value 10.
 2. Given it a name `myVariable`.
 3. Assigned (given) it the value of 10.
 
