@@ -5,7 +5,7 @@ So far you have learnt that parameters can be declared between the brackets (___
 ```java
 public void divideBy2(double a)
 ```
-The more technical term for this kind of parameter is a 'formal parameter'. To understand parameters better, let’s say that they’re comparable to how you use variables. How do you declare a variable to hold an integer, 10?
+The more technical term for this kind of parameter is a **formal parameter**. To understand parameters better, let’s say that they’re comparable to how you use variables. How do you declare a variable to hold an integer, 10?
 ```java
 int myVariable = 10;
 ```
