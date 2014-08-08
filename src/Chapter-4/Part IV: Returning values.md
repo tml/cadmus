@@ -6,7 +6,7 @@ So far, every method you have defined has had the return type of `void` - in ess
 Here's an example:
 
 ```java
-public int divideBy4(int num){
+public int divideBy4(int num) {
 	num = num/4;
 	return num;
 }
@@ -34,14 +34,14 @@ int division = newExample.divideBy4(5);
 #### Example:
 
 ```java
-public int addTwoNumbers(int a, int b){
+public int addTwoNumbers(int a, int b) {
 	return a + b;          
 }
 ```
 Calling this method in main:
 
 ```java
-public static void main(String[] args){
+public static void main(String[] args) {
   ClassName objectName = new ClassName();
   int result = objectName.addTwoNumbers(1,3);
   System.out.println(result);
@@ -50,7 +50,7 @@ public static void main(String[] args){
 Calling this method in another method:
 
 ```java
-public void aMethod(){
+public void aMethod() {
   int result = addTwoNumbers(5,1);
   System.out.println(result);
 }
