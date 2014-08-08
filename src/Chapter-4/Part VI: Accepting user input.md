@@ -47,5 +47,10 @@ Things to think about:
 -	Given we are trying to calculate the angle in a right-angled triangle, what sort of ‘cases’ do you have to account for?
 
 HINTS: 
-- You will probably need to import the maths API into your program in order to use Sin/Tan/Cos. That is, `import java.lang.Math`; Also, for methods you can use refer to: http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html 
+- You will probably need to import the maths module into your program in order to use Sin/Tan/Cos. That is:
+```
+import java.lang.Math;
+```
+
+- Also, for methods you can use refer to: http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html 
 - The sin/tan/cos methods in Java give back a result in radians. What method (that you have previously made) would you have to utilise? 
