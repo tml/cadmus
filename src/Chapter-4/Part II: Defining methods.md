@@ -29,7 +29,7 @@ When we refer to a method body we basically mean everything within the curly bra
 ```java
 public void convertToF(int celsius) {
 	int fahrenheit = celsius * 9/5 + 32;
-	System.out.println(“ C:” + celcius + “ F: ” + fahrenheit);
+	System.out.println(" C:" + celcius + “ F: ” + fahrenheit);
 }
 ```
 
