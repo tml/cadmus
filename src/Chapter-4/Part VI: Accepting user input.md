@@ -30,7 +30,6 @@ By letting `myString` equal the `Scanner` object dot `nextLine`, we’re telling
 When placing the dot after `myScanner`, you should notice Eclipse provides you a bunch of options other than `nextLine()`. Depending on what kind of input you’d like to accept you can choose `nextInt()` to accept an `int` input or `nextDouble()` to accept a `double` input type.
 
 #### Ex 1
-
 Modify Ex 1 and 2 from Part II so that they now accept user input. Test they work by calling them in the main method.
 
 #### Ex 2
