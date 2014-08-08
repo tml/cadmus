@@ -61,5 +61,5 @@ Write a method called `findTriangleArea` which accepts two parameters, the base 
 ### Ex 4
 Write a method called `findParaArea` which accepts two parameters, the base length and height of a parallelogram, then calculates and displays its area on screen.
 
-#### Ex 5
+### Ex 5
 Copy & paste the method for Ex 3 and rename it `findTrapeArea`. The method should now calculate the area of a given trapezium. What changes should you make?
