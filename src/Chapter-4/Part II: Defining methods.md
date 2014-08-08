@@ -10,7 +10,7 @@ public void convertToF(int celcius) {
 }
 ```
 	
-Don’t worry if you don’t quite understand what’s going on in the code above for now. What you are looking at, however, is a basic method which converts a temperature you specify in degrees Celcius to its equivalent in Fahrenheit.  
+Don’t worry if you don’t quite understand what’s going on in the code above for now. What you are looking at, however, is a basic method which converts a temperature you specify in degrees Celsius to its equivalent in Fahrenheit.  
 
 ## Creating and defining your very first method
 
