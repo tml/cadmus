@@ -23,16 +23,16 @@ public static void main(String[] args) {
 
 Note: `Math.abs()`, and `Math.sqrt()` (which you met in the last part) are examples of methods in the `Math` package. Inside the `Math` package, there are also trigonometric functions such as `Math.sin()`, `Math.cos()`, and `Math.tan()`.
 
-#### Ex 1
+### Ex 1
 Write a program which contains a method called triple (and the main method of course), which triples a number.  Get the program to triple the number 34 and then print out the result.
 
-#### Ex 2
+### Ex 2
 Write a method, that given a name, returns a Hello World-style greeting. For instance if I called it with `George`, it would respond with: `Hello George!`.
 
 ## String methods
 I've told you previously that `String` is a class, not a primitive. Classes can have their own methods attached to them.
 
-#### Length
+### Length
 The `.length()` method returns the length of a string as an `int`. Unlike in a JavaScript string, `.length()` is a method, that must be called with parentheses.
 
 ```java
@@ -40,7 +40,7 @@ String name = "George";
 System.out.println(name.length()); // Prints 6
 ```
 
-#### Trim
+### Trim
 The `.trim()` method that returns a copy of the string without whitespace (spaces at the front or end of a string), e.g:
 
 ```java
@@ -49,7 +49,7 @@ System.out.println(name.trim());
 // Prints "George" with no spaces
 ```
 
-#### Upper Case, Lower Case
+### Upper Case, Lower Case
 There are also the `.toUpperCase()`, and `.toLowerCase()` methods, return an uppercase copy and lowercase copy of the original string respectively, e.g:
 
 ```java
@@ -58,7 +58,7 @@ System.out.println(name.toUpperCase()); // Returns "GEORGE"
 System.out.println(name.toLowerCase()); // Returns "george"
 ```
 
-#### Equals
+### Equals
 This takes in another string, and returns true/false depending on whether they are equal. Note `.equals()` is case sensitive. You can use this in if-statements:
 
 ```java

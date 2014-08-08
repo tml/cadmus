@@ -26,7 +26,7 @@
 <p>Notice the constructor for the <code>JLabel</code>: it takes in two parameters, both of which are optional. The first is its text, the second is its alignment. We then use the <code>add()</code> method to add it to the window. Also notice how the <code>setLayout()</code> method is used to set the <strong>layout manager</strong> to a new instance of a <code>FlowLayout</code>. </p>
 <p>This should be outputted:</p>
 <p><img src="https://github.com/HashanP/cadmus/raw/master/src/Images/Hello_World.png" alt="Now the box has text!" title="Now the box has text!"/></p>
-<h4 id="ex-1">Ex 1</h4>
+<h3 id="ex-1">Ex 1</h3>
 <p>Play around with it. Try adding another <code>JLabel</code> with a different greeting. You may have to change the second parameter, the height parameter, of <code>setSize()</code> to fit it in. You will have to add another call to the <code>add()</code> method.</p>
 <h2 id="adding-pictures-to-jlabels">Adding Pictures to JLabels</h2>
 <p>It may not say it outright, but this part is desgined to show you how to create something and add it to a JFrame, in particular, JLabels. But these JLabels are far more useful than just displaying a line of text. They can be changed on the push of a button, can be attached to almost anything and can display images, which is what this is about.</p>
@@ -35,10 +35,8 @@
 <p>Then choose your file source, which will most likely be General-&gt;File System. This will then give you this:</p>
 <p><img src="../Images/imports2.png" alt="Choosing your image" title="Choosing your image"/></p>
 <p>I have already filled this in. I have taken my pictures from the Sample Pictures folder, which I got when I clicked the Browse button (bordered in black) and followed the path Libraries-&gt;Pictures-&gt;Public Pictures-&gt;Sample Pictures. However you could store your images anywhere and find them. I then chose the folder to import them to using the <strong>Browse</strong> button (bordered in blue) and chose the folder JavaKS4, which is simply one of my folders.</p>
-<p>That will import your images and make them easy to access. Now, back to the point. To create an image you use code similar to this:</p>
-<pre><code class="lang-java"><span class="hljs-keyword">import</span> javax.swing.*; <span class="hljs-comment">// imports all of Swing.</span>
-
-<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ImagesExample</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">JFrame</span> {</span>
+<p>That will import your images and make them easy to access. Now, back to the point. To create an image you will need to import <code>javax.swing.ImageIcon</code> and use code similar to this:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ImagesExample</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">JFrame</span> {</span>
     ImageIcon image;
     JLabel label;
     <span class="hljs-comment">//declares an ImageIcon(which the image is defined as) and a JLabel.</span>
@@ -62,4 +60,40 @@
 </code></pre>
 <p>This should output the following, only it would be the size of the screen:</p>
 <p><img src="../Images/Tulips.png" alt="Tulips image" title="Tulips image"/></p>
+<h3 id="ex-2">Ex 2</h3>
+<p>Try it yourself. Also research the <code>getIconWidth()</code> and <code>getIconHeight()</code> of <code>ImageIcon</code> and try them out too.</p>
+<h2 id="scrollable-images">Scrollable Images</h2>
+<p>I just mentioned that the image will be the size of the screen, but what if the image is larger? In that case you would lose some of the image. For this reason it would be useful to have scroll bars so you could see all of the image. To do this you need to import <code>javax.swing.JScrollPane</code>. These scroll panes are very useful, as now your images can be infinite in size. To use these you will have to declare a new scroll pane first:</p>
+<pre><code class="lang-java">JScrollPane scroller = <span class="hljs-keyword">new</span> JScrollPane();
+</code></pre>
+<p>Then adding this to the constructor:</p>
+<pre><code class="lang-java">scroller = <span class="hljs-keyword">new</span> JScrollPane(label);
+<span class="hljs-comment">//where 'scroller' is the name of the JScrollPane and 'image' is the name of the JLabel with an image on it</span>
+
+scroller.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+<span class="hljs-comment">//sets the vertical scroll bar to always be showing, regardless whether or not it is in use</span>
+
+scroller.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+<span class="hljs-comment">//sets the horizontal bar in the same way as the vertical bar </span>
+
+add(scroller);
+<span class="hljs-comment">//adds the scroller and therefore the image too</span>
+</code></pre>
+<p>You have just added the image to the scroll pane and added the scroll pane to the JFrame. This means that now, however big the image is, you can now see it. You can also, if you so wish, shorten the first three lines to: </p>
+<pre><code class="lang-java">scroller.setViewportView(image);
+</code></pre>
+<p>However this gives a lot less control over the scroll bars, for example without it you can set the bars to be on the image as needed, all the time or not at all. You can therefore create an image like this:</p>
+<p><img src="../Images/scroll-images.png" alt="A scrollable image" title="A scrollable image"/></p>
+<h3 id="ex-3">Ex 3</h3>
+<p>Import more images and put the on JLabels. If the image is very big, add scroll bars to it. Also, explore the different scroll bar policies i.e. <code>VERTICAL_SCROLLBAR_ALWAYS</code>, <code>VERTICAL_SCROLLBAR_AS_NEEDED</code> and <code>VERTICAL_SCROLLBAR_NEVER</code>.</p>
+<h2 id="jsplitpane">JSplitPane</h2>
+<p>Now you can put an image onto the screen and add scroll bars to it if it is too big. But what if you want to put two images on to the screen next to eachother, and want to be able to dictate just how much space each image takes up? For that purpose you can use a <code>JSplitPane</code>. This is a pane that contains two images and has a functionality with which you can change how much of the screen each image takes. To do this you will have to import <code>javax.swing.JSplitPane</code>, and will have to declare a new <code>JSplitPane</code>. Inside the parameters however, you will have to add some other things, including scroll bars (because otherwise you will not be able to dictate how much of each picture you see). The declaration will end up looking like this:</p>
+<pre><code class="lang-java">JSplitPane split = <span class="hljs-keyword">new</span> JSplitPane(JSplitPane.HORIZONTAL_SPLIT, <span class="hljs-keyword">new</span> JScrollPane(label1), <span class="hljs-keyword">new</span> JScrollPane(label2));
+<span class="hljs-comment">//where 'label1' and 'label2' are predeclared labels.</span>
+</code></pre>
+<p>Then, in the constructor, you set those labels to be your images of choice and add the split pane to the JFrame. This particular piece of code, along with all of the other things needed for it to function, cretes this:</p>
+<p><img src="../Images/horizontal_split.png" alt="A horizontally split pane" title="A horizontally split pane"/></p>
+<p>You could also change the <code>HORIZONTAL_SPLIT</code> to <code>VERTICAL_SPLIT</code>, but that would not be very good for our penguins health:</p>
+<p><img src="../Images/vertical_split.png" alt="A vertically split pane" title="A vertically split pane"/></p>
+<p>He seems to now have a massive mound of rock instead of a body.</p>
 </main></body></html>

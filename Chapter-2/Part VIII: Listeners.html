@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="listeners">Listeners</h1>
+<p>As an introduction, an <strong>event listener</strong> is something that listens for a certain action and then executes some code if that action takes place. You have met one before, the <code>ActionListener</code>, but there are many others.</p>
+<h2 id="actionlistener">ActionListener</h2>
+<p>If you think back to when you discovered buttons, in that tutorial you had to write this into the class: <code>implements ActionListener</code>. Then you created another method that went along the lines of:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">actionPerformed</span>(ActionEvent e) {
+    <span class="hljs-comment">// code</span>
+}
+</code></pre>
+<p>In this method you then coded what should happen when you press the button. Components can pass events on to action listeners by using:</p>
+<pre><code class="lang-java">component.addActionListener(<span class="hljs-keyword">this</span>); 
+<span class="hljs-comment">// where 'component' could be the identifier of a button or any other componen</span>
+</code></pre>
+<p>The method <code>.addActionListener()</code> accepts any object that implements the interface <code>ActionListener</code>. Because it implements the interface <code>ActionListener</code> the event-emitting component knows the object will implement the method <code>actionPerformed(ActionEvent e)</code>.</p>
+</main></body></html>

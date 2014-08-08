@@ -1,11 +1,11 @@
 <!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="text-fields">Text Fields</h1>
 <p>In Java there are are 3 main types of text field - the normal textfield, the password field and the drop-down menu. What these are and how they work will be explained in this chapter. As an introduction, if there is any doubt as to what a text field is, a text field is a box that lets the user input a small amount of text. As a passing statement, these textfields interact with the layouts introduced in that last part just as buttons do.</p>
 <h2 id="jtextfield">JTextField</h2>
-<p>What a normal text field is was just explained, it is a way for the user to input text. To create these you will have to copy out the following:</p>
+<p>What a normal text field is was just explained, it is a way for the user to input text. (Identical to the <code>&lt;input&gt;</code> tag in HTML). To create one, copy out the following:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">import</span> javax.swing.JFrame;
 <span class="hljs-keyword">import</span> javax.swing.JTextField;
 
-<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TexFields</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">JFrame</span>{</span>
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TexFields</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">JFrame</span> {</span>
     JTextField normal = <span class="hljs-keyword">new</span> JTextField();
     <span class="hljs-comment">// The empty brackets can be filled with an integer to dictate the preffered size of the text field.</span>
 
@@ -45,7 +45,7 @@
 <p><img src="../Images/password_field.png" alt="A password field" title="A password field"/></p>
 <h2 id="jcombobox">JComboBox</h2>
 <p>A JComboBox, otherwise known as a drop-down menu, is a text field that lets you choose from a preset list of options that, quite literally, drop down when you click a button. To do this you will have to import and use <code>JComboBox</code>. To use this you will have to declare an array which includes all of the options. You can see how to declare an array in Chapter 1 Part VI. You will then have to put the name of the array in the parameters that the <code>JComboBox</code> has. In other words: </p>
-<pre><code class="lang-java">JComboBox Doctor_Who = <span class="hljs-keyword">new</span> JComboBox(monsters);
+<pre><code class="lang-java">JComboBox DoctorWho = <span class="hljs-keyword">new</span> JComboBox(monsters);
 <span class="hljs-comment">//where 'monsters' is the name of a String array.</span>
 </code></pre>
 <h3 id="ex-3">Ex 3</h3>
@@ -115,18 +115,11 @@ See what happens with other text fields, or try to manipulate the user&#39;s inp
 <h3 id="ex-8">Ex 8</h3>
 <p>Create your own text are and write something extended into it.</p>
 <h2 id="scrollable-jtextarea">Scrollable JTextArea</h2>
-<p>These text areas are better than text fields, but one major problem is that they have no borders. IN other words you can continue writing off of the page and not be able to access it. To fix this you can use scroll bars. To do this you need to import <code>javax.swing.JScrollPane</code>. These scroll panes are very useful, as now your text areas can be infinite in size. To use these you will have to declare a new one first, and then do this inside the method:</p>
-<pre><code class="lang-java">scroller = <span class="hljs-keyword">new</span> JScrollPane(text);
-<span class="hljs-comment">//where 'scroller' is the name of the JScrollPane and 'text' is the name of the JTextArea</span>
-scroller.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
-<span class="hljs-comment">//sets the vertical scroll bar to always be showing, regardless whether or not it is in use</span>
-scroller.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
-<span class="hljs-comment">//sets the horizontal bar in the same way as the vertical bar </span>
-add(scroller);
-<span class="hljs-comment">//adds the scroller and therefore the text area too</span>
-</code></pre>
-<p>This outputs this if combined with the code for the JTextArea:</p>
+<p>These text areas are better than text fields, but one major problem is that they have no borders. In other words you can continue writing off of the page and not be able to access it. To fix this you can use scroll bars. You may remember these from making images with scroll bars, and it works exactly the same. You simply set the JScrollPane to be the name of the JTextArea and then add the JScrollPane. Using this you can create the following:</p>
 <p><img src="../Images/scroll_text_area.png" alt="A scrollable text area" title="A scrollable text area"/></p>
 <h3 id="ex-9">Ex 9</h3>
 <p>Create another text area, only this time include scroll bars.</p>
+<h2 id="split-text-areas">Split Text Areas</h2>
+<p>You met JSplitPanes when you were introduced to images, and in case you have forgotten, they are used to display two things on a screen and let you dictate how much space each one takes. So, as you can probably guess from the title, they can also apply to JTextAreas. They work exactly the same as they did with JLabels, only instead of adding JLabels to the split pane, you add text areas. As a result you can produce this:</p>
+<p><img src="../Images/text_area_split.png" alt="A split pane with text areas" title="A split pane with text areas"/></p>
 </main></body></html>

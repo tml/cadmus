@@ -2,6 +2,7 @@ Printing
 ===
 
 To output text to the console, use the `System.out.println`; this is equivalent to `console.log` in JavaScript, e.g:
+
 ```java
 System.out.println("Hello world");
 ```
@@ -38,6 +39,6 @@ System.out.println("The value of n is " + n);
 // which would output: The value of n is 5
 ```
 
-#### Ex 1
+### Ex 1
 Write a program to print a simple drawing of a house, once you have done that have some fun and see what else you can draw!
 Hint: Use `*` or `+` or another symbol and the `println` function.

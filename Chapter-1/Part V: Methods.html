@@ -13,30 +13,30 @@
 }
 </code></pre>
 <p>Note: <code>Math.abs()</code>, and <code>Math.sqrt()</code> (which you met in the last part) are examples of methods in the <code>Math</code> package. Inside the <code>Math</code> package, there are also trigonometric functions such as <code>Math.sin()</code>, <code>Math.cos()</code>, and <code>Math.tan()</code>.</p>
-<h4 id="ex-1">Ex 1</h4>
+<h3 id="ex-1">Ex 1</h3>
 <p>Write a program which contains a method called triple (and the main method of course), which triples a number.  Get the program to triple the number 34 and then print out the result.</p>
-<h4 id="ex-2">Ex 2</h4>
+<h3 id="ex-2">Ex 2</h3>
 <p>Write a method, that given a name, returns a Hello World-style greeting. For instance if I called it with <code>George</code>, it would respond with: <code>Hello George!</code>.</p>
 <h2 id="string-methods">String methods</h2>
 <p>I&#39;ve told you previously that <code>String</code> is a class, not a primitive. Classes can have their own methods attached to them.</p>
-<h4 id="length">Length</h4>
+<h3 id="length">Length</h3>
 <p>The <code>.length()</code> method returns the length of a string as an <code>int</code>. Unlike in a JavaScript string, <code>.length()</code> is a method, that must be called with parentheses.</p>
 <pre><code class="lang-java">String name = <span class="hljs-string">"George"</span>;
 System.out.println(name.length()); <span class="hljs-comment">// Prints 6</span>
 </code></pre>
-<h4 id="trim">Trim</h4>
+<h3 id="trim">Trim</h3>
 <p>The <code>.trim()</code> method that returns a copy of the string without whitespace (spaces at the front or end of a string), e.g:</p>
 <pre><code class="lang-java">String name = <span class="hljs-string">"     George"</span>;
 System.out.println(name.trim()); 
 <span class="hljs-comment">// Prints "George" with no spaces</span>
 </code></pre>
-<h4 id="upper-case-lower-case">Upper Case, Lower Case</h4>
+<h3 id="upper-case-lower-case">Upper Case, Lower Case</h3>
 <p>There are also the <code>.toUpperCase()</code>, and <code>.toLowerCase()</code> methods, return an uppercase copy and lowercase copy of the original string respectively, e.g:</p>
 <pre><code class="lang-java">String name = <span class="hljs-string">"George"</span>;
 System.out.println(name.toUpperCase()); <span class="hljs-comment">// Returns "GEORGE"</span>
 System.out.println(name.toLowerCase()); <span class="hljs-comment">// Returns "george"</span>
 </code></pre>
-<h4 id="equals">Equals</h4>
+<h3 id="equals">Equals</h3>
 <p>This takes in another string, and returns true/false depending on whether they are equal. Note <code>.equals()</code> is case sensitive. You can use this in if-statements:</p>
 <pre><code class="lang-java">String personA = <span class="hljs-string">"George"</span>;
 String personB = <span class="hljs-string">"George"</span>;

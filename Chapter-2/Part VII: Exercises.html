@@ -1,17 +1,77 @@
 <!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="exercises">Exercises</h1>
-<p>When programming in java Swing, here are a few things you want to be careful:</p>
+<p>Congratulations for managing to go so far.  As of now, you can consider yourself a fluent speaker of Java and Java swing. You are capable of building complex and useful GUI&#39;s. So remember that programming in swing is like playing lego: you create a new piece, add features to it: and then you add it to a bigger piece and so one. One advice to you is that you need to do more complex interface.  First do a quick sketch of what you want to achieve, think about which layout to use. If ever you have logic errors (the program compiles but the result is not the expected one) then go through your code step by step and be sure you have not forgotten to put the <code>setVisible()</code> that your size are correct; that you have correctly added the elements; at all times you must bear in mind that the computer is a big baby and you have to specify everything!</p>
+<p>When programming in Java Swing, here are a few things you want to be careful:</p>
 <ul>
 <li>Do not forget to set your window visible.</li>
 <li>Check that you have correctly added each component to their correct element.</li>
 <li>Be careful that you correctly declare your layouts and that nothing oversteps.</li>
 <li>When you use buttons either be sure that your elements are final or that you are using the other method.</li>
 </ul>
-<h3 id="ex-1-">Ex 1.</h3>
+<h3 id="ex-1">Ex 1</h3>
 <p>Create the following window without using panels:</p>
-<h3 id="ex-2-">Ex 2.</h3>
-<p>Create the same window but this time use panels</p>
-<h3 id="ex-3-">Ex 3.</h3>
+<p><img src="../Images/ex_1.png" alt="Exercise 1" title="Exercise 1"/></p>
+<h3 id="ex-2">Ex 2</h3>
+<p>Create the same window but this time use panels.</p>
+<h3 id="ex-3">Ex 3</h3>
 <p>Create the following window:</p>
-<p>Tools: You are surely going to have to use the following method:
-setBorder(BorderFactory.createEmptyBorder(integer, integer, integer, integer)). You apply it to any Jpanel or Jframe and it creates an inner empty border with the parameters (top, left, bottom, right).</p>
+<p><img src="../Images/ex_3.png" alt="Exercise 3" title="Exercise 3"/></p>
+<p><strong>Tools:</strong> 
+You are going to have to use the following method:
+setBorder(BorderFactory.createEmptyBorder(integer, integer, integer, integer)). You apply it to any JPanel or JFrame and it creates an inner empty border with the parameters (top, left, bottom, right).</p>
+<h3 id="ex-4">Ex 4</h3>
+<p>Create the following window:</p>
+<h3 id="ex-5">Ex 5</h3>
+<p>Create a program that through the command line asks for an input which will then be added to a GUI. E.g.: If I input &quot;hello there&quot; the following is displayed:</p>
+<p>Hint: you may want to have a quick look at how to use scanner again.</p>
+<h3 id="ex-6">Ex 6</h3>
+<p>Create the following window:</p>
+<h3 id="ex-7">Ex 7</h3>
+<p>Create the following GUI. If the left button is clicked, it should open a new red window and 
+close the main window. If the right button is clicked a blue window should open and the main window should close.</p>
+<h3 id="ex-8">Ex 8</h3>
+<p>Create the following window, and if the button is clicked it should create 10 red simple windows at 10 random locations (have fun closing them afterwards):</p>
+<p><strong>Tools:</strong></p>
+<ul>
+<li>The random method is <code>Math.random()</code> it returns a double value between 0 and 1. Therefore, following the formula <strong>minimum + (int)(Math.random()*maximum)</strong> returns you a random integer between the minimum and maximum.</li>
+<li>The method <code>setLocation(integer, integer)</code> is applied to JFrames and it sets their location at the specified coordinates.</li>
+</ul>
+<h3 id="ex-9">Ex 9</h3>
+<p>Create the following window:</p>
+<p>Hint: you can set the background of a JTextArea just like you would for a JPanel or a JFrame.</p>
+<h3 id="ex-10">Ex 10</h3>
+<p>Create the following window, and when the button is clicked it should change the question &quot;how old are you?&quot; to a phrase related to the age. E.g. if I write &quot;18&quot; the text is changed to &quot;have you started UCAS?&quot;</p>
+<h3 id="ex-11">Ex 11</h3>
+<p>Create the same window as exercise10 only this time use the <code>implements ActionListener</code> and the <code>public void actionPerformed(ActionEvent e) {}</code> method.</p>
+<h3 id="ex-12">Ex 12</h3>
+<p>Write a program that checks if a number is prime or not. You might want to create a method that returns a boolean if a number is prime or not.</p>
+<h3 id="ex-13">Ex 13</h3>
+<p>Inspiring yourself from exercise 13 create a program that displays the first 20 prime numbers. You will want to use JTextAreas.</p>
+<h3 id="ex-14">Ex 14</h3>
+<p>Create the following window that converts values of temperature:</p>
+<h3 id="ex-15">Ex 15</h3>
+<p>Just like the previous exercise, create a program that after asking you to choose between a temperature converter or an angle converter either displays an angle converter (degree/radian) or a temperature converter (the same as above) based on what the yser chose.</p>
+<h3 id="ex-16">Ex 16</h3>
+<p>Create a program that, using scanner, asks you to input positive numbers until you input a negative one, after which it creates a GUI with the following information: </p>
+<ul>
+<li>the minimum value </li>
+<li>the maximum value </li>
+<li>the average</li>
+</ul>
+<p>E.g. if you enter these numbers: 1.1, 2.3, 5.6, 7.8, -1 you have this returned to you:</p>
+<h3 id="ex-17">Ex 17</h3>
+<p>Create a method calculator just like this one:</p>
+<p>The two methods here are the square root and cosine.
+<strong>Tools:</strong> </p>
+<ul>
+<li>For cosine apply the method: Math.cos(integer)</li>
+</ul>
+<h3 id="ex-18-20">Ex 18-20</h3>
+<p>Throughout these next exercise you will create the following calculator:</p>
+<ol>
+<li>Just create the layout and the design of the calculator. Try to keep your code as 
+clear as possible.</li>
+<li>Try to make the plus, equal and reset button operational.</li>
+<li>Apply the same technique as previously and make all the buttons active.</li>
+</ol>
+<p>Hint: create two labels, one that shows the intermediate results and the final result whereas the other shows what number you have entered. You can then fetch the numbers clicked from the second label. Each operation should have a boolean variable that activates itself once the operation is activated and at the next operation should do the calculations with the new number entered.</p>
 </main></body></html>
