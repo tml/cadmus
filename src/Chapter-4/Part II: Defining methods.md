@@ -6,7 +6,7 @@ Here's an example of a method:
 ```java
 public void convertToF(int celcius) {
 	int fahrenheit = celcius * 9/5 + 32;
-	System.out.println(“C:” + celcius + “ F: ” + fahrenheit);
+	System.out.println("C:" + celcius + “ F: ” + fahrenheit);
 }
 ```
 	
