@@ -29,7 +29,6 @@ public void iAmAMethod() {
 ```
 
 #### Ex 1
-
 Test your `pizzazzYo` method (**Ex 1**, Part II) is working correctly by writing some code in the main method that will then run the program. Compile it!
 
 #### Ex 2
