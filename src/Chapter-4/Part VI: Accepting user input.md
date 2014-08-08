@@ -33,7 +33,6 @@ When placing the dot after `myScanner`, you should notice Eclipse provides you a
 Modify Ex 1 and 2 from Part II so that they now accept user input. Test they work by calling them in the main method.
 
 #### Ex 2
-
 Modify Ex 4 of Part IV, so that the method can now calculate any side of a triangle given two of its sides are known. 
 
 #### Ex 3
