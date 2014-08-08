@@ -58,7 +58,7 @@ Write a method called `checkEvenOdd` which accepts one integer and checks if it 
 ### Ex 3
 Write a method called `findTriangleArea` which accepts two parameters, the base length and height of a triangle, then calculates and displays this.
 
-#### Ex 4
+### Ex 4
 Write a method called `findParaArea` which accepts two parameters, the base length and height of a parallelogram, then calculates and displays its area on screen.
 
 #### Ex 5
