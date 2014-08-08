@@ -36,7 +36,6 @@ Modify Ex 1 and 2 from Part II so that they now accept user input. Test they wor
 Modify Ex 4 of Part IV, so that the method can now calculate any side of a triangle given two of its sides are known. 
 
 #### Ex 3
-
 Following the method created on right-angled triangles, extend this by creating another method which calculates the angle of a right-angled triangle given the lengths of two of its sides and returns this value in degrees.
 
 Things to think about:
