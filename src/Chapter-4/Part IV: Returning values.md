@@ -20,10 +20,12 @@ Given that your methods now return a value other than void, you have to store th
 ```java
 Task newExample = new Task();
 ```
+
 2. Call the method on the object:
 ```java
 newExample.divideBy4(5);
 ```
+
 3. In front of this, create a variable of the same type the method returns and assign the method called on the object to it:
 ```java
 int division = newExample.divideBy4(5);
