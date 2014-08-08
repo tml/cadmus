@@ -18,7 +18,7 @@ Before creating your first method, there are a few things you need to know. Main
 
 To do this, let’s first decipher the method above.
 
-The very first line of the method named convertToF is known as the method header.
+The very first line of the method named `convertToF` is known as the method header.
 
 ```java
 public void convertToF(int celsius)
