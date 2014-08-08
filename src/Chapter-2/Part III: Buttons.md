@@ -46,7 +46,6 @@ public class Buttons extends JFrame implements ActionListener {
             label.setText("btn2 was clicked");
         }
     }
-
 }
 ```
 
