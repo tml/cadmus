@@ -55,7 +55,7 @@ Hint: find out what modulo `%` is in programming. Can you use it?
 ### Ex 2
 Write a method called `checkEvenOdd` which accepts one integer and checks if it is odd or even. Given the integer is odd, “The number is odd” is displayed on the terminal. 
 
-#### Ex 3
+### Ex 3
 Write a method called `findTriangleArea` which accepts two parameters, the base length and height of a triangle, then calculates and displays this.
 
 #### Ex 4
