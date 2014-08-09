@@ -83,8 +83,8 @@ E.g. if you enter these numbers: 1.1, 2.3, 5.6, 7.8, -1 you have this returned t
 Create a method calculator just like this one:
 
 The two methods here are the square root and cosine.
-**Tools:** 
-- For cosine apply the method: Math.cos(integer)
+
+HINT: For cosine apply the method `Math.cos(integer)`.
 
 ### Ex 18-20
 Throughout these next exercise you will create the following calculator:
