@@ -34,7 +34,7 @@ To use this import you will have to use the following syntax:
 
 ```java
 getContentPane().setBackground(Color.YELLOW);
-//this will create a yellow window, however you can replace this with other colours.
+// this will create a yellow window, however you can replace this with other colours.
 ```
 
 As you can see, you can change the colour of your background using the method `setBackground(Colour)`. There are wide range of existing colours like:
