@@ -49,7 +49,7 @@ HINTS:
 - The sin/tan/cos methods in Java give back a result in radians. What method (that you have previously made) would you have to utilise?
 
 ### Ex 4
-Use what you have been taught to create a command line version of the game, Hangman. For the sake of simplicity display the lives as a number, rather than drawing out a pretty diagram, unless you really want to. Use `.nextLine()` coupled with `.substring()` to get a a `char`. Some of what you'll:
+Use what you have been taught to create a command line version of the game, Hangman. For the sake of simplicity display the lives as a number, rather than drawing out a pretty diagram, unless you really want to. Use `.nextLine()` coupled with `.substring()` to get a `char`. Some of what you'll:
 - A global variable to store a series of possibilites
 - A method to generate a random word
 - A variable to store the chosen word
