@@ -1,7 +1,7 @@
 Calling methods
 ===
 
-You've defined a method, but it won't do anything until you call it.
+You've defined a non-static method, that is to say an instance method, but it won't do anything until you call it.
 
 You can call methods inside the main method like so:
 
