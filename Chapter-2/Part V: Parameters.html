@@ -1,0 +1,23 @@
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="parameters">Parameters</h1>
+<p>So far you have learnt that parameters can be declared between the brackets (<em>__</em>) in a method header: </p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">divideBy2</span>(<span class="hljs-keyword">double</span> a)
+</code></pre>
+<p>The more technical term for this kind of parameter is a <strong>formal parameter</strong>. To understand parameters better, let’s say that they’re comparable to how you use variables. How do you declare a variable to hold an integer, 10?</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span> myVariable = <span class="hljs-number">10</span>;
+</code></pre>
+<p>So what you’ve done here is:</p>
+<ol>
+<li>Declared the variable to be of type <code>int</code> because we want it to hold the value 10.</li>
+<li>Given it a name <code>myVariable</code>.</li>
+<li>Assigned (given) it the value of 10.</li>
+</ol>
+<p>The only difference with formal parameters is that you skip the last point iii) and do that inside the method header instead. So, for example, looking at this method header again:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">divideBy2</span>(<span class="hljs-keyword">double</span> a)
+</code></pre>
+<p>The method body could be something like:</p>
+<pre><code class="lang-java">{
+  a = a/<span class="hljs-number">2</span>; 
+}
+</code></pre>
+<p>Writing <code>a = a/2</code> is OK because we’ve already declared it as a formal parameter of type <code>double</code> in the parameter list. Note that <code>a</code> only exists within the method body, due to its <strong>scope</strong>. Essentially this means is that <code>a</code> can only be used within the <code>divideBy2</code> method; if you try to do something like <code>a = ...</code> somewhere else in the program, it won’t work.</p>
+</main></body></html>

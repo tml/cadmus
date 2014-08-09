@@ -1,0 +1,40 @@
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="defining-methods">Defining methods</h1>
+<p>Here&#39;s an example of a method:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">convertToF</span>(<span class="hljs-keyword">int</span> celcius) {
+    <span class="hljs-keyword">int</span> fahrenheit = celcius * <span class="hljs-number">9</span>/<span class="hljs-number">5</span> + <span class="hljs-number">32</span>;
+    System.out.println(<span class="hljs-string">"C:"</span> + celcius + <span class="hljs-string">" F: "</span> + fahrenheit);
+}
+</code></pre>
+<p>Don’t worry if you don’t quite understand what’s going on in the code above for now. What you are looking at, however, is a basic method which converts a temperature you specify in degrees Celsius to its equivalent in Fahrenheit.  </p>
+<h2 id="creating-and-defining-your-very-first-method">Creating and defining your very first method</h2>
+<p>Before creating your first method, there are a few things you need to know. Mainly, the two ingredients needed to create a method: the method <strong>header</strong> and the method <strong>body</strong>.</p>
+<p>To do this, let’s first decipher the method above.</p>
+<p>The very first line of the method named <code>convertToF</code> is known as the method header.</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">convertToF</span>(<span class="hljs-keyword">int</span> celsius)
+</code></pre>
+<p>When we refer to a method body we basically mean everything within the curly brackets after a method header.</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">convertToF</span>(<span class="hljs-keyword">int</span> celsius) {
+    <span class="hljs-keyword">int</span> fahrenheit = celsius * <span class="hljs-number">9</span>/<span class="hljs-number">5</span> + <span class="hljs-number">32</span>;
+    System.out.println(<span class="hljs-string">" C:"</span> + celcius + <span class="hljs-string">" F: "</span> + fahrenheit);
+}
+</code></pre>
+<p>A method header consists of the following:</p>
+<p><img src="https://raw.githubusercontent.com/DChester13/cadmus/master/src/Images/method_header.png" alt="An image of a method header" title="An image of a method header"/></p>
+<p>Sometimes, we want methods to ‘return’ something to us, and we specify this in the <strong>return type</strong>. For example, you might want one of your employees to give you a report. In this case, however, you have specified that you don’t want anything. Thus, you have told your employee (this method) to return <code>void</code> i.e. nothing. </p>
+<p>NOTE: This can be changed to other return types of your such as <code>int</code>, <code>String</code>, <code>boolean</code>. However, for now, focus on setting methods to return <code>void</code>. </p>
+<p>Following the return type is the <strong>method name</strong>, in this case <code>convertToF</code>. This is something you specify too. By convention method names start with a lowercase letter and every other word after starts with a capital. Try to make method names reasonably short and meaningful as to what task they carry out, this will make it easier in the long run.</p>
+<p>Following the method name comes the <strong>parameter list</strong> (the stuff in brackets). This enables you to pass values into a method. For example, in the <code>convertToF</code> method, it accepts one parameter (<code>celcius</code>) which is declared to be of type int.
+This means that when using this method later on, you can input something like <code>convertToF(20)</code> in order to convert 20 degrees Celsius to Fahrenheit.</p>
+<p>For now, you are going to have to accept that there is something called an <strong>access modifier</strong> that will be at the start of every method you write. In this case, we will always be using the access modifier <code>public</code>. For the curious, access modifiers are related to classes (a key feature of an object-orientated language like Java), and other ‘access modifiers’ apart from public exist such as <code>private</code> and <code>protected</code>. It is also not actually a requirement to have an access modifier at the beginning of a method. </p>
+<h3 id="ex-1">Ex 1</h3>
+<p>Write a method called <code>pizzazzYo</code> which accepts one integer and displays <code>Pizzazz</code> on the terminal if the integer is fully divisible by 7. If the integer isn’t divisible by 7, display <code>A tragic number has been entered</code> instead.
+Hint: find out what modulo <code>%</code> is in programming. Can you use it?</p>
+<h3 id="ex-2">Ex 2</h3>
+<p>Write a method called <code>checkEvenOdd</code> which accepts one integer and checks if it is odd or even. Given the integer is odd, “The number is odd” is displayed on the terminal. </p>
+<h3 id="ex-3">Ex 3</h3>
+<p>Write a method called <code>findTriangleArea</code> which accepts two parameters, the base length and height of a triangle, then calculates and displays this.</p>
+<h3 id="ex-4">Ex 4</h3>
+<p>Write a method called <code>findParaArea</code> which accepts two parameters, the base length and height of a parallelogram, then calculates and displays its area on screen.</p>
+<h3 id="ex-5">Ex 5</h3>
+<p>Copy &amp; paste the method for Ex 3 and rename it <code>findTrapeArea</code>. The method should now calculate the area of a given trapezium. What changes should you make?</p>
+</main></body></html>

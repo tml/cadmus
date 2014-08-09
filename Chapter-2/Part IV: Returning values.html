@@ -1,0 +1,48 @@
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="returning-values">Returning values</h1>
+<p>So far, every method you have defined has had the return type of <code>void</code> - in essence, the methods return <em>nothing</em>. However in many cases you may want the method to return a value in the form of an <code>int</code>, <code>double</code>, <code>String</code>, <code>boolean</code> or any other data type.</p>
+<p>Here&#39;s an example:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">divideBy4</span>(<span class="hljs-keyword">int</span> num) {
+    num = num/<span class="hljs-number">4</span>;
+    <span class="hljs-keyword">return</span> num;
+}
+</code></pre>
+<p>In the example above, note that the return type has changed from <code>void</code> to <code>int</code>. Because it is not <code>void</code> anymore, this means that we’re specifying the method to return something, and we&#39;ve specified it to return an integer value.</p>
+<p>Given that your methods now return a value other than void, you have to store the value returned in a new variable of the same type, else you can’t use it. For instance, to call a method and use the value returned from it in the main method, you would have to:</p>
+<p>i) First, create an object:</p>
+<pre><code class="lang-java">Task newExample = <span class="hljs-keyword">new</span> Task();
+</code></pre>
+<p>ii) Call the method on the object:</p>
+<pre><code class="lang-java">newExample.divideBy4(<span class="hljs-number">5</span>);
+</code></pre>
+<p>iii) In front of this, create a variable of the same type the method returns and assign the method called on the object to it:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">int</span> division = newExample.divideBy4(<span class="hljs-number">5</span>);
+</code></pre>
+<h4 id="example-">Example:</h4>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">addTwoNumbers</span>(<span class="hljs-keyword">int</span> a, <span class="hljs-keyword">int</span> b) {
+    <span class="hljs-keyword">return</span> a + b;          
+}
+</code></pre>
+<p>Calling this method in main:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(String[] args) {
+  ClassName objectName = <span class="hljs-keyword">new</span> ClassName();
+  <span class="hljs-keyword">int</span> result = objectName.addTwoNumbers(<span class="hljs-number">1</span>,<span class="hljs-number">3</span>);
+  System.out.println(result);
+}
+</code></pre>
+<p>Calling this method in another method:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">aMethod</span>() {
+  <span class="hljs-keyword">int</span> result = addTwoNumbers(<span class="hljs-number">5</span>,<span class="hljs-number">1</span>);
+  System.out.println(result);
+}
+</code></pre>
+<h3 id="ex-1">Ex 1</h3>
+<p>Write a method which calculates and returns the curved surface area of a cylinder. </p>
+<p>(Hint: You will need to import the maths API in order to use pi: <code>import java.lang.Math</code>; in order to use pi you will have to call it with <code>Math.PI</code>)</p>
+<h4 id="ex-2">Ex 2</h4>
+<p>Write an accompanying method which calculates and returns the volume of a cylinder.</p>
+<h3 id="ex-3">Ex 3</h3>
+<p>Write a method which converts and returns a given angle in degrees to radians. </p>
+<p>(Hint: Research what radians are and how to convert to them. Also, think carefully: do we want to be using variables of type <code>int</code> or type <code>double</code>?)</p>
+<h3 id="ex-4">Ex 4</h3>
+<p>Write another method which calculates the hypotenuse of a right-angled triangle.</p>
+</main></body></html>

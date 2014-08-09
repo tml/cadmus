@@ -1,0 +1,23 @@
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="calling-methods">Calling methods</h1>
+<p>You&#39;ve defined a method, but it won&#39;t do anything until you call it.</p>
+<p>You can call methods inside the main method like so:</p>
+<p>i) First, create a new object:</p>
+<pre><code class="lang-java">Task myNewObject = <span class="hljs-keyword">new</span> Task();
+</code></pre>
+<p>ii)    Then, call the method on the object like so:</p>
+<pre><code class="lang-java">myNewObject.methodName();
+</code></pre>
+<p>Note that in order to call a method on an object, all you really need to do is put a dot after the object name, followed by the method name and parameter list. </p>
+<p>For example, in <strong>Ex 1</strong> of Part II:</p>
+<p>i) Create a new object: <code>java Task anObject = new Task();</code> (<code>anObject</code> can be any name as long as it is valid)</p>
+<p>ii) Call the method on the object: <code>java anObject.pizzazzYo(10);</code></p>
+<p>You can also call one method inside another method like so:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">iAmAMethod</span>() {
+  iAmAnotherMethod();
+}
+</code></pre>
+<h3 id="ex-1">Ex 1</h3>
+<p>Test your <code>pizzazzYo</code> method (<strong>Ex 1</strong>, Part II) is working correctly by writing some code in the main method that will then run the program. Compile it!</p>
+<h3 id="ex-2">Ex 2</h3>
+<p>Repeat this with your code written for the other exercises in Part II.</p>
+</main></body></html>

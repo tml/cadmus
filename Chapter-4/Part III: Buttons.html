@@ -9,7 +9,6 @@
 </code></pre>
 <p>Here is the code, copy it:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Buttons</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">JFrame</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">ActionListener</span> {</span>
-
     JButton btn1 = <span class="hljs-keyword">new</span> JButton(<span class="hljs-string">"Button 1"</span>);
     JButton btn2 = <span class="hljs-keyword">new</span> JButton(<span class="hljs-string">"Button 2"</span>);
     JLabel label = <span class="hljs-keyword">new</span> JLabel(<span class="hljs-string">"No buttons have been clicked"</span>, JLabel.CENTER);
@@ -40,7 +39,6 @@
             label.setText(<span class="hljs-string">"btn2 was clicked"</span>);
         }
     }
-
 }
 </code></pre>
 <p>Notice the <code>implements ActionListener</code>. Don&#39;t worry about that now. Just think of it as a different kind of <code>extends</code>. Rather than inheriting all the methods of the class in front of it, <code>implements</code> means that the class will contain the methods mandated by the thing in front of it. In this case it is the <code>actionPerformed()</code> method, which you do not call. By setting the ActionListener of <code>btn1</code> and <code>btn2</code> to <code>this</code> i.e. the current instance of <code>Buttons</code>, you are saying whenever <code>btn1</code> or <code>btn2</code> are clicked, you want them to pass on the event to the current instance of <code>Buttons</code>. The <code>e</code> variable stores information about the event. <code>getSource()</code> will return the button that was pressed.</p>

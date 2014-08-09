@@ -2,7 +2,7 @@
 <p>Loops are very important to programmers as they allow us to do complicated, long-winded calculations in a short amount of time.</p>
 <p>There a four main loops in Java, the <strong>for loop</strong>, <strong>while loop</strong>, <strong>do loop</strong>, and <strong>array loop</strong>.  With each loop you have an initial condition, a final condition, and a set of instructions.  The set of instructions will continue to run until the final condition is met.</p>
 <h2 id="for-loops">For loops</h2>
-<p>For loops are mostly used for counting up or down in steps, usually in steps of one.  The initial condition is an int which you can initialise to a value of your choice (most of the time we use 0 if counting up to a certain value), and the final condition is the value you want to count up or down to.  We also have a function to increase the number of steps, for increasing by one we will use ++ (as described previously), and for decreasing by one we will use --.  So now you know how a for loop works it is time to show you what one looks like.  Below is a for loop which starts at 0, counts up by 1 each step, and prints out the number of each step, until 10 steps have been reached.  (Notice the parameters of the method countTen says <code>void</code>, this is because the method does not require any parameters, and putting void is clearer than simply leaving the parameters blank).</p>
+<p>For loops are mostly used for counting up or down in steps, usually in steps of one.  The initial condition is an integer which you can initialise to a value of your choice (most of the time we use 0 if counting up to a certain value), and the final condition is the value you want to count up or down to.  We also have a function to increase the number of steps, for increasing by one we will use ++ (as described previously), and for decreasing by one we will use --.  So now you know how a for loop works it is time to show you what one looks like.  Below is a for loop which starts at 0, counts up by 1 each step, and prints out the number of each step, until 10 steps have been reached.  (Notice the parameters of the method countTen says <code>void</code>, this is because the method does not require any parameters, and putting void is clearer than simply leaving the parameters blank).</p>
 <pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">countTen</span>() {
     <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> n = <span class="hljs-number">0</span>; n &lt;= <span class="hljs-number">10</span>; n++) {
         System.out.println(n);
@@ -25,7 +25,7 @@ Extension: Add a variable to change the number of bottles.</p>
 <p>So, onto the while loop.  The while loop has only one condition and if the condition is met then the code is run, otherwise the loop finishes.  Below is an example of a while loop. (With while loops, variables must be initialised before the loop starts).</p>
 <pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">countTenWithWhileLoop</span>() {
     <span class="hljs-keyword">int</span> n = <span class="hljs-number">0</span>;
-    <span class="hljs-keyword">while</span> (n&lt;=<span class="hljs-number">10</span>) {
+    <span class="hljs-keyword">while</span> (n &lt;= <span class="hljs-number">10</span>) {
         System.out.println(n);
     }
 }

@@ -1,0 +1,38 @@
+<!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="accepting-user-input">Accepting user input</h1>
+<p>In order to accept user input, one must first:</p>
+<p>i)    Write above the line where the class begins: </p>
+<pre><code class="lang-java"><span class="hljs-keyword">import</span> java.util.Scanner;
+</code></pre>
+<p>This line must be included above your class i.e. <code>Public class...</code> in order for you to be able to create a <code>Scanner</code> object to accept user input.</p>
+<p>ii)    Have some statement such as <code>System.out.println(“Enter number:”);</code> in order to prompt the user to enter a number. Otherwise they won’t know!</p>
+<p>iii)    Create a new <code>Scanner</code> object by following this rule: </p>
+<pre><code class="lang-java">Scanner myScanner = <span class="hljs-keyword">new</span> Scanner(System.in);
+</code></pre>
+<p>Note: <code>myScanner</code> is just a random name chosen for this example; any valid name will do.</p>
+<p>iv)    Store user input inside a variable. Let’s take a string for example. In this case, we would first, declare a new String:</p>
+<pre><code class="lang-java">String myString = <span class="hljs-keyword">null</span>;
+</code></pre>
+<p>and secondly, store information inside the variable using:</p>
+<pre><code class="lang-java">myString = myScanner.nextLine();
+</code></pre>
+<p>By letting <code>myString</code> equal the <code>Scanner</code> object dot <code>nextLine</code>, we’re telling the scanner input object to give us the entire line that was just typed in by the user and assign/store it in <code>userInput</code>.</p>
+<p>When placing the dot after <code>myScanner</code>, you should notice Eclipse provides you a bunch of options other than <code>nextLine()</code>. Depending on what kind of input you’d like to accept you can choose <code>nextInt()</code> to accept an <code>int</code> input or <code>nextDouble()</code> to accept a <code>double</code> input type.</p>
+<h3 id="ex-1">Ex 1</h3>
+<p>Modify Ex 1 and 2 from Part II so that they now accept user input. Test they work by calling them in the main method.</p>
+<h3 id="ex-2">Ex 2</h3>
+<p>Modify Ex 4 of Part IV, so that the method can now calculate any side of a triangle given two of its sides are known. </p>
+<h3 id="ex-3">Ex 3</h3>
+<p>Following the method created on right-angled triangles, extend this by creating another method which calculates the angle of a right-angled triangle given the lengths of two of its sides and returns this value in degrees.</p>
+<p>Things to think about:</p>
+<ul>
+<li>What sort of prompts would you have to ask the user?</li>
+<li>What sort of input would you ask the user for? Think carefully!</li>
+<li>Given we are trying to calculate the angle in a right-angled triangle, what sort of ‘cases’ do you have to account for?</li>
+</ul>
+<p>HINTS: </p>
+<ul>
+<li>Remember to import the <code>math</code> package</li>
+<li>Also, for methods you can use refer to <img src="http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html" alt="the official docs" title="the official docs"/></li>
+<li>The sin/tan/cos methods in Java give back a result in radians. What method (that you have previously made) would you have to utilise? </li>
+</ul>
+</main></body></html>
