@@ -14,6 +14,7 @@ ii)	Then, call the method on the object like so:
 ```java
 myNewObject.methodName();
 ```
+
 Note that in order to call a method on an object, all you really need to do is put a dot after the object name, followed by the method name and parameter list. 
 
 For example, in **Ex 1** of Part II:
