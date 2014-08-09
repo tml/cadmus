@@ -57,6 +57,7 @@ Use what you have been taught to create a command line version of the game, Hang
 - A method to filter out the word with underscores
 
 To generate random numbers: 
+
 ```java
   Random rand = new Random();
   int randomNum = rand.nextInt(max);
