@@ -6,6 +6,7 @@ You've defined a non-static method, that is to say an instance method, but it wo
 You can call methods inside the main method like so:
 
 i) First, create a new object:
+
 ```java
 Task myNewObject = new Task();
 ```
