@@ -7,7 +7,7 @@ i)	Write above the line where the class begins:
 ```java
 import java.util.Scanner;
 ```
-This line must be included above your class i.e. `Public class...` in order for you to be able to create a `Scanner` object to accept user input.
+This line must be included above your class i.e. `public class...` in order for you to be able to create a `Scanner` object to accept user input.
 
 ii)	Have some statement such as `System.out.println(“Enter number:”);` in order to prompt the user to enter a number. Otherwise they won’t know!
 
