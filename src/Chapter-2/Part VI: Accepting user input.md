@@ -25,7 +25,7 @@ and secondly, store information inside the variable using:
 ```java
 myString = myScanner.nextLine();
 ```
-By letting `myString` equal the `Scanner` object dot `nextLine`, we’re telling the scanner input object to give us the entire line that was just typed in by the user and assign/store it in `userInput`.
+By letting `myString` equal the `Scanner` object `.nextLine`, we’re telling the scanner input object to give us the entire line that was just typed in by the user and assign/store it in `userInput`.
 
 When placing the dot after `myScanner`, you should notice Eclipse provides you a bunch of options other than `nextLine()`. Depending on what kind of input you’d like to accept you can choose `nextInt()` to accept an `int` input or `nextDouble()` to accept a `double` input type.
 
