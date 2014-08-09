@@ -10,6 +10,7 @@ i) First, create a new object:
 Task myNewObject = new Task();
 ```
 ii)	Then, call the method on the object like so:
+
 ```java
 myNewObject.methodName();
 ```
