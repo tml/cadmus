@@ -1,5 +1,5 @@
 <!DOCTYPE html><html><head><title>Cadmus</title><!--	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>--><link href="../styles/index.css" rel="stylesheet"/><link href="/cadmus/index.css" rel="stylesheet"/></head><body><main class="markdown-body"><h1 id="myfirstwindow">MyFirstWindow</h1>
-<p>Chapter 2 is all about Graphics. To make your first GUI (graphical user interface) application, i.e. GUIpplication, you need to use the package <code>javax.swing.JFrame</code>. Here is an example of an empty window:</p>
+<p>Chapter 2 is all about Graphics. To make your first GUI (graphical user interface) application you need to import the package <code>javax.swing.JFrame</code>. Here is an example of an empty window:</p>
 <pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyFirstWindow</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">JFrame</span> {</span>
   <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(String[] args) {
     <span class="hljs-keyword">new</span> MyFirstWindow();
@@ -21,7 +21,7 @@
 </code></pre>
 <p>To use this import you will have to use the following syntax:</p>
 <pre><code class="lang-java">getContentPane().setBackground(Color.YELLOW);
-<span class="hljs-comment">//this will create a yellow window, however you can replace this with other colours.</span>
+<span class="hljs-comment">// this will create a yellow window, however you can replace this with other colours.</span>
 </code></pre>
 <p>As you can see, you can change the colour of your background using the method <code>setBackground(Colour)</code>. There are wide range of existing colours like:</p>
 <p>Color.PINK, Color.GREEN, Color.BLACK, Color.Yellow, Color.BLUE, Color.RED, Color.WHITE, Color.CYAN, Color.ORANGE</p>

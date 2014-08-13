@@ -3,8 +3,8 @@
 <p>i)    Write above the line where the class begins: </p>
 <pre><code class="lang-java"><span class="hljs-keyword">import</span> java.util.Scanner;
 </code></pre>
-<p>This line must be included above your class i.e. <code>Public class...</code> in order for you to be able to create a <code>Scanner</code> object to accept user input.</p>
-<p>ii)    Have some statement such as <code>System.out.println(“Enter number:”);</code> in order to prompt the user to enter a number. Otherwise they won’t know!</p>
+<p>This line must be included above your class i.e. <code>public class...</code> in order for you to be able to create a <code>Scanner</code> object to accept user input.</p>
+<p>ii)    Have some statement such as <code>System.out.println(&quot;Enter number:&quot;);</code> in order to prompt the user to enter a number. Otherwise they won’t know!</p>
 <p>iii)    Create a new <code>Scanner</code> object by following this rule: </p>
 <pre><code class="lang-java">Scanner myScanner = <span class="hljs-keyword">new</span> Scanner(System.in);
 </code></pre>
@@ -15,7 +15,7 @@
 <p>and secondly, store information inside the variable using:</p>
 <pre><code class="lang-java">myString = myScanner.nextLine();
 </code></pre>
-<p>By letting <code>myString</code> equal the <code>Scanner</code> object dot <code>nextLine</code>, we’re telling the scanner input object to give us the entire line that was just typed in by the user and assign/store it in <code>userInput</code>.</p>
+<p>By letting <code>myString</code> equal the <code>Scanner</code> object <code>.nextLine</code>, we’re telling the scanner input object to give us the entire line that was just typed in by the user and assign/store it in <code>userInput</code>.</p>
 <p>When placing the dot after <code>myScanner</code>, you should notice Eclipse provides you a bunch of options other than <code>nextLine()</code>. Depending on what kind of input you’d like to accept you can choose <code>nextInt()</code> to accept an <code>int</code> input or <code>nextDouble()</code> to accept a <code>double</code> input type.</p>
 <h3 id="ex-1">Ex 1</h3>
 <p>Modify Ex 1 and 2 from Part II so that they now accept user input. Test they work by calling them in the main method.</p>
@@ -32,7 +32,22 @@
 <p>HINTS: </p>
 <ul>
 <li>Remember to import the <code>math</code> package</li>
-<li>Also, for methods you can use refer to <img src="http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html" alt="the official docs" title="the official docs"/></li>
-<li>The sin/tan/cos methods in Java give back a result in radians. What method (that you have previously made) would you have to utilise? </li>
+<li>Also for methods in the <code>math</code> package you canrefer to <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html">the official docs</a></li>
+<li>The sin/tan/cos methods in Java give back a result in radians. What method (that you have previously made) would you have to utilise?</li>
 </ul>
+<h3 id="ex-4">Ex 4</h3>
+<p>Use what you have been taught to create a command line version of the game, Hangman. For the sake of simplicity display the lives as a number, rather than drawing out a pretty diagram, unless you really want to. Use <code>.nextLine()</code> coupled with <code>.substring()</code> to get a <code>char</code>. Some of what you&#39;ll:</p>
+<ul>
+<li>A global variable to store a series of possibilites</li>
+<li>A method to generate a random word</li>
+<li>A variable to store the chosen word</li>
+<li>A variable (perhaps a boolean array) to store the characters that have been discovered</li>
+<li>A method to filter out the word with underscores</li>
+</ul>
+<p>To generate random numbers: </p>
+<pre><code class="lang-java">  Random rand = <span class="hljs-keyword">new</span> Random();
+  <span class="hljs-keyword">int</span> randomNum = rand.nextInt(max);
+  <span class="hljs-comment">// will generate a random number between 0 (inclusive) and max (exclusive)</span>
+</code></pre>
+<p>You will need to import <code>java.util.Random</code>.</p>
 </main></body></html>
