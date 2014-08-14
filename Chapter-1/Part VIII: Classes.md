@@ -2,7 +2,7 @@ Classes
 ===
 
 ## Creating Classes
-I've already alluded to classes before. Ultimately, classes are the blueprints for objects. Objects are classes when instantiated. For instance let's say I have the code:
+I've already alluded to classes before. Classes are the blueprints for objects. What are objects? Objects are designed to represent entities in real life. For example you might have a class called `Car`, which has properties such as `speed` and methods such as `setGear()`. You cannot actually use the properties or methods till you instatiate the `Car` class, however. Objects are classes when instantiated. "Instantiated" is a posh word for "created". For instance let's say I have the code:
 
 ```java
 public class Book {
